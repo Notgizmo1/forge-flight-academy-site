@@ -1,6 +1,7 @@
-baseURL = "https://forgeandflightacademy.com/"
+baseURL = "https://www.forgeandflightacademy.com/"
 languageCode = "en-us"
 title = "Forge and Flight Academy"
+googleAnalytics = "G-35K06LBZWT"
 
 [params]
   description = "Professional UAS Training - Fayetteville, NC"
