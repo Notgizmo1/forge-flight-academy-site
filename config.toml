@@ -1,0 +1,6 @@
+baseURL = "https://forgeandflightacademy.com/"
+languageCode = "en-us"
+title = "Forge and Flight Academy"
+
+[params]
+  description = "Professional UAS Training - Fayetteville, NC"

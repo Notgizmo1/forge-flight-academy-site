@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Forge and Flight Academy</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Forge and Flight Academy</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Practical UAS Development: From CAD to Autonomous Flight</title>
+      <link>http://localhost:1313/programs/practical-uas-development/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/programs/practical-uas-development/</guid>
+      <description>&lt;h1 id=&#34;practical-uas-development-from-cad-to-autonomous-flight&#34;&gt;Practical UAS Development: From CAD to Autonomous Flight&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;⭐ FLAGSHIP PROGRAM&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;From zero to autonomous flight in 10 days. Design, 3D print, assemble, program, and fly your own aircraft.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;course-overview&#34;&gt;Course Overview&lt;/h2&gt;&#xA;&lt;p&gt;This intensive 10-day program takes students through the &lt;strong&gt;complete UAS development lifecycle&lt;/strong&gt;—from CAD design and 3D printing through ArduPilot configuration and autonomous mission execution. You&amp;rsquo;ll build a &lt;strong&gt;fully functional Group 2 fixed-wing aircraft&lt;/strong&gt; and leave with the knowledge to replicate the process.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

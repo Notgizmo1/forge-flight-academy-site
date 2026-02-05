@@ -1,0 +1,301 @@
+---
+title: "Practical UAS Development: From CAD to Autonomous Flight"
+description: "10-day intensive course transforming students from design to flight operations. Build, program, and fly your own Group 2 UAS."
+---
+
+# Practical UAS Development: From CAD to Autonomous Flight
+
+**⭐ FLAGSHIP PROGRAM**
+
+From zero to autonomous flight in 10 days. Design, 3D print, assemble, program, and fly your own aircraft.
+
+---
+
+## Course Overview
+
+This intensive 10-day program takes students through the **complete UAS development lifecycle**—from CAD design and 3D printing through ArduPilot configuration and autonomous mission execution. You'll build a fully functional Group 2 fixed-wing aircraft and leave with the knowledge to replicate the process.
+
+**Platform:** 1600mm twin-motor fixed-wing ("Moose")  
+**Duration:** 10 days (80 contact hours)  
+**Schedule:** 8 hours/day + optional evening lab access  
+**Class Size:** 6-12 students  
+**Prerequisites:** None required (all skill levels welcome)
+
+---
+
+## What You'll Learn
+
+By Day 10, you will independently:
+
+✓ **Design & modify aircraft CAD files** in Fusion 360/OnShape  
+✓ **3D print complete airframes** using LW-PLA and slicer software  
+✓ **Assemble structural components** with carbon reinforcement  
+✓ **Integrate power systems** (batteries, ESCs, motors, wiring)  
+✓ **Install flight electronics** (flight controller, GPS, telemetry)  
+✓ **Configure ArduPilot firmware** and Mission Planner  
+✓ **Execute manual flight operations** with smooth control  
+✓ **Program autonomous missions** with waypoints and triggers  
+✓ **Diagnose and resolve failures** in the field  
+
+---
+
+## Week-by-Week Breakdown
+
+### Week 1 (Days 1-5): Design, Fabrication & Assembly
+
+**DAY 1: Platform Architecture & 3D Printing Fundamentals**  
+- UAS design principles and tradeoff analysis  
+- Moose platform deep dive (twin-motor, V-tail, modular nose)  
+- Slicer software configuration for LW-PLA  
+- Start printing your airframe overnight
+
+**DAY 2: CAD Modification & Component Customization**  
+- Fusion 360/OnShape fundamentals  
+- Design custom payload bay inserts and camera mounts  
+- Print queue management for custom parts
+
+**DAY 3: Airframe Assembly & Carbon Reinforcement**  
+- Assemble fuselage, wings, and V-tail  
+- Carbon tube integration for structural integrity  
+- Snap-lock mechanisms and tool-free assembly
+
+**DAY 4: Power System Integration**  
+- Battery selection and placement (CG considerations)  
+- Motor mounting and thrust alignment  
+- ESC configuration and BEC wiring  
+- Power distribution and safety circuits
+
+**DAY 5: Flight Electronics Installation**  
+- Flight controller mounting (vibration isolation)  
+- GPS, compass, telemetry radio installation  
+- Servo installation and linkage setup  
+- Pre-flight systems integration testing
+
+---
+
+### Week 2 (Days 6-10): Programming, Testing & Flight Operations
+
+**DAY 6: ArduPilot Configuration Fundamentals**  
+- Mission Planner setup and firmware flash  
+- Mandatory sensors and calibration (compass, accelerometer, radio)  
+- Flight mode configuration (Manual, FBWA, Auto, RTL)  
+- Ground testing: servo movement, failsafe verification
+
+**DAY 7: Ground Testing & System Validation**  
+- Range checks and signal validation  
+- Ground control station setup  
+- Test autonomous sequences on the ground  
+- Safety checklists and emergency procedures
+
+**DAY 8: First Flight & Manual Flight Training**  
+- Pre-flight inspection procedures  
+- Hand-launch techniques or catapult setup  
+- Straight and level flight, turns, landing approaches  
+- Emergency procedures: signal loss, engine failure
+
+**DAY 9: Autonomous Flight & Mission Execution**  
+- Mission planning: waypoints, altitude changes, camera triggers  
+- Mission upload and pre-flight verification  
+- Execute first autonomous mission (instructor supervision)  
+- Flight log analysis and parameter tuning
+
+**DAY 10: Final Assessment & Capability Demonstration**  
+- **Phase 1:** Pre-flight inspection (identify planted faults)  
+- **Phase 2:** Manual flight proficiency (takeoff, maneuvers, landing)  
+- **Phase 3:** Autonomous mission execution (5+ waypoints)  
+- **Phase 4:** Verbal technical assessment  
+- Certificate presentation with 1-5 capability rating
+
+---
+
+## What You Build & Keep
+
+**Your Moose Aircraft:**
+- 1600mm wingspan twin-motor fixed-wing  
+- V-tail configuration (aerodynamic efficiency)  
+- Modular nose for payload swaps  
+- Fully 3D-printed LW-PLA airframe  
+- Carbon tube structural reinforcement  
+- ArduPilot flight controller (Pixhawk/Cube compatible)  
+- GPS, compass, telemetry radio  
+- Twin brushless motors + ESCs  
+- Ground control station laptop setup  
+
+**Estimated aircraft value: $800-$1,200** (yours to keep)
+
+**Digital Deliverables:**
+- CAD files (STLs + your custom modifications)  
+- Flight logs from all test flights  
+- Build process photos/videos  
+- Proven ArduPilot parameter files  
+- Pre-flight checklist  
+- Tuning and troubleshooting guides  
+- Parts list for replication  
+
+---
+
+## Pricing
+
+| Customer Type | Price/Student | Best For |
+|---------------|---------------|----------|
+| **DoD/Government** | **$18,500** | Active duty, federal agencies, defense contractors |
+| **Commercial** | **$16,500** | Private companies, consultants, service providers |
+| **Academic** | **$14,500** | Universities, research institutions, students |
+| **Early Adopter** | **$12,500** | First 10 enrollments (limited availability) |
+
+**All pricing includes:**
+- 80 hours of instruction (10 days)
+- Complete Moose aircraft (yours to keep)
+- All materials and components
+- Lab access (including evening hours)
+- Course materials and documentation
+- Certificate of Completion with capability rating
+- 90-day post-course support (email/Slack access)
+
+**Payment Terms:**  
+- 50% deposit upon registration  
+- 50% balance due 14 days before start date  
+- Government purchase orders accepted  
+
+---
+
+## Capability Assessment (1-5 Rating Scale)
+
+Students receive an official capability rating across 4 assessment phases:
+
+**5 - Expert:** Flawless execution, can teach others, zero errors  
+**4 - Proficient:** Minor errors only, demonstrates deep understanding  
+**3 - Competent:** Completes tasks independently, meets all standards ✓ **PASSING**  
+**2 - Developing:** Needs prompting, significant errors  
+**1 - Novice:** Cannot complete tasks, requires significant help  
+
+**Graduation Requirement:** 3+ (Competent) in all four phases
+
+---
+
+## Post-Course Support (90 Days)
+
+**Included with enrollment:**
+- Email/Slack access to lead instructor  
+- Community Discord channel with other graduates  
+- Continued learning resources and tutorials  
+- Build troubleshooting assistance  
+- Parameter tuning guidance  
+
+---
+
+## Who Should Attend
+
+**Ideal for:**
+- **DoD Units:** Establishing organic UAS capabilities  
+- **Defense Contractors:** Engineers supporting development programs  
+- **Universities:** Faculty/students in aerospace or robotics programs  
+- **Research Labs:** AFRL, ARL, NRL personnel  
+- **Commercial Operators:** Building custom platforms for specific missions  
+- **Government Agencies:** NASA, NOAA, DOE, state agencies  
+
+**Previous students include:**
+- Army Special Forces UAS operators  
+- AFRL research engineers  
+- University aerospace professors  
+- Defense startup founders  
+- Emergency management directors  
+
+**Not ideal for:**
+- Hobbyists seeking recreational flying (try local RC clubs)  
+- Individuals expecting "turnkey" solutions without hands-on work  
+- Those unwilling to invest 10 full days  
+
+---
+
+## Prerequisites & What to Bring
+
+**Required:**
+- Basic computer literacy (file management, software installation)  
+- Willingness to learn through hands-on trial and error  
+- Commitment to full 10-day schedule (attendance mandatory)
+
+**Helpful but not required:**
+- CAD experience (Fusion 360, OnShape, SolidWorks)  
+- 3D printing background  
+- RC aircraft experience  
+- Soldering skills  
+- Electronics knowledge  
+
+**What to bring:**
+- Laptop (Windows/Mac/Linux, 8GB+ RAM recommended)  
+- Notebook for daily notes  
+- Safety glasses (if you have prescription)  
+- Work clothes (you'll be soldering, gluing, sanding)  
+
+---
+
+## Upcoming Dates & Enrollment
+
+**2026 Schedule:**
+
+**Cohort 1:** March 10-21, 2026 (2 seats remaining)  
+**Cohort 2:** May 19-30, 2026 (Open enrollment)  
+**Cohort 3:** July 14-25, 2026 (Open enrollment)  
+**Cohort 4:** September 21-October 2, 2026 (Open enrollment)  
+
+**Class size:** 6-12 students per cohort  
+**Location:** Fayetteville, NC (5 minutes from Fort Liberty)  
+
+---
+
+## Next Steps
+
+**Ready to build your first aircraft?**
+
+📧 **Email:** training@forgeandflightacademy.com  
+📞 **Phone:** (347) 678-7690  
+📍 **Location:** Fayetteville, NC
+
+**What happens next:**
+1. Contact us to discuss your goals and confirm dates
+2. Receive enrollment packet with pre-course materials
+3. Submit 50% deposit to secure your seat
+4. Complete pre-course homework (videos, reading)
+5. Arrive Day 1 ready to build
+
+---
+
+## Frequently Asked Questions
+
+**Q: Do I need prior CAD or 3D printing experience?**  
+A: No. We teach everything from scratch. Prior experience helps but isn't required.
+
+**Q: Can I customize my aircraft for a specific mission?**  
+A: Absolutely. Days 2-4 focus on mission-specific modifications. Bring your payload requirements.
+
+**Q: What if my aircraft doesn't fly well on Day 8?**  
+A: We build troubleshooting and tuning into the curriculum. Instructor works with you until it flies correctly.
+
+**Q: Can I bring my own laptop/tools?**  
+A: Yes, encouraged. We provide computers and tools, but you're welcome to use your own.
+
+**Q: Is this course ITAR-restricted?**  
+A: No. All content is export-controlled at EAR99 or lower. International students welcome (with proper documentation).
+
+**Q: Do you offer group discounts?**  
+A: Yes. Contact us for pricing on 5+ students from the same organization.
+
+**Q: What if I can't complete the assessment?**  
+A: You receive a detailed feedback report and can return for re-assessment within 6 months (discounted rate).
+
+---
+
+## Related Programs
+
+**Coming 2026:**
+- **Instructor Certification** - Qualify to teach this course at your institution
+- **Advanced Autonomy** - Computer vision and AI integration (5 days)
+- **RF & Communications** - Spectrum management and long-range systems (3 days)
+- **Field Sustainment** - Advanced repair and modification (3 days)
+
+---
+
+**First in Flight, Innovation Limitless**
+
+*Forge and Flight Academy is a subsidiary of Forge & Flight Holdings, Inc. All platforms NDAA Section 848 compliant.*

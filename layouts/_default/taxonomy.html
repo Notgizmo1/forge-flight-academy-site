@@ -1,0 +1,51 @@
+{{ define "main" }}
+<div class="container">
+  <h1>{{ .Title }}</h1>
+  
+  {{ if .Content }}
+  {{ .Content }}
+  {{ end }}
+  
+  <ul class="taxonomy-list">
+    {{ range .Pages }}
+    <li>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      {{ with .Description }}
+      <p>{{ . }}</p>
+      {{ end }}
+    </li>
+    {{ end }}
+  </ul>
+</div>
+
+<style>
+.taxonomy-list {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+}
+
+.taxonomy-list li {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-left: 3px solid #E85C0D;
+  background: #F9FAFB;
+}
+
+.taxonomy-list li a {
+  color: #1A2E4C;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.taxonomy-list li a:hover {
+  color: #E85C0D;
+}
+
+.taxonomy-list li p {
+  margin: 0.5rem 0 0 0;
+  color: #5A6978;
+}
+</style>
+{{ end }}
