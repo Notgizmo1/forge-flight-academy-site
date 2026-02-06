@@ -5,3 +5,24 @@ googleAnalytics = "G-35K06LBZWT"
 
 [params]
   description = "Professional UAS Training - Fayetteville, NC"
+
+# Main navigation menu
+[[menu.main]]
+  name = "Getting Started"
+  url = "/getting-started/"
+  weight = 10
+
+[[menu.main]]
+  name = "Programs"
+  url = "/programs/"
+  weight = 20
+
+[[menu.main]]
+  name = "Resources"
+  url = "/resources/"
+  weight = 30
+
+[[menu.main]]
+  name = "Who We Serve"
+  url = "/who-we-serve/"
+  weight = 40
