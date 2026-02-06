@@ -6,8 +6,6 @@ draft: false
 weight: 2
 ---
 
-# Part 107 Practice Test
-
 Test your knowledge with these 50 practice questions covering all major Part 107 exam topics. Answers are provided at the bottom.
 
 ---

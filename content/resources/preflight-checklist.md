@@ -6,8 +6,6 @@ draft: false
 weight: 4
 ---
 
-# Pre-Flight Checklist
-
 A comprehensive checklist for safe, compliant Part 107 operations. Use before every flight to ensure readiness.
 
 ---

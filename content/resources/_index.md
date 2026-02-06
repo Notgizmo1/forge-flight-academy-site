@@ -3,8 +3,6 @@ title: "Free UAS Resources"
 description: "Free Part 107 study materials, pre-flight checklists, and drone pilot resources. Everything you need to prepare for your FAA Remote Pilot Certificate."
 ---
 
-# Free UAS Resources
-
 Download FAA Part 107 study guides, pre-flight checklists, airspace references, and practice tests—**no registration required** for basic resources.
 
 Whether you're preparing for your Part 107 exam or looking to sharpen your operational skills, these resources will help you build real proficiency.

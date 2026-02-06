@@ -6,8 +6,6 @@ draft: false
 weight: 1
 ---
 
-# Part 107 Study Guide
-
 Everything you need to prepare for your FAA Part 107 Remote Pilot Certificate exam.
 
 ---

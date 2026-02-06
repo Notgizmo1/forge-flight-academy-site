@@ -6,8 +6,6 @@ draft: false
 weight: 3
 ---
 
-# Airspace Quick Reference
-
 A comprehensive guide to navigating U.S. airspace for Part 107 remote pilots.
 
 ---

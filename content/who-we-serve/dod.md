@@ -15,7 +15,7 @@ We train **warfighters and researchers** who need to build, modify, and employ u
 
 ## Who We Train
 
-### Special Operations Command (SOCOM)
+### Special Operations Forces
 - **Small unit operators** requiring organic UAS capability
 - **FPV systems integration** for reconnaissance and mission support
 - **Field sustainment training** for austere environments
@@ -24,7 +24,7 @@ We train **warfighters and researchers** who need to build, modify, and employ u
 ### Service Branch Units
 - **Army** - Aviation, engineering, and infantry units
 - **Air Force** - Special warfare, test wings, innovation cells
-- **Navy** - EOD, SEAL teams, expeditionary units
+- **Navy** - EOD, expeditionary units
 - **Marine Corps** - Force reconnaissance, artillery, logistics
 
 ### Research & Development Organizations
