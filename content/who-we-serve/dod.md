@@ -1,0 +1,273 @@
+---
+title: "Department of Defense Training"
+description: "UAS training for SOCOM units, research laboratories, and service branches. Rapid capability development in FPV systems, autonomy, and field sustainment."
+date: 2025-02-06
+draft: false
+weight: 1
+---
+
+
+**Operator-level training for rapid capability development, organic sustainment, and mission-specific adaptation.**
+
+We train **warfighters and researchers** who need to build, modify, and employ unmanned systems in operational environments—not just fly them.
+
+---
+
+## Who We Train
+
+### Special Operations Command (SOCOM)
+- **Small unit operators** requiring organic UAS capability
+- **FPV systems integration** for reconnaissance and mission support
+- **Field sustainment training** for austere environments
+- **Custom platform development** for mission-specific requirements
+
+### Service Branch Units
+- **Army** - Aviation, engineering, and infantry units
+- **Air Force** - Special warfare, test wings, innovation cells
+- **Navy** - EOD, SEAL teams, expeditionary units
+- **Marine Corps** - Force reconnaissance, artillery, logistics
+
+### Research & Development Organizations
+- **Defense Innovation Unit (DIU)**
+- **Army Research Laboratory (ARL)**
+- **AFWERX** and service innovation labs
+- **Science & Technology directorates**
+
+### Government Civilians
+- **Acquisition professionals** requiring technical understanding
+- **Program managers** overseeing UAS programs
+- **Test & evaluation personnel**
+
+---
+
+## Training Focus Areas
+
+### 1. FPV Systems Integration
+**Hands-on development of first-person view reconnaissance platforms**
+
+- Platform selection and modification
+- Video transmission systems (analog and digital)
+- Antenna theory and link optimization
+- Contested spectrum operations
+- Night operations and thermal integration
+- Field repair and sustainment
+
+**Outcome:** Operators can build, configure, and sustain FPV systems organically within the unit.
+
+---
+
+### 2. Autonomous System Employment
+**Operator-facing autonomy training for mission execution**
+
+- ArduPilot and PX4 flight controller configuration
+- Waypoint mission planning and execution
+- Return-to-home and failsafe programming
+- Sensor integration (EO/IR, LiDAR, multi-spectral)
+- Edge computing and onboard processing
+- Degraded autonomy operations (GPS-denied)
+
+**Outcome:** Operators understand autonomy behavior, failure modes, and manual override procedures.
+
+---
+
+### 3. Field Fabrication & Sustainment
+**Organic repair, modification, and platform development in austere environments**
+
+- 3D printing for spare parts and modifications
+- Soldering and electronics repair
+- Airframe damage assessment and repair
+- Battery management and charging systems
+- Tool kits and field expedient solutions
+- Supply chain reduction strategies
+
+**Outcome:** Units reduce contractor dependency and maintain operational tempo without external logistics support.
+
+---
+
+### 4. Spectrum Awareness & RF Operations
+**Understanding and mitigating RF vulnerabilities**
+
+- Frequency selection and interference mitigation
+- Link budget analysis
+- GPS dependency management
+- Jamming recognition and response
+- Communication security (COMSEC) for C2 links
+- Software-defined radio integration
+
+**Outcome:** Operators recognize RF vulnerabilities and adapt operations for contested environments.
+
+---
+
+### 5. Platform-Specific Training
+**Tailored instruction for government-issued or unit-owned systems**
+
+We provide operator and maintainer training for:
+- Small Group 1 UAS (Raven, Puma, etc.)
+- Group 2 and 3 fixed-wing platforms
+- Multi-rotor systems (quadcopters, hexacopters)
+- VTOL (vertical takeoff and landing) platforms
+- Custom or developmental systems
+
+**Outcome:** Proficiency on specific platforms with capability-based assessment.
+
+---
+
+## Delivery Options
+
+### On-Site Unit Training
+- **Mobile training teams** deploy to your location
+- Training at **your range** with your equipment
+- Customized to unit **METL tasks** and mission profile
+- Flexible scheduling around operational tempo
+
+### Fayetteville, NC Facility
+- **Dedicated training space** near Fort Liberty
+- Access to **flight test range**
+- All equipment and materials provided
+- Accommodations assistance available
+
+### Hybrid Delivery
+- **Theory and planning** via virtual instruction
+- **Hands-on practicals** at Fayetteville facility
+- **Validation exercise** at unit location
+
+---
+
+## Assessment & Certification
+
+### Capability Rating System (1-5 Scale)
+
+Unlike traditional pass/fail certifications, we evaluate **demonstrable proficiency**:
+
+**5 - Expert:** Can teach others, troubleshoot novel issues independently  
+**4 - Proficient:** Independent operation, handles most failure modes  
+**3 - Competent:** PASSING STANDARD - Performs tasks with occasional guidance  
+**2 - Developing:** Requires supervision, building foundational skills  
+**1 - Novice:** Learning fundamentals, requires heavy support
+
+**Assessment Domains:**
+- Design & Fabrication
+- Systems Integration
+- Manual Flight Operations
+- Autonomous Mission Execution
+- Field Repair & Troubleshooting
+
+### Post-Training Documentation
+
+Graduates receive:
+- **Individual capability assessment** (1-5 rating per domain)
+- **Training completion certificate**
+- **Recommended training progression** for skill development
+- **90-day post-course support** for technical questions
+
+---
+
+## Why DoD Clients Choose Us
+
+### Operator-Centric Philosophy
+We train **doers, not just knowers**. Every assessment is based on demonstrable hands-on proficiency.
+
+### Rapid Capability Development
+**Weeks, not months.** Our intensive programs compress learning cycles while maintaining high standards.
+
+### Systems Thinking
+Operators understand **why** systems work, not just **how** to use them—enabling adaptation and problem-solving in dynamic environments.
+
+### Organic Sustainment
+Reduce contractor dependency. Units maintain operational capability without external logistics chains.
+
+### Security & Compliance
+- **ITAR-compliant instruction**
+- **U.S. persons only** (no foreign nationals without proper authorization)
+- **NDAA-compliant platforms** and components
+- **Secure facility** with access control
+
+---
+
+## Pricing & Contracting
+
+### Contact for Custom Quote
+
+Training programs are tailored to your specific requirements, unit size, and mission profile. Pricing varies based on:
+- Course length and complexity
+- Number of students
+- On-site vs. facility delivery
+- Equipment and materials requirements
+
+**Volume Discounts Available:**
+- Multi-cohort programs
+- Service-wide agreements
+- Long-term training partnerships
+
+**[Request Quote](/contact/)**
+
+### Contracting Vehicles
+
+We accept:
+- **Purchase orders** from government agencies
+- **Government Purchase Card (GPC)** for courses under micro-purchase threshold
+- **Contract vehicles:** GSA Schedule (pending), SeaPort-e (pending)
+- **Direct contracts** with supporting documentation
+
+### Security Requirements
+
+We accommodate:
+- **SIPR connectivity** (coordinate in advance)
+- **Classified instruction** (coordinate facility requirements)
+- **NDA/Non-disclosure** agreements
+- **Export control** compliance
+
+---
+
+## Get Started
+
+### Step 1: Initial Consultation (Free)
+Discuss your unit's training requirements, timeline, and desired outcomes.
+
+**[Schedule Consultation](/contact/)**
+
+### Step 2: Training Needs Assessment
+We assess current capability levels and identify skill gaps.
+
+### Step 3: Custom Curriculum Development
+Tailored training plan aligned to your mission requirements.
+
+### Step 4: Training Delivery
+Execute training with capability-based assessment.
+
+### Step 5: Post-Course Support
+90-day technical support and recommended progression path.
+
+---
+
+## Frequently Asked Questions
+
+**Q: What's the typical class size?**  
+A: 4-12 students per cohort for optimal instructor-to-student ratio (1:6 max).
+
+**Q: Can you integrate with our existing platforms?**  
+A: Yes. We provide platform-specific training or integrate our curriculum with your issued equipment.
+
+**Q: Do you offer train-the-trainer programs?**  
+A: Yes. Our Instructor Certification program qualifies experienced operators to train others within their organization.
+
+**Q: What's the minimum notice for on-site training?**  
+A: 60 days preferred for scheduling and curriculum customization. Rush delivery available for urgent requirements.
+
+**Q: Are your platforms NDAA compliant?**  
+A: Yes. All training platforms use domestically-sourced components and comply with NDAA Section 848/889 restrictions.
+
+---
+
+## Contact Us
+
+**Ready to develop organic UAS capability in your unit?**
+
+**Email:** info@forgeandflightacademy.com  
+**Location:** Fayetteville, NC (Adjacent to Fort Liberty)
+
+**[Request Quote](/contact/)** | **[View All Programs](/programs/)** | **[Schedule Consultation](/schedule/)**
+
+---
+
+*Forge and Flight Academy is a subsidiary of Forge & Flight Holdings, Inc.*

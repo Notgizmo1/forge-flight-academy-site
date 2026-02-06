@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Free UAS Resources on Forge and Flight Academy</title>
+    <link>http://localhost:1313/resources/</link>
+    <description>Recent content in Free UAS Resources on Forge and Flight Academy</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/resources/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Part 107 Study Guide</title>
+      <link>http://localhost:1313/resources/part-107-study-guide/</link>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/part-107-study-guide/</guid>
+      <description>&lt;h1 id=&#34;part-107-study-guide&#34;&gt;Part 107 Study Guide&lt;/h1&gt;&#xA;&lt;p&gt;Everything you need to prepare for your FAA Part 107 Remote Pilot Certificate exam.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;airspace-classification&#34;&gt;Airspace Classification&lt;/h2&gt;&#xA;&lt;p&gt;Understanding airspace is crucial for Part 107 operations. Here&amp;rsquo;s what you need to know:&lt;/p&gt;&#xA;&lt;h3 id=&#34;class-a-airspace&#34;&gt;Class A Airspace&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Altitude:&lt;/strong&gt; 18,000 ft MSL to FL600&lt;br&gt;&#xA;&lt;strong&gt;Operations:&lt;/strong&gt; Not accessible to drones&lt;br&gt;&#xA;&lt;strong&gt;Authorization:&lt;/strong&gt; N/A - completely off-limits&lt;/p&gt;&#xA;&lt;h3 id=&#34;class-b-airspace&#34;&gt;Class B Airspace&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Altitude:&lt;/strong&gt; Surface to ~10,000 ft MSL&lt;br&gt;&#xA;&lt;strong&gt;Chart Color:&lt;/strong&gt; Solid blue lines&lt;br&gt;&#xA;&lt;strong&gt;Shape:&lt;/strong&gt; Upside-down wedding cake&lt;br&gt;&#xA;&lt;strong&gt;Authorization:&lt;/strong&gt; ATC authorization required (LAANC or manual)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Part 107 Practice Test</title>
+      <link>http://localhost:1313/resources/practice-test/</link>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/practice-test/</guid>
+      <description>&lt;h1 id=&#34;part-107-practice-test&#34;&gt;Part 107 Practice Test&lt;/h1&gt;&#xA;&lt;p&gt;Test your knowledge with these 50 practice questions covering all major Part 107 exam topics. Answers are provided at the bottom.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;50 questions total&lt;/li&gt;&#xA;&lt;li&gt;No time limit for practice&lt;/li&gt;&#xA;&lt;li&gt;Actual exam: 60 questions in 2 hours&lt;/li&gt;&#xA;&lt;li&gt;Passing score: 70% (35/50 on this practice test)&lt;/li&gt;&#xA;&lt;li&gt;Take notes on questions you miss for focused study&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;regulations-questions-1-5&#34;&gt;Regulations (Questions 1-5)&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; According to 14 CFR Part 107, the maximum groundspeed for a small unmanned aircraft is:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Airspace Quick Reference</title>
+      <link>http://localhost:1313/resources/airspace-reference/</link>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/airspace-reference/</guid>
+      <description>&lt;h1 id=&#34;airspace-quick-reference&#34;&gt;Airspace Quick Reference&lt;/h1&gt;&#xA;&lt;p&gt;A comprehensive guide to navigating U.S. airspace for Part 107 remote pilots.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;quick-decision-chart&#34;&gt;Quick Decision Chart&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Before every flight, ask:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Are there any TFRs?&lt;/strong&gt; → Check B4UFLY app or tfr.faa.gov&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;What color are the airspace lines on the chart?&lt;/strong&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;No lines (Class G) → No authorization needed&lt;/li&gt;&#xA;&lt;li&gt;Blue lines (B or D) → Authorization required&lt;/li&gt;&#xA;&lt;li&gt;Magenta lines (C or E) → Authorization may be required&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Am I below 400 ft AGL?&lt;/strong&gt; → Required for Part 107&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Can I see my aircraft?&lt;/strong&gt; → VLOS required&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Weather good?&lt;/strong&gt; → 3 SM visibility, clear of clouds&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;If all checks pass → &lt;strong&gt;You can fly!&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pre-Flight Checklist</title>
+      <link>http://localhost:1313/resources/preflight-checklist/</link>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/preflight-checklist/</guid>
+      <description>&lt;h1 id=&#34;pre-flight-checklist&#34;&gt;Pre-Flight Checklist&lt;/h1&gt;&#xA;&lt;p&gt;A comprehensive checklist for safe, compliant Part 107 operations. Use before every flight to ensure readiness.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;how-to-use-this-checklist&#34;&gt;How to Use This Checklist&lt;/h2&gt;&#xA;&lt;p&gt;✓ Review all sections before each flight&lt;br&gt;&#xA;✓ Check off items as completed&lt;br&gt;&#xA;✓ Address any issues before launching&lt;br&gt;&#xA;✓ When in doubt, don&amp;rsquo;t fly&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://localhost:1313/downloads/preflight-checklist.pdf&#34;&gt;Download Printable PDF&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-regulatory-compliance&#34;&gt;1. Regulatory Compliance&lt;/h2&gt;&#xA;&lt;h3 id=&#34;remote-pilot-certificate&#34;&gt;Remote Pilot Certificate&lt;/h3&gt;&#xA;&lt;p&gt;☐ Current Part 107 certificate in possession&lt;br&gt;&#xA;☐ Not expired (valid 24 months from issuance)&lt;br&gt;&#xA;☐ Recurrent training completed if renewal due&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
