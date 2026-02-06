@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weight & Balance Calculator - Forge & Flight Academy</title>
+  <meta name="description" content="Interactive weight and balance calculator for UAS platforms. Calculate center of gravity, check Part 107 compliance, and ensure safe flight operations.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  
+  <script type="text/babel">
+    const { useState, useCallback, useMemo, useRef } = React;
+
+    const COMMON_COMPONENTS = [
+      { name: "Fuselage", weight: 12.0, arm: 15.0 },
+      { name: "Wings", weight: 8.0, arm: 18.0 },
+      { name: "Motors (2x)", weight: 6.0, arm: 20.0 },
+      { name: "Battery (4S LiPo)", weight: 18.0, arm: 16.0 },
+      { name: "Battery (6S LiPo)", weight: 24.0, arm: 16.0 },
+      { name: "Flight Controller", weight: 2.0, arm: 17.0 },
+      { name: "Camera Payload", weight: 4.0, arm: 14.0 },
+      { name: "FLIR VIO F1", weight: 8.5, arm: 14.0 },
+      { name: "Landing Gear", weight: 3.0, arm: 12.0 },
+      { name: "GPS Module", weight: 1.2, arm: 17.5 },
+      { name: "Telemetry Radio", weight: 0.8, arm: 16.0 },
+      { name: "ESC (x4)", weight: 3.2, arm: 19.0 },
+      { name: "Propellers (x4)", weight: 1.6, arm: 20.0 },
+      { name: "Starlink Mini", weight: 8.0, arm: 15.0 },
+      { name: "NVIDIA Jetson Orin", weight: 5.6, arm: 16.5 },
+    ];
+
+    const PRESETS = {
+      "Custom Fixed-Wing": [
+        { name: "Fuselage", weight: 12.0, arm: 15.0 },
+        { name: "Wings", weight: 8.0, arm: 18.0 },
+        { name: "Motors (2x)", weight: 6.0, arm: 20.0 },
+        { name: "Battery", weight: 18.0, arm: 16.0 },
+        { name: "Flight Controller", weight: 2.0, arm: 17.0 },
+        { name: "Camera Payload", weight: 4.0, arm: 14.0 },
+        { name: "Landing Gear", weight: 3.0, arm: 12.0 },
+      ],
+      "Quad Multi-Rotor": [
+        { name: "Frame", weight: 10.0, arm: 12.0 },
+        { name: "Motors (x4)", weight: 8.0, arm: 12.0 },
+        { name: "ESC (x4)", weight: 3.2, arm: 12.0 },
+        { name: "Propellers (x4)", weight: 1.6, arm: 12.0 },
+        { name: "Battery (6S)", weight: 24.0, arm: 12.0 },
+        { name: "Flight Controller", weight: 2.0, arm: 12.0 },
+        { name: "GPS Module", weight: 1.2, arm: 12.0 },
+      ],
+      "Empty (Start Fresh)": [],
+    };
+
+    function generateId() {
+      return Date.now().toString(36) + Math.random().toString(36).substr(2, 5);
+    }
+
+    function CGDiagram({ cgLocation, forwardLimit, aftLimit }) {
+      const margin = 40;
+      const width = 520;
+      const height = 90;
+      const barY = 45;
+      const barH = 26;
+
+      const minArm = Math.max(0, Math.min(forwardLimit || 0, cgLocation || 0) - 4);
+      const maxArm = Math.max(aftLimit || 30, cgLocation || 0) + 4;
+      const range = maxArm - minArm || 1;
+
+      const toX = (val) => margin + ((val - minArm) / range) * (width - margin * 2);
+
+      const cgX = cgLocation != null ? toX(cgLocation) : null;
+      const fwdX = forwardLimit != null ? toX(forwardLimit) : null;
+      const aftX = aftLimit != null ? toX(aftLimit) : null;
+
+      const inRange =
+        cgLocation != null &&
+        forwardLimit != null &&
+        aftLimit != null &&
+        cgLocation >= forwardLimit &&
+        cgLocation <= aftLimit;
+
+      const hasLimits = forwardLimit != null && aftLimit != null;
+
+      return (
+        <svg viewBox={`0 0 ${width} ${height}`} style={{ width: "100%", maxWidth: 520, display: "block" }}>
+          <rect x={margin} y={barY} width={width - margin * 2} height={barH} rx={4} fill="#1a1f2e" stroke="#2a3040" strokeWidth={1} />
+          {hasLimits && (
+            <rect x={fwdX} y={barY} width={aftX - fwdX} height={barH} rx={0} fill={inRange ? "rgba(52,211,153,0.18)" : "rgba(251,191,36,0.12)"} />
+          )}
+          {fwdX != null && (
+            <>
+              <line x1={fwdX} y1={barY - 6} x2={fwdX} y2={barY + barH + 6} stroke="#f59e0b" strokeWidth={2} strokeDasharray="4 2" />
+              <text x={fwdX} y={barY - 10} textAnchor="middle" fill="#f59e0b" fontSize={9} fontFamily="'JetBrains Mono', monospace">
+                FWD {forwardLimit?.toFixed(1)}"
+              </text>
+            </>
+          )}
+          {aftX != null && (
+            <>
+              <line x1={aftX} y1={barY - 6} x2={aftX} y2={barY + barH + 6} stroke="#f59e0b" strokeWidth={2} strokeDasharray="4 2" />
+              <text x={aftX} y={barY - 10} textAnchor="middle" fill="#f59e0b" fontSize={9} fontFamily="'JetBrains Mono', monospace">
+                AFT {aftLimit?.toFixed(1)}"
+              </text>
+            </>
+          )}
+          {cgX != null && (
+            <>
+              <polygon
+                points={`${cgX},${barY + barH / 2 - 8} ${cgX + 7},${barY + barH / 2} ${cgX},${barY + barH / 2 + 8} ${cgX - 7},${barY + barH / 2}`}
+                fill={!hasLimits ? "#60a5fa" : inRange ? "#34d399" : "#ef4444"}
+                stroke={!hasLimits ? "#93c5fd" : inRange ? "#6ee7b7" : "#fca5a5"}
+                strokeWidth={1.5}
+              />
+              <text
+                x={cgX}
+                y={barY + barH + 18}
+                textAnchor="middle"
+                fill={!hasLimits ? "#93c5fd" : inRange ? "#6ee7b7" : "#fca5a5"}
+                fontSize={10}
+                fontWeight={700}
+                fontFamily="'JetBrains Mono', monospace"
+              >
+                CG {cgLocation?.toFixed(2)}"
+              </text>
+            </>
+          )}
+          {Array.from({ length: 7 }).map((_, i) => {
+            const val = minArm + (range * i) / 6;
+            const x = toX(val);
+            return (
+              <g key={i}>
+                <line x1={x} y1={barY + barH} x2={x} y2={barY + barH + 4} stroke="#4a5068" strokeWidth={1} />
+              </g>
+            );
+          })}
+        </svg>
+      );
+    }
+
+    function WeightGauge({ totalOz, maxOz }) {
+      const totalLbs = totalOz / 16;
+      const maxLbs = maxOz / 16;
+      const pct = maxOz > 0 ? Math.min((totalOz / maxOz) * 100, 100) : 0;
+      const over = totalOz > maxOz && maxOz > 0;
+      const part107 = totalLbs >= 0.55 && totalLbs <= 55;
+      const needsReg = totalLbs >= 0.55;
+
+      let barColor = "#34d399";
+      if (pct > 90) barColor = "#f59e0b";
+      if (over) barColor = "#ef4444";
+
+      return (
+        <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
+            <span style={{ fontSize: 11, color: "#8892a8", fontFamily: "'JetBrains Mono', monospace", letterSpacing: 1, textTransform: "uppercase" }}>
+              Total Weight
+            </span>
+            {maxOz > 0 && (
+              <span style={{ fontSize: 10, color: over ? "#ef4444" : "#4a5068", fontFamily: "'JetBrains Mono', monospace" }}>
+                {pct.toFixed(0)}% of MTOW
+              </span>
+            )}
+          </div>
+          <div style={{ display: "flex", alignItems: "baseline", gap: 8 }}>
+            <span style={{ fontSize: 28, fontWeight: 800, color: "#e2e8f0", fontFamily: "'JetBrains Mono', monospace" }}>
+              {totalOz.toFixed(1)}
+            </span>
+            <span style={{ fontSize: 13, color: "#64748b" }}>oz</span>
+            <span style={{ fontSize: 15, color: "#94a3b8", marginLeft: 4, fontFamily: "'JetBrains Mono', monospace" }}>
+              ({totalLbs.toFixed(2)} lbs)
+            </span>
+          </div>
+          {maxOz > 0 && (
+            <div style={{ height: 6, borderRadius: 3, background: "#1a1f2e", overflow: "hidden" }}>
+              <div
+                style={{
+                  height: "100%",
+                  width: `${pct}%`,
+                  background: barColor,
+                  borderRadius: 3,
+                  transition: "width 0.4s ease, background 0.3s ease",
+                }}
+              />
+            </div>
+          )}
+          <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginTop: 2 }}>
+            <span
+              style={{
+                fontSize: 10,
+                padding: "2px 8px",
+                borderRadius: 4,
+                background: part107 ? "rgba(52,211,153,0.12)" : totalLbs === 0 ? "rgba(100,116,139,0.12)" : "rgba(239,68,68,0.12)",
+                color: part107 ? "#34d399" : totalLbs === 0 ? "#64748b" : "#ef4444",
+                fontFamily: "'JetBrains Mono', monospace",
+                fontWeight: 600,
+              }}
+            >
+              {part107 ? "✓ Part 107 Compliant" : totalLbs === 0 ? "No Weight" : "⚠ Outside Part 107"}
+            </span>
+            <span
+              style={{
+                fontSize: 10,
+                padding: "2px 8px",
+                borderRadius: 4,
+                background: needsReg ? "rgba(251,191,36,0.12)" : "rgba(100,116,139,0.12)",
+                color: needsReg ? "#fbbf24" : "#64748b",
+                fontFamily: "'JetBrains Mono', monospace",
+                fontWeight: 600,
+              }}
+            >
+              {needsReg ? "Registration Required" : "No Registration"}
+            </span>
+          </div>
+        </div>
+      );
+    }
+
+    function WeightBalanceCalculator() {
+      const [components, setComponents] = useState([]);
+      const [datum, setDatum] = useState("");
+      const [fwdLimit, setFwdLimit] = useState("");
+      const [aftLimit, setAftLimit] = useState("");
+      const [mtow, setMtow] = useState("");
+      const [configs, setConfigs] = useState([]);
+      const [activeConfig, setActiveConfig] = useState(null);
+      const addRowRef = useRef(null);
+
+      const calculations = useMemo(() => {
+        const totalWeight = components.reduce((sum, c) => sum + (parseFloat(c.weight) || 0), 0);
+        const totalMoment = components.reduce((sum, c) => {
+          const w = parseFloat(c.weight) || 0;
+          const a = parseFloat(c.arm) || 0;
+          return sum + w * a;
+        }, 0);
+        const cg = totalWeight > 0 ? totalMoment / totalWeight : null;
+        return { totalWeight, totalMoment, cg };
+      }, [components]);
+
+      const addComponent = useCallback(() => {
+        setComponents((prev) => [...prev, { id: generateId(), name: "", weight: "", arm: "" }]);
+        setTimeout(() => addRowRef.current?.scrollIntoView({ behavior: "smooth", block: "end" }), 50);
+      }, []);
+
+      const removeComponent = useCallback((id) => {
+        setComponents((prev) => prev.filter((c) => c.id !== id));
+      }, []);
+
+      const updateComponent = useCallback((id, field, value) => {
+        setComponents((prev) => prev.map((c) => (c.id === id ? { ...c, [field]: value } : c)));
+      }, []);
+
+      const quickAdd = useCallback((item) => {
+        setComponents((prev) => [...prev, { ...item, id: generateId() }]);
+      }, []);
+
+      const loadPreset = useCallback((key) => {
+        const items = PRESETS[key] || [];
+        setComponents(items.map((i) => ({ ...i, id: generateId() })));
+      }, []);
+
+      const clearAll = useCallback(() => {
+        if (confirm("Clear all components?")) setComponents([]);
+      }, []);
+
+      const saveConfig = useCallback(() => {
+        const name = prompt("Configuration name:");
+        if (!name) return;
+        const newConfig = {
+          id: generateId(),
+          name,
+          components: JSON.parse(JSON.stringify(components)),
+          datum,
+          fwdLimit,
+          aftLimit,
+          mtow,
+          savedAt: new Date().toLocaleString(),
+        };
+        setConfigs((prev) => [...prev, newConfig]);
+        setActiveConfig(newConfig.id);
+      }, [components, datum, fwdLimit, aftLimit, mtow]);
+
+      const loadConfig = useCallback((id) => {
+        const c = configs.find((cfg) => cfg.id === id);
+        if (!c) return;
+        setComponents(c.components.map((i) => ({ ...i, id: generateId() })));
+        setDatum(c.datum);
+        setFwdLimit(c.fwdLimit);
+        setAftLimit(c.aftLimit);
+        setMtow(c.mtow);
+        setActiveConfig(id);
+      }, [configs]);
+
+      const deleteConfig = useCallback((id) => {
+        if (!confirm("Delete this configuration?")) return;
+        setConfigs((prev) => prev.filter((c) => c.id !== id));
+        if (activeConfig === id) setActiveConfig(null);
+      }, [activeConfig]);
+
+      const fwdVal = parseFloat(fwdLimit) || null;
+      const aftVal = parseFloat(aftLimit) || null;
+      const mtowVal = parseFloat(mtow) || null;
+      const hasLimits = fwdVal != null && aftVal != null;
+      const cgInRange = hasLimits && calculations.cg != null && calculations.cg >= fwdVal && calculations.cg <= aftVal;
+
+      const rows = useMemo(() => {
+        return components.map((c) => {
+          const w = parseFloat(c.weight) || 0;
+          const a = parseFloat(c.arm) || 0;
+          return { moment: w * a };
+        });
+      }, [components]);
+
+      const cardStyle = {
+        background: "#0c1018",
+        border: "1px solid #1a1f2e",
+        borderRadius: 8,
+        padding: 20,
+      };
+
+      const inputStyle = {
+        background: "#0c1018",
+        border: "1px solid #2a3040",
+        borderRadius: 5,
+        color: "#e2e8f0",
+        fontSize: 13,
+        padding: "6px 10px",
+        fontFamily: "'JetBrains Mono', monospace",
+        outline: "none",
+      };
+
+      const btnPrimary = {
+        background: "#f59e0b",
+        color: "#0c1018",
+        border: "none",
+        padding: "8px 16px",
+        borderRadius: 5,
+        fontSize: 12,
+        fontWeight: 700,
+        cursor: "pointer",
+        fontFamily: "inherit",
+        textTransform: "uppercase",
+        letterSpacing: 1,
+      };
+
+      const btnGhost = {
+        background: "transparent",
+        color: "#f59e0b",
+        border: "1px solid #f59e0b33",
+        padding: "6px 12px",
+        borderRadius: 5,
+        fontSize: 11,
+        fontWeight: 600,
+        cursor: "pointer",
+        fontFamily: "inherit",
+        textTransform: "uppercase",
+        letterSpacing: 1,
+      };
+
+      return (
+        <div style={{ minHeight: "100vh", background: "#050810", color: "#e2e8f0", fontFamily: "system-ui, sans-serif", padding: "20px 10px" }}>
+          <div style={{ maxWidth: 900, margin: "0 auto" }}>
+            <div style={{ textAlign: "center", marginBottom: 32 }}>
+              <h1 style={{ fontSize: 28, fontWeight: 900, color: "#f59e0b", marginBottom: 8, letterSpacing: 1 }}>
+                Weight & Balance Calculator
+              </h1>
+              <p style={{ fontSize: 13, color: "#64748b", maxWidth: 600, margin: "0 auto 12px" }}>
+                Interactive tool for calculating center of gravity and weight distribution for UAS platforms
+              </p>
+              <a href="/" style={{ fontSize: 11, color: "#f59e0b", textDecoration: "none" }}>← Back to Forge & Flight Academy</a>
+            </div>
+
+            <div style={{ ...cardStyle, marginBottom: 20 }}>
+              <div style={{ fontSize: 11, fontWeight: 700, color: "#f59e0b", marginBottom: 14, textTransform: "uppercase", letterSpacing: 1.5 }}>
+                Platform Settings
+              </div>
+              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr 1fr", gap: 12 }}>
+                <div>
+                  <label style={{ display: "block", fontSize: 10, color: "#8892a8", marginBottom: 4, textTransform: "uppercase", letterSpacing: 1 }}>
+                    Datum Location
+                  </label>
+                  <input
+                    style={inputStyle}
+                    type="text"
+                    value={datum}
+                    onChange={(e) => setDatum(e.target.value)}
+                    placeholder="e.g., Nose"
+                  />
+                </div>
+                <div>
+                  <label style={{ display: "block", fontSize: 10, color: "#8892a8", marginBottom: 4, textTransform: "uppercase", letterSpacing: 1 }}>
+                    Forward Limit (in)
+                  </label>
+                  <input
+                    style={inputStyle}
+                    type="number"
+                    value={fwdLimit}
+                    onChange={(e) => setFwdLimit(e.target.value)}
+                    placeholder="0.0"
+                  />
+                </div>
+                <div>
+                  <label style={{ display: "block", fontSize: 10, color: "#8892a8", marginBottom: 4, textTransform: "uppercase", letterSpacing: 1 }}>
+                    Aft Limit (in)
+                  </label>
+                  <input
+                    style={inputStyle}
+                    type="number"
+                    value={aftLimit}
+                    onChange={(e) => setAftLimit(e.target.value)}
+                    placeholder="0.0"
+                  />
+                </div>
+                <div>
+                  <label style={{ display: "block", fontSize: 10, color: "#8892a8", marginBottom: 4, textTransform: "uppercase", letterSpacing: 1 }}>
+                    MTOW (oz)
+                  </label>
+                  <input
+                    style={inputStyle}
+                    type="number"
+                    value={mtow}
+                    onChange={(e) => setMtow(e.target.value)}
+                    placeholder="0.0"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div style={{ ...cardStyle, marginBottom: 20 }}>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 14 }}>
+                <span style={{ fontSize: 11, fontWeight: 700, color: "#f59e0b", textTransform: "uppercase", letterSpacing: 1.5 }}>Quick Actions</span>
+                <div style={{ display: "flex", gap: 8 }}>
+                  <button style={btnGhost} onClick={addComponent}>
+                    + Add Row
+                  </button>
+                  <button style={btnGhost} onClick={clearAll}>
+                    Clear All
+                  </button>
+                </div>
+              </div>
+              <div style={{ display: "flex", gap: 8, marginBottom: 14, flexWrap: "wrap" }}>
+                {Object.keys(PRESETS).map((key) => (
+                  <button key={key} style={{ ...btnGhost, fontSize: 10 }} onClick={() => loadPreset(key)}>
+                    {key}
+                  </button>
+                ))}
+              </div>
+              <details style={{ marginTop: 12 }}>
+                <summary style={{ fontSize: 11, color: "#64748b", cursor: "pointer", userSelect: "none" }}>Quick Add Components</summary>
+                <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(140px, 1fr))", gap: 6, marginTop: 10 }}>
+                  {COMMON_COMPONENTS.map((item) => (
+                    <button
+                      key={item.name}
+                      style={{
+                        ...btnGhost,
+                        fontSize: 10,
+                        padding: "6px 8px",
+                        textAlign: "left",
+                        whiteSpace: "nowrap",
+                        overflow: "hidden",
+                        textOverflow: "ellipsis",
+                      }}
+                      onClick={() => quickAdd(item)}
+                      title={`${item.name}: ${item.weight}oz @ ${item.arm}"`}
+                    >
+                      {item.name}
+                    </button>
+                  ))}
+                </div>
+              </details>
+            </div>
+
+            <div style={{ ...cardStyle, marginBottom: 20, padding: 0, overflow: "hidden" }}>
+              <div
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "2fr 1fr 1fr 1fr 36px",
+                  gap: 8,
+                  padding: "12px 20px",
+                  background: "#f59e0b11",
+                  borderBottom: "1px solid #1a1f2e",
+                  fontSize: 10,
+                  fontWeight: 700,
+                  color: "#f59e0b",
+                  textTransform: "uppercase",
+                  letterSpacing: 1,
+                }}
+              >
+                <span>Component</span>
+                <span style={{ textAlign: "right" }}>Weight (oz)</span>
+                <span style={{ textAlign: "right" }}>Arm (in)</span>
+                <span style={{ textAlign: "right" }}>Moment</span>
+                <span />
+              </div>
+              <div style={{ maxHeight: 400, overflowY: "auto" }}>
+                {components.map((c, i) => {
+                  const row = rows[i];
+                  return (
+                    <div
+                      key={c.id}
+                      style={{
+                        display: "grid",
+                        gridTemplateColumns: "2fr 1fr 1fr 1fr 36px",
+                        gap: 8,
+                        padding: "8px 20px",
+                        borderBottom: "1px solid #1a1f2e",
+                        alignItems: "center",
+                      }}
+                      ref={i === components.length - 1 ? addRowRef : null}
+                    >
+                      <input
+                        style={inputStyle}
+                        type="text"
+                        value={c.name}
+                        onChange={(e) => updateComponent(c.id, "name", e.target.value)}
+                        placeholder="Component name"
+                      />
+                      <input
+                        style={{ ...inputStyle, border: "1px solid transparent", background: "transparent", padding: "6px 4px", textAlign: "right" }}
+                        type="number"
+                        value={c.weight}
+                        onChange={(e) => updateComponent(c.id, "weight", e.target.value)}
+                        placeholder="0.0"
+                      />
+                      <input
+                        style={{ ...inputStyle, border: "1px solid transparent", background: "transparent", padding: "6px 4px", textAlign: "right" }}
+                        type="number"
+                        value={c.arm}
+                        onChange={(e) => updateComponent(c.id, "arm", e.target.value)}
+                        placeholder="0.0"
+                      />
+                      <span
+                        style={{
+                          textAlign: "right",
+                          fontSize: 13,
+                          color: row?.moment > 0 ? "#94a3b8" : "#334155",
+                          fontFamily: "'JetBrains Mono', monospace",
+                          paddingRight: 4,
+                        }}
+                      >
+                        {row?.moment > 0 ? row.moment.toFixed(1) : "—"}
+                      </span>
+                      <button
+                        onClick={() => removeComponent(c.id)}
+                        style={{
+                          background: "transparent",
+                          border: "none",
+                          color: "#475569",
+                          fontSize: 16,
+                          cursor: "pointer",
+                          padding: 0,
+                          lineHeight: 1,
+                        }}
+                        title="Remove"
+                      >
+                        ×
+                      </button>
+                    </div>
+                  );
+                })}
+                {components.length === 0 && (
+                  <div style={{ padding: "32px 20px", textAlign: "center", color: "#334155", fontSize: 12 }}>
+                    No components added. Click "+ Add Row" or use Quick Add.
+                  </div>
+                )}
+              </div>
+
+              {calculations.totalWeight > 0 && (
+                <div
+                  style={{
+                    display: "grid",
+                    gridTemplateColumns: "2fr 1fr 1fr 1fr 36px",
+                    gap: 8,
+                    padding: "12px 20px",
+                    borderTop: "2px solid #f59e0b",
+                    background: "rgba(245,158,11,0.04)",
+                  }}
+                >
+                  <span style={{ fontWeight: 700, fontSize: 12, color: "#f59e0b" }}>TOTALS</span>
+                  <span style={{ textAlign: "right", fontWeight: 700, fontSize: 13, color: "#e2e8f0" }}>
+                    {calculations.totalWeight.toFixed(1)}
+                  </span>
+                  <span style={{ textAlign: "right", color: "#475569", fontSize: 11 }}>—</span>
+                  <span style={{ textAlign: "right", fontWeight: 700, fontSize: 13, color: "#e2e8f0" }}>
+                    {calculations.totalMoment.toFixed(1)}
+                  </span>
+                  <span />
+                </div>
+              )}
+            </div>
+
+            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16, marginBottom: 20 }}>
+              <div style={cardStyle}>
+                <div style={{ fontSize: 11, fontWeight: 700, color: "#f59e0b", marginBottom: 14, textTransform: "uppercase", letterSpacing: 1.5 }}>
+                  Center of Gravity
+                </div>
+                {calculations.cg != null ? (
+                  <>
+                    <div style={{ display: "flex", alignItems: "baseline", gap: 8, marginBottom: 12 }}>
+                      <span style={{ fontSize: 32, fontWeight: 800, color: "#e2e8f0", fontFamily: "'JetBrains Mono', monospace" }}>
+                        {calculations.cg.toFixed(2)}
+                      </span>
+                      <span style={{ fontSize: 14, color: "#64748b" }}>inches from datum</span>
+                    </div>
+                    {hasLimits && (
+                      <div
+                        style={{
+                          display: "inline-flex",
+                          alignItems: "center",
+                          gap: 6,
+                          fontSize: 12,
+                          fontWeight: 700,
+                          padding: "6px 14px",
+                          borderRadius: 5,
+                          background: cgInRange ? "rgba(52,211,153,0.12)" : "rgba(239,68,68,0.12)",
+                          color: cgInRange ? "#34d399" : "#ef4444",
+                          marginBottom: 12,
+                        }}
+                      >
+                        {cgInRange ? "✓ CG WITHIN LIMITS" : "✗ CG OUT OF LIMITS"}
+                      </div>
+                    )}
+                    <CGDiagram cgLocation={calculations.cg} forwardLimit={fwdVal} aftLimit={aftVal} />
+                  </>
+                ) : (
+                  <div style={{ color: "#334155", fontSize: 13 }}>Add components to calculate CG.</div>
+                )}
+              </div>
+
+              <div style={cardStyle}>
+                <div style={{ fontSize: 11, fontWeight: 700, color: "#f59e0b", marginBottom: 14, textTransform: "uppercase", letterSpacing: 1.5 }}>
+                  Weight Analysis
+                </div>
+                <WeightGauge totalOz={calculations.totalWeight} maxOz={mtowVal} />
+              </div>
+            </div>
+
+            <div style={{ ...cardStyle, marginBottom: 20 }}>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 14 }}>
+                <span style={{ fontSize: 11, fontWeight: 700, color: "#f59e0b", textTransform: "uppercase", letterSpacing: 1.5 }}>
+                  Saved Configurations
+                </span>
+                <button style={btnPrimary} onClick={saveConfig}>
+                  Save Current
+                </button>
+              </div>
+              {configs.length === 0 ? (
+                <div style={{ color: "#334155", fontSize: 12 }}>No saved configurations. Click "Save Current" to store this setup.</div>
+              ) : (
+                <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
+                  {configs.map((c) => (
+                    <div
+                      key={c.id}
+                      style={{
+                        display: "flex",
+                        justifyContent: "space-between",
+                        alignItems: "center",
+                        padding: "8px 12px",
+                        borderRadius: 5,
+                        background: activeConfig === c.id ? "rgba(245,158,11,0.08)" : "#0c1018",
+                        border: `1px solid ${activeConfig === c.id ? "#f59e0b33" : "#1a1f2e"}`,
+                      }}
+                    >
+                      <div>
+                        <span style={{ fontSize: 13, fontWeight: 600, color: "#e2e8f0" }}>{c.name}</span>
+                        <span style={{ fontSize: 10, color: "#475569", marginLeft: 10 }}>
+                          {c.components.length} components — saved {c.savedAt}
+                        </span>
+                      </div>
+                      <div style={{ display: "flex", gap: 6 }}>
+                        <button style={btnGhost} onClick={() => loadConfig(c.id)}>
+                          Load
+                        </button>
+                        <button style={{ ...btnGhost, color: "#ef4444", borderColor: "#ef444433" }} onClick={() => deleteConfig(c.id)}>
+                          ×
+                        </button>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            <div style={{ ...cardStyle, opacity: 0.7 }}>
+              <div style={{ fontSize: 11, fontWeight: 700, color: "#64748b", marginBottom: 10, textTransform: "uppercase", letterSpacing: 1.5 }}>
+                Reference
+              </div>
+              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 16, fontSize: 11, color: "#475569", lineHeight: 1.8 }}>
+                <div>
+                  <div style={{ color: "#94a3b8", fontWeight: 600 }}>Moment</div>
+                  Weight × Arm Distance
+                </div>
+                <div>
+                  <div style={{ color: "#94a3b8", fontWeight: 600 }}>CG Location</div>
+                  Total Moments ÷ Total Weight
+                </div>
+                <div>
+                  <div style={{ color: "#94a3b8", fontWeight: 600 }}>Part 107 Range</div>
+                  0.55 lbs – 55 lbs (0.25 – 25 kg)
+                </div>
+              </div>
+            </div>
+
+            <div style={{ textAlign: "center", marginTop: 24, fontSize: 10, color: "#2a3040", letterSpacing: 1.5, textTransform: "uppercase" }}>
+              Forge & Flight Academy — First in Flight, Innovation Limitless
+            </div>
+          </div>
+        </div>
+      );
+    }
+
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(<WeightBalanceCalculator />);
+  </script>
+</body>
+</html>

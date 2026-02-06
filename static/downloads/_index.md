@@ -22,16 +22,6 @@ Browse our free training materials below. All content is regularly updated to re
 
 ### Operational Resources
 - **[Pre-Flight Checklist](/resources/preflight-checklist/)** - Professional 8-section checklist for safe operations
-- **[Flight Log Template](/resources/flight-log-template/)** - Track flight hours, maintenance, and compliance
-- **[Weight & Balance Calculator](/resources/weight-balance-calculator/)** - Calculate CG and ensure safe flight operations *(includes interactive tool)*
-
-### Downloadable PDFs
-All reference materials are available as printable PDFs for field use:
-- [Airspace Quick Reference Card (PDF)](/downloads/airspace-quick-reference.pdf)
-- [Pre-Flight Checklist (PDF)](/downloads/preflight-checklist.pdf)
-- [Part 107 Regulations Summary (PDF)](/downloads/part-107-summary.pdf)
-
-*Note: PDF downloads coming soon. Full content available on individual resource pages above.*
 
 ---
 

@@ -6,7 +6,6 @@ draft: false
 weight: 1
 ---
 
-# Practical UAS Development: From CAD to Autonomous Flight
 
 **⭐ FLAGSHIP PROGRAM**
 
@@ -18,7 +17,7 @@ From zero to autonomous flight in 10 days. Design, 3D print, assemble, program, 
 
 This intensive 10-day program takes students through the **complete UAS development lifecycle**—from CAD design and 3D printing through ArduPilot configuration and autonomous mission execution. You'll build a **fully functional Group 2 fixed-wing aircraft** and leave with the knowledge to replicate the process.
 
-**Platform:** 1600mm twin-motor fixed-wing ("Moose")  
+**Platform:** 1600mm twin-motor fixed-wing
 **Duration:** 10 days (80 contact hours)  
 **Schedule:** 8 hours/day + optional evening lab access
 
@@ -130,7 +129,7 @@ Students are evaluated using a **1-5 capability rating scale** across four phase
 | **Department of War / Government** | $18,500 | Active duty, federal agencies |
 | **Commercial** | $16,500 | Private sector, contractors |
 | **Academic** | $14,500 | Universities, research institutions |
-| **Early Adopter** | $12,500 | First 3 cohorts (2025-2026) |
+| **Early Adopter** | $12,500 | First 3 cohorts |
 
 **What's Included:**
 - Complete autonomous recon platform (yours to keep)

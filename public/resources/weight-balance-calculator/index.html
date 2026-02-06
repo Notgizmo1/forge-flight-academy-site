@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  
+  <title>Weight &amp; Balance Calculator | Forge and Flight Academy</title>
+  <meta name="description" content="Calculate center of gravity and weight distribution for UAS platforms. Ensure safe flight operations with proper weight and balance.">
+  
+  <meta name="author" content="">
+  
+  
+  <meta property="og:title" content="Weight &amp; Balance Calculator">
+  <meta property="og:description" content="Calculate center of gravity and weight distribution for UAS platforms. Ensure safe flight operations with proper weight and balance.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://localhost:1313/resources/weight-balance-calculator/">
+  <meta property="og:image" content="http://localhost:1313/">
+  
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Weight &amp; Balance Calculator">
+  <meta name="twitter:description" content="Calculate center of gravity and weight distribution for UAS platforms. Ensure safe flight operations with proper weight and balance.">
+  
+  
+  <link rel="canonical" href="http://localhost:1313/resources/weight-balance-calculator/">
+  
+  
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  
+  
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "",
+    "description": "Professional UAS Training - Fayetteville, NC",
+    "url": "http:\/\/localhost:1313\/",
+    "telephone": "",
+    "email": "",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Fayetteville",
+      "addressRegion": "NC",
+      "addressCountry": "US"
+    }
+  }
+  </script>
+  
+  
+</head>
+<body>
+  <header class="site-header">
+  <nav class="navbar">
+    <div class="container">
+      <div class="nav-wrapper">
+        
+        <div class="logo">
+          <a href="/">
+            <span class="logo-text">Forge and Flight Academy</span>
+            <span class="logo-tagline">Measurable Proficiency, Not Just Certificates</span>
+          </a>
+        </div>
+        
+        
+        <button class="mobile-menu-toggle" aria-label="Toggle menu" onclick="toggleMobileMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        
+        
+        <ul class="nav-menu" id="navMenu">
+          
+          <li class="nav-item cta">
+            <a href="/schedule/" class="btn btn-primary">View Schedule</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  
+  <div class="trust-bar">
+    <div class="container">
+      <div class="trust-items">
+        <div class="trust-item">
+          <span class="trust-icon">📍</span>
+          <span>Fayetteville, NC (Near Fort Liberty)</span>
+        </div>
+        <div class="trust-item">
+          <span class="trust-icon">🎯</span>
+          <span>Capability-Based Training</span>
+        </div>
+        <div class="trust-item">
+          <span class="trust-icon">🛠️</span>
+          <span>Hands-On Development</span>
+        </div>
+        <div class="trust-item">
+          <span class="trust-icon">✉️</span>
+          <span>info@forgeandflightacademy.com</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  
+  <main>
+    
+<article class="container">
+  <h1>Weight &amp; Balance Calculator</h1>
+  <p><strong>🎯 <a href="/tools/weight-balance-calculator.html">Try the Interactive Calculator</a></strong> - Calculate CG in real-time with visual feedback</p>
+<p>Understanding and calculating weight and balance is critical for safe UAS operations, especially for custom-built or payload-equipped platforms.</p>
+<hr>
+<h2 id="why-weight--balance-matters">Why Weight &amp; Balance Matters</h2>
+<h3 id="safety">Safety</h3>
+<ul>
+<li><strong>Flight stability</strong> - Improper CG causes instability or loss of control</li>
+<li><strong>Control authority</strong> - Out-of-range CG reduces control effectiveness</li>
+<li><strong>Motor stress</strong> - Imbalanced load increases motor wear</li>
+<li><strong>Battery performance</strong> - Excess weight reduces flight time</li>
+</ul>
+<h3 id="performance">Performance</h3>
+<ul>
+<li><strong>Flight time</strong> - Lighter aircraft = longer endurance</li>
+<li><strong>Maneuverability</strong> - Proper balance improves handling</li>
+<li><strong>Maximum altitude</strong> - Weight affects climb performance</li>
+<li><strong>Wind resistance</strong> - Heavy aircraft struggle in wind</li>
+</ul>
+<h3 id="regulatory">Regulatory</h3>
+<ul>
+<li><strong>Part 107 weight limits</strong> - 0.55 to 55 lbs</li>
+<li><strong>Registration requirements</strong> - Know your weight category</li>
+<li><strong>Operations over people</strong> - Category limits by weight</li>
+<li><strong>Insurance compliance</strong> - Operating within design limits</li>
+</ul>
+<hr>
+<h2 id="center-of-gravity-cg-basics">Center of Gravity (CG) Basics</h2>
+<h3 id="what-is-cg">What is CG?</h3>
+<p>The <strong>center of gravity</strong> is the point where all weight is balanced. Think of it as the balance point if you placed the aircraft on your finger.</p>
+<h3 id="why-cg-location-matters">Why CG Location Matters</h3>
+<p><strong>CG Too Far Forward:</strong></p>
+<ul>
+<li>Nose-heavy flight attitude</li>
+<li>Increased motor load</li>
+<li>Reduced control authority (pitch up difficult)</li>
+<li>Higher stall speed</li>
+</ul>
+<p><strong>CG Too Far Aft:</strong></p>
+<ul>
+<li>Tail-heavy flight attitude</li>
+<li>Unstable, twitchy flight characteristics</li>
+<li>Risk of tip stall</li>
+<li>Difficult to recover from pitch disturbances</li>
+</ul>
+<p><strong>CG Just Right:</strong></p>
+<ul>
+<li>Stable, predictable flight</li>
+<li>Optimal motor efficiency</li>
+<li>Full control authority</li>
+<li>Easiest to fly</li>
+</ul>
+<hr>
+<h2 id="how-to-calculate-cg">How to Calculate CG</h2>
+<h3 id="step-1-set-reference-datum">Step 1: Set Reference Datum</h3>
+<p>Choose a reference point (datum) on your aircraft - typically the nose, motor mount, or leading edge of wing.</p>
+<h3 id="step-2-weigh-components">Step 2: Weigh Components</h3>
+<p>Weigh each major component:</p>
+<ul>
+<li>Airframe</li>
+<li>Motors</li>
+<li>Battery</li>
+<li>Flight controller</li>
+<li>Payload (camera, sensors, etc.)</li>
+<li>Landing gear</li>
+</ul>
+<h3 id="step-3-measure-arm-distance">Step 3: Measure Arm Distance</h3>
+<p>Measure distance from datum to center of each component (in inches or cm).</p>
+<h3 id="step-4-calculate-moments">Step 4: Calculate Moments</h3>
+<p><strong>Moment = Weight × Arm Distance</strong></p>
+<p>For each component, multiply its weight by its distance from datum.</p>
+<h3 id="step-5-find-cg-location">Step 5: Find CG Location</h3>
+<p><strong>CG Location = Total Moments ÷ Total Weight</strong></p>
+<hr>
+<h2 id="weight--balance-calculator-manual">Weight &amp; Balance Calculator (Manual)</h2>
+<h3 id="example-calculation">Example Calculation</h3>
+<p><strong>Aircraft: Custom Fixed-Wing UAS</strong>
+<strong>Datum: Nose of fuselage</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Component</th>
+          <th>Weight (oz)</th>
+          <th>Arm (in)</th>
+          <th>Moment (oz-in)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Fuselage</td>
+          <td>12.0</td>
+          <td>15.0</td>
+          <td>180.0</td>
+      </tr>
+      <tr>
+          <td>Wings</td>
+          <td>8.0</td>
+          <td>18.0</td>
+          <td>144.0</td>
+      </tr>
+      <tr>
+          <td>Motors (2x)</td>
+          <td>6.0</td>
+          <td>20.0</td>
+          <td>120.0</td>
+      </tr>
+      <tr>
+          <td>Battery</td>
+          <td>18.0</td>
+          <td>16.0</td>
+          <td>288.0</td>
+      </tr>
+      <tr>
+          <td>Flight Controller</td>
+          <td>2.0</td>
+          <td>17.0</td>
+          <td>34.0</td>
+      </tr>
+      <tr>
+          <td>Camera Payload</td>
+          <td>4.0</td>
+          <td>14.0</td>
+          <td>56.0</td>
+      </tr>
+      <tr>
+          <td>Landing Gear</td>
+          <td>3.0</td>
+          <td>12.0</td>
+          <td>36.0</td>
+      </tr>
+      <tr>
+          <td><strong>TOTAL</strong></td>
+          <td><strong>53.0 oz</strong></td>
+          <td>—</td>
+          <td><strong>858.0 oz-in</strong></td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>CG Location = 858.0 ÷ 53.0 = 16.2 inches from nose</strong></p>
+<p><strong>Total Weight = 53.0 oz = 3.3 lbs</strong> ✓ (under 55 lbs for Part 107)</p>
+<hr>
+<h2 id="cg-range-determination">CG Range Determination</h2>
+<h3 id="finding-acceptable-cg-range">Finding Acceptable CG Range</h3>
+<p>Most aircraft have a CG range specification:</p>
+<ul>
+<li><strong>Forward limit</strong> - Typically 25-30% of wing chord</li>
+<li><strong>Aft limit</strong> - Typically 30-35% of wing chord</li>
+</ul>
+<p><strong>For fixed-wing:</strong></p>
+<ul>
+<li>Measure wing chord (distance from leading edge to trailing edge)</li>
+<li>CG should be at 28-32% of chord (typical range)</li>
+<li>Example: 12&quot; chord → CG should be 3.4-3.8&quot; from leading edge</li>
+</ul>
+<p><strong>For multi-rotor:</strong></p>
+<ul>
+<li>CG should be at geometric center</li>
+<li>Typically coincides with flight controller location</li>
+<li>Small deviations compensated by motor mixing</li>
+</ul>
+<hr>
+<h2 id="weight--balance-worksheet">Weight &amp; Balance Worksheet</h2>
+<p>Use this template for your calculations:</p>
+<pre tabindex="0"><code>WEIGHT &amp; BALANCE WORKSHEET
+
+Aircraft: ____________________  Date: __________
+
+Datum Location: ____________________________
+
+| Component        | Weight | Arm | Moment |
+|------------------|--------|-----|--------|
+| 1. _____________ | ______ | ___ | ______ |
+| 2. _____________ | ______ | ___ | ______ |
+| 3. _____________ | ______ | ___ | ______ |
+| 4. _____________ | ______ | ___ | ______ |
+| 5. _____________ | ______ | ___ | ______ |
+| 6. _____________ | ______ | ___ | ______ |
+| 7. _____________ | ______ | ___ | ______ |
+| 8. _____________ | ______ | ___ | ______ |
+| 9. _____________ | ______ | ___ | ______ |
+| 10. ____________ | ______ | ___ | ______ |
+|------------------|--------|-----|--------|
+| TOTAL            | ______ |     | ______ |
+
+CG LOCATION = Total Moment ÷ Total Weight
+CG = _______ ÷ _______ = _______ inches from datum
+
+ACCEPTABLE CG RANGE
+Forward Limit: _______ inches
+Aft Limit: _______ inches
+
+CG WITHIN LIMITS? ☐ YES ☐ NO
+
+TOTAL WEIGHT CHECK
+Aircraft Weight: _______ lbs
+Max Takeoff Weight: _______ lbs
+Weight Within Limits? ☐ YES ☐ NO
+
+Part 107 Compliance: ☐ YES (0.55-55 lbs)
+
+CALCULATED BY: _______________________
+DATE: ____________  SIGNATURE: ___________
+</code></pre><hr>
+<h2 id="adjusting-cg">Adjusting CG</h2>
+<h3 id="if-cg-is-too-far-forward">If CG is Too Far Forward</h3>
+<p><strong>Add weight aft:</strong></p>
+<ul>
+<li>Move battery rearward</li>
+<li>Add ballast weight to tail</li>
+<li>Relocate heavy components aft</li>
+</ul>
+<p><strong>Remove weight forward:</strong></p>
+<ul>
+<li>Use lighter nose components</li>
+<li>Remove unnecessary forward equipment</li>
+<li>Shorten nose section (if possible)</li>
+</ul>
+<h3 id="if-cg-is-too-far-aft">If CG is Too Far Aft</h3>
+<p><strong>Add weight forward:</strong></p>
+<ul>
+<li>Move battery forward</li>
+<li>Add ballast weight to nose</li>
+<li>Relocate heavy components forward</li>
+</ul>
+<p><strong>Remove weight aft:</strong></p>
+<ul>
+<li>Use lighter tail components</li>
+<li>Remove unnecessary aft equipment</li>
+<li>Reduce tail moment arm</li>
+</ul>
+<hr>
+<h2 id="practical-cg-testing">Practical CG Testing</h2>
+<h3 id="the-finger-test-multi-rotor">The Finger Test (Multi-Rotor)</h3>
+<ol>
+<li>Balance aircraft on finger at geometric center</li>
+<li>Aircraft should sit level (no tilt)</li>
+<li>If it tilts, move battery opposite direction</li>
+<li>Retest until level</li>
+</ol>
+<h3 id="the-string-test-fixed-wing">The String Test (Fixed-Wing)</h3>
+<ol>
+<li>Tie string at estimated CG location (25-30% chord)</li>
+<li>Suspend aircraft by string</li>
+<li>Aircraft should hang nose-slightly-down (~5° angle)</li>
+<li>Adjust battery position if wrong attitude</li>
+<li>Mark final CG location</li>
+</ol>
+<h3 id="flight-test">Flight Test</h3>
+<p><strong>Warning: Only if confident in calculations</strong></p>
+<ol>
+<li>First flight in calm conditions</li>
+<li>Short duration (2-3 minutes max)</li>
+<li>Test control authority at altitude</li>
+<li>Note any trim requirements</li>
+<li>Adjust CG if excessive trim needed</li>
+</ol>
+<hr>
+<h2 id="weight-reduction-tips">Weight Reduction Tips</h2>
+<h3 id="airframe">Airframe</h3>
+<ul>
+<li>Use lightweight materials (carbon fiber, foam)</li>
+<li>Minimize excess structure</li>
+<li>Remove non-essential components</li>
+<li>Use hollow fasteners where possible</li>
+</ul>
+<h3 id="electronics">Electronics</h3>
+<ul>
+<li>Select lightweight flight controller</li>
+<li>Use efficient ESCs (less weight + better performance)</li>
+<li>Minimize wiring (use shorter, lighter gauge)</li>
+<li>Consolidate components (fewer boards = less weight)</li>
+</ul>
+<h3 id="battery">Battery</h3>
+<ul>
+<li>Right-size battery for mission</li>
+<li>Don&rsquo;t over-capacity for required flight time</li>
+<li>Consider weight vs. endurance tradeoff</li>
+<li>Use high-discharge batteries (lighter for same power)</li>
+</ul>
+<h3 id="payload">Payload</h3>
+<ul>
+<li>Mount cameras/sensors efficiently</li>
+<li>Use minimal mounting hardware</li>
+<li>Integrate payload into structure</li>
+<li>Consider weight in sensor selection</li>
+</ul>
+<hr>
+<h2 id="weight-categories-for-part-107">Weight Categories for Part 107</h2>
+<h3 id="registration-requirements">Registration Requirements</h3>
+<p><strong>Under 0.55 lbs (250 grams):</strong></p>
+<ul>
+<li>No FAA registration required</li>
+<li>Still subject to Part 107 if commercial</li>
+</ul>
+<p><strong>0.55 lbs to 55 lbs:</strong></p>
+<ul>
+<li>FAA registration required ($5 for 3 years)</li>
+<li>Standard Part 107 operations</li>
+</ul>
+<p><strong>Over 55 lbs:</strong></p>
+<ul>
+<li>Not covered by Part 107</li>
+<li>Requires Section 333 exemption or different authorization</li>
+<li>Stricter requirements</li>
+</ul>
+<h3 id="operations-over-people-categories">Operations Over People Categories</h3>
+<p><strong>Category 1:</strong> &lt;0.55 lbs
+<strong>Category 2:</strong> &lt;55 lbs, meets injury criteria
+<strong>Category 3:</strong> &lt;55 lbs, over closed or restricted access sites
+<strong>Category 4:</strong> Small UAS with FAA-accepted Declaration of Compliance</p>
+<p>Weight affects which category you can operate under.</p>
+<hr>
+<h2 id="common-uas-weights">Common UAS Weights</h2>
+<h3 id="consumer-drones">Consumer Drones</h3>
+<ul>
+<li>DJI Mini 3 Pro: 0.55 lbs (249g)</li>
+<li>DJI Mavic 3: 2.0 lbs (899g)</li>
+<li>DJI Phantom 4: 3.0 lbs (1380g)</li>
+<li>DJI Inspire 2: 7.6 lbs (3440g)</li>
+</ul>
+<h3 id="professional-platforms">Professional Platforms</h3>
+<ul>
+<li>DJI Matrice 300: 14.8 lbs (6.7 kg)</li>
+<li>Freefly Alta X: 26 lbs (11.8 kg)</li>
+<li>Custom Group 2: 15-55 lbs</li>
+</ul>
+<h3 id="fpv-racing-drones">FPV Racing Drones</h3>
+<ul>
+<li>Typical 5&quot; quad: 1.1-1.5 lbs (500-700g)</li>
+<li>Cinewhoop: 0.7-1.0 lbs (300-450g)</li>
+</ul>
+<hr>
+<h2 id="tools--equipment">Tools &amp; Equipment</h2>
+<h3 id="essential-tools">Essential Tools</h3>
+<ul>
+<li><strong>Digital scale</strong> - 0.01 oz / 0.1g resolution</li>
+<li><strong>Measuring tape</strong> - Inches and centimeters</li>
+<li><strong>String or thread</strong> - For suspension test</li>
+<li><strong>Calculator</strong> - For moment calculations</li>
+<li><strong>Notebook</strong> - Record configurations</li>
+</ul>
+<h3 id="advanced-tools">Advanced Tools</h3>
+<ul>
+<li><strong>Laser measurement tool</strong> - Precise arm distances</li>
+<li><strong>CG balancer</strong> - Specialized tool for fixed-wing</li>
+<li><strong>Component database</strong> - Track weights of common parts</li>
+<li><strong>Spreadsheet</strong> - Automate calculations</li>
+</ul>
+<hr>
+<h2 id="interactive-web-calculator">Interactive Web Calculator</h2>
+<p>We&rsquo;ve developed an interactive web-based calculator that:</p>
+<ul>
+<li>Automatically calculates CG from your inputs</li>
+<li>Stores common component weights for quick selection</li>
+<li>Provides visual CG range diagram with real-time feedback</li>
+<li>Saves and loads multiple aircraft configurations</li>
+<li>Shows Part 107 weight compliance</li>
+<li>Displays weight as percentage of MTOW</li>
+</ul>
+<p><strong><a href="/tools/weight-balance-calculator.html">Launch Interactive Calculator →</a></strong></p>
+<p>The calculator includes presets for common configurations:</p>
+<ul>
+<li>Custom Fixed-Wing platforms</li>
+<li>Quad Multi-Rotor systems</li>
+<li>Quick-add library of common components (flight controllers, batteries, payloads)</li>
+</ul>
+<p>All calculations are performed locally in your browser - no data sent to servers.</p>
+<hr>
+<h2 id="professional-training">Professional Training</h2>
+<p>Learn proper weight and balance procedures, along with hands-on platform development.</p>
+<p>Our <strong><a href="/programs/practical-uas-development/">Practical UAS Development program</a></strong> includes comprehensive weight and balance instruction for custom-built platforms.</p>
+<p><strong><a href="/programs/">View Training Programs</a></strong> | <strong><a href="/contact/">Contact Us</a></strong></p>
+<hr>
+<p><em>Always verify weight and balance calculations before first flight. When in doubt, consult an experienced builder or instructor.</em></p>
+
+</article>
+
+  </main>
+  
+  <footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      
+      <div class="footer-col">
+        <h3>Forge and Flight Academy</h3>
+        <p>Professional UAS training for Department of War, universities, and defense contractors.</p>
+        <p class="footer-location">
+          <strong>Location:</strong> Fayetteville, North Carolina<br>
+          <strong>Email:</strong> info@forgeandflightacademy.com
+        </p>
+        <p class="footer-parent">
+          A subsidiary of <a href="https://forgeandflight.com" target="_blank">Forge & Flight Holdings, Inc.</a>
+        </p>
+      </div>
+      
+      
+      <div class="footer-col">
+        <h4>Training Programs</h4>
+        <ul class="footer-links">
+          <li><a href="/programs/fpv-systems-integration/">FPV Systems Integration</a></li>
+          <li><a href="/programs/part-107-prep/">FAA Part 107 Test Prep</a></li>
+          <li><a href="/programs/instructor-certification/">Instructor Certification</a></li>
+          <li><a href="/programs/platform-specific/">Platform-Specific Training</a></li>
+          <li><a href="/programs/custom-training/">Custom Training Solutions</a></li>
+        </ul>
+      </div>
+      
+      
+      <div class="footer-col">
+        <h4>Who We Serve</h4>
+        <ul class="footer-links">
+          <li><a href="/who-we-serve/dod/">Department of War</a></li>
+          <li><a href="/who-we-serve/universities/">Universities</a></li>
+          <li><a href="/who-we-serve/contractors/">Prime Contractors</a></li>
+        </ul>
+        <h4 style="margin-top: 1.5rem;">Resources</h4>
+        <ul class="footer-links">
+          <li><a href="/resources/">Free Resources</a></li>
+          <li><a href="/schedule/">Course Schedule</a></li>
+          <li><a href="/about/">About Us</a></li>
+        </ul>
+      </div>
+      
+      
+      <div class="footer-col">
+        <h4>Credentials</h4>
+        <div class="credentials">
+          <div class="credential-badge">
+            <strong>Operator-Focused</strong><br>
+            Practical Training
+          </div>
+          <div class="credential-badge">
+            <strong>Capability-Based</strong><br>
+            Assessment System
+          </div>
+          <div class="credential-badge">
+            <strong>NAICS:</strong> 611519<br>
+            Technical Training
+          </div>
+        </div>
+        <p class="footer-registration">
+          <small>CAGE Code: TBD | DUNS: TBD</small>
+        </p>
+      </div>
+    </div>
+    
+    
+    <div class="footer-bottom">
+      <div class="footer-legal">
+        <p>&copy; 2026 Forge and Flight Academy, LLC. All rights reserved.</p>
+        <p class="footer-links-inline">
+          <a href="/privacy/">Privacy Policy</a> | 
+          <a href="/terms/">Terms of Service</a> | 
+          <a href="/contact/">Contact</a>
+        </p>
+      </div>
+      <div class="footer-tagline">
+        <p><strong>Build It. Program It. Fly It.</strong></p>
+        <p>American-Made Training | North Carolina Operated</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+  
+  <script src="/js/main.js"></script>
+  
+</body>
+</html>
