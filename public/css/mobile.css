@@ -1,0 +1,102 @@
+/* ============================================
+   MOBILE OPTIMIZATION - READY TO USE
+   Just add this file and link it in your head
+   ============================================ */
+
+/* OPTION 1: Hide info bar on mobile (RECOMMENDED) */
+@media (max-width: 768px) {
+  
+  /* Hide the contact info bar on mobile to save space */
+  .site-info-bar,
+  header .info-bar,
+  .header-info,
+  .contact-bar {
+    display: none !important;
+  }
+  
+  /* Compact header spacing */
+  header {
+    padding: 10px 15px !important;
+  }
+  
+  /* Reduce logo size */
+  .site-title,
+  h1.site-name,
+  .site-logo h1 {
+    font-size: 20px !important;
+    line-height: 1.2 !important;
+    margin-bottom: 4px !important;
+  }
+  
+  /* Reduce tagline size */
+  .site-tagline,
+  .site-description,
+  header p {
+    font-size: 11px !important;
+    line-height: 1.3 !important;
+    margin-top: 0 !important;
+  }
+  
+  /* Ensure header is not sticky on mobile */
+  header {
+    position: relative !important;
+  }
+  
+  /* Remove any top padding for fixed header */
+  body {
+    padding-top: 0 !important;
+  }
+  
+  /* Make hamburger menu bigger and easier to tap */
+  .hamburger,
+  .menu-toggle,
+  .mobile-menu-button {
+    padding: 12px !important;
+    min-width: 44px !important;
+    min-height: 44px !important;
+  }
+}
+
+/* Tablet optimization */
+@media (min-width: 769px) and (max-width: 1024px) {
+  
+  .site-info-bar {
+    padding: 15px 20px !important;
+  }
+  
+  .site-info-bar * {
+    font-size: 14px !important;
+  }
+}
+
+/* Small phones (iPhone SE, etc.) */
+@media (max-width: 375px) {
+  
+  header {
+    padding: 8px 12px !important;
+  }
+  
+  .site-title {
+    font-size: 18px !important;
+  }
+  
+  .site-tagline {
+    font-size: 10px !important;
+  }
+}
+
+/* Landscape mobile */
+@media (max-height: 500px) and (orientation: landscape) {
+  
+  header {
+    padding: 5px 15px !important;
+  }
+  
+  .site-title {
+    font-size: 16px !important;
+  }
+  
+  .site-tagline {
+    display: none !important;
+  }
+}
