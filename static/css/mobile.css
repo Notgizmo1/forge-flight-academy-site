@@ -1,102 +1,115 @@
 /* ============================================
-   MOBILE OPTIMIZATION - READY TO USE
-   Just add this file and link it in your head
+   MOBILE OPTIMIZATION FOR FORGE & FLIGHT ACADEMY
+   Targets actual classes from main.css
    ============================================ */
 
-/* OPTION 1: Hide info bar on mobile (RECOMMENDED) */
+/* HIDE TRUST BAR ON MOBILE */
 @media (max-width: 768px) {
   
-  /* Hide the contact info bar on mobile to save space */
-  .site-info-bar,
-  header .info-bar,
-  .header-info,
-  .contact-bar {
+  /* Hide the trust bar completely on mobile */
+  .trust-bar {
     display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    margin: 0 !important;
   }
   
-  /* Compact header spacing */
-  header {
-    padding: 10px 15px !important;
-  }
-  
-  /* Reduce logo size */
-  .site-title,
-  h1.site-name,
-  .site-logo h1 {
+  /* Compact logo */
+  .logo-text {
     font-size: 20px !important;
     line-height: 1.2 !important;
-    margin-bottom: 4px !important;
   }
   
-  /* Reduce tagline size */
-  .site-tagline,
-  .site-description,
-  header p {
+  .logo-tagline {
     font-size: 11px !important;
     line-height: 1.3 !important;
-    margin-top: 0 !important;
   }
   
-  /* Ensure header is not sticky on mobile */
-  header {
+  /* Remove sticky header on mobile */
+  .site-header {
     position: relative !important;
+    top: auto !important;
   }
   
-  /* Remove any top padding for fixed header */
-  body {
-    padding-top: 0 !important;
+  /* Compact navbar padding */
+  .navbar {
+    padding: 0.75rem 0 !important;
   }
   
-  /* Make hamburger menu bigger and easier to tap */
-  .hamburger,
-  .menu-toggle,
-  .mobile-menu-button {
+  /* Make hamburger easier to tap */
+  .mobile-menu-toggle {
     padding: 12px !important;
     min-width: 44px !important;
     min-height: 44px !important;
   }
+  
+  /* Ensure no extra body padding */
+  body {
+    padding-top: 0 !important;
+  }
 }
 
-/* Tablet optimization */
+/* Tablet - keep trust bar but make it compact */
 @media (min-width: 769px) and (max-width: 1024px) {
   
-  .site-info-bar {
-    padding: 15px 20px !important;
+  .trust-bar {
+    padding: 0.4rem 0 !important;
   }
   
-  .site-info-bar * {
-    font-size: 14px !important;
+  .trust-items {
+    gap: 1rem !important;
+  }
+  
+  .trust-item {
+    font-size: 0.8rem !important;
+  }
+  
+  .trust-icon {
+    font-size: 1rem !important;
   }
 }
 
-/* Small phones (iPhone SE, etc.) */
+/* Small phones - extra compact */
 @media (max-width: 375px) {
   
-  header {
-    padding: 8px 12px !important;
-  }
-  
-  .site-title {
+  .logo-text {
     font-size: 18px !important;
   }
   
-  .site-tagline {
+  .logo-tagline {
     font-size: 10px !important;
+  }
+  
+  .navbar {
+    padding: 0.5rem 0 !important;
   }
 }
 
-/* Landscape mobile */
+/* Landscape mode - hide tagline and trust bar */
 @media (max-height: 500px) and (orientation: landscape) {
   
-  header {
-    padding: 5px 15px !important;
-  }
-  
-  .site-title {
-    font-size: 16px !important;
-  }
-  
-  .site-tagline {
+  .trust-bar {
     display: none !important;
+  }
+  
+  .logo-tagline {
+    display: none !important;
+  }
+  
+  .logo-text {
+    font-size: 18px !important;
+  }
+  
+  .navbar {
+    padding: 0.5rem 0 !important;
+  }
+}
+
+/* Desktop - ensure trust bar shows normally */
+@media (min-width: 769px) {
+  .trust-bar {
+    display: block !important;
   }
 }
