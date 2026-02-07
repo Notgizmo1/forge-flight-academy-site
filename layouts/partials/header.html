@@ -32,8 +32,8 @@
     </div>
   </nav>
   
-  <!-- Trust bar (hidden on mobile, use .trust-bar-mobile class to hide) -->
-  <div class="trust-bar trust-bar-mobile">
+  <!-- Trust bar -->
+  <div class="trust-bar">
     <div class="container">
       <div class="trust-items">
         <div class="trust-item">
@@ -55,4 +55,25 @@
       </div>
     </div>
   </div>
+  
+  <!-- Mobile optimization - inline for guaranteed override -->
+  <style>
+    @media (max-width: 768px) {
+      .trust-bar {
+        display: none !important;
+      }
+      .logo-text {
+        font-size: 20px !important;
+      }
+      .logo-tagline {
+        font-size: 11px !important;
+      }
+      .site-header {
+        position: relative !important;
+      }
+      .navbar {
+        padding: 0.75rem 0 !important;
+      }
+    }
+  </style>
 </header>
