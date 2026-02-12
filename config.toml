@@ -1,28 +1,47 @@
-baseURL = "https://www.forgeandflightacademy.com/"
+baseURL = "https://forgeandflightacademy.com/"
 languageCode = "en-us"
 title = "Forge and Flight Academy"
 googleAnalytics = "G-35K06LBZWT"
 
 [params]
-  description = "Professional UAS Training - Fayetteville, NC"
+  description = "Professional UAS training for Department of War units, government agencies, and research institutions. Build it. Program it. Fly it."
+  company = "Forge and Flight Academy, LLC"
+  email = "info@forgeandflightacademy.com"
+  phone = ""
+  parentCompanyURL = "https://forgeandflight.com"
 
-# Main navigation menu
-[[menu.main]]
-  name = "Getting Started"
-  url = "/getting-started/"
-  weight = 10
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
-[[menu.main]]
-  name = "Programs"
-  url = "/programs/"
-  weight = 20
-
-[[menu.main]]
-  name = "Resources"
-  url = "/resources/"
-  weight = 30
-
-[[menu.main]]
-  name = "Who We Serve"
-  url = "/who-we-serve/"
-  weight = 40
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
+    
+  [[menu.main]]
+    name = "Training Programs"
+    url = "/courses/"
+    weight = 2
+    
+  [[menu.main]]
+    name = "Assessment"
+    url = "/assessment/"
+    weight = 3
+    
+  [[menu.main]]
+    name = "Getting Started"
+    url = "/getting-started/"
+    weight = 4
+    
+  [[menu.main]]
+    name = "Resources"
+    url = "/resources/"
+    weight = 5
+    
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 6

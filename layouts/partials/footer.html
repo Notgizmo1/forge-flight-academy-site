@@ -1,84 +1,43 @@
-<footer class="site-footer">
-  <div class="container">
+<footer>
+  <div class="footer-container">
     <div class="footer-grid">
-      <!-- Company Info -->
-      <div class="footer-col">
-        <h3>Forge and Flight Academy</h3>
-        <p>Professional UAS training for Department of War, universities, and defense contractors.</p>
-        <p class="footer-location">
-          <strong>Location:</strong> Fayetteville, North Carolina<br>
-          <strong>Email:</strong> info@forgeandflightacademy.com
-        </p>
-        <p class="footer-parent">
-          A subsidiary of <a href="https://forgeandflight.com" target="_blank">Forge & Flight Holdings, Inc.</a>
-        </p>
-      </div>
-      
-      <!-- Quick Links -->
-      <div class="footer-col">
+      <div class="footer-section">
         <h4>Training Programs</h4>
-        <ul class="footer-links">
-          <li><a href="/programs/fpv-systems-integration/">FPV Systems Integration</a></li>
-          <li><a href="/programs/part-107-prep/">FAA Part 107 Test Prep</a></li>
-          <li><a href="/programs/instructor-certification/">Instructor Certification</a></li>
-          <li><a href="/programs/platform-specific/">Platform-Specific Training</a></li>
-          <li><a href="/programs/custom-training/">Custom Training Solutions</a></li>
+        <ul>
+          <li><a href="/courses/">All Courses</a></li>
+          <li><a href="/courses/fff-401/">FFF-401: FPV Systems Integration</a></li>
+          <li><a href="/assessment/">Assessment Services</a></li>
         </ul>
       </div>
       
-      <!-- Who We Serve -->
-      <div class="footer-col">
-        <h4>Who We Serve</h4>
-        <ul class="footer-links">
-          <li><a href="/who-we-serve/dod/">Department of War</a></li>
-          <li><a href="/who-we-serve/universities/">Universities</a></li>
-          <li><a href="/who-we-serve/contractors/">Prime Contractors</a></li>
-        </ul>
-        <h4 style="margin-top: 1.5rem;">Resources</h4>
-        <ul class="footer-links">
+      <div class="footer-section">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="/getting-started/">Getting Started Guide</a></li>
           <li><a href="/resources/">Free Resources</a></li>
-          <li><a href="/schedule/">Course Schedule</a></li>
-          <li><a href="/about/">About Us</a></li>
+          <li><a href="/about/five-pillars/">Five-Pillar Framework</a></li>
         </ul>
       </div>
       
-      <!-- Credentials -->
-      <div class="footer-col">
-        <h4>Credentials</h4>
-        <div class="credentials">
-          <div class="credential-badge">
-            <strong>Operator-Focused</strong><br>
-            Practical Training
-          </div>
-          <div class="credential-badge">
-            <strong>Capability-Based</strong><br>
-            Assessment System
-          </div>
-          <div class="credential-badge">
-            <strong>NAICS:</strong> 611519<br>
-            Technical Training
-          </div>
-        </div>
-        <p class="footer-registration">
-          <small>CAGE Code: TBD | DUNS: TBD</small>
-        </p>
+      <div class="footer-section">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about/">About Us</a></li>
+          <li><a href="{{ .Site.Params.parentCompanyURL }}" target="_blank" rel="noopener">Forge & Flight Holdings</a></li>
+          <li><a href="/contact/">Contact</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h4>Contact</h4>
+        <p>Fayetteville, North Carolina</p>
+        <p>Email: <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></p>
       </div>
     </div>
     
-    <!-- Bottom bar -->
     <div class="footer-bottom">
-      <div class="footer-legal">
-        <p>&copy; {{ now.Year }} Forge and Flight Academy, LLC. All rights reserved.</p>
-        <p class="footer-links-inline">
-          <a href="/privacy/">Privacy Policy</a> | 
-          <a href="/terms/">Terms of Service</a> | 
-          <a href="/contact/">Contact</a>
-        </p>
-      </div>
-      <div class="footer-tagline">
-        <p><strong>Build It. Program It. Fly It.</strong></p>
-        <p>American-Made Training | North Carolina Operated</p>
-      </div>
+      <p>&copy; {{ now.Year }} {{ .Site.Params.company }}. All rights reserved. | <a href="{{ .Site.Params.parentCompanyURL }}" target="_blank" rel="noopener">A Forge & Flight Holdings Company</a></p>
+      <p class="mt-1">Build It. Program It. Fly It.</p>
     </div>
   </div>
 </footer>

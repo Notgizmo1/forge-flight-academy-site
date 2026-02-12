@@ -1,0 +1,12 @@
+{{ define "main" }}
+<div class="container">
+  <article>
+    <h1>{{ .Title }}</h1>
+    {{ if .Params.subtitle }}
+    <p class="text-center" style="font-size: 1.25rem; color: var(--color-navy-light); margin-bottom: 2rem;">{{ .Params.subtitle }}</p>
+    {{ end }}
+    
+    {{ .Content }}
+  </article>
+</div>
+{{ end }}

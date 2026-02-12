@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About Forge and Flight Academy on Forge and Flight Academy</title>
+    <link>http://localhost:1313/about/</link>
+    <description>Recent content in About Forge and Flight Academy on Forge and Flight Academy</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Five-Pillar Capability Framework</title>
+      <link>http://localhost:1313/about/five-pillars/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/five-pillars/</guid>
+      <description>&lt;h2 id=&#34;the-five-pillar-capability-framework&#34;&gt;The Five-Pillar Capability Framework&lt;/h2&gt;&#xA;&lt;p&gt;Forge and Flight Academy training operates across five interconnected capability domains that work together to create comprehensive technical competency. &lt;strong&gt;This is not a course categorization system&lt;/strong&gt;—it&amp;rsquo;s an integrated training methodology where every course touches multiple pillars.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;pillar-i-unmanned--autonomous-systems&#34;&gt;Pillar I: Unmanned &amp;amp; Autonomous Systems&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Platform design, assembly, operation, and sustainment&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;This pillar covers the end-to-end lifecycle of unmanned systems from design intent through field sustainment. Students learn platforms as integrated systems—not just flyable objects.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

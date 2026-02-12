@@ -1,79 +1,21 @@
-<header class="site-header">
-  <nav class="navbar">
-    <div class="container">
-      <div class="nav-wrapper">
-        <!-- Logo -->
-        <div class="logo">
-          <a href="/">
-            <span class="logo-text">Forge and Flight Academy</span>
-            <span class="logo-tagline">Measurable Proficiency, Not Just Certificates</span>
-          </a>
-        </div>
-        
-        <!-- Mobile menu toggle -->
-        <button class="mobile-menu-toggle" aria-label="Toggle menu" onclick="toggleMobileMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-        
-        <!-- Navigation menu -->
-        <ul class="nav-menu" id="navMenu">
-          {{ range .Site.Menus.main }}
-          <li class="nav-item{{ if $.IsMenuCurrent "main" . }} active{{ end }}">
-            <a href="{{ .URL }}" class="nav-link">{{ .Name }}</a>
-          </li>
-          {{ end }}
-          <li class="nav-item cta">
-            <a href="/schedule/" class="btn btn-primary">View Schedule</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  
-  <!-- Trust bar -->
-  <div class="trust-bar">
-    <div class="container">
-      <div class="trust-items">
-        <div class="trust-item">
-          <span class="trust-icon">📍</span>
-          <span>Fayetteville, NC (Near Fort Liberty)</span>
-        </div>
-        <div class="trust-item">
-          <span class="trust-icon">🎯</span>
-          <span>Capability-Based Training</span>
-        </div>
-        <div class="trust-item">
-          <span class="trust-icon">🛠️</span>
-          <span>Hands-On Development</span>
-        </div>
-        <div class="trust-item">
-          <span class="trust-icon">✉️</span>
-          <span>info@forgeandflightacademy.com</span>
-        </div>
-      </div>
-    </div>
+<div class="trust-bar">
+  <div class="trust-items">
+    <span>American-Made</span>
+    <span>NDAA Compliant</span>
+    <span>Veteran-Led</span>
+    <span>Fort Bragg Adjacent</span>
   </div>
-  
-  <!-- Mobile optimization - inline for guaranteed override -->
-  <style>
-    @media (max-width: 768px) {
-      .trust-bar {
-        display: none !important;
-      }
-      .logo-text {
-        font-size: 20px !important;
-      }
-      .logo-tagline {
-        font-size: 11px !important;
-      }
-      .site-header {
-        position: relative !important;
-      }
-      .navbar {
-        padding: 0.75rem 0 !important;
-      }
-    }
-  </style>
+</div>
+
+<header>
+  <div class="header-container">
+    <a href="/" class="logo">Forge and Flight Academy</a>
+    <nav>
+      <ul>
+        {{ range .Site.Menus.main }}
+        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+    </nav>
+  </div>
 </header>
