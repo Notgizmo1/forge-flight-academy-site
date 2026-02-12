@@ -2,74 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/resources/part-107-study-guide/</loc>
-    <lastmod>2025-02-06T00:00:00+00:00</lastmod>
+    <loc>//localhost:1313/</loc>
   </url><url>
-    <loc>http://localhost:1313/getting-started/chapter-1/</loc>
+    <loc>//localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/resources/practice-test/</loc>
-    <lastmod>2025-02-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/getting-started/chapter-2/</loc>
-  </url><url>
-    <loc>http://localhost:1313/resources/airspace-reference/</loc>
-    <lastmod>2025-02-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/getting-started/chapter-3/</loc>
-  </url><url>
-    <loc>http://localhost:1313/resources/preflight-checklist/</loc>
-    <lastmod>2025-02-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/getting-started/chapter-4/</loc>
-  </url><url>
-    <loc>http://localhost:1313/resources/flight-log-template/</loc>
-    <lastmod>2025-02-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/getting-started/chapter-5/</loc>
-  </url><url>
-    <loc>http://localhost:1313/resources/weight-balance-calculator/</loc>
-    <lastmod>2025-02-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-02-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/resources/</loc>
-    <lastmod>2025-02-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/about/</loc>
-  </url><url>
-    <loc>http://localhost:1313/assessment/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/contact/</loc>
-  </url><url>
-    <loc>http://localhost:1313/courses/ffa-201/</loc>
-  </url><url>
-    <loc>http://localhost:1313/courses/ffa-401/</loc>
-  </url><url>
-    <loc>http://localhost:1313/courses/ffa-501/</loc>
-  </url><url>
-    <loc>http://localhost:1313/courses/fff-201/</loc>
-  </url><url>
-    <loc>http://localhost:1313/courses/fff-301/</loc>
-  </url><url>
-    <loc>http://localhost:1313/courses/fff-401/</loc>
-  </url><url>
-    <loc>http://localhost:1313/courses/fff-402/</loc>
-  </url><url>
-    <loc>http://localhost:1313/courses/ffr-101/</loc>
-  </url><url>
-    <loc>http://localhost:1313/courses/ffr-201/</loc>
-  </url><url>
-    <loc>http://localhost:1313/courses/ffr-301/</loc>
-  </url><url>
-    <loc>http://localhost:1313/about/five-pillars/</loc>
-  </url><url>
-    <loc>http://localhost:1313/getting-started/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-  </url><url>
-    <loc>http://localhost:1313/courses/</loc>
+    <loc>//localhost:1313/tags/</loc>
   </url>
 </urlset>
