@@ -1,0 +1,3 @@
+# Redirect old programs URLs to new courses structure
+/programs/* /courses/ 301
+/programs /courses 301
