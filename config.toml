@@ -7,7 +7,6 @@ googleAnalytics = "G-35K06LBZWT"
   description = "Professional UAS training for Department of War units, government agencies, and research institutions. Build it. Program it. Fly it."
   company = "Forge and Flight Academy, LLC"
   email = "info@forgeandflightacademy.com"
-  phone = ""
   parentCompanyURL = "https://forgeandflight.com"
 
 [markup]

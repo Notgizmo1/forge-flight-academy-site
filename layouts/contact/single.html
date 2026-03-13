@@ -1,0 +1,457 @@
+{{ define "main" }}
+<style>
+.contact-hero {
+  background: var(--navy);
+  color: var(--white);
+  padding: 4rem 0 3rem;
+  text-align: center;
+  border-bottom: 3px solid var(--amber);
+}
+
+.contact-hero h1 {
+  color: var(--white);
+  font-size: 2.75rem;
+  margin-bottom: 1rem;
+}
+
+.contact-hero p {
+  font-size: 1.15rem;
+  color: var(--light-gray);
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.contact-body {
+  padding: 4rem 0;
+  background: #f8f9fa;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 2.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  align-items: start;
+}
+
+/* Form card */
+.form-card {
+  background: var(--white);
+  border-radius: 6px;
+  padding: 2.5rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  border-top: 3px solid var(--amber);
+}
+
+.form-card h2 {
+  font-size: 1.6rem;
+  color: var(--navy);
+  margin-bottom: 0.4rem;
+}
+
+.form-card .form-subtitle {
+  color: #64748b;
+  font-size: 0.95rem;
+  margin-bottom: 2rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--navy);
+  margin-bottom: 0.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.form-group label .req {
+  color: var(--amber);
+  margin-left: 2px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  padding: 0.7rem 0.9rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  font-family: inherit;
+  color: var(--dark-gray);
+  background: white;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--amber);
+  box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.15);
+}
+
+.form-group textarea {
+  min-height: 130px;
+  resize: vertical;
+}
+
+.form-submit {
+  background: var(--amber);
+  color: var(--white);
+  padding: 0.85rem 2.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+  align-self: flex-start;
+  margin-top: 0.5rem;
+}
+
+.form-submit:hover {
+  background: var(--amber-dark);
+  transform: translateY(-1px);
+}
+
+.form-submit:active {
+  transform: translateY(0);
+}
+
+/* Info sidebar */
+.info-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.info-card {
+  background: var(--white);
+  border-radius: 6px;
+  padding: 1.75rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.info-card h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--navy);
+  margin-bottom: 1rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 2px solid var(--amber);
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.info-item:last-child {
+  margin-bottom: 0;
+}
+
+.info-item strong {
+  color: var(--navy);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  margin-bottom: 0.2rem;
+}
+
+.info-item span, .info-item a {
+  color: #374151;
+}
+
+.info-item a {
+  color: var(--amber-dark);
+  font-weight: 600;
+}
+
+.response-badge {
+  background: var(--navy);
+  color: var(--light-gray);
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.response-badge::before {
+  content: "✓";
+  color: var(--amber);
+  font-weight: 700;
+}
+
+.checklist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.checklist li {
+  font-size: 0.875rem;
+  color: #374151;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  line-height: 1.4;
+}
+
+.checklist li::before {
+  content: "✓";
+  color: var(--amber);
+  font-weight: 700;
+  flex-shrink: 0;
+  margin-top: 0.05rem;
+}
+
+.quick-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.quick-link {
+  display: block;
+  padding: 0.6rem 0.85rem;
+  background: #f8f9fa;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--navy) !important;
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.quick-link:hover {
+  background: var(--amber);
+  border-color: var(--amber);
+  color: var(--white) !important;
+}
+
+@media (max-width: 900px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+  .contact-hero h1 {
+    font-size: 2rem;
+  }
+}
+</style>
+
+<div class="contact-hero">
+  <div class="container" style="padding: 0 2rem;">
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Params.description }}</p>
+  </div>
+</div>
+
+<div class="contact-body">
+  <div class="contact-grid">
+
+    <!-- FORM -->
+    <div class="form-card">
+      <h2>Submit a Training Inquiry</h2>
+      <p class="form-subtitle">Our team responds to all training inquiries within 24 hours. Government and DoD requests receive same-day priority.</p>
+
+      <form class="contact-form" method="POST" action="https://formspree.io/f/mzdjvrdl">
+        <input type="hidden" name="_subject" value="New Training Inquiry — Forge and Flight Academy">
+        <input type="text" name="_gotcha" style="display:none">
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Full Name <span class="req">*</span></label>
+            <input type="text" id="name" name="name" required placeholder="First Last">
+          </div>
+          <div class="form-group">
+            <label for="email">Email <span class="req">*</span></label>
+            <input type="email" id="email" name="email" required placeholder="you@org.gov">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" placeholder="(910) 555-0100">
+          </div>
+          <div class="form-group">
+            <label for="organization">Organization <span class="req">*</span></label>
+            <input type="text" id="organization" name="organization" required placeholder="Unit, Agency, or Institution">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="org-type">Organization Type <span class="req">*</span></label>
+          <select id="org-type" name="org-type" required>
+            <option value="">Select type...</option>
+            <option value="active-duty">Active Duty Military Unit</option>
+            <option value="reserve-ng">Reserve / National Guard</option>
+            <option value="dod-civilian">DoD Civilian Agency</option>
+            <option value="federal-agency">Other Federal Agency</option>
+            <option value="state-local">State / Local Government</option>
+            <option value="university">University / Research Institution</option>
+            <option value="contractor">Defense Contractor</option>
+            <option value="commercial">Commercial Enterprise</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="course-interest">Course / Program of Interest</label>
+            <select id="course-interest" name="course-interest">
+              <option value="">Select course...</option>
+              <option value="fff-201">FFF-201 — Fixed-Wing Fundamentals</option>
+              <option value="fff-301">FFF-301 — Advanced Fixed-Wing Operations</option>
+              <option value="fff-401">FFF-401 — Mission Systems Integration</option>
+              <option value="fff-402">FFF-402 — Autonomous Systems Operations</option>
+              <option value="ffr-101">FFR-101 — Part 107 Certification Prep</option>
+              <option value="ffr-201">FFR-201 — Regulatory Compliance for DoD</option>
+              <option value="ffr-301">FFR-301 — Advanced Airspace Management</option>
+              <option value="ffa-201">FFA-201 — UAS Fabrication Fundamentals</option>
+              <option value="ffa-401">FFA-401 — Advanced UAS Fabrication</option>
+              <option value="ffa-501">FFA-501 — Platform Integration & Testing</option>
+              <option value="practical-uas">Practical UAS Development Program</option>
+              <option value="not-sure">Not sure — need recommendation</option>
+              <option value="custom">Custom curriculum request</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="student-count">Estimated Student Count</label>
+            <select id="student-count" name="student-count">
+              <option value="">Select range...</option>
+              <option value="1-5">1–5 students</option>
+              <option value="6-10">6–10 students</option>
+              <option value="11-20">11–20 students</option>
+              <option value="21-40">21–40 students</option>
+              <option value="40+">40+ students</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="timeline">Desired Training Timeline</label>
+            <select id="timeline" name="timeline">
+              <option value="">Select timeline...</option>
+              <option value="asap">ASAP (within 30 days)</option>
+              <option value="1-3mo">1–3 months</option>
+              <option value="3-6mo">3–6 months</option>
+              <option value="6-12mo">6–12 months</option>
+              <option value="planning">Planning / Budgeting phase</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="location-pref">Location Preference</label>
+            <select id="location-pref" name="location-pref">
+              <option value="">Select preference...</option>
+              <option value="facility">Facility-based (Fayetteville, NC)</option>
+              <option value="on-site">On-site at our location</option>
+              <option value="flexible">Flexible</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Requirements & Questions <span class="req">*</span></label>
+          <textarea id="message" name="message" required placeholder="Describe your training objectives, operational context, specific requirements, or any questions..."></textarea>
+        </div>
+
+        <button type="submit" class="form-submit">Submit Training Inquiry</button>
+      </form>
+    </div>
+
+    <!-- SIDEBAR -->
+    <div class="info-stack">
+
+      <div class="info-card">
+        <h3>Direct Contact</h3>
+        <div class="info-item">
+          <strong>Email</strong>
+          <a href="mailto:info@forgeandflightacademy.com">info@forgeandflightacademy.com</a>
+        </div>
+        <div class="info-item">
+          <strong>Hours</strong>
+          <span>Monday–Friday, 0900–1700 EST</span>
+        </div>
+        <div class="info-item">
+          <strong>Location</strong>
+          <span>Fayetteville, NC (Fort Liberty Adjacent)</span>
+        </div>
+        <div class="response-badge">
+          Responses within 24 hours — DoD same day
+        </div>
+      </div>
+
+      <div class="info-card">
+        <h3>To Expedite Your Proposal</h3>
+        <ul class="checklist">
+          <li>Organization type and unit/agency name</li>
+          <li>Estimated number of students</li>
+          <li>Specific course codes or capability goals</li>
+          <li>Desired training dates or deployment window</li>
+          <li>Location preference (facility or on-site)</li>
+          <li>Point of contact name, phone, and email</li>
+        </ul>
+      </div>
+
+      <div class="info-card">
+        <h3>Parent Organization</h3>
+        <div class="info-item">
+          <strong>Forge & Flight Holdings, Inc.</strong>
+          <span>Fayetteville, North Carolina</span>
+        </div>
+        <div class="info-item">
+          <a href="https://forgeandflight.com" target="_blank" rel="noopener">forgeandflight.com →</a>
+        </div>
+      </div>
+
+      <div class="info-card">
+        <h3>Quick Links</h3>
+        <div class="quick-links">
+          <a href="/courses/" class="quick-link">View All Courses</a>
+          <a href="/assessment/" class="quick-link">Assessment Services</a>
+          <a href="/programs/" class="quick-link">Training Programs</a>
+          <a href="/resources/" class="quick-link">Free Resources</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+{{ end }}
