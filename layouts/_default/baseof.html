@@ -8,7 +8,24 @@
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   
   <link rel="canonical" href="{{ .Permalink }}">
-  
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Forge and Flight Academy">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
+  <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <meta property="og:image" content="{{ .Site.BaseURL }}images/og-image.jpg">
+  <meta property="og:site_name" content="Forge and Flight Academy">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
+  <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <meta name="twitter:image" content="{{ .Site.BaseURL }}images/og-image.jpg">
+
   <!-- Favicon -->
   <link rel="icon" type="image/jpeg" href="/images/favicon.jpg">
   <link rel="shortcut icon" type="image/jpeg" href="/images/favicon.jpg">
@@ -27,7 +44,89 @@
     gtag('js', new Date());
     gtag('config', 'G-35K06LBZWT');
   </script>
-  
+
+  <!-- JSON-LD Organization Schema -->
+  {{ if .IsHome }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "Forge and Flight Academy, LLC",
+    "url": "https://forgeandflightacademy.com",
+    "logo": "https://forgeandflightacademy.com/images/favicon.jpg",
+    "description": "Professional UAS training for Department of Defense units, government agencies, universities, and commercial operators. Facility-based and on-site training. Fort Bragg adjacent, Fayetteville, NC.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Fayetteville",
+      "addressRegion": "NC",
+      "addressCountry": "US"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "info@forgeandflightacademy.com",
+      "contactType": "Customer Service",
+      "availableLanguage": "English",
+      "hoursAvailable": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    },
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "Forge & Flight Holdings, Inc.",
+      "url": "https://forgeandflight.com"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "UAS Training Programs",
+      "itemListElement": [
+        {"@type": "Course", "name": "FFF-401: Advanced FPV Systems Integration & Field Sustainment", "url": "https://forgeandflightacademy.com/courses/fff-401/"},
+        {"@type": "Course", "name": "FFR-201: Tactical RF Fundamentals for UAS Operators", "url": "https://forgeandflightacademy.com/courses/ffr-201/"},
+        {"@type": "Course", "name": "FFA-401: Operational Edge Computing for UAS", "url": "https://forgeandflightacademy.com/courses/ffa-401/"},
+        {"@type": "Course", "name": "FFF-402: FPV Master Trainer Certification", "url": "https://forgeandflightacademy.com/courses/fff-402/"},
+        {"@type": "Course", "name": "FFR-301: Advanced Electronic Warfare for UAS Operations", "url": "https://forgeandflightacademy.com/courses/ffr-301/"}
+      ]
+    },
+    "areaServed": "US",
+    "knowsAbout": [
+      "UAS Operator Training", "FAA Part 107", "FPV Systems", "Electronic Warfare",
+      "Autonomous Systems", "NDAA Compliance", "DoD UAS Training", "ArduPilot"
+    ]
+  }
+  </script>
+  {{ end }}
+
+  {{ if eq .Section "courses" }}
+  {{ if not .IsSection }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "{{ .Title }}",
+    "description": "{{ .Description | default .Site.Params.description }}",
+    "url": "{{ .Permalink }}",
+    "provider": {
+      "@type": "EducationalOrganization",
+      "name": "Forge and Flight Academy, LLC",
+      "url": "https://forgeandflightacademy.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Fayetteville",
+        "addressRegion": "NC",
+        "addressCountry": "US"
+      }
+    },
+    "educationalLevel": "Professional",
+    "inLanguage": "en-US",
+    "availableLanguage": "English",
+    "courseMode": ["onsite", "blended"]
+  }
+  </script>
+  {{ end }}
+  {{ end }}
+
   {{ block "head" . }}{{ end }}
 </head>
 <body>
