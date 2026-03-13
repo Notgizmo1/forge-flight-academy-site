@@ -1,6 +1,7 @@
 ---
 title: "Training Programs"
 description: "Professional UAS training programs across five capability pillars. From basic operations to advanced electronic warfare and autonomous systems."
+layout: "list"
 ---
 
 ## Professional UAS Training Programs

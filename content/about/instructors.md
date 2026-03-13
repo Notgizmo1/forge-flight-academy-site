@@ -25,17 +25,17 @@ All Academy instructors must meet minimum qualifications before assignment to an
 
 ## Lead Instructor
 
-### Michael Ortiz
+### Mike
 **Founder | Lead UAS Operations & Autonomy Instructor**
 
-Michael Ortiz is a 20-year U.S. Army Special Operations veteran preparing for medical retirement in 2026. His operational background spans 10 deployments across tactical and strategic environments, embassy postings in South America, and work with U.S. Ambassadors on regional policy and counterterrorism operations.
+Mike is a retired U.S. Army Special Operations veteran with 20 years of service. His operational background spans 10 deployments across tactical and strategic environments, embassy postings in South America, and work with U.S. Ambassadors on regional policy and counterterrorism operations.
 
 **Education & Credentials:**
 - B.S. Aeronautical Science, Embry-Riddle Aeronautical University (minor: Space Physics)
 - A.S. Business Administration, Columbia Southern University
 - Commercial Pilot License
 - FCC Technician License
-- FAA Part 107 Remote Pilot (in progress)
+- FAA Part 107 Remote Pilot
 - Fluent Spanish
 
 **Technical Background:**
@@ -45,7 +45,7 @@ Michael Ortiz is a 20-year U.S. Army Special Operations veteran preparing for me
 - Python development and automation
 - Custom device fabrication and programming
 
-**Instruction Focus:** UAS operations, autonomy systems, mission planning, NDAA compliance, tactical integration, and operator self-sufficiency doctrine. All courses integrating operational lessons from current conflict environments (Ukraine, SOCOM requirements) are designed and led by Michael.
+**Instruction Focus:** UAS operations, autonomy systems, mission planning, NDAA compliance, tactical integration, and operator self-sufficiency doctrine. All courses integrating operational lessons from current conflict environments (Ukraine, SOCOM requirements) are designed and led by Mike.
 
 ---
 
