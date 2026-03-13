@@ -13,7 +13,7 @@ description: "Professional UAS training for Department of War units, government 
 
 ### Integrated Ecosystem
 
-Only training organization that builds platforms (Forge & Flight Labs), operates test ranges (AeroRange Systems), and manufactures electronics (American UAS Electronics). Train on systems you'll deploy—not generic consumer platforms.
+Only training organization that builds platforms (Forge & Flight Labs), operates test ranges (Flight Test Division), and manufactures electronics (Electronics Manufacturing Division). Train on systems you'll deploy—not generic consumer platforms.
 
 ### Operator Self-Sufficiency
 
@@ -33,9 +33,11 @@ Training based on Ukrainian operational lessons learned and current SOCOM requir
 
 All instructors are FAA-certified remote pilots with real operational experience. Combination of regulatory knowledge and tactical expertise—not academic theory.
 
+[Meet Our Instructor Cadre →](/about/instructors/)
+
 ### NDAA Compliance
 
-All training platforms use American-made avionics from American UAS Electronics, fully compliant with NDAA Section 848.
+All training platforms use American-made avionics from our Electronics Manufacturing Division, fully compliant with NDAA Section 848.
 
 ---
 
@@ -60,8 +62,8 @@ Professional training for surveying, inspection, mapping, agriculture, and other
 Forge and Flight Academy is a wholly-owned subsidiary of **Forge & Flight Holdings, Inc.**, an integrated unmanned systems company providing:
 
 - **Forge & Flight Labs:** Platform design and manufacturing (Aether, Vanguard, Titan)
-- **American UAS Electronics:** NDAA-compliant avionics and control systems
-- **AeroRange Systems:** Test range operations and validation services
+- **Electronics Manufacturing Division:** NDAA-compliant avionics and control systems
+- **Flight Test Division:** Test range operations and validation services
 - **Forge and Flight Academy:** Professional training and assessment services
 
 **Corporate Website:** [https://forgeandflight.com](https://forgeandflight.com)
@@ -101,5 +103,9 @@ Ready to discuss training for your organization?
 <div class="card">
 <h3>Five-Pillar Framework</h3>
 <a href="/about/five-pillars/">Learn More →</a>
+</div>
+<div class="card">
+<h3>Instructor Cadre</h3>
+<a href="/about/instructors/">Meet Our Instructors →</a>
 </div>
 </div>

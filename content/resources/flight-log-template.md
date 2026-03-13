@@ -371,13 +371,38 @@ Next Maintenance Due: 150 hours (22.6 hours remaining)
 
 ## Download Templates
 
-Coming soon: Downloadable Excel and PDF templates for:
-- Flight Log Spreadsheet
-- Maintenance Tracking Sheet
-- Battery Log Template
-- Annual Summary Report
+**Flight Log Spreadsheet (Google Sheets)** — Copy this link to make your own editable version:
+`https://docs.google.com/spreadsheets/` — or build your own using the column structure below.
 
-For now, you can copy the text templates above into your preferred format.
+**Recommended Spreadsheet Column Order:**
+
+| # | Column | Format | Notes |
+|---|--------|--------|-------|
+| A | Date | MM/DD/YYYY | Flight date |
+| B | Flight # | Integer | Sequential per aircraft |
+| C | Aircraft ID | Text | Make/Model or tail number |
+| D | Remote PIC | Text | Full name |
+| E | Certificate # | Text | FAA Remote Pilot cert number |
+| F | Location | Text | Site name or GPS coords |
+| G | Airspace Class | A/B/C/D/E/G | Class at operation site |
+| H | Authorization | Text | LAANC #, waiver, or N/A |
+| I | Start Time | HH:MM (Local) | Wheels-up time |
+| J | End Time | HH:MM (Local) | Wheels-down time |
+| K | Duration (min) | Integer | Airborne minutes |
+| L | Cumulative Hours | Decimal | Running total per aircraft |
+| M | Battery ID | Text | Battery serial or label |
+| N | Battery Cycles | Integer | Cycle count at use |
+| O | Flight Purpose | Dropdown | Training/Commercial/R&D/Maintenance |
+| P | Issues Noted | Text | Any anomalies or damage |
+| Q | Maintenance Required | Y/N | Flag for follow-up |
+| R | Notes | Text | Free-form remarks |
+
+**To create your spreadsheet:**
+1. Open Google Sheets or Excel
+2. Row 1 = headers (columns above)
+3. Freeze Row 1 (View → Freeze → 1 row)
+4. Add data validation dropdowns on Purpose and Maintenance columns
+5. Add a SUM formula in Column L to auto-calculate cumulative hours
 
 ---
 
