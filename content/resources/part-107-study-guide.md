@@ -1,10 +1,11 @@
 ---
-title: "Part 107 Study Guide"
-description: "Complete FAA Part 107 exam preparation covering airspace, weather, regulations, and operations. Free study materials for remote pilot certification."
+title: "FAA Part 107 Study Guide — Complete Remote Pilot Certificate Exam Prep | Forge and Flight Academy"
+description: "Complete FAA Part 107 Remote Pilot Certificate study guide covering airspace classification, weather interpretation, regulations, and flight operations. Free exam preparation materials."
 date: 2025-02-06
 draft: false
 weight: 1
 ---
+This Part 107 study guide covers every topic area tested on the FAA Remote Pilot Certificate knowledge exam. Use it alongside official FAA materials to prepare for your aeronautical knowledge test at an FAA-approved testing center. The guide is organized to match the exam's content areas: airspace classification, aviation weather, regulations, loading and performance, and radio communications.
 
 Everything you need to prepare for your FAA Part 107 Remote Pilot Certificate exam.
 

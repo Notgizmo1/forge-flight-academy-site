@@ -1,10 +1,11 @@
 ---
-title: "Airspace Quick Reference"
-description: "Complete guide to FAA airspace classifications, authorization requirements, and operational restrictions for Part 107 pilots."
+title: "FAA Airspace Classification Quick Reference for Drone Pilots | Forge and Flight Academy"
+description: "Complete FAA airspace classification guide for Part 107 drone pilots. Covers Class A through G airspace, authorization requirements, LAANC, TFRs, and special use airspace."
 date: 2025-02-06
 draft: false
 weight: 3
 ---
+This airspace reference guide covers every FAA airspace classification relevant to Part 107 drone operations — from Class A through Class G, special use airspace, temporary flight restrictions, and LAANC authorization. Whether you are preparing for the Part 107 knowledge exam or looking up a specific airspace requirement before a flight, this reference gives you the information in a format optimized for field use.
 
 A comprehensive guide to navigating U.S. airspace for Part 107 remote pilots.
 

@@ -1,10 +1,11 @@
 ---
-title: "Weight & Balance Calculator"
-description: "Calculate center of gravity and weight distribution for UAS platforms. Ensure safe flight operations with proper weight and balance."
+title: "UAS Weight & Balance Calculator and Reference Guide | Forge and Flight Academy"
+description: "Calculate center of gravity and weight distribution for unmanned aircraft systems. Includes weight and balance theory, calculation methodology, and payload planning guidance for UAS operators."
 date: 2025-02-06
 draft: false
 weight: 6
 ---
+Proper weight and balance calculation is required for safe UAS operations — particularly when carrying variable payloads or operating custom-built platforms. This guide covers the theory behind UAS center of gravity, how to calculate weight and balance for your specific platform, and how to plan payload configurations that stay within approved limits. Applicable to all platform types from small multirotors to Group 2 and 3 fixed-wing systems.
 
 **🎯 [Try the Interactive Calculator](/tools/weight-balance-calculator.html)** - Calculate CG in real-time with visual feedback
 

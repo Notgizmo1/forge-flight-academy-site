@@ -1,11 +1,11 @@
 ---
-title: "Flight Log Template"
-description: "Professional flight log template for Part 107 operations. Track flight hours, maintenance, and regulatory compliance."
+title: "UAS Flight Log Template for Part 107 Operations — Free | Forge and Flight Academy"
+description: "Free professional UAS flight log template for Part 107 commercial drone operations. Printable individual flight entry, maintenance log, and battery tracking templates with spreadsheet column structure."
 date: 2025-02-06
 draft: false
 weight: 5
 ---
-
+This flight log template is designed for FAA Part 107 commercial UAS operators who need to document flights for insurance compliance, contract proof of service, tax purposes, or safety management systems. It includes a complete individual flight entry form, maintenance tracking log, battery health log, and a recommended spreadsheet column structure for digital logging. Download and adapt to your specific operation.
 
 A comprehensive flight log system for tracking your UAS operations, maintenance, and regulatory compliance.
 

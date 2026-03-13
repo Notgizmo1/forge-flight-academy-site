@@ -1,10 +1,11 @@
 ---
-title: "Pre-Flight Checklist"
-description: "Professional 8-section pre-flight checklist for Part 107 operations. Ensure regulatory compliance and safe flight operations."
+title: "UAS Pre-Flight Checklist for Part 107 Operations — Printable | Forge and Flight Academy"
+description: "Professional 8-section UAS pre-flight checklist for FAA Part 107 commercial drone operations. Covers regulatory compliance, equipment inspection, weather, airspace, and emergency procedures."
 date: 2025-02-06
 draft: false
 weight: 4
 ---
+This pre-flight checklist is designed for FAA Part 107 remote pilot operations. It covers all eight critical inspection and compliance areas required before every commercial UAS flight: regulatory compliance, equipment condition, battery and power systems, communications, airspace authorization, weather assessment, site survey, and emergency procedures. Print it, laminate it, and use it every flight.
 
 A comprehensive checklist for safe, compliant Part 107 operations. Use before every flight to ensure readiness.
 

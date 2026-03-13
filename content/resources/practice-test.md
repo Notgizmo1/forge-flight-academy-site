@@ -1,10 +1,11 @@
 ---
-title: "Part 107 Practice Test"
-description: "50 sample questions to help you prepare for the FAA Part 107 Remote Pilot exam. Test your knowledge across all exam topics."
+title: "Free Part 107 Practice Test — 50 Questions with Answers | Forge and Flight Academy"
+description: "Free FAA Part 107 practice test with 50 questions and answer key covering airspace, weather, regulations, and operations. Prepare for your Remote Pilot Certificate exam."
 date: 2025-02-06
 draft: false
 weight: 2
 ---
+This free Part 107 practice test contains 50 questions drawn from all major FAA Remote Pilot Certificate exam topics. Use it to identify weak areas before your actual knowledge test. All questions include answers at the bottom — take notes on misses for targeted study. The actual Part 107 exam has 60 questions with a 2-hour time limit and 70% passing score.
 
 Test your knowledge with these 50 practice questions covering all major Part 107 exam topics. Answers are provided at the bottom.
 
