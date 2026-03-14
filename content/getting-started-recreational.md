@@ -1,6 +1,6 @@
 ---
-title: "Getting Started with Drones"
-description: "Complete guide for new drone pilots. Learn FAA requirements, registration, testing, and safe flying practices for recreational and commercial operations."
+title: "Getting Started: Recreational Drone Flying Guide"
+description: "Complete guide for new recreational drone pilots. Learn FAA registration requirements, airspace rules, and safe flying practices for hobby drone operations."
 date: 2025-02-06
 draft: false
 weight: 1
