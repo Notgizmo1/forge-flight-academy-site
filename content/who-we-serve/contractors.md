@@ -1,294 +1,91 @@
 ---
-title: "Prime Contractor Services"
-description: "UAS training for defense contractors and system integrators. Operator training, capability assessment, and train-the-trainer services for platform fielding and lifecycle support."
-date: 2025-02-06
-draft: false
-weight: 3
+title: "Contractor & Agency Training Services"
+description: "Operator training, capability assessment, and train-the-trainer services for defense contractors, system integrators, and government agencies fielding UAS platforms."
 ---
 
-**Training, assessment, and train-the-trainer services for defense contractors fielding UAS platforms and capabilities.**
+## Contractor & Agency Training Services
 
-We help **prime contractors and system integrators** develop operator proficiency programs, validate training effectiveness, and reduce lifecycle support costs.
+Training, assessment, and train-the-trainer services for defense contractors fielding UAS platforms and government agencies establishing or expanding UAS programs. We help you develop operator proficiency programs, validate training effectiveness, and reduce lifecycle support costs.
 
 ---
 
-## Who We Serve
+## Your Training Problem, Directly
 
-### Defense Prime Contractors
-- **Platform manufacturers** fielding new UAS systems
-- **System integrators** delivering turnkey capabilities
-- **ISR solution providers** with complex sensor payloads
-- **Autonomy developers** requiring operator training on AI-enabled systems
+**You're delivering a UAS platform to a government customer. They need trained operators. You need that training to be repeatable, documentable, and not dependent on your team being on-site forever.**
 
-### Mid-Tier Defense Companies
-- **Engineering services firms** supporting DoD programs
-- **Software developers** with operator-facing interfaces
-- **Sensor manufacturers** requiring platform integration knowledge
-- **Communications companies** fielding C2 systems
+Or: **You're a government agency that just acquired platforms. You have no internal training pipeline and no budget to keep calling the manufacturer.**
 
-### Commercial-to-Government Crossover
-- **Dual-use technology providers** entering defense market
-- **Commercial UAS manufacturers** adapting to government requirements
-- **AI/ML companies** with defense applications
+We solve both problems.
 
 ---
 
-## Services for Prime Contractors
+## Recommended Services for Contractors & Agencies
 
-### 1. Operator Training for Platform Fielding
-**End-user training programs for government customers receiving your systems**
+<div class="grid grid-2" style="margin-top:1.5rem;">
 
-When you deliver a UAS platform to a government customer, we provide:
+<div class="card" style="border-top: 3px solid #16a34a;">
+<span class="course-code">FFF-402 ★ START HERE</span>
+<h3>FPV Master Trainer Certification</h3>
+<p><strong>15 days | Train-the-trainer program</strong></p>
+<p>Certify an internal instructor within your customer's organization — or within your own company — who can deliver ongoing operator training without recurring contractor fees. Includes complete curriculum licensing, full equipment package, and FAA Part 107 exam.</p>
+<p style="font-size:0.85rem; color:#6b7280;">Full equipment package. Curriculum licensing included. FAA Part 107 covered.</p>
+<a href="/courses/fff-402/" class="btn btn-primary">Program Details →</a>
+</div>
 
-- **Initial operator qualification** (IOQ) courses
-- **Platform-specific training** tailored to your system
-- **Maintenance and troubleshooting** instruction
-- **Mission-specific employment** training
+<div class="card">
+<span class="course-code">Assessment Services</span>
+<h3>Operator Capability Assessment</h3>
+<p><strong>Individual & unit-level evaluation</strong></p>
+<p>Third-party, objective proficiency validation against standardized 1–5 scale rubrics. Useful for program acceptance testing, platform fielding documentation, contract deliverable verification, and customer readiness reporting. Defensible, audit-ready deliverables.</p>
+<a href="/assessment/" class="btn btn-primary">Assessment Details →</a>
+</div>
 
-**Why contractors use us:**
-- **Reduce your labor costs** - We train operators so your engineers can focus on development
-- **Independent assessment** - Third-party validation builds customer confidence
-- **Flexible delivery** - On-site at customer location or at our facility
-- **Capability-based evaluation** - Move beyond checkbox training to demonstrable proficiency
+<div class="card">
+<span class="course-code">FFF-401</span>
+<h3>Advanced FPV Systems Integration & Field Sustainment</h3>
+<p><strong>10 days | End-user operator training</strong></p>
+<p>Deliver initial operator qualification to your government customer's end-users. Complete FPV integration, field sustainment, and tactical employment. Use this as your platform IOQ course or bundle it with FFF-402 to deliver operators and an internal trainer simultaneously.</p>
+<p style="font-size:0.85rem; color:#6b7280;">SOCOM-aligned curriculum. Full equipment package included.</p>
+<a href="/courses/fff-401/" class="btn btn-primary">Program Details →</a>
+</div>
 
----
+<div class="card">
+<span class="course-code">Custom Curriculum</span>
+<h3>Platform-Specific Training Development</h3>
+<p><strong>Custom scope | Contact for details</strong></p>
+<p>If you're fielding a non-FPV platform or need training tailored to a specific system, we develop custom curriculum under a separate agreement. We've built training for fixed-wing VTOL, Group 2/3 platforms, and specialized sensor payloads. Contact us with your platform specs.</p>
+<a href="/contact/" class="btn btn-primary">Discuss Your Requirements →</a>
+</div>
 
-### 2. Train-the-Trainer Programs
-**Qualify government personnel to train others on your platform**
-
-Reduce long-term contractor support requirements:
-
-- **Instructor certification** for government trainers
-- **Curriculum development** aligned to your system
-- **Training aids creation** (manuals, videos, simulators)
-- **Assessment methodology** for student evaluation
-
-**Outcome:** Government customers become self-sufficient in training, reducing your lifecycle support obligations.
-
----
-
-### 3. Capability Assessment Services
-**Independent evaluation of operator proficiency for government acceptance**
-
-We provide third-party assessment for:
-- **New platform fielding** - Validate operators meet acceptance criteria
-- **Contract deliverables** - Document training outcomes for government reporting
-- **Sustainment contracts** - Periodic re-certification of operator proficiency
-- **Waiver validation** - Assess operators for FAA waiver compliance
-
-**Our 1-5 Capability Rating System:**
-- **Objective, demonstrable metrics** for proficiency
-- **Documented assessment reports** for contract closeout
-- **Skills gap analysis** for remedial training needs
-- **Independent third-party validation** builds customer trust
+</div>
 
 ---
 
-### 4. Curriculum Development Consulting
-**Design effective training programs for your platform**
+## For Government Agencies
 
-We help you create:
-- **Training manuals** aligned to operator learning objectives
-- **Courseware and lesson plans** for government instructors
-- **Assessment rubrics** for objective evaluation
-- **Training aids** (videos, quick reference cards, checklists)
+If you're a federal, state, or local agency that has acquired platforms and needs to build an internal training program — we provide the same courses available to DoD, at government pricing, through standard contract vehicles.
 
-**Deliverables include:**
-- Instructor guides
-- Student workbooks
-- Assessment tools
-- Training equipment lists
+<div class="card" style="margin-top:1.5rem; background:#f0fdf4; border-left: 4px solid #16a34a;">
+<h3>Agency Training Package</h3>
+<p>FFF-401 (operator qualification) + Assessment Services (readiness validation). Get your operators qualified and documented in a single program. Available via GPC, MIPR, and simplified acquisition for contracts under $250K.</p>
+<p style="margin-top:0.75rem;"><strong>Forge and Flight Academy LLC</strong> &nbsp;|&nbsp; UEI: YV8UNYJWZHV1 &nbsp;|&nbsp; SAM.gov: Active</p>
+<a href="/contact/" class="btn btn-primary">Request Agency Proposal →</a>
+</div>
 
 ---
 
-### 5. System Integration & Field Testing Support
-**Technical assistance for platform development and testing**
+## Why Contractors Use Us
 
-Services include:
-- **Flight test support** during development and FAA certification
-- **Sensor integration** for payload-equipped platforms
-- **Flight controller configuration** (ArduPilot, PX4, proprietary)
-- **Operator interface evaluation** (usability, human factors)
-- **Field demonstration support** for customer evaluations
+**Reduce your lifecycle support costs.** If your customer has a certified internal trainer after delivery, your on-site support obligation drops significantly.
 
-**Why use us:**
-- **Operator perspective** on system design and usability
-- **Rapid prototyping** with 3D printing and electronics lab
-- **Test range access** near Fort Liberty
-- **Experienced with government certification** processes
+**Deliver a complete solution.** Bundling platform delivery with a documented training program strengthens your proposal and reduces customer risk — a common evaluation criterion.
+
+**Third-party credibility.** Assessment services from an independent training organization carry more weight with government acceptance testers than vendor self-certification.
 
 ---
 
-## Typical Engagement Models
-
-### Platform Fielding Support
-**You're delivering a UAS platform to a government customer**
-
-When your contract requires operator training:
-- Initial operator qualification for government users
-- Maintenance technician training
-- Capability assessment and documentation for contract closeout
-- Post-fielding technical support
-
-**Your Benefit:** Reduced labor hours for your engineering staff, independent training validation, satisfied customer.
-
----
-
-### Train-the-Trainer for Sustainment
-**You want to transition training to government instructors**
-
-For multi-year sustainment contracts:
-- Train-the-trainer program
-- Curriculum development and training materials
-- Instructor certification and ongoing mentorship
-- Periodic quality assurance assessments
-
-**Your Benefit:** Reduced recurring costs, government self-sufficiency, higher profit margin on sustainment contract.
-
----
-
-### Independent Assessment for Acceptance
-**Government customer requires third-party validation**
-
-When contract deliverables include "qualified operators":
-- Capability assessment using 1-5 rating scale
-- Documented proficiency reports for each operator
-- Remedial training recommendations for operators not meeting standard
-- Assessment report for contract closeout documentation
-
-**Your Benefit:** Objective validation, smoother contract acceptance, reduced disputes over training quality.
-
----
-
-## Why Prime Contractors Choose Us
-
-### Reduce Lifecycle Costs
-- Train government instructors → Reduce your long-term training burden
-- Independent assessment → Avoid disputes over training adequacy
-- Capability-based metrics → Clear, measurable outcomes
-
-### Flexible & Responsive
-- **Rapid mobilization** - We accommodate urgent schedules
-- **On-site delivery** - We come to your customer's location
-- **Custom curriculum** - Tailored to your specific platform
-- **Security cleared staff** - Available for classified programs
-
-### Operator-Focused Expertise
-- We understand **what operators need to know** vs. engineering details
-- Training focuses on **employment and troubleshooting**, not just procedures
-- Curriculum emphasizes **field operations**, not lab environments
-
-### Independent & Objective
-- **Third-party validation** builds customer confidence
-- **No vested interest** in covering training inadequacies
-- **Honest assessment** of operator proficiency
-- **Reputation for rigor** supports contract acceptance
-
----
-
-## Pricing for Contractors
-
-### Contact for Custom Quote
-
-We offer **competitive rates** for contractor services. Pricing varies based on:
-- Course type and complexity
-- Number of operators
-- On-site vs. facility delivery
-- Platform-specific customization requirements
-- Assessment scope and documentation needs
-
-**Volume Discount Tiers:**
-- **Multi-cohort programs:** Reduced per-student rates
-- **Multi-year agreements:** Long-term partnership pricing
-- **Large-scale deployments:** Custom pricing for platform-wide training
-
-**Subcontractor Rate Structures Available:**
-- Competitive rates for prime contract flow-downs
-- Flexible billing arrangements
-- Performance-based pricing options
-
-**[Request Contractor Quote](/contact/)**
-
----
-
-## Contracting & Compliance
-
-### Contract Vehicles
-
-We support:
-- **Subcontractor agreements** on your prime contract
-- **Direct purchase orders** from your company
-- **Independent consultant agreements** for short-term support
-- **Teaming agreements** for competitive proposals
-
-### Security & Clearances
-
-- **Facility Security Clearance:** In process (expected 2026-2027)
-- **Personnel clearances:** Staff hold Secret clearances
-- **ITAR compliance:** Registered with DDTC
-- **Export control:** We manage ITAR/EAR compliance for training
-
-### Insurance & Liability
-
-- **General liability:** $2M coverage
-- **Professional liability:** $1M coverage
-- **Aircraft liability:** $5M coverage (for flight operations)
-- **Additional insured:** We can name your company as additional insured
-
----
-
-## Frequently Asked Questions
-
-**Q: Can you provide training under our prime contract?**  
-A: Yes. We can flow down as a subcontractor or deliver training under your branding.
-
-**Q: Do you have security clearances?**  
-A: Staff hold Secret clearances. Facility clearance in process (expected 2026-2027). We can support classified programs with proper coordination.
-
-**Q: Can you customize training to our platform?**  
-A: Yes. All contractor training is customized to your specific system, mission profile, and government customer requirements.
-
-**Q: What's your typical lead time?**  
-A: 60 days for curriculum development and scheduling. Expedited delivery available for urgent requirements.
-
-**Q: Can you train at government customer location?**  
-A: Yes. We provide mobile training teams that deploy to customer sites (CONUS and OCONUS with coordination).
-
-**Q: Do you compete with us for government contracts?**  
-A: No. We focus exclusively on training and assessment services. We don't manufacture or sell UAS platforms.
-
----
-
-## Get Started
-
-### Step 1: Initial Discussion (Free)
-**Discuss your program requirements, timeline, and contract structure.**
-
-[Schedule Call](/contact/)
-
-### Step 2: Proposal Development
-We develop a training plan, pricing, and delivery approach tailored to your contract requirements.
-
-### Step 3: Subcontract Agreement
-Finalize terms, insurance requirements, and deliverables.
-
-### Step 4: Training Delivery
-Execute training and assessment per your contract schedule.
-
-### Step 5: Documentation
-Provide capability assessment reports and training completion documentation for contract closeout.
-
----
-
-## Contact Us
-
-**Ready to reduce lifecycle costs and build customer confidence?**
-
-**Email:** info@forgeandflightacademy.com  
-**Location:** Fayetteville, NC (Near Fort Liberty)
-
-**[Request Proposal](/contact/)** | **[View Capabilities](/programs/)** | **[Schedule Discussion](/schedule/)**
-
----
-
-*Forge and Flight Academy partners with defense contractors to deliver independent, objective operator training and assessment services.*
+<div style="display:flex; gap:1rem; margin-top:2rem; flex-wrap:wrap;">
+<a href="/courses/" class="btn btn-secondary">View All Courses</a>
+<a href="/assessment/" class="btn btn-secondary">Assessment Services</a>
+<a href="/contact/" class="btn btn-primary">Contact Us</a>
+</div>
