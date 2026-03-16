@@ -22,7 +22,7 @@ That's the gap we close. Every course in our DoD catalog is built around one out
 <div class="grid grid-2" style="margin-top:1.5rem;">
 
 <div class="card" style="border-top: 3px solid #f59e0b;">
-<span class="course-code">FFF-401 ★ START HERE</span>
+<span class="course-code">FFF-401 — START HERE</span>
 <h3>Advanced FPV Systems Integration & Field Sustainment</h3>
 <p><strong>10 days | Zero experience required</strong></p>
 <p>Build a complete FPV aircraft from components, configure Betaflight for tactical employment, fly precision maneuvers, and perform field repairs without contractor support. SOCOM-aligned curriculum built on Army UALC standards and Ukrainian operational lessons.</p>
