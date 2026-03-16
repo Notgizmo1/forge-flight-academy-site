@@ -22,7 +22,7 @@ We close that gap — giving researchers the platform competency they need to fo
 <div class="grid grid-2" style="margin-top:1.5rem;">
 
 <div class="card" style="border-top: 3px solid #2563eb;">
-<span class="course-code">FFA-401 ★ START HERE</span>
+<span class="course-code">FFA-401 — START HERE</span>
 <h3>Operational Edge Computing for UAS</h3>
 <p><strong>5 days | No ML background required</strong></p>
 <p>Deploy real-time AI target recognition, configure autonomous decision pipelines on Jetson hardware, and run edge computing payloads on disconnected networks. Ideal for AI/ML, robotics, and autonomy research programs needing operators who understand the hardware, not just the algorithm.</p>
