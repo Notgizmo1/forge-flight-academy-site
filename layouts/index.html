@@ -12,7 +12,7 @@
   </div>
 </section>
 
-<!-- Problem Statement -->
+<!-- Stats Bar -->
 <div style="background:#f8fafc; border-top: 3px solid var(--color-amber, #f59e0b); padding: 2.5rem 0;">
   <div class="container">
     <div style="display:grid; grid-template-columns: repeat(3,1fr); gap: 2rem; text-align:center;">
@@ -31,6 +31,58 @@
     </div>
   </div>
 </div>
+
+<!-- START HERE — Buyer Path -->
+<div style="background:#0f172a; padding: 3.5rem 0;">
+  <div class="container">
+    <div style="text-align:center; margin-bottom:2.5rem;">
+      <div style="font-size:0.8rem; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:#f59e0b; margin-bottom:0.5rem;">Start Here</div>
+      <h2 style="color:white; font-size:1.9rem; margin-bottom:0.75rem;">Who Are You Training?</h2>
+      <p style="color:rgba(255,255,255,0.75); max-width:520px; margin:0 auto;">Different organizations have different problems. Select your context and we'll show you exactly what applies to you.</p>
+    </div>
+    <div style="display:grid; grid-template-columns: repeat(3,1fr); gap:1.5rem;">
+
+      <!-- DoD -->
+      <a href="/who-we-serve/dod/" style="text-decoration:none;">
+        <div class="buyer-card" style="background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); border-top: 3px solid #f59e0b; border-radius:6px; padding:1.75rem; transition: background 0.2s; cursor:pointer;">
+          <div style="font-size:1.75rem; margin-bottom:0.75rem;">⚔</div>
+          <h3 style="color:white; font-size:1.05rem; margin-bottom:0.5rem;">DoD & Military Units</h3>
+          <p style="color:rgba(255,255,255,0.7); font-size:0.875rem; line-height:1.6; margin-bottom:1.25rem;">SOCOM elements, service branch units, R&D organizations. You need organic FPV capability, EW-resistant operators, and zero contractor dependency.</p>
+          <div style="color:#f59e0b; font-size:0.825rem; font-weight:700;">Recommended: FFF-401, FFR-201, FFF-402 →</div>
+        </div>
+      </a>
+
+      <!-- University -->
+      <a href="/who-we-serve/universities/" style="text-decoration:none;">
+        <div class="buyer-card" style="background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); border-top: 3px solid #2563eb; border-radius:6px; padding:1.75rem; transition: background 0.2s; cursor:pointer;">
+          <div style="font-size:1.75rem; margin-bottom:0.75rem;">🎓</div>
+          <h3 style="color:white; font-size:1.05rem; margin-bottom:0.5rem;">Universities & Research</h3>
+          <p style="color:rgba(255,255,255,0.7); font-size:0.875rem; line-height:1.6; margin-bottom:1.25rem;">Research labs, aerospace programs, graduate students. You need operators who can run research platforms safely and execute flight test protocols independently.</p>
+          <div style="color:#60a5fa; font-size:0.825rem; font-weight:700;">Recommended: FFA-401, FFF-201, FFR-101 →</div>
+        </div>
+      </a>
+
+      <!-- Contractors -->
+      <a href="/who-we-serve/contractors/" style="text-decoration:none;">
+        <div class="buyer-card" style="background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); border-top: 3px solid #16a34a; border-radius:6px; padding:1.75rem; transition: background 0.2s; cursor:pointer;">
+          <div style="font-size:1.75rem; margin-bottom:0.75rem;">🏢</div>
+          <h3 style="color:white; font-size:1.05rem; margin-bottom:0.5rem;">Contractors & Agencies</h3>
+          <p style="color:rgba(255,255,255,0.7); font-size:0.875rem; line-height:1.6; margin-bottom:1.25rem;">Defense primes, system integrators, government agencies. You need operator training for platform fielding, assessment services, or train-the-trainer programs.</p>
+          <div style="color:#4ade80; font-size:0.825rem; font-weight:700;">Recommended: FFF-402, Assessment Services →</div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</div>
+
+<style>
+.buyer-card:hover { background: rgba(255,255,255,0.09) !important; }
+@media (max-width: 768px) {
+  .buyer-card { margin-bottom: 0; }
+  div[style*="grid-template-columns: repeat(3,1fr)"] { grid-template-columns: 1fr !important; }
+}
+</style>
 
 <!-- Why Us -->
 <div class="container">
@@ -110,33 +162,6 @@
 
   <div class="text-center mt-2">
     <a href="/courses/" class="btn btn-secondary">View All 10 Courses →</a>
-  </div>
-</div>
-
-<!-- Buyer Paths -->
-<div style="background:#f8fafc; padding: 3rem 0;">
-  <div class="container">
-    <div class="section-header">
-      <h2>Training For Your Organization</h2>
-      <p>Different buyers have different problems. We address each directly.</p>
-    </div>
-    <div class="grid grid-3">
-      <div class="card">
-        <h3>⚔ DoD &amp; Military Units</h3>
-        <p>SOCOM-aligned curriculum, UALC standards, unit standup packages. Custom courses built around your operational requirements and deployment timelines.</p>
-        <a href="/who-we-serve/dod/" class="btn btn-primary">DoD Training Options →</a>
-      </div>
-      <div class="card">
-        <h3>🎓 Universities &amp; Research</h3>
-        <p>Faculty and graduate student training for funded research programs. Academic pricing available. Semester integration and custom curriculum development on request.</p>
-        <a href="/who-we-serve/universities/" class="btn btn-primary">Academic Programs →</a>
-      </div>
-      <div class="card">
-        <h3>🏢 Contractors &amp; Agencies</h3>
-        <p>Operator training, capability assessment, and train-the-trainer services for platform fielding, lifecycle support, and program demonstrations.</p>
-        <a href="/who-we-serve/contractors/" class="btn btn-primary">Contractor Services →</a>
-      </div>
-    </div>
   </div>
 </div>
 
