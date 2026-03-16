@@ -24,7 +24,7 @@ We solve both problems.
 <div class="grid grid-2" style="margin-top:1.5rem;">
 
 <div class="card" style="border-top: 3px solid #16a34a;">
-<span class="course-code">FFF-402 ★ START HERE</span>
+<span class="course-code">FFF-402 — START HERE</span>
 <h3>FPV Master Trainer Certification</h3>
 <p><strong>15 days | Train-the-trainer program</strong></p>
 <p>Certify an internal instructor within your customer's organization — or within your own company — who can deliver ongoing operator training without recurring contractor fees. Includes complete curriculum licensing, full equipment package, and FAA Part 107 exam.</p>
