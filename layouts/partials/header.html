@@ -8,7 +8,7 @@
 </div>
 
 <style>
-/* ── Dropdown Nav ── */
+/* ── Nav ── */
 nav ul { list-style: none; display: flex; gap: 0; align-items: center; }
 nav ul li { position: relative; }
 
@@ -40,7 +40,7 @@ nav ul li .dropdown {
   border-top: 2px solid var(--amber);
   border-radius: 0 0 4px 4px;
   box-shadow: 0 8px 24px rgba(0,0,0,0.35);
-  min-width: 230px;
+  min-width: 220px;
   z-index: 1000;
   padding: 0.5rem 0;
 }
@@ -63,6 +63,15 @@ nav ul li:focus-within .dropdown { display: block; }
   color: var(--amber) !important;
   border-left-color: var(--amber);
   background: rgba(255,255,255,0.04);
+}
+.dropdown-label {
+  display: block;
+  padding: 0.5rem 1.2rem 0.2rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgba(255,255,255,0.35);
 }
 .dropdown-divider {
   height: 1px;
@@ -101,6 +110,7 @@ nav ul li:focus-within .dropdown { display: block; }
   nav ul li > a { padding: 0.6rem 1.2rem; }
   .dropdown a { padding: 0.5rem 2rem; }
   .nav-cta { margin: 0.4rem 1rem; }
+  .dropdown-label { padding: 0.4rem 2rem 0.1rem; }
 }
 </style>
 
@@ -111,49 +121,33 @@ nav ul li:focus-within .dropdown { display: block; }
     <nav id="mainNav">
       <ul>
         <li class="has-dropdown">
-          <a href="/about/">About</a>
-          <div class="dropdown">
-            <a href="/about/">About the Academy</a>
-            <a href="/about/five-pillars/">Five-Pillar Framework</a>
-            <a href="/about/instructors/">Instructor Cadre</a>
-          </div>
-        </li>
-        <li class="has-dropdown">
           <a href="/courses/">Training</a>
           <div class="dropdown">
             <a href="/courses/">All Courses</a>
             <div class="dropdown-divider"></div>
-            <a href="/courses/fff-401/">FFF-401: FPV Systems Integration</a>
-            <a href="/courses/ffr-201/">FFR-201: Tactical RF Fundamentals</a>
-            <a href="/courses/ffa-401/">FFA-401: Edge Computing for UAS</a>
-            <a href="/courses/fff-402/">FFF-402: Master Trainer Cert</a>
-            <a href="/courses/ffr-301/">FFR-301: Advanced EW Operations</a>
+            <span class="dropdown-label">By Capability</span>
+            <a href="/courses/#fpv-tactical">FPV &amp; Tactical Drone</a>
+            <a href="/courses/#electronic-warfare">Electronic Warfare &amp; RF</a>
+            <a href="/courses/#ai-autonomy">AI &amp; Autonomy</a>
+            <a href="/courses/#fabrication-sustainment">Field Fabrication &amp; Sustainment</a>
             <div class="dropdown-divider"></div>
-            <a href="/programs/practical-uas-development/">Practical UAS Program</a>
             <a href="/assessment/">Assessment Services</a>
           </div>
         </li>
         <li class="has-dropdown">
           <a href="/who-we-serve/">Who We Serve</a>
           <div class="dropdown">
-            <a href="/who-we-serve/">Overview</a>
-            <div class="dropdown-divider"></div>
             <a href="/who-we-serve/dod/">DoD &amp; Military</a>
             <a href="/who-we-serve/universities/">Universities &amp; Research</a>
             <a href="/who-we-serve/contractors/">Contractors &amp; Agencies</a>
           </div>
         </li>
+        <li><a href="/about/">About</a></li>
         <li class="has-dropdown">
           <a href="/resources/">Resources</a>
           <div class="dropdown">
-            <a href="/resources/">All Resources</a>
-            <div class="dropdown-divider"></div>
             <a href="/getting-started/">Getting Started Guide</a>
-            <a href="/resources/part-107-study-guide/">Part 107 Study Guide</a>
-            <a href="/resources/practice-test/">Part 107 Practice Test</a>
-            <a href="/resources/preflight-checklist/">Pre-Flight Checklist</a>
-            <a href="/resources/airspace-reference/">Airspace Reference</a>
-            <a href="/resources/flight-log-template/">Flight Log Template</a>
+            <a href="/resources/">Free Study Materials</a>
             <div class="dropdown-divider"></div>
             <a href="/insights/">Insights &amp; Field Notes</a>
           </div>
