@@ -178,6 +178,50 @@ Integrated training pathways designed for complete capability development.
 
 ---
 
+## Training Investment
+
+All programs are priced on a **per-student, cohort-based model.** Pricing is tailored to customer type, course duration, and cohort size — we do not publish fixed rates because the variables matter.
+
+<div class="grid grid-2" style="margin-top: 2rem;">
+
+<div class="card">
+<h3>How Pricing Is Structured</h3>
+<ul style="margin: 0.75rem 0 0; padding-left: 1.25rem; line-height: 1.8; color: #374151;">
+<li>Per-student pricing based on course duration</li>
+<li>Optimal cohort size: 8 students</li>
+<li>Custom cohort sizes available (minimum 4, maximum 12)</li>
+<li>Tiered rates for DoD/Government, Commercial, and Academic customers</li>
+<li>Bundle discounts for multi-course packages</li>
+<li>Unit Training Packages available for full organizational standup</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>What's Included</h3>
+<ul style="margin: 0.75rem 0 0; padding-left: 1.25rem; line-height: 1.8; color: #374151;">
+<li>All course materials, manuals, and reference cards</li>
+<li>Hardware and consumables (hands-on build courses)</li>
+<li>Lead and assistant instructor labor</li>
+<li>Facility, equipment, and software</li>
+<li>Certification upon demonstrated proficiency</li>
+<li>Post-course support period (varies by program)</li>
+</ul>
+</div>
+
+</div>
+
+<div class="card" style="margin-top: 1.5rem; background: #f0f9ff; border-left: 4px solid #2563eb;">
+<h3>Government Contracting</h3>
+<p>Forge and Flight Academy LLC holds an active SAM.gov registration (UEI: YV8UNYJWZHV1). Training services are available through standard DoD contracting vehicles including simplified acquisition, GPC, and MIPR. We respond to RFQs within 48 hours.</p>
+</div>
+
+<div style="margin-top: 2rem; text-align: center;">
+<p style="font-size: 1.05rem; color: #374151; margin-bottom: 1.25rem;">Contact us with your course of interest, customer type, and desired cohort size — we'll turn a proposal around within 48 hours.</p>
+<a href="/contact/" class="btn btn-primary" style="font-size: 1.05rem; padding: 0.85rem 2rem;">Request a Pricing Proposal</a>
+</div>
+
+---
+
 ## Ready to Schedule Training?
 
 <div style="display: flex; gap: 1rem; margin-top: 2rem; flex-wrap: wrap;">
