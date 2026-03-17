@@ -1,6 +1,6 @@
 ---
-title: "Training Programs"
-description: "Professional UAS training programs organized by capability domain. FPV tactics, electronic warfare, AI autonomy, field fabrication — all based on current operational lessons learned."
+title: "UAS Training Courses | Forge and Flight Academy"
+description: "Ten professional UAS training programs across FPV tactical drone, electronic warfare, AI/autonomy, and field sustainment. DoD, academic, and commercial pricing."
 layout: "list"
 ---
 
