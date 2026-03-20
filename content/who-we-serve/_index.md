@@ -49,7 +49,7 @@ Training covers the **complete lifecycle**: design intent, assembly, configurati
 
 ### Flexible Delivery
 - **On-site training** at your facility
-- **Fayetteville, NC location** (near Fort Liberty)
+- **Fayetteville, NC location** (near Fort Bragg)
 - **Custom curriculum** development
 - **Modular course structure** for specific skill gaps
 
@@ -79,6 +79,6 @@ Ready to develop real capability in your organization?
 
 **Forge and Flight Academy**  
 Professional UAS Training - Fayetteville, NC  
-Adjacent to Fort Liberty
+Adjacent to Fort Bragg
 
 **Email:** info@forgeandflightacademy.com

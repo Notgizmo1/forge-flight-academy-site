@@ -177,7 +177,7 @@ Students are evaluated using a **1-5 capability rating scale** across four phase
 ## Location & Facilities
 
 **Training Location:** Fayetteville, North Carolina  
-**Proximity:** 10 minutes from Fort Liberty (formerly Fort Bragg)
+**Proximity:** 10 minutes from Fort Bragg
 
 **Facilities Include:**
 - Climate-controlled classroom and lab space
