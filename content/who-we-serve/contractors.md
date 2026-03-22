@@ -68,7 +68,7 @@ If you're a federal, state, or local agency that has acquired platforms and need
 <div class="card" style="margin-top:1.5rem; background:#f0fdf4; border-left: 4px solid #16a34a;">
 <h3>Agency Training Package</h3>
 <p>FFF-401 (operator qualification) + Assessment Services (readiness validation). Get your operators qualified and documented in a single program. Available via GPC, MIPR, and simplified acquisition for contracts under $250K.</p>
-<p style="margin-top:0.75rem;"><strong>Forge and Flight Academy LLC</strong> &nbsp;|&nbsp; UEI: YV8UNYJWZHV1 &nbsp;|&nbsp; SAM.gov: Active</p>
+<p style="margin-top:0.75rem;"><strong>Forge and Flight Academy LLC</strong> &nbsp;|&nbsp; UEI: YV8UNYJWZHV1 &nbsp;|&nbsp; CAGE: 1A6J3 &nbsp;|&nbsp; SAM.gov: Active (exp. March 9, 2027)</p>
 <a href="/contact/" class="btn btn-primary">Request Agency Proposal →</a>
 </div>
 
