@@ -95,7 +95,7 @@ For units standing up organic capability from scratch — one integrated program
 
 <div class="card" style="margin-top:1.5rem; background:#eff6ff; border-left: 4px solid #2563eb;">
 <h3>Government Contracting — Forge and Flight Academy LLC</h3>
-<p><strong>UEI:</strong> YV8UNYJWZHV1 &nbsp;|&nbsp; <strong>SAM.gov:</strong> Active registration</p>
+<p><strong>UEI:</strong> YV8UNYJWZHV1 &nbsp;|&nbsp; <strong>CAGE:</strong> 1A6J3 &nbsp;|&nbsp; <strong>SAM.gov:</strong> Active (exp. March 9, 2027)</p>
 <p>Training services available via GPC, MIPR, and simplified acquisition (under $250K). Standard cohort at 8 students. Custom cohort sizes from 4–12 available. Proposals returned within 48 hours of request. RFQs responded to within 48 hours.</p>
 <a href="/contact/" class="btn btn-primary">Request Training Proposal →</a>
 </div>
