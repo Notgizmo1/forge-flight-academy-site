@@ -1,8 +1,170 @@
 {{ define "main" }}
-<div class="container">
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
-  
-  {{/* Do NOT list child pages - they're already in Quick Links cards */}}
-</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-tagline">Capability-Based UAS Training</div>
+    <h1>Forge and Flight Academy</h1>
+    <p>Professional training for Department of War units, government agencies, and research institutions. We develop operators who can build, sustain, and employ unmanned systems in real operational environments — not certificates that expire.</p>
+    <div class="hero-cta">
+      <a href="/courses/" class="btn btn-primary">View Courses</a>
+      <a href="/contact/" class="btn btn-secondary">Request Consultation</a>
+    </div>
+  </div>
+</section>
+
+<!-- STATS BAR -->
+<section style="background:#2d3e50; padding:2rem 0; border-bottom:3px solid #f59e0b;">
+  <div class="container">
+    <div class="grid-3" style="text-align:center; gap:0;">
+      <div style="padding:1rem; border-right:1px solid rgba(255,255,255,0.15);">
+        <div style="font-size:2.5rem; font-weight:800; color:#f59e0b; line-height:1;">10</div>
+        <div style="color:#e2e8f0; font-size:0.875rem; text-transform:uppercase; letter-spacing:0.5px; margin-top:0.25rem;">Professional Courses</div>
+      </div>
+      <div style="padding:1rem; border-right:1px solid rgba(255,255,255,0.15);">
+        <div style="font-size:2.5rem; font-weight:800; color:#f59e0b; line-height:1;">5</div>
+        <div style="color:#e2e8f0; font-size:0.875rem; text-transform:uppercase; letter-spacing:0.5px; margin-top:0.25rem;">Pillar Framework</div>
+      </div>
+      <div style="padding:1rem;">
+        <div style="font-size:2.5rem; font-weight:800; color:#f59e0b; line-height:1;">100%</div>
+        <div style="color:#e2e8f0; font-size:0.875rem; text-transform:uppercase; letter-spacing:0.5px; margin-top:0.25rem;">NDAA-Compliant Platforms</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT MAKES US DIFFERENT -->
+<section style="padding:5rem 0;">
+  <div class="container">
+    <div class="section-header">
+      <h2>What Makes Us Different</h2>
+      <p>Three structural advantages no other training organization can offer — built into every course.</p>
+    </div>
+    <div class="grid grid-3">
+      <div class="card">
+        <div style="font-size:2rem; margin-bottom:1rem;">🏭</div>
+        <h3>Integrated Ecosystem</h3>
+        <p>The only training organization that builds platforms (Forge & Flight Labs), operates test ranges (Test Systems Division), and manufactures avionics (Avionics Division). Train on systems you'll actually deploy — not generic consumer platforms.</p>
+      </div>
+      <div class="card">
+        <div style="font-size:2rem; margin-bottom:1rem;">🔧</div>
+        <h3>Operator Self-Sufficiency</h3>
+        <p>Training emphasizes field sustainment and organic repair capability. Reduce contractor dependency. Enable rapid recovery after platform attrition. Maintain operational readiness with degraded supply chains.</p>
+      </div>
+      <div class="card">
+        <div style="font-size:2rem; margin-bottom:1rem;">📐</div>
+        <h3>Five-Pillar Framework</h3>
+        <p>Comprehensive methodology spanning unmanned systems, RF/spectrum, field fabrication, autonomy/AI, and capability assessment. Integrated competency development — not a disconnected course list.</p>
+        <a href="/about/five-pillars/" style="color:#f59e0b; font-weight:600;">Explore the Framework →</a>
+      </div>
+      <div class="card">
+        <div style="font-size:2rem; margin-bottom:1rem;">⚡</div>
+        <h3>Future-Ready Curriculum</h3>
+        <p>Training based on Ukrainian operational lessons learned and current SOCOM requirements. AI integration, spectrum warfare, and autonomous systems from day one — not legacy approaches.</p>
+      </div>
+      <div class="card">
+        <div style="font-size:2rem; margin-bottom:1rem;">🎖️</div>
+        <h3>Veteran-Led Instruction</h3>
+        <p>All instructors are FAA-certified remote pilots with real operational experience. Combination of regulatory knowledge and tactical expertise — not academic theory delivered by civilians.</p>
+      </div>
+      <div class="card">
+        <div style="font-size:2rem; margin-bottom:1rem;">🛡️</div>
+        <h3>NDAA Compliance</h3>
+        <p>All training platforms use American-made avionics from our Avionics Division, fully compliant with NDAA Section 848. No Chinese-manufactured components in any platform used during training.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHO WE SERVE -->
+<section style="background:#f8fafc; padding:5rem 0; border-top:1px solid #e2e8f0;">
+  <div class="container">
+    <div class="section-header">
+      <h2>Who We Serve</h2>
+      <p>Purpose-built training programs for organizations that need operational capability — not just compliance paperwork.</p>
+    </div>
+    <div class="grid grid-2">
+      <div class="card" style="border-top:4px solid #1a2332;">
+        <h3>Department of War Units</h3>
+        <p>Custom tactical courses, instructor development, and SOCOM-aligned curriculum tailored to operational requirements. Fort Bragg adjacent. DoD procurement accepted — UEI and CAGE active.</p>
+        <a href="/who-we-serve/dod/" class="btn btn-secondary" style="margin-top:1rem; display:inline-block;">DoD Training Options →</a>
+      </div>
+      <div class="card" style="border-top:4px solid #f59e0b;">
+        <h3>Universities &amp; Research Institutions</h3>
+        <p>Faculty and graduate student training for academic research programs, semester-long courses, and custom curriculum development for laboratory integration.</p>
+        <a href="/who-we-serve/universities/" class="btn btn-secondary" style="margin-top:1rem; display:inline-block;">University Programs →</a>
+      </div>
+      <div class="card" style="border-top:4px solid #2d3e50;">
+        <h3>Government Agencies</h3>
+        <p>FAA Part 107 preparation and platform operations training for federal, state, and local agencies. GSA-aligned pricing and simplified acquisition available.</p>
+        <a href="/contact/" class="btn btn-secondary" style="margin-top:1rem; display:inline-block;">Request Information →</a>
+      </div>
+      <div class="card" style="border-top:4px solid #64748b;">
+        <h3>Commercial Operators &amp; Contractors</h3>
+        <p>Professional training for surveying, inspection, mapping, and defense contractor programs. Field sustainment and advanced operations for teams that can't afford downtime.</p>
+        <a href="/who-we-serve/contractors/" class="btn btn-secondary" style="margin-top:1rem; display:inline-block;">Contractor Programs →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PARENT COMPANY CALLOUT -->
+<section style="padding:5rem 0;">
+  <div class="container">
+    <div style="background:#1a2332; border-radius:6px; padding:3rem; display:grid; grid-template-columns:1fr 1fr; gap:3rem; align-items:center;">
+      <div>
+        <div style="color:#f59e0b; font-weight:600; text-transform:uppercase; letter-spacing:0.5px; font-size:0.875rem; margin-bottom:0.75rem;">Part of an Integrated Enterprise</div>
+        <h2 style="color:white; margin-bottom:1rem;">Forge &amp; Flight Holdings, Inc.</h2>
+        <p style="color:rgba(255,255,255,0.85); margin-bottom:0;">The Academy is a wholly-owned subsidiary of Forge &amp; Flight Holdings — an integrated unmanned systems company. When you train here, you're connected to the same organization that designs the platforms, manufactures the avionics, and operates the test ranges. That integration is a structural advantage no standalone training provider can replicate.</p>
+      </div>
+      <div>
+        <div style="display:flex; flex-direction:column; gap:1rem;">
+          <div style="background:rgba(255,255,255,0.08); border-radius:4px; padding:1.25rem; border-left:3px solid #f59e0b;">
+            <div style="color:#f59e0b; font-weight:700; font-size:0.875rem; text-transform:uppercase; margin-bottom:0.25rem;">Forge &amp; Flight Labs</div>
+            <div style="color:rgba(255,255,255,0.8); font-size:0.9rem;">Platform design &amp; manufacturing — Aether, Vanguard, Titan, Longbow</div>
+          </div>
+          <div style="background:rgba(255,255,255,0.08); border-radius:4px; padding:1.25rem; border-left:3px solid #f59e0b;">
+            <div style="color:#f59e0b; font-weight:700; font-size:0.875rem; text-transform:uppercase; margin-bottom:0.25rem;">Forge &amp; Flight Avionics</div>
+            <div style="color:rgba(255,255,255,0.8); font-size:0.9rem;">NDAA-compliant avionics manufacturing — Aegis product line</div>
+          </div>
+          <div style="background:rgba(255,255,255,0.08); border-radius:4px; padding:1.25rem; border-left:3px solid #f59e0b;">
+            <div style="color:#f59e0b; font-weight:700; font-size:0.875rem; text-transform:uppercase; margin-bottom:0.25rem;">Forge &amp; Flight Test Systems</div>
+            <div style="color:rgba(255,255,255,0.8); font-size:0.9rem;">UAS test range operations &amp; flight validation services</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LOCATION CALLOUT -->
+<section style="padding:0 0 4rem;">
+  <div class="container">
+    <div style="background:#f8fafc; border:2px solid #e2e8f0; border-radius:6px; padding:2rem; display:flex; align-items:center; gap:2rem; flex-wrap:wrap;">
+      <div style="font-size:2.5rem;">📍</div>
+      <div style="flex:1; min-width:200px;">
+        <h3 style="margin-bottom:0.25rem;">Fayetteville, North Carolina</h3>
+        <p style="margin:0; color:#4a5568;">Fort Bragg adjacent — close proximity to the military customer base while maintaining flexibility for commercial and academic training programs nationwide.</p>
+      </div>
+      <div>
+        <a href="/contact/" class="btn btn-primary">Request Consultation</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DARK CTA -->
+<section>
+  <div class="container">
+    <div style="background:#0f172a; padding:3rem; border-radius:6px; text-align:center; margin-bottom:3rem;">
+      <h2 style="color:white; margin-bottom:0.75rem;">Ready for Professional Training?</h2>
+      <p style="color:rgba(255,255,255,0.85); max-width:560px; margin:0 auto 2rem;">Tell us about your unit or organization. We'll match you to the right courses, build a custom program, or start with an assessment to baseline your current capability.</p>
+      <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+        <a href="/contact/" class="btn btn-primary">Request Consultation</a>
+        <a href="/courses/" class="btn btn-secondary" style="border-color:rgba(255,255,255,0.4); color:white;">View All Courses</a>
+      </div>
+    </div>
+  </div>
+</section>
+
 {{ end }}
