@@ -1,0 +1,195 @@
+{{ define "main" }}
+
+<section class="hero">
+  <div class="container">
+    <div class="hero-tagline">Integrated Training Methodology</div>
+    <h1>The Five-Pillar Framework</h1>
+    <p>This is not a course categorization system. It is an integrated training methodology where every course touches multiple pillars — developing complete operators, not single-skill technicians.</p>
+    <div class="hero-cta">
+      <a href="/courses/" class="btn btn-primary">View Courses</a>
+      <a href="/courses/fff-401/" class="btn btn-secondary">See Flagship Course</a>
+    </div>
+  </div>
+</section>
+
+<!-- FIVE PILLARS -->
+<section style="padding:3.5rem 0;">
+  <div class="container">
+    <div class="section-header">
+      <h2>Five Interconnected Capability Domains</h2>
+      <p>Every Forge and Flight Academy course develops competency across multiple pillars simultaneously.</p>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:1.5rem;">
+
+      <div class="card" style="border-left:6px solid #1a2332; padding:2.5rem;">
+        <div style="display:flex; align-items:flex-start; gap:1.5rem; flex-wrap:wrap;">
+          <div style="background:#1a2332; color:#f59e0b; width:64px; height:64px; border-radius:8px; display:flex; align-items:center; justify-content:center; font-size:1.5rem; font-weight:800; flex-shrink:0;">I</div>
+          <div style="flex:1; min-width:250px;">
+            <h3 style="color:#1a2332; margin-bottom:0.25rem;">Unmanned &amp; Autonomous Systems</h3>
+            <p style="font-style:italic; color:#4a5568; margin-bottom:1rem; font-size:0.9rem;">Students do not learn to fly. They learn how systems fail, degrade, and recover.</p>
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(190px, 1fr)); gap:0.4rem; margin-bottom:1rem;">
+              <div style="background:#f1f5f9; padding:0.35rem 0.7rem; border-radius:4px; font-size:0.85rem;">FPV multirotor build, operate, repair</div>
+              <div style="background:#f1f5f9; padding:0.35rem 0.7rem; border-radius:4px; font-size:0.85rem;">Fixed-wing and VTOL platforms</div>
+              <div style="background:#f1f5f9; padding:0.35rem 0.7rem; border-radius:4px; font-size:0.85rem;">Autopilot configuration (PX4/ArduPilot)</div>
+              <div style="background:#f1f5f9; padding:0.35rem 0.7rem; border-radius:4px; font-size:0.85rem;">Mission planning and failure analysis</div>
+            </div>
+            <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
+              <a href="/courses/fff-401/" class="course-code" style="font-size:0.75rem; padding:0.2rem 0.6rem;">FFF-401</a>
+              <a href="/courses/fff-402/" class="course-code" style="font-size:0.75rem; padding:0.2rem 0.6rem;">FFF-402</a>
+              <a href="/courses/ffa-401/" class="course-code" style="font-size:0.75rem; padding:0.2rem 0.6rem;">FFA-401</a>
+              <a href="/courses/ffa-201/" class="course-code" style="font-size:0.75rem; padding:0.2rem 0.6rem;">FFA-201</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="border-left:6px solid #dc2626; padding:2.5rem;">
+        <div style="display:flex; align-items:flex-start; gap:1.5rem; flex-wrap:wrap;">
+          <div style="background:#dc2626; color:white; width:64px; height:64px; border-radius:8px; display:flex; align-items:center; justify-content:center; font-size:1.5rem; font-weight:800; flex-shrink:0;">II</div>
+          <div style="flex:1; min-width:250px;">
+            <h3 style="color:#1a2332; margin-bottom:0.25rem;">RF, Spectrum &amp; Communications</h3>
+            <p style="font-style:italic; color:#4a5568; margin-bottom:1rem; font-size:0.9rem;">Operators do not need to be RF engineers — they need to recognize when the spectrum is lying to them.</p>
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(190px, 1fr)); gap:0.4rem; margin-bottom:1rem;">
+              <div style="background:#fef2f2; padding:0.35rem 0.7rem; border-radius:4px; font-size:0.85rem;">RF fundamentals and propagation</div>
+              <div style="background:#fef2f2; padding:0.35rem 0.7rem; border-radius:4px; font-size:0.85rem;">Electronic warfare countermeasures</div>
+              <div style="background:#fef2f2; padding:0.35rem 0.7rem; border-radius:4px; font-size:0.85rem;">GPS dependency and alternatives</div>
+              <div style="background:#fef2f2; padding:0.35rem 0.7rem; border-radius:4px; font-size:0.85rem;">Spectrum coordination with S-6/G-6</div>
+            </div>
+            <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
+              <a href="/courses/ffr-201/" class="course-code" style="font-size:0.75rem; padding:0.2rem 0.6rem;">FFR-201</a>
+              <a href="/courses/ffr-301/" class="course-code" style="font-size:0.75rem; padding:0.2rem 0.6rem;">FFR-301</a>
+              <a href="/courses/ffr-101/" class="course-code" style="font-size:0.75rem; padding:0.2rem 0.6rem;">FFR-101</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="border-left:6px solid #16a34a; padding:2.5rem;">
+        <div style="display:flex; align-items:flex-start; gap:1.5rem; flex-wrap:wrap;">
+          <div style="background:#16a34a; color:white; width:64px; height:64px; border-radius:8px; display:flex; align-items:center; justify-content:center; font-size:1.5rem; font-weight:800; flex-shrink:0;">III</div>
+          <div style="flex:1; min-width:250px;">
+            <h3 style="color:#1a2332; margin-bottom:0.25rem;">Field Fabrication &amp; Sustainment</h3>
+            <p style="font-style:italic; color:#4a5568; margin-bottom:1rem; font-size:0.9rem;">Reduce contractor reliance. Enable rapid recovery after attrition. Maintain readiness with minimal supply chain.</p>
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(190px, 1fr)); gap:0.4rem; margin-bottom:1rem;">
+              <div style="background:#f0fdf4; padding:0.35rem 0.7rem; border-radius:4px; font-size:0.85rem;">Soldering and electronics repair</div>
+              <div style="background:#f0fdf4; padding:0.35rem 0.7rem; border-radius:4px; font-size:0.85rem;">Component-level troubleshooting</div>
+              <div style="background:#f0fdf4; padding:0.35rem 0.7rem; border-radius:4px; font-size:0.85rem;">3D printing for replacement parts</div>
+              <div style="background:#f0fdf4; padding:0.35rem 0.7rem; border-radius:4px; font-size:0.85rem;">Damage assessment and recovery</div>
+            </div>
+            <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
+              <a href="/courses/fff-201/" class="course-code" style="font-size:0.75rem; padding:0.2rem 0.6rem;">FFF-201</a>
+              <a href="/courses/fff-301/" class="course-code" style="font-size:0.75rem; padding:0.2rem 0.6rem;">FFF-301</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="border-left:6px solid #7c3aed; padding:2.5rem;">
+        <div style="display:flex; align-items:flex-start; gap:1.5rem; flex-wrap:wrap;">
+          <div style="background:#7c3aed; color:white; width:64px; height:64px; border-radius:8px; display:flex; align-items:center; justify-content:center; font-size:1.5rem; font-weight:800; flex-shrink:0;">IV</div>
+          <div style="flex:1; min-width:250px;">
+            <h3 style="color:#1a2332; margin-bottom:0.25rem;">Autonomy, AI &amp; Edge Computing</h3>
+            <p style="font-style:italic; color:#4a5568; margin-bottom:1rem; font-size:0.9rem;">Understand autonomy as operator-supervised capability — not a replacement for human judgment.</p>
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(190px, 1fr)); gap:0.4rem; margin-bottom:1rem;">
+              <div style="background:#faf5ff; padding:0.35rem 0.7rem; border-radius:4px; font-size:0.85rem;">ArduPilot/PX4 advanced configuration</div>
+              <div style="background:#faf5ff; padding:0.35rem 0.7rem; border-radius:4px; font-size:0.85rem;">Edge computing for real-time processing</div>
+              <div style="background:#faf5ff; padding:0.35rem 0.7rem; border-radius:4px; font-size:0.85rem;">Computer vision and target recognition</div>
+              <div style="background:#faf5ff; padding:0.35rem 0.7rem; border-radius:4px; font-size:0.85rem;">Multi-aircraft coordination</div>
+            </div>
+            <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
+              <a href="/courses/ffa-501/" class="course-code" style="font-size:0.75rem; padding:0.2rem 0.6rem;">FFA-501</a>
+              <a href="/courses/ffa-401/" class="course-code" style="font-size:0.75rem; padding:0.2rem 0.6rem;">FFA-401</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="border-left:6px solid #0891b2; padding:2.5rem;">
+        <div style="display:flex; align-items:flex-start; gap:1.5rem; flex-wrap:wrap;">
+          <div style="background:#0891b2; color:white; width:64px; height:64px; border-radius:8px; display:flex; align-items:center; justify-content:center; font-size:1.5rem; font-weight:800; flex-shrink:0;">V</div>
+          <div style="flex:1; min-width:250px;">
+            <h3 style="color:#1a2332; margin-bottom:0.25rem;">Capability Assessment &amp; Technical Evaluation</h3>
+            <p style="font-style:italic; color:#4a5568; margin-bottom:1rem; font-size:0.9rem;">Third-party objective validation provides credible capability reporting for commanders and acquisition officers.</p>
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(190px, 1fr)); gap:0.4rem; margin-bottom:1rem;">
+              <div style="background:#ecfeff; padding:0.35rem 0.7rem; border-radius:4px; font-size:0.85rem;">Individual operator proficiency (1-5 scale)</div>
+              <div style="background:#ecfeff; padding:0.35rem 0.7rem; border-radius:4px; font-size:0.85rem;">Unit readiness assessment</div>
+              <div style="background:#ecfeff; padding:0.35rem 0.7rem; border-radius:4px; font-size:0.85rem;">Instructor certification and QA</div>
+              <div style="background:#ecfeff; padding:0.35rem 0.7rem; border-radius:4px; font-size:0.85rem;">Training program effectiveness</div>
+            </div>
+            <a href="/assessment/" style="color:#f59e0b; font-weight:600; font-size:0.875rem;">Assessment Services</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- HOW PILLARS WORK TOGETHER -->
+<section style="background:#1a2332; padding:3.5rem 0;">
+  <div class="container">
+    <div class="section-header">
+      <h2 style="color:white;">How Pillars Work Together</h2>
+      <p style="color:rgba(255,255,255,0.7);">FFF-401 — our flagship course — spans all five pillars simultaneously.</p>
+    </div>
+    <div style="background:rgba(255,255,255,0.05); border-radius:6px; overflow:hidden; border:1px solid rgba(255,255,255,0.1);">
+      <div style="display:grid; grid-template-columns:140px 80px 1fr; background:rgba(255,255,255,0.08); padding:0.75rem 1.25rem; border-bottom:1px solid rgba(255,255,255,0.1);">
+        <div style="color:#f59e0b; font-size:0.75rem; font-weight:700; text-transform:uppercase; letter-spacing:0.5px;">Pillar</div>
+        <div style="color:#f59e0b; font-size:0.75rem; font-weight:700; text-transform:uppercase; letter-spacing:0.5px; text-align:center;">Coverage</div>
+        <div style="color:#f59e0b; font-size:0.75rem; font-weight:700; text-transform:uppercase; letter-spacing:0.5px;">What Students Do</div>
+      </div>
+      <div style="display:grid; grid-template-columns:140px 80px 1fr; padding:0.875rem 1.25rem; border-bottom:1px solid rgba(255,255,255,0.07); align-items:center;">
+        <div style="color:white; font-weight:600; font-size:0.875rem;">I — UAS Systems</div>
+        <div style="text-align:center;"><span style="background:#1a2332; color:#f59e0b; padding:0.2rem 0.5rem; border-radius:3px; font-weight:700; font-size:0.8rem; border:1px solid #f59e0b;">100%</span></div>
+        <div style="color:rgba(255,255,255,0.75); font-size:0.875rem;">Build complete FPV aircraft from components, fly tactical missions</div>
+      </div>
+      <div style="display:grid; grid-template-columns:140px 80px 1fr; padding:0.875rem 1.25rem; border-bottom:1px solid rgba(255,255,255,0.07); align-items:center; background:rgba(255,255,255,0.03);">
+        <div style="color:white; font-weight:600; font-size:0.875rem;">II — RF &amp; Spectrum</div>
+        <div style="text-align:center;"><span style="background:#dc2626; color:white; padding:0.2rem 0.5rem; border-radius:3px; font-weight:700; font-size:0.8rem;">80%</span></div>
+        <div style="color:rgba(255,255,255,0.75); font-size:0.875rem;">Configure RF datalinks, troubleshoot jamming, develop spectrum awareness</div>
+      </div>
+      <div style="display:grid; grid-template-columns:140px 80px 1fr; padding:0.875rem 1.25rem; border-bottom:1px solid rgba(255,255,255,0.07); align-items:center;">
+        <div style="color:white; font-weight:600; font-size:0.875rem;">III — Fabrication</div>
+        <div style="text-align:center;"><span style="background:#16a34a; color:white; padding:0.2rem 0.5rem; border-radius:3px; font-weight:700; font-size:0.8rem;">100%</span></div>
+        <div style="color:rgba(255,255,255,0.75); font-size:0.875rem;">Assemble from scratch, execute field repair techniques, soldering throughout</div>
+      </div>
+      <div style="display:grid; grid-template-columns:140px 80px 1fr; padding:0.875rem 1.25rem; border-bottom:1px solid rgba(255,255,255,0.07); align-items:center; background:rgba(255,255,255,0.03);">
+        <div style="color:white; font-weight:600; font-size:0.875rem;">IV — Autonomy</div>
+        <div style="text-align:center;"><span style="background:#7c3aed; color:white; padding:0.2rem 0.5rem; border-radius:3px; font-weight:700; font-size:0.8rem;">60%</span></div>
+        <div style="color:rgba(255,255,255,0.75); font-size:0.875rem;">Flight controller configuration, basic autonomous waypoint missions</div>
+      </div>
+      <div style="display:grid; grid-template-columns:140px 80px 1fr; padding:0.875rem 1.25rem; align-items:center;">
+        <div style="color:white; font-weight:600; font-size:0.875rem;">V — Assessment</div>
+        <div style="text-align:center;"><span style="background:#0891b2; color:white; padding:0.2rem 0.5rem; border-radius:3px; font-weight:700; font-size:0.8rem;">80%</span></div>
+        <div style="color:rgba(255,255,255,0.75); font-size:0.875rem;">Practical proficiency assessment at completion — objective ratings across all domains</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MISCONCEPTION CALLOUT -->
+<section style="padding:3.5rem 0;">
+  <div class="container">
+    <div style="background:#fff8e1; border:2px solid #f59e0b; border-radius:6px; padding:2rem; max-width:800px; margin:0 auto;">
+      <h3 style="color:#1a2332; margin-bottom:0.5rem;">Not a Course Catalog System</h3>
+      <p style="margin-bottom:0.5rem;"><strong>Common misconception:</strong> "Pillar II courses teach RF, Pillar III courses teach fabrication."</p>
+      <p style="margin:0;"><strong>Reality:</strong> Every course touches multiple pillars. FFF-401 covers all five. FFR-201 emphasizes Pillar II but includes Pillar I platform knowledge and Pillar III field antenna procedures. The pillars are a training methodology — not a filing system.</p>
+    </div>
+  </div>
+</section>
+
+<!-- DARK CTA -->
+<section style="padding:0 0 3.5rem;">
+  <div class="container">
+    <div style="background:#0f172a; padding:3rem; border-radius:6px; text-align:center;">
+      <h2 style="color:white; margin-bottom:0.75rem;">Ready for Five-Pillar Training?</h2>
+      <p style="color:rgba(255,255,255,0.8); max-width:560px; margin:0 auto 2rem;">Start with FFF-401 — our flagship course spanning all five pillars in a single cohort.</p>
+      <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+        <a href="/courses/fff-401/" class="btn btn-primary">View FFF-401 Details</a>
+        <a href="/courses/" class="btn btn-secondary" style="border-color:rgba(255,255,255,0.35); color:white;">Browse All Courses</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}
