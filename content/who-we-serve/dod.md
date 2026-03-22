@@ -3,7 +3,17 @@ title: "Department of Defense Training"
 description: "SOCOM-aligned UAS training for military units, special operations forces, and defense research organizations. FPV integration, EW resistance, and organic sustainment."
 ---
 
-## Department of Defense Training
+<section class="hero">
+  <div class="container">
+    <div class="hero-tagline">SOCOM-Aligned UAS Training</div>
+    <h1>Department of Defense Training</h1>
+    <p>Operators who can build, sustain, and employ unmanned systems in degraded environments without contractor support — from day one.</p>
+    <div class="hero-cta">
+      <a href="#courses" class="btn btn-primary">See Recommended Courses</a>
+      <a href="/contact/" class="btn btn-secondary">Request Unit Proposal</a>
+    </div>
+  </div>
+</section>
 
 Operator-level training for rapid capability development, organic sustainment, and mission-specific adaptation. We train warfighters and researchers who need to build, modify, and employ unmanned systems in operational environments — not just fly them.
 
@@ -102,8 +112,11 @@ For units standing up organic capability from scratch — one integrated program
 
 ---
 
-<div style="display:flex; gap:1rem; margin-top:2rem; flex-wrap:wrap;">
-<a href="/courses/" class="btn btn-secondary">View All Courses</a>
-<a href="/assessment/" class="btn btn-secondary">Assessment Services</a>
-<a href="/contact/" class="btn btn-primary">Contact Us</a>
+<div style="background:#0f172a; padding:3rem; border-radius:6px; text-align:center; margin:3rem 0;">
+  <h2 style="color:white; margin-bottom:0.75rem;">Ready to Get Started?</h2>
+  <p style="color:rgba(255,255,255,0.85); max-width:560px; margin:0 auto 2rem;">Tell us about your organization and requirements. We build customized proposals and respond within 48 hours.</p>
+  <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+    <a href="/contact/" class="btn btn-primary">Request Consultation</a>
+    <a href="/courses/" class="btn btn-secondary" style="border-color:rgba(255,255,255,0.4); color:white;">View All Courses</a>
+  </div>
 </div>

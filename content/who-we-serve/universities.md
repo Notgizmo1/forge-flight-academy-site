@@ -3,7 +3,17 @@ title: "University & Research Institution Training"
 description: "UAS operator training for academic research programs, aerospace engineering curricula, and university laboratories. Academic pricing available on all courses."
 ---
 
-## University & Research Institution Training
+<section class="hero">
+  <div class="container">
+    <div class="hero-tagline">Academic &amp; Research Programs</div>
+    <h1>University &amp; Research Institution Training</h1>
+    <p>Give your researchers and graduate students the platform competency they need to focus on their actual work — not on learning to fly.</p>
+    <div class="hero-cta">
+      <a href="#courses" class="btn btn-primary">See Recommended Courses</a>
+      <a href="/contact/" class="btn btn-secondary">Request Academic Pricing</a>
+    </div>
+  </div>
+</section>
 
 Hands-on UAS training for academic research programs, aerospace engineering curricula, and university laboratories. We provide capability-based operator training and assessment services that complement academic theory with demonstrable, hands-on proficiency.
 
@@ -81,8 +91,11 @@ Need to validate operator proficiency before allowing unsupervised platform oper
 
 ---
 
-<div style="display:flex; gap:1rem; margin-top:2rem; flex-wrap:wrap;">
-<a href="/courses/" class="btn btn-secondary">View All Courses</a>
-<a href="/assessment/" class="btn btn-secondary">Assessment Services</a>
-<a href="/contact/" class="btn btn-primary">Contact Us</a>
+<div style="background:#0f172a; padding:3rem; border-radius:6px; text-align:center; margin:3rem 0;">
+  <h2 style="color:white; margin-bottom:0.75rem;">Ready to Get Started?</h2>
+  <p style="color:rgba(255,255,255,0.85); max-width:560px; margin:0 auto 2rem;">Tell us about your organization and requirements. We build customized proposals and respond within 48 hours.</p>
+  <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+    <a href="/contact/" class="btn btn-primary">Request Consultation</a>
+    <a href="/courses/" class="btn btn-secondary" style="border-color:rgba(255,255,255,0.4); color:white;">View All Courses</a>
+  </div>
 </div>

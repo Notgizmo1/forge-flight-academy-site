@@ -3,7 +3,17 @@ title: "Contractor & Agency Training Services"
 description: "Operator training, capability assessment, and train-the-trainer services for defense contractors, system integrators, and government agencies fielding UAS platforms."
 ---
 
-## Contractor & Agency Training Services
+<section class="hero">
+  <div class="container">
+    <div class="hero-tagline">Defense Contractors &amp; Agencies</div>
+    <h1>Contractor &amp; Agency Training Services</h1>
+    <p>Training, assessment, and train-the-trainer services that reduce lifecycle support costs and deliver complete, documentable operator qualification to your government customers.</p>
+    <div class="hero-cta">
+      <a href="#courses" class="btn btn-primary">See Recommended Services</a>
+      <a href="/contact/" class="btn btn-secondary">Request Proposal</a>
+    </div>
+  </div>
+</section>
 
 Training, assessment, and train-the-trainer services for defense contractors fielding UAS platforms and government agencies establishing or expanding UAS programs. We help you develop operator proficiency programs, validate training effectiveness, and reduce lifecycle support costs.
 
@@ -84,8 +94,11 @@ If you're a federal, state, or local agency that has acquired platforms and need
 
 ---
 
-<div style="display:flex; gap:1rem; margin-top:2rem; flex-wrap:wrap;">
-<a href="/courses/" class="btn btn-secondary">View All Courses</a>
-<a href="/assessment/" class="btn btn-secondary">Assessment Services</a>
-<a href="/contact/" class="btn btn-primary">Contact Us</a>
+<div style="background:#0f172a; padding:3rem; border-radius:6px; text-align:center; margin:3rem 0;">
+  <h2 style="color:white; margin-bottom:0.75rem;">Ready to Get Started?</h2>
+  <p style="color:rgba(255,255,255,0.85); max-width:560px; margin:0 auto 2rem;">Tell us about your organization and requirements. We build customized proposals and respond within 48 hours.</p>
+  <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+    <a href="/contact/" class="btn btn-primary">Request Consultation</a>
+    <a href="/courses/" class="btn btn-secondary" style="border-color:rgba(255,255,255,0.4); color:white;">View All Courses</a>
+  </div>
 </div>
