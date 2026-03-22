@@ -143,11 +143,11 @@ Permitted if:
 **Prohibited** over densely populated areas
 
 ### Prohibited Operations
-- ❌ Careless or reckless operation
-- ❌ Operations from moving aircraft
-- ❌ Carrying hazardous materials
-- ❌ Operations that interfere with manned aircraft
-- ❌ Flying under the influence (8-hour bottle-to-throttle rule, <0.04% BAC)
+- NO: Careless or reckless operation
+- NO: Operations from moving aircraft
+- NO: Carrying hazardous materials
+- NO: Operations that interfere with manned aircraft
+- NO: Flying under the influence (8-hour bottle-to-throttle rule, <0.04% BAC)
 
 ---
 

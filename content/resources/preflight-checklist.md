@@ -250,12 +250,12 @@ A comprehensive checklist for safe, compliant Part 107 operations. Use before ev
 
 **DO NOT FLY IF:**
 
-❌ Weather below Part 107 minimums  
-❌ Personal fitness compromised (I'M SAFE)  
-❌ Aircraft showing mechanical issues  
-❌ Airspace authorization not obtained  
-❌ Active TFR in effect  
-❌ Any safety concerns present
+NO: Weather below Part 107 minimums  
+NO: Personal fitness compromised (I'M SAFE)  
+NO: Aircraft showing mechanical issues  
+NO: Airspace authorization not obtained  
+NO: Active TFR in effect  
+NO: Any safety concerns present
 
 **When in doubt, don't fly!**
 
