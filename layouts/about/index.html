@@ -13,28 +13,32 @@
   </div>
 </section>
 
-<!-- STATS BAR -->
-<section style="background:#2d3e50; padding:2rem 0; border-bottom:3px solid #f59e0b;">
+<!-- STATS BAR — explicit flex, no grid class dependency -->
+<section style="background:#2d3e50; padding:0; border-bottom:3px solid #f59e0b;">
   <div class="container">
-    <div class="grid-3" style="text-align:center; gap:0;">
-      <div style="padding:1rem; border-right:1px solid rgba(255,255,255,0.15);">
-        <div style="font-size:2.5rem; font-weight:800; color:#f59e0b; line-height:1;">10</div>
-        <div style="color:#e2e8f0; font-size:0.875rem; text-transform:uppercase; letter-spacing:0.5px; margin-top:0.25rem;">Professional Courses</div>
+    <div style="display:flex; flex-direction:row; align-items:stretch;">
+      <div style="flex:1; padding:1.75rem 1rem; text-align:center; border-right:1px solid rgba(255,255,255,0.12);">
+        <div style="font-size:2.25rem; font-weight:800; color:#f59e0b; line-height:1; margin-bottom:0.25rem;">10</div>
+        <div style="color:#e2e8f0; font-size:0.8rem; text-transform:uppercase; letter-spacing:0.6px;">Professional Courses</div>
       </div>
-      <div style="padding:1rem; border-right:1px solid rgba(255,255,255,0.15);">
-        <div style="font-size:2.5rem; font-weight:800; color:#f59e0b; line-height:1;">5</div>
-        <div style="color:#e2e8f0; font-size:0.875rem; text-transform:uppercase; letter-spacing:0.5px; margin-top:0.25rem;">Pillar Framework</div>
+      <div style="flex:1; padding:1.75rem 1rem; text-align:center; border-right:1px solid rgba(255,255,255,0.12);">
+        <div style="font-size:2.25rem; font-weight:800; color:#f59e0b; line-height:1; margin-bottom:0.25rem;">5</div>
+        <div style="color:#e2e8f0; font-size:0.8rem; text-transform:uppercase; letter-spacing:0.6px;">Pillar Framework</div>
       </div>
-      <div style="padding:1rem;">
-        <div style="font-size:2.5rem; font-weight:800; color:#f59e0b; line-height:1;">100%</div>
-        <div style="color:#e2e8f0; font-size:0.875rem; text-transform:uppercase; letter-spacing:0.5px; margin-top:0.25rem;">NDAA-Compliant Platforms</div>
+      <div style="flex:1; padding:1.75rem 1rem; text-align:center; border-right:1px solid rgba(255,255,255,0.12);">
+        <div style="font-size:2.25rem; font-weight:800; color:#f59e0b; line-height:1; margin-bottom:0.25rem;">100%</div>
+        <div style="color:#e2e8f0; font-size:0.8rem; text-transform:uppercase; letter-spacing:0.6px;">NDAA-Compliant Platforms</div>
+      </div>
+      <div style="flex:1; padding:1.75rem 1rem; text-align:center;">
+        <div style="font-size:2.25rem; font-weight:800; color:#f59e0b; line-height:1; margin-bottom:0.25rem;">Fort Bragg</div>
+        <div style="color:#e2e8f0; font-size:0.8rem; text-transform:uppercase; letter-spacing:0.6px;">Adjacent — Fayetteville, NC</div>
       </div>
     </div>
   </div>
 </section>
 
 <!-- WHAT MAKES US DIFFERENT -->
-<section style="padding:5rem 0;">
+<section style="padding:3.5rem 0;">
   <div class="container">
     <div class="section-header">
       <h2>What Makes Us Different</h2>
@@ -47,20 +51,20 @@
       </div>
       <div class="card">
         <h3>Operator Self-Sufficiency</h3>
-        <p>Training emphasizes field sustainment and organic repair capability. Reduce contractor dependency. Enable rapid recovery after platform attrition. Maintain operational readiness with degraded supply chains.</p>
+        <p>Training emphasizes field sustainment and organic repair capability. Reduce contractor dependency. Enable rapid recovery after platform attrition. Maintain operational readiness with degraded supply chains and minimal external support.</p>
       </div>
       <div class="card">
         <h3>Five-Pillar Framework</h3>
         <p>Comprehensive training methodology spanning unmanned systems, RF/spectrum, field fabrication, autonomy/AI, and capability assessment. Integrated competency development — not a disconnected list of single-skill courses.</p>
-        <a href="/about/five-pillars/" style="color:#f59e0b; font-weight:600;">Explore the Framework</a>
+        <a href="/about/five-pillars/" style="color:#f59e0b; font-weight:600; display:inline-block; margin-top:0.75rem;">Explore the Framework</a>
       </div>
       <div class="card">
         <h3>Future-Ready Curriculum</h3>
-        <p>Training built on Ukrainian operational lessons learned and current SOCOM requirements. AI integration, spectrum warfare, and autonomous systems from day one — not legacy approaches.</p>
+        <p>Built on Ukrainian operational lessons learned and current SOCOM requirements. AI integration, spectrum warfare, and autonomous systems from day one — not legacy approaches.</p>
       </div>
       <div class="card">
         <h3>Veteran-Led Instruction</h3>
-        <p>All instructors are FAA-certified remote pilots with real operational experience. Regulatory knowledge and tactical expertise combined — not academic theory delivered without operational context.</p>
+        <p>All instructors are FAA-certified remote pilots with real operational experience. Regulatory knowledge and tactical expertise — not academic theory delivered without operational context.</p>
       </div>
       <div class="card">
         <h3>NDAA Compliance</h3>
@@ -70,74 +74,92 @@
   </div>
 </section>
 
-<!-- WHO WE SERVE -->
-<section style="background:#f8fafc; padding:5rem 0; border-top:1px solid #e2e8f0;">
+<!-- WHO WE SERVE — dark alternate section -->
+<section style="background:#1a2332; padding:3.5rem 0;">
   <div class="container">
-    <div class="section-header">
-      <h2>Who We Serve</h2>
-      <p>Purpose-built training programs for organizations that need operational capability — not just compliance paperwork.</p>
+    <div class="section-header" style="color:white;">
+      <h2 style="color:white;">Who We Serve</h2>
+      <p style="color:rgba(255,255,255,0.75);">Purpose-built programs for organizations that need operational capability — not compliance paperwork.</p>
     </div>
     <div class="grid grid-2">
-      <div class="card" style="border-top:4px solid #1a2332;">
-        <h3>Department of War Units</h3>
-        <p>Custom tactical courses, instructor development, and SOCOM-aligned curriculum tailored to operational requirements. Fort Bragg adjacent. DoD procurement accepted — UEI and CAGE active on SAM.gov.</p>
-        <a href="/who-we-serve/dod/" class="btn btn-secondary" style="margin-top:1rem; display:inline-block;">DoD Training Options</a>
+      <div style="background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); border-top:3px solid #f59e0b; padding:2rem; border-radius:4px;">
+        <h3 style="color:white; margin-bottom:0.5rem;">Department of War Units</h3>
+        <p style="color:rgba(255,255,255,0.75); margin-bottom:1rem;">Custom tactical courses, instructor development, and SOCOM-aligned curriculum. Fort Bragg adjacent. DoD procurement accepted — CAGE and UEI active on SAM.gov.</p>
+        <a href="/who-we-serve/dod/" style="color:#f59e0b; font-weight:600;">DoD Training Programs</a>
       </div>
-      <div class="card" style="border-top:4px solid #f59e0b;">
-        <h3>Universities &amp; Research Institutions</h3>
-        <p>Faculty and graduate student training for academic research programs, semester-long courses, and custom curriculum development for laboratory integration. Academic pricing available.</p>
-        <a href="/who-we-serve/universities/" class="btn btn-secondary" style="margin-top:1rem; display:inline-block;">University Programs</a>
+      <div style="background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); border-top:3px solid #f59e0b; padding:2rem; border-radius:4px;">
+        <h3 style="color:white; margin-bottom:0.5rem;">Universities &amp; Research Institutions</h3>
+        <p style="color:rgba(255,255,255,0.75); margin-bottom:1rem;">Faculty and graduate student training for academic research programs, lab integration, and custom curriculum development. Academic pricing tier available.</p>
+        <a href="/who-we-serve/universities/" style="color:#f59e0b; font-weight:600;">University Programs</a>
       </div>
-      <div class="card" style="border-top:4px solid #2d3e50;">
-        <h3>Government Agencies</h3>
-        <p>FAA Part 107 preparation and platform operations training for federal, state, and local agencies. GSA-aligned pricing and simplified acquisition available for qualifying contract values.</p>
-        <a href="/contact/" class="btn btn-secondary" style="margin-top:1rem; display:inline-block;">Request Information</a>
+      <div style="background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); border-top:3px solid rgba(255,255,255,0.3); padding:2rem; border-radius:4px;">
+        <h3 style="color:white; margin-bottom:0.5rem;">Government Agencies</h3>
+        <p style="color:rgba(255,255,255,0.75); margin-bottom:1rem;">FAA Part 107 preparation and platform operations for federal, state, and local agencies. Simplified acquisition available for qualifying contract values.</p>
+        <a href="/contact/" style="color:#f59e0b; font-weight:600;">Request Information</a>
       </div>
-      <div class="card" style="border-top:4px solid #64748b;">
-        <h3>Commercial Operators &amp; Contractors</h3>
-        <p>Professional training for defense contractors, surveying, inspection, and commercial applications. Field sustainment and advanced operations for teams that cannot afford downtime.</p>
-        <a href="/who-we-serve/contractors/" class="btn btn-secondary" style="margin-top:1rem; display:inline-block;">Contractor Programs</a>
+      <div style="background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); border-top:3px solid rgba(255,255,255,0.3); padding:2rem; border-radius:4px;">
+        <h3 style="color:white; margin-bottom:0.5rem;">Contractors &amp; Commercial Operators</h3>
+        <p style="color:rgba(255,255,255,0.75); margin-bottom:1rem;">Professional training for defense contractors, surveying, inspection, and commercial applications. Field sustainment focus for teams that cannot afford downtime.</p>
+        <a href="/who-we-serve/contractors/" style="color:#f59e0b; font-weight:600;">Contractor Programs</a>
       </div>
     </div>
   </div>
 </section>
 
 <!-- PARENT COMPANY CALLOUT -->
-<section style="padding:5rem 0;">
+<section style="padding:3.5rem 0;">
   <div class="container">
-    <div style="background:#1a2332; border-radius:6px; padding:3rem; display:grid; grid-template-columns:1fr 1fr; gap:3rem; align-items:center;">
+    <div style="background:#1a2332; border-radius:6px; padding:2.5rem 3rem; display:grid; grid-template-columns:1.2fr 1fr; gap:3rem; align-items:center;">
       <div>
-        <div style="color:#f59e0b; font-weight:600; text-transform:uppercase; letter-spacing:0.5px; font-size:0.875rem; margin-bottom:0.75rem;">Part of an Integrated Enterprise</div>
-        <h2 style="color:white; margin-bottom:1rem;">Forge &amp; Flight Holdings, Inc.</h2>
-        <p style="color:rgba(255,255,255,0.85); margin-bottom:0;">The Academy is a wholly-owned subsidiary of Forge &amp; Flight Holdings — an integrated unmanned systems company. When you train here, you are connected to the same enterprise that designs the platforms, manufactures the avionics, and operates the test ranges. That integration is a structural advantage no standalone training provider can replicate.</p>
+        <div style="color:#f59e0b; font-weight:600; text-transform:uppercase; letter-spacing:0.6px; font-size:0.8rem; margin-bottom:0.75rem;">Part of an Integrated Enterprise</div>
+        <h2 style="color:white; margin-bottom:1rem; font-size:1.75rem;">Forge &amp; Flight Holdings, Inc.</h2>
+        <p style="color:rgba(255,255,255,0.8); margin-bottom:1.5rem; line-height:1.7;">The Academy is a wholly-owned subsidiary of Forge &amp; Flight Holdings — an integrated unmanned systems company. You train on platforms from the same enterprise that designs them, manufactures their avionics, and validates them on a dedicated test range.</p>
+        <a href="https://forgeandflight.com" style="color:#f59e0b; font-weight:600;" target="_blank" rel="noopener">Visit Holdings Website</a>
       </div>
-      <div>
-        <div style="display:flex; flex-direction:column; gap:1rem;">
-          <div style="background:rgba(255,255,255,0.08); border-radius:4px; padding:1.25rem; border-left:3px solid #f59e0b;">
-            <div style="color:#f59e0b; font-weight:700; font-size:0.875rem; text-transform:uppercase; margin-bottom:0.25rem;">Forge &amp; Flight Labs</div>
-            <div style="color:rgba(255,255,255,0.8); font-size:0.9rem;">UAS platform design and manufacturing — Aether, Vanguard, Titan, Longbow</div>
-          </div>
-          <div style="background:rgba(255,255,255,0.08); border-radius:4px; padding:1.25rem; border-left:3px solid #f59e0b;">
-            <div style="color:#f59e0b; font-weight:700; font-size:0.875rem; text-transform:uppercase; margin-bottom:0.25rem;">Avionics Manufacturing</div>
-            <div style="color:rgba(255,255,255,0.8); font-size:0.9rem;">NDAA-compliant avionics and control systems — American-made</div>
-          </div>
-          <div style="background:rgba(255,255,255,0.08); border-radius:4px; padding:1.25rem; border-left:3px solid #f59e0b;">
-            <div style="color:#f59e0b; font-weight:700; font-size:0.875rem; text-transform:uppercase; margin-bottom:0.25rem;">Test Range Operations</div>
-            <div style="color:rgba(255,255,255,0.8); font-size:0.9rem;">UAS flight validation and test range services</div>
-          </div>
+      <div style="display:flex; flex-direction:column; gap:0.875rem;">
+        <div style="background:rgba(255,255,255,0.06); border-radius:4px; padding:1rem 1.25rem; border-left:3px solid #f59e0b;">
+          <div style="color:#f59e0b; font-weight:700; font-size:0.8rem; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:0.2rem;">Forge &amp; Flight Labs</div>
+          <div style="color:rgba(255,255,255,0.8); font-size:0.875rem;">UAS platform design and manufacturing — Aether, Vanguard, Titan, Longbow</div>
+        </div>
+        <div style="background:rgba(255,255,255,0.06); border-radius:4px; padding:1rem 1.25rem; border-left:3px solid rgba(255,255,255,0.2);">
+          <div style="color:rgba(255,255,255,0.7); font-weight:700; font-size:0.8rem; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:0.2rem;">Avionics Manufacturing</div>
+          <div style="color:rgba(255,255,255,0.6); font-size:0.875rem;">NDAA-compliant avionics and control systems — American-made</div>
+        </div>
+        <div style="background:rgba(255,255,255,0.06); border-radius:4px; padding:1rem 1.25rem; border-left:3px solid rgba(255,255,255,0.2);">
+          <div style="color:rgba(255,255,255,0.7); font-weight:700; font-size:0.8rem; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:0.2rem;">Test Range Operations</div>
+          <div style="color:rgba(255,255,255,0.6); font-size:0.875rem;">UAS flight validation and developmental test services</div>
+        </div>
+        <div style="background:rgba(255,255,255,0.06); border-radius:4px; padding:1rem 1.25rem; border-left:3px solid #f59e0b;">
+          <div style="color:#f59e0b; font-weight:700; font-size:0.8rem; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:0.2rem;">Forge and Flight Academy</div>
+          <div style="color:rgba(255,255,255,0.8); font-size:0.875rem;">Professional UAS training and assessment services</div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- LOCATION -->
-<section style="padding:0 0 4rem;">
+<!-- LOCATION + CONTRACTING — condensed band -->
+<section style="background:#f8fafc; padding:2rem 0; border-top:1px solid #e2e8f0; border-bottom:1px solid #e2e8f0;">
   <div class="container">
-    <div style="background:#f8fafc; border:2px solid #e2e8f0; border-radius:6px; padding:2rem; display:flex; align-items:center; gap:2rem; flex-wrap:wrap;">
-      <div style="flex:1; min-width:200px;">
-        <h3 style="margin-bottom:0.25rem;">Fayetteville, North Carolina</h3>
-        <p style="margin:0; color:#4a5568;">Fort Bragg adjacent — close proximity to the military customer base while maintaining flexibility for commercial and academic training programs nationwide.</p>
+    <div style="display:flex; align-items:center; gap:3rem; flex-wrap:wrap; justify-content:space-between;">
+      <div>
+        <div style="font-size:0.8rem; text-transform:uppercase; letter-spacing:0.6px; color:#64748b; margin-bottom:0.25rem;">Location</div>
+        <div style="font-weight:700; color:#1a2332;">Fayetteville, NC — Fort Bragg Adjacent</div>
+      </div>
+      <div style="width:1px; height:40px; background:#e2e8f0; flex-shrink:0;"></div>
+      <div>
+        <div style="font-size:0.8rem; text-transform:uppercase; letter-spacing:0.6px; color:#64748b; margin-bottom:0.25rem;">CAGE Code</div>
+        <div style="font-weight:700; color:#1a2332; font-family:monospace;">1A6J3</div>
+      </div>
+      <div style="width:1px; height:40px; background:#e2e8f0; flex-shrink:0;"></div>
+      <div>
+        <div style="font-size:0.8rem; text-transform:uppercase; letter-spacing:0.6px; color:#64748b; margin-bottom:0.25rem;">UEI</div>
+        <div style="font-weight:700; color:#1a2332; font-family:monospace;">YV8UNYJWZHV1</div>
+      </div>
+      <div style="width:1px; height:40px; background:#e2e8f0; flex-shrink:0;"></div>
+      <div>
+        <div style="font-size:0.8rem; text-transform:uppercase; letter-spacing:0.6px; color:#64748b; margin-bottom:0.25rem;">SAM.gov</div>
+        <div style="font-weight:700; color:#16a34a;">Active — Exp. Mar 2027</div>
       </div>
       <div>
         <a href="/contact/" class="btn btn-primary">Request Consultation</a>
@@ -147,14 +169,14 @@
 </section>
 
 <!-- DARK CTA -->
-<section>
+<section style="padding:3.5rem 0;">
   <div class="container">
-    <div style="background:#0f172a; padding:3rem; border-radius:6px; text-align:center; margin-bottom:3rem;">
+    <div style="background:#0f172a; padding:3rem; border-radius:6px; text-align:center;">
       <h2 style="color:white; margin-bottom:0.75rem;">Ready for Professional Training?</h2>
-      <p style="color:rgba(255,255,255,0.85); max-width:560px; margin:0 auto 2rem;">Tell us about your unit or organization. We will match you to the right courses, build a custom program, or start with an assessment to baseline your current capability.</p>
+      <p style="color:rgba(255,255,255,0.8); max-width:560px; margin:0 auto 2rem;">Tell us about your unit or organization. We will match you to the right courses, build a custom program, or start with an assessment to baseline your current capability.</p>
       <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
         <a href="/contact/" class="btn btn-primary">Request Consultation</a>
-        <a href="/courses/" class="btn btn-secondary" style="border-color:rgba(255,255,255,0.4); color:white;">View All Courses</a>
+        <a href="/courses/" class="btn btn-secondary" style="border-color:rgba(255,255,255,0.35); color:white;">View All Courses</a>
       </div>
     </div>
   </div>
