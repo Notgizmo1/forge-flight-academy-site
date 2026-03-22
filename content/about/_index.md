@@ -13,7 +13,7 @@ description: "Professional UAS training for Department of War units, government 
 
 ### Integrated Ecosystem
 
-Only training organization that builds platforms (Forge & Flight Labs), operates test ranges (Flight Test Division), and manufactures electronics (Electronics Manufacturing Division). Train on systems you'll deploy—not generic consumer platforms.
+Only training organization that builds platforms (Forge & Flight Labs), operates test ranges (our test range division), and manufactures electronics (our avionics manufacturing division). Train on systems you'll deploy—not generic consumer platforms.
 
 ### Operator Self-Sufficiency
 
@@ -37,7 +37,7 @@ All instructors are FAA-certified remote pilots with real operational experience
 
 ### NDAA Compliance
 
-All training platforms use American-made avionics from our Electronics Manufacturing Division, fully compliant with NDAA Section 848.
+All training platforms use American-made avionics from our our avionics manufacturing division, fully compliant with NDAA Section 848.
 
 ---
 
@@ -62,8 +62,8 @@ Professional training for surveying, inspection, mapping, agriculture, and other
 Forge and Flight Academy is a wholly-owned subsidiary of **Forge & Flight Holdings, Inc.**, an integrated unmanned systems company providing:
 
 - **Forge & Flight Labs:** Platform design and manufacturing (Aether, Vanguard, Titan)
-- **Electronics Manufacturing Division:** NDAA-compliant avionics and control systems
-- **Flight Test Division:** Test range operations and validation services
+- **our avionics manufacturing division:** NDAA-compliant avionics and control systems
+- **our test range division:** Test range operations and validation services
 - **Forge and Flight Academy:** Professional training and assessment services
 
 **Corporate Website:** [https://forgeandflight.com](https://forgeandflight.com)

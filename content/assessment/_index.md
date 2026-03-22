@@ -25,7 +25,7 @@ description: "Objective proficiency evaluation, unit readiness assessment, and c
 
       <div class="card" style="border-top:4px solid #1a2332; padding:2.5rem;">
         <div style="display:flex; align-items:center; gap:1rem; margin-bottom:1.5rem;">
-          <div style="background:#1a2332; color:white; width:48px; height:48px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:1.25rem; flex-shrink:0;">👤</div>
+          <div style="background:#1a2332; color:#f59e0b; width:48px; height:48px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.75rem; font-weight:800; flex-shrink:0; text-transform:uppercase;">IND</div>
           <div>
             <h3 style="margin:0;">Individual Operator Proficiency</h3>
             <div style="color:#64748b; font-size:0.875rem; margin-top:0.25rem;">Standardized 5-domain evaluation</div>
