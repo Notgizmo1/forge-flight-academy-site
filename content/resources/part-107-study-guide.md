@@ -197,7 +197,7 @@ Test your knowledge with these questions:
 
 ### Required Study Materials
 - [14 CFR Part 107](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107) - The actual regulations
-- [FAA Remote Pilot Study Guide](https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/media/remote_pilot_study_guide.pdf) - Official study guide
+- [FAA Remote Pilot Study Guide](https://www.faa.gov/uas/resources/policy_library/#107) - Official study guide
 - [Airman Certification Standards (ACS)](https://www.faa.gov/training_testing/testing/acs) - Know what's tested
 
 ### Registration & Testing
