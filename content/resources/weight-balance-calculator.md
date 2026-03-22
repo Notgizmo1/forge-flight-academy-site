@@ -7,7 +7,7 @@ weight: 6
 ---
 Proper weight and balance calculation is required for safe UAS operations — particularly when carrying variable payloads or operating custom-built platforms. This guide covers the theory behind UAS center of gravity, how to calculate weight and balance for your specific platform, and how to plan payload configurations that stay within approved limits. Applicable to all platform types from small multirotors to Group 2 and 3 fixed-wing systems.
 
-**🎯 [Try the Interactive Calculator](/tools/weight-balance-calculator.html)** - Calculate CG in real-time with visual feedback
+**[Try the Interactive Calculator](/tools/weight-balance-calculator.html)** - Calculate CG in real-time with visual feedback
 
 Understanding and calculating weight and balance is critical for safe UAS operations, especially for custom-built or payload-equipped platforms.
 
@@ -109,7 +109,7 @@ For each component, multiply its weight by its distance from datum.
 
 **CG Location = 858.0 ÷ 53.0 = 16.2 inches from nose**
 
-**Total Weight = 53.0 oz = 3.3 lbs** ✓ (under 55 lbs for Part 107)
+**Total Weight = 53.0 oz = 3.3 lbs**  (under 55 lbs for Part 107)
 
 ---
 
@@ -166,14 +166,14 @@ ACCEPTABLE CG RANGE
 Forward Limit: _______ inches
 Aft Limit: _______ inches
 
-CG WITHIN LIMITS? ☐ YES ☐ NO
+CG WITHIN LIMITS?  YES  NO
 
 TOTAL WEIGHT CHECK
 Aircraft Weight: _______ lbs
 Max Takeoff Weight: _______ lbs
-Weight Within Limits? ☐ YES ☐ NO
+Weight Within Limits?  YES  NO
 
-Part 107 Compliance: ☐ YES (0.55-55 lbs)
+Part 107 Compliance:  YES (0.55-55 lbs)
 
 CALCULATED BY: _______________________
 DATE: ____________  SIGNATURE: ___________

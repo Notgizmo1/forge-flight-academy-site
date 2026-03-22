@@ -31,7 +31,7 @@ If all checks pass → **You can fly!**
 ## Airspace Classes
 
 ### Class A Airspace
-**🚫 Not Accessible to Drones**
+**NOT ACCESSIBLE TO DRONES**
 
 - **Altitude:** 18,000 ft MSL to FL600
 - **Authorization:** Not available
@@ -42,7 +42,7 @@ All Class A operations require IFR clearance. Completely off-limits for Part 107
 ---
 
 ### Class B Airspace
-**🔴 Authorization Required**
+**AUTHORIZATION REQUIRED**
 
 - **Altitude:** Surface to ~10,000 ft MSL (varies)
 - **Chart Symbol:** Solid blue lines
@@ -63,7 +63,7 @@ All Class A operations require IFR clearance. Completely off-limits for Part 107
 ---
 
 ### Class C Airspace
-**🟡 Authorization Required**
+**AUTHORIZATION REQUIRED**
 
 - **Altitude:** Surface to ~4,000 ft AGL
 - **Chart Symbol:** Solid magenta lines
@@ -80,7 +80,7 @@ Surrounds busy airports with IFR operations and passenger service.
 ---
 
 ### Class D Airspace
-**🔵 Authorization Required (When Tower Operating)**
+**AUTHORIZATION REQUIRED (When Tower Operating)**
 
 - **Altitude:** Surface to ~2,500 ft AGL
 - **Chart Symbol:** Dashed blue lines
@@ -95,7 +95,7 @@ Surrounds busy airports with IFR operations and passenger service.
 ---
 
 ### Class E Airspace
-**🟣 Authorization May Be Required**
+**AUTHORIZATION MAY BE REQUIRED**
 
 - **Altitude:** Various (700 ft, 1,200 ft, or surface)
 - **Chart Symbol:** Magenta or blue dashed/shaded lines
@@ -121,7 +121,7 @@ Surrounds busy airports with IFR operations and passenger service.
 ---
 
 ### Class G Airspace
-**🟢 No Authorization Required**
+**NO AUTHORIZATION REQUIRED**
 
 - **Altitude:** Surface to base of overlying airspace
 - **Chart Symbol:** No marking (absence of other classes)
@@ -140,7 +140,7 @@ Most common below 1,200 ft AGL in rural areas.
 ## Special Use Airspace
 
 ### Prohibited Areas (P-XX)
-**🚫 Strictly Forbidden**
+**STRICTLY FORBIDDEN**
 
 - Chart: Blue hatching with "P-XX" designation
 - Entry absolutely not allowed
@@ -151,7 +151,7 @@ Most common below 1,200 ft AGL in rural areas.
 ---
 
 ### Restricted Areas (R-XX)
-**⚠️ Permission Required**
+**PERMISSION REQUIRED**
 
 - Chart: Blue hatching with "R-XX" designation
 - Military operations, artillery, hazardous activities
@@ -165,7 +165,7 @@ Some restricted areas have specific hours—may be accessible when not active.
 ---
 
 ### Warning Areas (W-XX)
-**⚠️ Caution Advised**
+**CAUTION ADVISED**
 
 - Chart: Blue hatching with "W-XX"
 - Located over water (beyond 3 NM from coast)
@@ -175,7 +175,7 @@ Some restricted areas have specific hours—may be accessible when not active.
 ---
 
 ### Military Operations Areas (MOA)
-**⚠️ High Military Activity**
+**HIGH MILITARY ACTIVITY**
 
 - Chart: Magenta hatching
 - High-speed military aircraft training
@@ -185,7 +185,7 @@ Some restricted areas have specific hours—may be accessible when not active.
 ---
 
 ### Alert Areas (A-XX)
-**ℹ️ High Traffic Volume**
+**ℹ High Traffic Volume**
 
 - Chart: Magenta hatching with "A-XX"
 - High pilot training or unusual activity
@@ -287,24 +287,24 @@ Some restricted areas have specific hours—may be accessible when not active.
 
 ## Pre-Flight Airspace Checklist
 
-☐ Checked for active TFRs  
-☐ Identified airspace class at location  
-☐ Obtained authorization if required  
-☐ Verified tower operating hours (Class D)  
-☐ Checked NOTAM for special restrictions  
-☐ Confirmed altitude below 400 ft AGL  
-☐ Downloaded LAANC authorization (if used)
+ Checked for active TFRs  
+ Identified airspace class at location  
+ Obtained authorization if required  
+ Verified tower operating hours (Class D)  
+ Checked NOTAM for special restrictions  
+ Confirmed altitude below 400 ft AGL  
+ Downloaded LAANC authorization (if used)
 
 ---
 
 ## Common Mistakes to Avoid
 
-❌ **Assuming Class G everywhere** - Always check charts  
-❌ **Flying in Class D after tower closes** - Still need to check resulting class  
-❌ **Ignoring TFRs** - Check every single flight  
-❌ **Not getting authorization** - "I didn't know" is not a defense  
-❌ **Flying above 400 ft AGL** - Even in Class G  
-❌ **Relying on old information** - Airspace and TFRs change frequently
+ **Assuming Class G everywhere** - Always check charts  
+ **Flying in Class D after tower closes** - Still need to check resulting class  
+ **Ignoring TFRs** - Check every single flight  
+ **Not getting authorization** - "I didn't know" is not a defense  
+ **Flying above 400 ft AGL** - Even in Class G  
+ **Relying on old information** - Airspace and TFRs change frequently
 
 ---
 
