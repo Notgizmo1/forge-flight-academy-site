@@ -1,0 +1,45 @@
+{{/*
+  Kit Form Shortcode
+  Usage in .md content: {{< kit-form segment="dod-military" >}}
+  Segments: dod-military | defense-contractor | university | commercial
+*/}}
+
+{{ $segment := .Get "segment" | default "dod-military" }}
+{{ $context := .Get "context" | default "inline" }}
+
+{{ $formUID := "" }}
+{{ $headline := "" }}
+{{ $subhead := "" }}
+{{ $badge := "" }}
+
+{{ if eq $segment "dod-military" }}
+  {{ $formUID = "cf0b153e6c" }}
+  {{ $headline = "Get the Unit Training Planning Guide" }}
+  {{ $subhead = "Framework for commanders and training NCOs building organic FPV capability — timelines, procurement pathways, and course sequencing." }}
+  {{ $badge = "Free Resource — DoD & Military" }}
+{{ else if eq $segment "defense-contractor" }}
+  {{ $formUID = "66251d731e" }}
+  {{ $headline = "Get the Contractor Compliance Checklist" }}
+  {{ $subhead = "NDAA Section 848, Blue UAS training requirements, and the fielding-to-operator gap that most primes miss before delivery day." }}
+  {{ $badge = "Free Resource — Defense Contractors" }}
+{{ else if eq $segment "university" }}
+  {{ $formUID = "ca7cc2f01e" }}
+  {{ $headline = "Get the University Training Framework" }}
+  {{ $subhead = "Structured operator training pathway for research programs — from Part 107 to independent flight test execution." }}
+  {{ $badge = "Free Resource — Universities & Research" }}
+{{ else if eq $segment "commercial" }}
+  {{ $formUID = "33a7b45f8f" }}
+  {{ $headline = "Get the Advanced Operations Guide" }}
+  {{ $subhead = "What Part 107 doesn't cover — RF awareness, field repair, autonomy basics, and pathways into defense contractor work." }}
+  {{ $badge = "Free Resource — Commercial Operators" }}
+{{ end }}
+
+<div style="background:#f8fafc; border:1px solid #e2e8f0; border-left:4px solid #f59e0b; border-radius:4px; padding:2rem 2rem 1.5rem; margin:2.5rem 0;">
+  <div style="display:inline-block; background:#1a2332; color:#f59e0b; font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.6px; padding:0.3rem 0.75rem; border-radius:3px; margin-bottom:0.75rem;">{{ $badge }}</div>
+  <h3 style="font-size:1.15rem; font-weight:700; color:#1a2332; margin:0 0 0.5rem; line-height:1.35;">{{ $headline }}</h3>
+  <p style="font-size:0.9rem; color:#4b5563; margin:0 0 1.25rem; line-height:1.6;">{{ $subhead }}</p>
+  <script src="https://forge-and-flight-academy.kit.com/{{ $formUID }}/index.js"
+          data-uid="{{ $formUID }}"
+          async></script>
+  <p style="font-size:0.75rem; color:#94a3b8; margin:0.75rem 0 0;">No spam. Unsubscribe anytime. We don't share your information.</p>
+</div>

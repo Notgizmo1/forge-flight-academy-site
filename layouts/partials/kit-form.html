@@ -1,0 +1,133 @@
+{{/*
+  Kit Email Capture Partial
+  Usage: {{ partial "kit-form.html" (dict "segment" "dod-military" "context" "hero") }}
+  Segments: dod-military | defense-contractor | university | commercial
+  Contexts: hero | inline | footer (affects styling)
+*/}}
+
+{{ $segment := .segment | default "dod-military" }}
+{{ $context := .context | default "inline" }}
+
+{{ $formUID := "" }}
+{{ $headline := "" }}
+{{ $subhead := "" }}
+{{ $buttonLabel := "" }}
+{{ $badge := "" }}
+
+{{ if eq $segment "dod-military" }}
+  {{ $formUID = "cf0b153e6c" }}
+  {{ $headline = "Get the Unit Training Planning Guide" }}
+  {{ $subhead = "Framework for building organic FPV capability — timelines, procurement pathways, and course sequencing for commanders and training NCOs." }}
+  {{ $buttonLabel = "Download Free Guide" }}
+  {{ $badge = "DoD & Military" }}
+{{ else if eq $segment "defense-contractor" }}
+  {{ $formUID = "66251d731e" }}
+  {{ $headline = "Get the Contractor Compliance Checklist" }}
+  {{ $subhead = "NDAA Section 848, Blue UAS training requirements, and the fielding-to-operator gap — what primes miss before delivery day." }}
+  {{ $buttonLabel = "Download Free Checklist" }}
+  {{ $badge = "Defense Contractors" }}
+{{ else if eq $segment "university" }}
+  {{ $formUID = "ca7cc2f01e" }}
+  {{ $headline = "Get the University Training Framework" }}
+  {{ $subhead = "Structured training pathway for research operators — from Part 107 to independent flight test execution. Built for faculty and program directors." }}
+  {{ $buttonLabel = "Download Free Framework" }}
+  {{ $badge = "Universities & Research" }}
+{{ else if eq $segment "commercial" }}
+  {{ $formUID = "33a7b45f8f" }}
+  {{ $headline = "Get the Advanced Operations Guide" }}
+  {{ $subhead = "What Part 107 doesn't cover — RF awareness, field repair, autonomy basics, and the skills that open defense contractor work." }}
+  {{ $buttonLabel = "Download Free Guide" }}
+  {{ $badge = "Commercial Operators" }}
+{{ end }}
+
+<div class="kit-capture-block kit-capture--{{ $context }}" data-segment="{{ $segment }}">
+  <div class="kit-capture-inner">
+    <div class="kit-capture-badge">Free Resource — {{ $badge }}</div>
+    <h3 class="kit-capture-headline">{{ $headline }}</h3>
+    <p class="kit-capture-subhead">{{ $subhead }}</p>
+    <script src="https://forge-and-flight-academy.kit.com/{{ $formUID }}/index.js"
+            data-uid="{{ $formUID }}"
+            async>
+    </script>
+    <p class="kit-capture-privacy">No spam. Unsubscribe anytime. We don't share your contact information.</p>
+  </div>
+</div>
+
+<style>
+.kit-capture-block {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-left: 4px solid #f59e0b;
+  border-radius: 4px;
+  padding: 2rem 2rem 1.5rem;
+  margin: 2.5rem 0;
+}
+.kit-capture-block.kit-capture--hero {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-left: 4px solid #f59e0b;
+  color: white;
+}
+.kit-capture-block.kit-capture--footer {
+  background: #0f172a;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-left: 4px solid #f59e0b;
+  text-align: center;
+  padding: 3rem 2rem 2rem;
+}
+.kit-capture-inner {
+  max-width: 540px;
+}
+.kit-capture-block.kit-capture--footer .kit-capture-inner {
+  max-width: 560px;
+  margin: 0 auto;
+}
+.kit-capture-badge {
+  display: inline-block;
+  background: #1a2332;
+  color: #f59e0b;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  padding: 0.3rem 0.75rem;
+  border-radius: 3px;
+  margin-bottom: 0.75rem;
+}
+.kit-capture-block.kit-capture--footer .kit-capture-badge {
+  background: rgba(245,158,11,0.15);
+}
+.kit-capture-headline {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1a2332;
+  margin: 0 0 0.5rem;
+  line-height: 1.35;
+}
+.kit-capture-block.kit-capture--hero .kit-capture-headline,
+.kit-capture-block.kit-capture--footer .kit-capture-headline {
+  color: white;
+}
+.kit-capture-subhead {
+  font-size: 0.9rem;
+  color: #4b5563;
+  margin: 0 0 1.25rem;
+  line-height: 1.6;
+}
+.kit-capture-block.kit-capture--hero .kit-capture-subhead,
+.kit-capture-block.kit-capture--footer .kit-capture-subhead {
+  color: rgba(255,255,255,0.75);
+}
+.kit-capture-privacy {
+  font-size: 0.75rem;
+  color: #94a3b8;
+  margin: 0.75rem 0 0;
+}
+/* Override Kit default form styles to match site */
+.kit-capture-block .formkit-form {
+  margin: 0 !important;
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+}
+</style>

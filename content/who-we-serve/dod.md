@@ -1,6 +1,6 @@
 ---
 title: "Department of Defense Training"
-description: "SOCOM-aligned UAS training for military units, special operations forces, and defense research organizations. FPV integration, EW resistance, and organic sustainment."
+description: "Military UAS training for DoD units, SOCOM elements, and Army/Marine formations. FPV integration, EW resistance, organic field sustainment. Zero contractor dependency after graduation. Fort Bragg adjacent."
 ---
 
 <section class="hero">
@@ -111,6 +111,8 @@ For units standing up organic capability from scratch — one integrated program
 </div>
 
 ---
+
+{{< kit-form segment="dod-military" >}}
 
 <div style="background:#0f172a; padding:3rem; border-radius:6px; text-align:center; margin:3rem 0;">
   <h2 style="color:white; margin-bottom:0.75rem;">Ready to Get Started?</h2>

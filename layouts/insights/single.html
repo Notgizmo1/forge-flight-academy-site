@@ -1,0 +1,93 @@
+{{ define "main" }}
+
+<div class="container" style="max-width: 820px; margin: 0 auto; padding: 3rem 1.5rem 1rem;">
+  <article>
+
+    <!-- Breadcrumb -->
+    <div style="font-size: 0.8rem; color: #64748b; margin-bottom: 1.5rem;">
+      <a href="/insights/" style="color: #64748b; text-decoration: none;">Insights & Field Notes</a>
+      <span style="margin: 0 0.5rem;">→</span>
+      <span>{{ .Title }}</span>
+    </div>
+
+    <!-- Article header -->
+    {{ if .Date }}
+    <div style="font-size: 0.8rem; color: #64748b; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 0.75rem;">
+      {{ .Date.Format "January 2, 2006" }}
+    </div>
+    {{ end }}
+
+    <h1 style="font-size: 2rem; line-height: 1.25; margin-bottom: 1rem; color: #1a2332;">{{ .Title }}</h1>
+
+    {{ if .Description }}
+    <p style="font-size: 1.1rem; color: #4b5563; line-height: 1.65; margin-bottom: 2.5rem; padding-bottom: 2rem; border-bottom: 1px solid #e2e8f0;">{{ .Description }}</p>
+    {{ end }}
+
+    <!-- Article body -->
+    <div class="article-body" style="font-size: 1rem; line-height: 1.8; color: #374151;">
+      {{ .Content }}
+    </div>
+
+  </article>
+</div>
+
+<!-- Kit Form — segment from frontmatter, defaults to dod-military -->
+{{ $segment := .Params.segment | default "dod-military" }}
+{{ $formUID := "" }}
+{{ $headline := "" }}
+{{ $subhead := "" }}
+{{ $badge := "" }}
+{{ $resource_url := "" }}
+
+{{ if eq $segment "dod-military" }}
+  {{ $formUID = "cf0b153e6c" }}
+  {{ $headline = "Get the Unit Training Planning Guide" }}
+  {{ $subhead = "Framework for commanders and training NCOs building organic FPV capability — timelines, procurement pathways, and course sequencing." }}
+  {{ $badge = "Free Resource — DoD & Military" }}
+  {{ $resource_url = "/resources/unit-training-guide/" }}
+{{ else if eq $segment "defense-contractor" }}
+  {{ $formUID = "66251d731e" }}
+  {{ $headline = "Get the Contractor Compliance Checklist" }}
+  {{ $subhead = "NDAA Section 848, Blue UAS training requirements, and the fielding-to-operator gap that most primes miss before delivery day." }}
+  {{ $badge = "Free Resource — Defense Contractors" }}
+  {{ $resource_url = "/resources/contractor-compliance-checklist/" }}
+{{ else if eq $segment "university" }}
+  {{ $formUID = "ca7cc2f01e" }}
+  {{ $headline = "Get the University Training Framework" }}
+  {{ $subhead = "Structured operator training pathway for research programs — from Part 107 to independent flight test execution." }}
+  {{ $badge = "Free Resource — Universities & Research" }}
+  {{ $resource_url = "/resources/university-training-framework/" }}
+{{ else if eq $segment "commercial" }}
+  {{ $formUID = "33a7b45f8f" }}
+  {{ $headline = "Get the Advanced Operations Guide" }}
+  {{ $subhead = "What Part 107 doesn't cover — RF awareness, field repair, autonomy basics, and pathways into defense contractor work." }}
+  {{ $badge = "Free Resource — Commercial Operators" }}
+  {{ $resource_url = "/resources/beyond-part-107/" }}
+{{ end }}
+
+<div style="background: #f8fafc; border-top: 1px solid #e2e8f0; padding: 3rem 0; margin-top: 3rem;">
+  <div class="container" style="max-width: 640px; margin: 0 auto;">
+    <div style="background: white; border: 1px solid #e2e8f0; border-left: 4px solid #f59e0b; border-radius: 4px; padding: 2rem 2rem 1.5rem;">
+      <div style="display: inline-block; background: #1a2332; color: #f59e0b; font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.6px; padding: 0.3rem 0.75rem; border-radius: 3px; margin-bottom: 0.75rem;">{{ $badge }}</div>
+      <h3 style="font-size: 1.15rem; font-weight: 700; color: #1a2332; margin: 0 0 0.5rem; line-height: 1.35;">{{ $headline }}</h3>
+      <p style="font-size: 0.9rem; color: #4b5563; margin: 0 0 1.25rem; line-height: 1.6;">{{ $subhead }}</p>
+      <script src="https://forge-and-flight-academy.kit.com/{{ $formUID }}/index.js"
+              data-uid="{{ $formUID }}"
+              async></script>
+      <p style="font-size: 0.75rem; color: #94a3b8; margin: 0.75rem 0 0;">No spam. Unsubscribe anytime. We don't share your information.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Back to insights + CTA -->
+<div style="background: #1a2332; padding: 3rem 0;">
+  <div class="container" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1.5rem;">
+    <a href="/insights/" style="color: rgba(255,255,255,0.65); font-size: 0.875rem; text-decoration: none; font-weight: 600;">← Back to Insights & Field Notes</a>
+    <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+      <a href="/courses/" class="btn btn-primary" style="font-size: 0.875rem; padding: 0.5rem 1.1rem;">View Training Programs</a>
+      <a href="/contact/" class="btn btn-secondary" style="font-size: 0.875rem; padding: 0.5rem 1.1rem; border-color: rgba(255,255,255,0.35); color: white;">Request Consultation</a>
+    </div>
+  </div>
+</div>
+
+{{ end }}

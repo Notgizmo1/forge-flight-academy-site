@@ -1,0 +1,73 @@
+{{ define "main" }}
+
+<!-- HERO -->
+<section class="hero" style="padding: 4rem 0 3rem;">
+  <div class="container">
+    <div class="hero-tagline">Free Resource — {{ if eq .Params.segment "dod-military" }}DoD & Military{{ else if eq .Params.segment "defense-contractor" }}Defense Contractors{{ else if eq .Params.segment "university" }}Universities & Research{{ else }}Commercial Operators{{ end }}</div>
+    <h1 style="max-width: 700px;">{{ .Params.lead_magnet_title }}</h1>
+    <p style="max-width: 580px; font-size: 1.1rem;">{{ .Description }}</p>
+  </div>
+</section>
+
+<!-- MAIN CONTENT -->
+<section style="padding: 3rem 0 5rem;">
+  <div class="container">
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; max-width: 1000px; margin: 0 auto;">
+
+      <!-- LEFT: What's inside -->
+      <div>
+        <div style="display: inline-block; background: #f59e0b; color: #1a2332; font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.6px; padding: 0.3rem 0.75rem; border-radius: 3px; margin-bottom: 1.25rem;">What's Inside</div>
+        <h2 style="font-size: 1.35rem; margin: 0 0 1.5rem; line-height: 1.4;">{{ .Params.lead_magnet_title }}</h2>
+        <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.9rem;">
+          {{ range .Params.lead_magnet_bullets }}
+          <li style="display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.95rem; color: #374151; line-height: 1.55;">
+            <span style="color: #f59e0b; font-weight: 700; font-size: 1rem; flex-shrink: 0; margin-top: 0.05rem;">✓</span>
+            {{ . }}
+          </li>
+          {{ end }}
+        </ul>
+
+        <div style="margin-top: 2rem; padding: 1.25rem; background: #f1f5f9; border-radius: 4px; border-left: 3px solid #1a2332;">
+          <p style="margin: 0; font-size: 0.875rem; color: #475569; line-height: 1.6;">
+            <strong style="color: #1a2332;">About Forge and Flight Academy</strong><br>
+            Veteran-led UAS training for DoD, defense contractors, and universities. SAM registered (UEI: YV8UNYJWZHV1 | CAGE: 1A6J3). Fort Bragg adjacent, Fayetteville, NC.
+          </p>
+        </div>
+      </div>
+
+      <!-- RIGHT: Kit Form -->
+      <div>
+        <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-top: 4px solid #f59e0b; border-radius: 4px; padding: 2rem;">
+          <p style="font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: #64748b; margin: 0 0 0.5rem;">Get Instant Access</p>
+          <h3 style="font-size: 1.1rem; color: #1a2332; margin: 0 0 1.25rem; line-height: 1.4;">Enter your email and we'll send the guide directly to your inbox.</h3>
+          <script src="https://forge-and-flight-academy.kit.com/{{ if eq .Params.segment "dod-military" }}cf0b153e6c{{ else if eq .Params.segment "defense-contractor" }}66251d731e{{ else if eq .Params.segment "university" }}ca7cc2f01e{{ else }}33a7b45f8f{{ end }}/index.js"
+                  data-uid="{{ if eq .Params.segment "dod-military" }}cf0b153e6c{{ else if eq .Params.segment "defense-contractor" }}66251d731e{{ else if eq .Params.segment "university" }}ca7cc2f01e{{ else }}33a7b45f8f{{ end }}"
+                  async></script>
+          <p style="font-size: 0.75rem; color: #94a3b8; margin: 0.75rem 0 0; text-align: center;">No spam. Unsubscribe anytime. We don't share your information.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- RESPONSIVE STYLES -->
+<style>
+@media (max-width: 768px) {
+  .lead-magnet-grid { grid-template-columns: 1fr !important; gap: 2rem !important; }
+}
+</style>
+
+<!-- RELATED CTA -->
+<section style="background: #1a2332; padding: 3rem 0;">
+  <div class="container" style="text-align: center;">
+    <h2 style="color: white; margin-bottom: 0.75rem;">Ready for Hands-On Training?</h2>
+    <p style="color: rgba(255,255,255,0.75); max-width: 520px; margin: 0 auto 1.75rem;">Free resources build foundational knowledge. Our courses develop measurable operational proficiency with standardized 1–5 capability ratings.</p>
+    <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+      <a href="/courses/" class="btn btn-primary">View Training Programs</a>
+      <a href="/contact/" class="btn btn-secondary" style="border-color: rgba(255,255,255,0.35); color: white;">Request Consultation</a>
+    </div>
+  </div>
+</section>
+
+{{ end }}

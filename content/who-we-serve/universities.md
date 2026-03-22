@@ -91,6 +91,8 @@ Need to validate operator proficiency before allowing unsupervised platform oper
 
 ---
 
+{{< kit-form segment="university" >}}
+
 <div style="background:#0f172a; padding:3rem; border-radius:6px; text-align:center; margin:3rem 0;">
   <h2 style="color:white; margin-bottom:0.75rem;">Ready to Get Started?</h2>
   <p style="color:rgba(255,255,255,0.85); max-width:560px; margin:0 auto 2rem;">Tell us about your organization and requirements. We build customized proposals and respond within 48 hours.</p>

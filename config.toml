@@ -5,10 +5,11 @@ disableKinds = ["RSS", "taxonomy", "term"]
 googleAnalytics = "G-35K06LBZWT"
 
 [params]
-  description = "Professional UAS training for Department of War units, government agencies, and research institutions. Build it. Program it. Fly it."
+  description = "NDAA-compliant UAS training for DoD, defense contractors, and universities. Veteran-led. Fort Bragg adjacent, Fayetteville NC. SAM registered. 48-hour proposal turnaround."
   company = "Forge and Flight Academy, LLC"
   email = "info@forgeandflightacademy.com"
   parentCompanyURL = "https://forgeandflight.com"
+  kit_account = "forge-and-flight-academy"
 
 [markup]
   [markup.goldmark]

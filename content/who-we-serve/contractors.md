@@ -1,6 +1,6 @@
 ---
 title: "Contractor & Agency Training Services"
-description: "Operator training, capability assessment, and train-the-trainer services for defense contractors, system integrators, and government agencies fielding UAS platforms."
+description: "Drone operator training for defense contractors and system integrators fielding UAS platforms. NDAA compliant. Train-the-trainer certification. Third-party capability assessment. SAM registered."
 ---
 
 <section class="hero">
@@ -93,6 +93,8 @@ If you're a federal, state, or local agency that has acquired platforms and need
 **Third-party credibility.** Assessment services from an independent training organization carry more weight with government acceptance testers than vendor self-certification.
 
 ---
+
+{{< kit-form segment="defense-contractor" >}}
 
 <div style="background:#0f172a; padding:3rem; border-radius:6px; text-align:center; margin:3rem 0;">
   <h2 style="color:white; margin-bottom:0.75rem;">Ready to Get Started?</h2>
