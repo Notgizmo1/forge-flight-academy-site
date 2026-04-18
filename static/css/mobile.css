@@ -113,3 +113,90 @@
     display: block !important;
   }
 }
+
+/* ════════════════════════════════════════════════════
+   CONTENT MOBILE — below-the-fold sections
+   ════════════════════════════════════════════════════ */
+
+/* ── General layout ─────────────────────────────── */
+@media (max-width: 768px) {
+
+  /* Container padding */
+  .container { padding-left: 1.25rem !important; padding-right: 1.25rem !important; }
+
+  /* Hero text */
+  .hero h1 { font-size: 1.9rem !important; line-height: 1.15 !important; }
+  .hero-tagline { font-size: 0.85rem !important; }
+  .hero-cta { flex-direction: column !important; align-items: stretch !important; }
+  .hero-cta .btn { width: 100% !important; text-align: center !important; }
+
+  /* Section headers */
+  .section-header h2 { font-size: 1.5rem !important; }
+
+  /* Cards */
+  .card { padding: 1.25rem !important; }
+
+  /* Programs / course grid */
+  .programs-grid { grid-template-columns: 1fr !important; }
+
+  /* Buyer cards */
+  .buyer-card { padding: 1.25rem !important; }
+
+  /* Info stack */
+  .info-stack { flex-direction: column !important; }
+
+  /* Footer grid */
+  .footer-grid { grid-template-columns: 1fr !important; gap: 1.5rem !important; }
+  .footer-bottom { flex-direction: column !important; gap: 0.75rem !important; text-align: center !important; }
+
+  /* Quick links */
+  .quick-links { flex-direction: column !important; gap: 0.5rem !important; }
+
+  /* Contact grid */
+  .contact-grid { grid-template-columns: 1fr !important; }
+  .form-row { grid-template-columns: 1fr !important; }
+
+  /* Checklist inline → stacked */
+  .checklist { flex-direction: column !important; }
+
+  /* Buttons */
+  .btn-primary,
+  .btn-secondary { display: block !important; width: 100% !important; text-align: center !important; }
+}
+
+/* ── Five-Pillar grid fix ───────────────────────── */
+/* inline style has higher specificity so we need !important */
+@media (max-width: 900px) {
+  .pillar-grid { grid-template-columns: 1fr 1fr !important; }
+}
+
+@media (max-width: 600px) {
+  .pillar-grid { grid-template-columns: 1fr !important; }
+  .pillar-grid > div { padding: 1rem !important; }
+}
+
+/* ── 480px — Small phones ───────────────────────── */
+@media (max-width: 480px) {
+  .hero h1 { font-size: 1.6rem !important; }
+
+  .section-header h2 { font-size: 1.3rem !important; }
+
+  /* Grid fallbacks */
+  .grid-2,
+  .grid-3 { grid-template-columns: 1fr !important; }
+
+  /* Form card full-bleed */
+  .form-card { padding: 1.5rem 1rem !important; border-radius: 4px !important; }
+
+  /* Course code badge */
+  .course-code { font-size: 0.7rem !important; }
+
+  /* Program card */
+  .program-card { padding: 1.25rem !important; }
+}
+
+/* ── Landscape / tablet ─────────────────────────── */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .programs-grid { grid-template-columns: 1fr 1fr !important; }
+  .grid-3 { grid-template-columns: 1fr 1fr !important; }
+}
