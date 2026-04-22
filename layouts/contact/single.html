@@ -454,4 +454,68 @@
     </div>
   </div>
 </div>
+
+<script>
+(function () {
+  var form = document.querySelector('.contact-form');
+  if (!form) return;
+
+  form.addEventListener('submit', async function (e) {
+    e.preventDefault();
+    var btn = form.querySelector('button[type="submit"]');
+    var origText = btn.textContent;
+    btn.disabled = true;
+    btn.textContent = 'Sending…';
+
+    var fd = new FormData(form);
+
+    // ── CRM capture — fire and forget, never blocks email delivery ──
+    try {
+      var orgType = (fd.get('org-type') || '').toString();
+      var courseInterest = (fd.get('course-interest') || '').toString();
+      var details = [
+        courseInterest ? 'Course: ' + courseInterest : '',
+        fd.get('student-count') ? 'Students: ' + fd.get('student-count') : '',
+        fd.get('timeline') ? 'Timeline: ' + fd.get('timeline') : '',
+        fd.get('location-pref') ? 'Location: ' + fd.get('location-pref') : '',
+        fd.get('message') ? fd.get('message').toString() : '',
+      ].filter(Boolean).join(' | ');
+
+      fetch('https://forge-flight-crm.mort82.workers.dev/public/lead', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          org_name:     (fd.get('organization') || '').toString(),
+          contact_name: (fd.get('name') || '').toString(),
+          email:        (fd.get('email') || '').toString(),
+          phone:        fd.get('phone') ? fd.get('phone').toString() : undefined,
+          interest:     'academy_training',
+          message:      details || undefined,
+          source_page:  window.location.href,
+        }),
+      }).catch(function () {});
+    } catch (_) {}
+
+    // ── Email delivery via Formspree AJAX — preserves existing flow ──
+    try {
+      var res = await fetch('https://formspree.io/f/mzdjvrdl', {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: fd,
+      });
+      var data = await res.json();
+      if (data.ok || res.ok) {
+        btn.textContent = '✓ Inquiry Submitted';
+        form.innerHTML = '<div style="text-align:center;padding:2rem;"><p style="font-size:1.1rem;color:var(--navy);font-weight:600;">Thank you — we\'ll respond within 24 hours.</p><p style="color:#64748b;margin-top:0.5rem;">DoD and government requests receive same-day priority.</p></div>';
+        return;
+      }
+    } catch (_) {}
+
+    // Fallback: native submit so email still goes out even if AJAX fails
+    btn.disabled = false;
+    btn.textContent = origText;
+    form.submit();
+  });
+})();
+</script>
 {{ end }}
