@@ -28,7 +28,7 @@ All Academy instructors must meet minimum qualifications before assignment to an
 ### Mike
 **Founder | Lead UAS Operations & Autonomy Instructor**
 
-Mike is a retired U.S. Army Special Operations veteran with 20 years of service. His operational background spans 10 deployments across tactical and strategic environments, embassy postings in South America, and work with U.S. Ambassadors on regional policy and counterterrorism operations.
+Mike is a retired U.S. Army Special Operations veteran with 21 years of service. His operational background spans 12 deployments across tactical and strategic environments, embassy postings in South America, and work with U.S. Ambassadors on regional policy and counterterrorism operations.
 
 **Education & Credentials:**
 - B.S. Aeronautical Science, Embry-Riddle Aeronautical University (minor: Space Physics)
