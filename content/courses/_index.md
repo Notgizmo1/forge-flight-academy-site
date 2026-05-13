@@ -1,6 +1,6 @@
 ---
-title: "UAS Training Courses | Forge and Flight Academy"
-description: "Ten professional UAS training programs across FPV tactical drone, electronic warfare, AI/autonomy, and field sustainment. DoD, academic, and commercial pricing."
+title: "UAS Training Courses | FPV, Electronic Warfare, AI & Autonomy | Forge and Flight Academy"
+description: "Nine professional UAS courses across FPV tactical drone employment, electronic warfare, AI autonomy, field fabrication, and sustainment. DoD units, government agencies, and universities. Fort Bragg adjacent."
 layout: "list"
 ---
 

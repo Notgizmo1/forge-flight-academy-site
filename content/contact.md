@@ -1,6 +1,7 @@
 ---
-title: "Contact Forge and Flight Academy"
-description: "Schedule a consultation, request training proposals, or get answers to your questions about professional UAS training."
+title: "Request UAS Training | Forge and Flight Academy | DoD & Government Priority"
+description: "Request a training proposal for professional UAS courses. DoD and government inquiries receive same-day priority response. GPC, MIPR, and simplified acquisition accepted. CAGE 1A6J3."
+keywords: "UAS training request, drone training proposal DoD, military UAS training quote, CAGE 1A6J3 training, UAS training Fort Bragg, FPV training proposal SOCOM"
 ---
 
 ## Get in Touch
