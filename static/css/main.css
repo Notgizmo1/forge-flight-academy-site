@@ -366,3 +366,15 @@ th {
 .mb-2 { margin-bottom: 2rem; }
 .mt-1 { margin-top: 1rem; }
 .mt-2 { margin-top: 2rem; }
+
+/* ── Footer LinkedIn link ───────────────────────────────────── */
+.footer-linkedin {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: #6b7280;
+  font-size: 0.78rem;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-linkedin:hover { color: #0A66C2; }
