@@ -36,7 +36,7 @@ This is not advanced aerospace engineering. These are skills that can be taught 
 
 **FFF-201 — Electronics Repair for Deployed Operators** is a five-day hands-on course that closes the diagnostic and repair gap at the operator level. Students work with actual PCBs, components, soldering equipment, and multi-meters throughout. By the end of the course, operators can diagnose failures, replace components, and return a platform to flight-ready condition in the field. All materials and tools are included — students retain the PCBs and components used during training.
 
-**FFF-301 — Additive Manufacturing for UAS Sustainment** addresses the structural side of the equation. Three days focused on using desktop FDM printers (students retain the Bambu P1S printer) to produce replacement airframe components, payload mounts, and custom hardware in the field. The course covers design-for-printability, material selection for structural applications, and quality verification. An organization with this capability can print replacement structural components in hours rather than waiting weeks for parts.
+**FFF-301 — Additive Manufacturing for UAS Sustainment** addresses the structural side of the equation. Five days focused on using desktop FDM printers (students retain the Bambu P1S printer) to produce replacement airframe components, payload mounts, and custom hardware in the field. The course covers design-for-printability, material selection for structural applications, and quality verification. An organization with this capability can print replacement structural components in hours rather than waiting weeks for parts.
 
 ## Connecting Sustainment to Operational Readiness
 

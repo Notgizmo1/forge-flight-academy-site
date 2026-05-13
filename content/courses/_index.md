@@ -140,7 +140,7 @@ Ten courses across four capability domains. All programs emphasize hands-on prof
     dod_sustainment_some: { code:'FFF-201', name:'Electronics Repair for Deployed Operators', reason:'FFF-201 builds practical repair proficiency regardless of prior electronics exposure. The course is built around what fails in the field, not lab theory.', link:'/courses/fff-201/' },
     dod_sustainment_advanced: { code:'FFF-301', name:'Additive Manufacturing for UAS Sustainment', reason:'If repair fundamentals are solid, the next layer is forward-deployed manufacturing capability — printing structural replacement parts on-site and eliminating parts resupply dependency.', link:'/courses/fff-301/' },
     dod_trainer_none:     { code:'FFF-401', name:'Advanced FPV Systems Integration &amp; Field Sustainment', reason:'Build operator proficiency first. Once your unit has trained operators, FFF-402 (train-the-trainer) is the natural next step to make that capability self-replicating.', link:'/courses/fff-401/' },
-    dod_trainer_some:     { code:'FFF-402', name:'FPV Master Trainer Certification', reason:'15-day certification program. Graduates can deliver FFF-401-equivalent training internally — eliminating contractor dependency for ongoing operator development.', link:'/courses/fff-402/' },
+    dod_trainer_some:     { code:'FFF-402', name:'FPV Master Trainer Certification', reason:'5-day certification program. Graduates can deliver FFF-401-equivalent training internally — eliminating contractor dependency for ongoing operator development.', link:'/courses/fff-402/' },
     dod_trainer_advanced: { code:'FFF-402', name:'FPV Master Trainer Certification', reason:'With experienced operators in the unit, FFF-402 is the direct path to sustainable internal training capability. Certify one instructor, train indefinitely.', link:'/courses/fff-402/' },
     dod_ai_none:          { code:'FFA-401', name:'Operational Edge Computing for UAS', reason:'No ML background needed. Deploy real-time AI target recognition on Jetson hardware and configure autonomous decision pipelines for disconnected operations. Built for operators, not data scientists.', link:'/courses/ffa-401/' },
     dod_ai_some:          { code:'FFA-401', name:'Operational Edge Computing for UAS', reason:'FFA-401 is the right entry point regardless of prior exposure — it bridges the gap between theoretical AI knowledge and operational edge deployment on real hardware.', link:'/courses/ffa-401/' },
@@ -268,7 +268,7 @@ Build it. Configure it. Fly it. Fix it. The complete FPV operator and trainer pi
 <div class="card">
 <span class="course-code">FFF-402</span>
 <h3>FPV Master Trainer Certification</h3>
-<p><strong>Duration:</strong> 15 days &nbsp;|&nbsp; FFF-401 recommended prerequisite</p>
+<p><strong>Duration:</strong> 5 days &nbsp;|&nbsp; FFF-401 recommended prerequisite</p>
 <p><strong>After this course, organizations have:</strong> A certified internal instructor capable of delivering FFF-401-equivalent training organically — eliminating recurring contractor dependency and building a sustainable unit training pipeline.</p>
 <p style="font-size:0.85rem; color:#6b7280;">Full equipment package included. FAA Part 107 exam covered. Curriculum licensing included.</p>
 <a href="/courses/fff-402/" class="btn btn-primary">Program Details →</a>
@@ -373,7 +373,7 @@ Organic repair. Zero contractor dependency. Keep platforms flying after attritio
 <div class="card">
 <span class="course-code">FFF-301</span>
 <h3>Additive Manufacturing for UAS Sustainment</h3>
-<p><strong>Duration:</strong> 3 days &nbsp;|&nbsp; No prerequisites</p>
+<p><strong>Duration:</strong> 5 days &nbsp;|&nbsp; No prerequisites</p>
 <p><strong>After this course, operators can:</strong> Design and print field-replacement structural components, select appropriate materials for load-bearing applications, and maintain a forward-deployed printing capability that eliminates dependency on parts resupply timelines.</p>
 <p style="font-size:0.85rem; color:#6b7280;">FDM/FFF techniques, material selection, and design for printability. Filament and consumables included.</p>
 <a href="/courses/fff-301/" class="btn btn-primary">Program Details →</a>

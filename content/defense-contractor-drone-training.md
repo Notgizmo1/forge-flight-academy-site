@@ -23,7 +23,7 @@ description: "Operator training for defense primes, system integrators, and gove
         <h2>The Problem That Comes After Delivery</h2>
         <p>Platforms get fielded. Operators don't get trained. The support calls start immediately.</p>
       </div>
-      <p style="font-size: 1rem; color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">Defense contractors and system integrators invest heavily in platform development and contract delivery — then spend years providing contractor logistics support because the receiving units lack organic operator capability. It's a recurring cost with no natural endpoint, and it's driven almost entirely by a training gap that could be closed in 10–15 days.</p>
+      <p style="font-size: 1rem; color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">Defense contractors and system integrators invest heavily in platform development and contract delivery — then spend years providing contractor logistics support because the receiving units lack organic operator capability. It's a recurring cost with no natural endpoint, and it's driven almost entirely by a training gap that could be closed in a structured 15-day curriculum (FFF-401 + FFF-402).</p>
       <p style="font-size: 1rem; color: #374151; line-height: 1.75;">Forge and Flight Academy's contractor programs are built for two outcomes: certify operators before or at delivery, and certify internal instructors so your customer can sustain training organically. Both paths reduce your long-term support obligation while improving platform utilization for the end user.</p>
     </div>
   </div>
@@ -40,7 +40,7 @@ description: "Operator training for defense primes, system integrators, and gove
       <div style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); padding: 2rem; border-radius: 4px; border-top: 4px solid #f59e0b;">
         <div style="display: inline-block; background: #f59e0b; color: #1a2332; font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; padding: 0.25rem 0.6rem; border-radius: 2px; margin-bottom: 1rem;">Recommended First Step</div>
         <h3 style="color: white; margin-bottom: 0.5rem;">FFF-402: FPV Master Trainer Certification</h3>
-        <p style="color: rgba(255,255,255,0.75); font-size: 0.95rem; line-height: 1.6;">15 days. Certifies an internal instructor at your customer organization who can deliver FFF-401-equivalent training organically. Includes full curriculum licensing. Eliminates the recurring contractor training cost entirely — one investment, indefinite internal delivery capability.</p>
+        <p style="color: rgba(255,255,255,0.75); font-size: 0.95rem; line-height: 1.6;">5 days. Certifies an internal instructor at your customer organization who can deliver FFF-401-equivalent training organically. Includes full curriculum licensing. Eliminates the recurring contractor training cost entirely — one investment, indefinite internal delivery capability.</p>
         <a href="/courses/fff-402/" class="btn btn-primary" style="margin-top: 1.25rem; display: inline-block;">Program Details →</a>
       </div>
       <div style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); padding: 2rem; border-radius: 4px; border-top: 4px solid white;">
