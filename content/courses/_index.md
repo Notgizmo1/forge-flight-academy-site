@@ -6,7 +6,7 @@ layout: "list"
 
 ## Professional UAS Training Programs
 
-Ten courses across four capability domains. All programs emphasize hands-on proficiency development — operators leave able to perform, not just recite.
+Eleven courses across four capability domains. All programs emphasize hands-on proficiency development — operators leave able to perform, not just recite.
 
 ---
 
@@ -166,8 +166,8 @@ Ten courses across four capability domains. All programs emphasize hands-on prof
     contractor_assessment_none:   { code:'assessment', name:'Operator Capability Assessment', reason:'Third-party objective proficiency validation carries more weight with government acceptance testers than vendor self-certification. Our 1-5 scale assessments produce defensible, audit-ready deliverables for contract compliance.', link:'/assessment/' },
     contractor_assessment_some:   { code:'assessment', name:'Operator Capability Assessment', reason:'Independent assessment services validate your training program effectiveness and provide objective capability documentation — useful for program acceptance testing and government customer deliverable reporting.', link:'/assessment/' },
     contractor_assessment_advanced: { code:'assessment', name:'Unit Readiness Assessment', reason:'Unit-level readiness validation for program acceptance, platform fielding documentation, and government customer readiness reporting. Defensible third-party methodology for acquisition file requirements.', link:'/assessment/' },
-    contractor_fpv_none:          { code:'FFF-401', name:'Advanced FPV Systems Integration &amp; Field Sustainment', reason:'Platform-specific initial operator qualification for your government customers. Zero to operationally proficient in 10 days. SOCOM-aligned curriculum, full equipment included.', link:'/courses/fff-401/' },
-    contractor_fpv_some:          { code:'FFF-401', name:'Advanced FPV Systems Integration &amp; Field Sustainment', reason:'FFF-401 delivers complete sustainment capability alongside flight proficiency — operators leave able to maintain and repair platforms, not just fly them. Appropriate even with prior flight experience.', link:'/courses/fff-401/' },
+    contractor_fpv_none:          { code:'FFF-411', name:'Commercial FPV Drone Integration &amp; Sustainment', reason:'10-day build-to-fly program for commercial operator qualification. Students build their aircraft during the course, complete FAA Part 107, and leave with full equipment. The commercial equivalent of our FFF-401 flagship.', link:'/courses/fff-411/' },
+    contractor_fpv_some:          { code:'FFF-411', name:'Commercial FPV Drone Integration &amp; Sustainment', reason:'FFF-411 delivers complete build and sustainment capability alongside flight proficiency. Even with prior flight experience, the build-from-components curriculum closes sustainment gaps that hold most commercial operators back.', link:'/courses/fff-411/' },
     contractor_fpv_advanced:      { code:'FFF-402', name:'FPV Master Trainer Certification', reason:'Experienced operators are ready to build internal training capability. FFF-402 certifies a trainer within your customer organization — reducing your long-term support obligation.', link:'/courses/fff-402/' },
     contractor_custom_none:       { code:'contact', name:'Custom Curriculum Development', reason:'If you\'re fielding a non-FPV platform or need training tailored to a specific system, we develop custom curriculum under a separate agreement. Contact us with your platform specs and timeline.', link:'/contact/' },
     contractor_custom_some:       { code:'contact', name:'Custom Curriculum Development', reason:'Custom training development for specialized platforms, sensor payloads, or mission-specific requirements. Contact us with your platform documentation and we\'ll scope the engagement.', link:'/contact/' },
@@ -252,7 +252,7 @@ Ten courses across four capability domains. All programs emphasize hands-on prof
 <a name="fpv-tactical"></a>
 ## FPV & Tactical Drone Employment
 
-Build it. Configure it. Fly it. Fix it. The complete FPV operator and trainer pipeline.
+Build it. Configure it. Fly it. Fix it. The complete FPV operator and trainer pipeline — from zero to operational to instructor-certified.
 
 <div class="grid grid-2" style="margin-top: 1.5rem;">
 
@@ -263,6 +263,15 @@ Build it. Configure it. Fly it. Fix it. The complete FPV operator and trainer pi
 <p><strong>After this course, operators can:</strong> Build a complete FPV aircraft from components, configure Betaflight for tactical employment, fly precision maneuvers in operational scenarios, and perform field repairs without contractor support.</p>
 <p style="font-size:0.85rem; color:#6b7280;">Equipment included — students keep all hardware. SOCOM-aligned curriculum. Army UALC standards.</p>
 <a href="/courses/fff-401/" class="btn btn-primary">Program Details →</a>
+</div>
+
+<div class="card" style="border-top: 3px solid #16a34a;">
+<span class="course-code">FFF-411 — NEW</span>
+<h3>Commercial FPV Drone Integration & Sustainment</h3>
+<p><strong>Duration:</strong> 10 days &nbsp;|&nbsp; Zero experience required</p>
+<p><strong>After this course, operators can:</strong> Build and configure a complete digital FPV system from components, fly precision maneuvers for commercial applications, perform field maintenance, and operate legally under FAA Part 107.</p>
+<p style="font-size:0.85rem; color:#6b7280;">Full equipment kit retained by student — aircraft, digital goggles, controller, toolkit. FAA Part 107 included. Commercial and academic pricing available.</p>
+<a href="/courses/fff-411/" class="btn btn-primary">Program Details →</a>
 </div>
 
 <div class="card">
