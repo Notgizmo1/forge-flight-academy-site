@@ -289,9 +289,8 @@
       <h2>Submit a Training Inquiry</h2>
       <p class="form-subtitle">Our team responds to all training inquiries within 24 hours. Government and DoD requests receive same-day priority.</p>
 
-      <form class="contact-form" method="POST" action="https://formspree.io/f/mzdjvrdl">
-        <input type="hidden" name="_subject" value="New Training Inquiry — Forge and Flight Academy">
-        <input type="text" name="_gotcha" style="display:none">
+      <form class="contact-form" id="academyContactForm">
+        <!-- Direct CRM submission — no third-party form service -->
 
         <div class="form-row">
           <div class="form-group">
@@ -456,7 +455,7 @@
 
 <script>
 (function () {
-  var form = document.querySelector('.contact-form');
+  var form = document.getElementById('academyContactForm');
   if (!form) return;
 
   form.addEventListener('submit', async function (e) {
@@ -467,53 +466,44 @@
     btn.textContent = 'Sending…';
 
     var fd = new FormData(form);
+    var courseInterest = (fd.get('course-interest') || '').toString();
+    var details = [
+      courseInterest ? 'Course: ' + courseInterest : '',
+      fd.get('student-count') ? 'Students: ' + fd.get('student-count') : '',
+      fd.get('timeline') ? 'Timeline: ' + fd.get('timeline') : '',
+      fd.get('location-pref') ? 'Location: ' + fd.get('location-pref') : '',
+      fd.get('message') ? fd.get('message').toString() : '',
+    ].filter(Boolean).join(' | ');
 
-    // ── CRM capture — fire and forget, never blocks email delivery ──
     try {
-      var orgType = (fd.get('org-type') || '').toString();
-      var courseInterest = (fd.get('course-interest') || '').toString();
-      var details = [
-        courseInterest ? 'Course: ' + courseInterest : '',
-        fd.get('student-count') ? 'Students: ' + fd.get('student-count') : '',
-        fd.get('timeline') ? 'Timeline: ' + fd.get('timeline') : '',
-        fd.get('location-pref') ? 'Location: ' + fd.get('location-pref') : '',
-        fd.get('message') ? fd.get('message').toString() : '',
-      ].filter(Boolean).join(' | ');
-
-      fetch('https://forge-flight-crm.mort82.workers.dev/public/lead', {
+      var res = await fetch('https://forge-flight-crm.mort82.workers.dev/public/lead', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          org_name:     (fd.get('organization') || '').toString(),
-          contact_name: (fd.get('name') || '').toString(),
-          email:        (fd.get('email') || '').toString(),
+          org_name:     (fd.get('organization') || '').toString().trim(),
+          contact_name: (fd.get('name') || '').toString().trim(),
+          email:        (fd.get('email') || '').toString().trim(),
           phone:        fd.get('phone') ? fd.get('phone').toString() : undefined,
           interest:     'academy_training',
           message:      details || undefined,
           source_page:  window.location.href,
         }),
-      }).catch(function () {});
-    } catch (_) {}
-
-    // ── Email delivery via Formspree AJAX — preserves existing flow ──
-    try {
-      var res = await fetch('https://formspree.io/f/mzdjvrdl', {
-        method: 'POST',
-        headers: { 'Accept': 'application/json' },
-        body: fd,
       });
       var data = await res.json();
-      if (data.ok || res.ok) {
-        btn.textContent = '✓ Inquiry Submitted';
-        form.innerHTML = '<div style="text-align:center;padding:2rem;"><p style="font-size:1.1rem;color:var(--navy);font-weight:600;">Thank you — we\'ll respond within 24 hours.</p><p style="color:#64748b;margin-top:0.5rem;">DoD and government requests receive same-day priority.</p></div>';
+      if (data.success || data.received) {
+        form.innerHTML = '<div style="text-align:center;padding:2rem;"><p style="font-size:1.1rem;color:var(--navy);font-weight:600;margin-bottom:0.5rem;">Training Inquiry Received</p><p style="color:#64748b;">We\'ll respond within 24 hours. DoD and government requests receive same-day priority.</p></div>';
+        window.scrollTo({ top: form.offsetTop - 100, behavior: 'smooth' });
         return;
       }
     } catch (_) {}
 
-    // Fallback: native submit so email still goes out even if AJAX fails
     btn.disabled = false;
     btn.textContent = origText;
-    form.submit();
+    var err = form.querySelector('#form-err') || document.createElement('p');
+    err.id = 'form-err';
+    err.style.cssText = 'color:#c0392b;font-size:0.85rem;margin-top:1rem;';
+    err.textContent = 'Submission failed — please email info@forgeandflightacademy.com directly.';
+    if (!form.querySelector('#form-err')) btn.parentNode.insertBefore(err, btn.nextSibling);
   });
 })();
 </script>
