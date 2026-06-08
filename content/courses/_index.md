@@ -366,7 +366,7 @@ Autonomous systems at the tactical edge — for operators, not data scientists.
 <a name="fabrication-sustainment"></a>
 ## Field Fabrication & Sustainment
 
-Organic repair. Zero contractor dependency. Keep platforms flying after attrition.
+Organic repair. Zero contractor dependency. Keep platforms flying after attrition. Build the manufacturing capability to produce what you need.
 
 <div class="grid grid-2" style="margin-top: 1.5rem;">
 
@@ -386,6 +386,44 @@ Organic repair. Zero contractor dependency. Keep platforms flying after attritio
 <p><strong>After this course, operators can:</strong> Design and print field-replacement structural components, select appropriate materials for load-bearing applications, and maintain a forward-deployed printing capability that eliminates dependency on parts resupply timelines.</p>
 <p style="font-size:0.85rem; color:#6b7280;">FDM/FFF techniques, material selection, and design for printability. Filament and consumables included.</p>
 <a href="/courses/fff-301/" class="btn btn-primary">Program Details →</a>
+</div>
+
+<div class="card">
+<span class="course-code">FFF-601</span>
+<h3>Applied CFD for UAS Design</h3>
+<p><strong>Duration:</strong> 4 days &nbsp;|&nbsp; Basic design background</p>
+<p><strong>After this course, engineers can:</strong> Set up and run CFD simulations for fixed-wing and VTOL geometries, generate drag polars, identify aerodynamic inefficiencies, and use simulation outputs to drive informed design decisions — before cutting material.</p>
+<p style="font-size:0.85rem; color:#6b7280;">OpenFOAM + XFLR5 (open-source — no licensing cost). DoD, academic, and commercial.</p>
+<a href="/courses/fff-601/" class="btn btn-primary">Program Details →</a>
+</div>
+
+<div class="card" style="border-top: 3px solid #dc2626;">
+<span class="course-code">FFF-651 — DoD Only</span>
+<h3>UAS Manufacturing Advisory</h3>
+<p><strong>Duration:</strong> 5 days &nbsp;|&nbsp; No prerequisites</p>
+<p><strong>After this course, program offices can:</strong> Define facility and tooling requirements, architect an NDAA-compliant supply chain, establish production quality systems, and build an implementation roadmap for organic UAS manufacturing capability.</p>
+<p style="font-size:0.85rem; color:#6b7280;">Delivered by active UAS manufacturing practitioners. Includes production facility tour.</p>
+<a href="/courses/fff-651/" class="btn btn-primary">Program Details →</a>
+</div>
+
+</div>
+
+---
+
+<a name="industry-assessment"></a>
+## Industry & Acquisition Assessment
+
+Assessment and advisory programs for DoD acquisition professionals and program offices.
+
+<div class="grid grid-2" style="margin-top: 1.5rem;">
+
+<div class="card" style="border-top: 3px solid #dc2626;">
+<span class="course-code">FFI-401 — DoD Only</span>
+<h3>UAS Manufacturing Facility & Adversary Capability Assessment</h3>
+<p><strong>Duration:</strong> 5 days &nbsp;|&nbsp; No prerequisites</p>
+<p><strong>After this course, acquisition professionals can:</strong> Evaluate UAS manufacturer NDAA compliance claims with technical confidence, conduct structured BOM reviews for prohibited components, assess supply chain risk, and document findings for contracting and acquisition files.</p>
+<p style="font-size:0.85rem; color:#6b7280;">No engineering background required. All adversary analysis uses unclassified, open-source information.</p>
+<a href="/courses/ffi-401/" class="btn btn-primary">Program Details →</a>
 </div>
 
 </div>
