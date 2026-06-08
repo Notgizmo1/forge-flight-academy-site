@@ -378,3 +378,126 @@ th {
   transition: color 0.2s;
 }
 .footer-linkedin:hover { color: #0A66C2; }
+
+/* ── Visual Refresh — June 2026 ───────────────────────────────────── */
+
+/* Rounded corners on cards and buttons */
+.card {
+  border-radius: 6px;
+}
+
+.btn {
+  border-radius: 4px;
+}
+
+/* Stronger card hover — lift effect */
+.card:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  transform: translateY(-1px);
+}
+
+/* Smooth card transition */
+.card {
+  transition: all 0.2s ease;
+}
+
+/* Course code badge — sharper contrast */
+.course-code {
+  border-radius: 3px;
+  letter-spacing: 0.08em;
+}
+
+/* Section header — amber accent line */
+.section-header h2::after {
+  content: '';
+  display: block;
+  width: 48px;
+  height: 3px;
+  background: var(--amber);
+  margin: 0.75rem auto 0;
+  border-radius: 2px;
+}
+
+/* Better table styling for course pages */
+th {
+  background-color: var(--navy);
+  color: var(--white);
+  border-color: var(--navy);
+}
+
+td {
+  vertical-align: top;
+}
+
+tr:nth-child(even) td {
+  background-color: #f8fafc;
+}
+
+/* Hardware retained badge */
+.hardware-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: rgba(245, 158, 11, 0.1);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  color: #92400e;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 0.3rem 0.7rem;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-top: 0.5rem;
+}
+
+/* Hero — subtle diagonal stripe texture */
+.hero {
+  background: linear-gradient(135deg, #1a2332 0%, #243447 60%, #2d3e50 100%);
+  position: relative;
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    -55deg,
+    transparent,
+    transparent 40px,
+    rgba(255,255,255,0.015) 40px,
+    rgba(255,255,255,0.015) 41px
+  );
+  pointer-events: none;
+}
+
+/* Trust bar — tighter, more refined */
+.trust-bar {
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+}
+
+/* Insight card links — no underline */
+.insights-list a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Footer — slightly warmer bg */
+footer {
+  background-color: #111827;
+}
+
+/* Improved focus states for accessibility */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--amber);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Responsive improvements */
+@media (max-width: 600px) {
+  h1 { font-size: 1.9rem; }
+  .hero h1 { font-size: 1.75rem; }
+  .container { padding: 2rem 1.25rem; }
+  .btn { padding: 0.65rem 1.1rem; font-size: 0.825rem; }
+}
