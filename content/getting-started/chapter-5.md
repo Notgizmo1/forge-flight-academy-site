@@ -122,7 +122,7 @@ You've completed the basics. Now advance your skills and explore professional op
 <th style="padding: 0.75rem; text-align: left; border: 1px solid #e2e8f0;">Training Focus</th>
 </tr>
 <tr>
-<td style="padding: 0.75rem; border: 1px solid #e2e8f0;"><strong>Department of War Units</strong></td>
+<td style="padding: 0.75rem; border: 1px solid #e2e8f0;"><strong>Department of Defense Units</strong></td>
 <td style="padding: 0.75rem; border: 1px solid #e2e8f0;">Custom tactical training, SOCOM-aligned curriculum</td>
 </tr>
 <tr>

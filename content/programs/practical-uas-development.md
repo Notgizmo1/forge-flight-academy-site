@@ -126,7 +126,7 @@ Students are evaluated using a **1-5 capability rating scale** across four phase
 
 | Customer Type | Price per Student | Notes |
 |---------------|-------------------|-------|
-| **Department of War / Government** | $18,500 | Active duty, federal agencies |
+| **Department of Defense / Government** | $18,500 | Active duty, federal agencies |
 | **Commercial** | $16,500 | Private sector, contractors |
 | **Academic** | $14,500 | Universities, research institutions |
 | **Early Adopter** | $12,500 | First 3 cohorts |
@@ -191,7 +191,7 @@ Students are evaluated using a **1-5 capability rating scale** across four phase
 ## What Students Say
 
 *"I went from knowing nothing about 3D printing or ArduPilot to flying my own autonomous aircraft in 10 days. The hands-on approach and capability-based assessment kept me accountable."*  
-— J. Martinez, Department of War Contractor
+— J. Martinez, Department of Defense Contractor
 
 *"Best training investment our research lab has made. Our team can now design and build custom platforms for our sensor payloads instead of buying off-the-shelf."*  
 — Dr. Sarah Chen, University Research Scientist

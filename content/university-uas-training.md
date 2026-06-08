@@ -86,7 +86,7 @@ description: "UAS operator training for university research programs, aerospace 
       <div style="display: flex; flex-direction: column; gap: 1.25rem;">
         <div style="display: flex; gap: 1rem; align-items: flex-start; padding: 1.25rem; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 4px;">
           <span style="color: #f59e0b; font-weight: 700; font-size: 1.1rem; flex-shrink: 0;">✓</span>
-          <div><strong>Academic pricing tier</strong> — separate rate structure for universities and research institutions on all 10 courses</div>
+          <div><strong>Academic pricing tier</strong> — separate rate structure for universities and research institutions on all 11 courses</div>
         </div>
         <div style="display: flex; gap: 1rem; align-items: flex-start; padding: 1.25rem; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 4px;">
           <span style="color: #f59e0b; font-weight: 700; font-size: 1.1rem; flex-shrink: 0;">✓</span>

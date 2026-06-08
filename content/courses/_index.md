@@ -144,16 +144,16 @@ Eleven courses across four capability domains. All programs emphasize hands-on p
     dod_trainer_advanced: { code:'FFF-402', name:'FPV Master Trainer Certification', reason:'With experienced operators in the unit, FFF-402 is the direct path to sustainable internal training capability. Certify one instructor, train indefinitely.', link:'/courses/fff-402/' },
     dod_ai_none:          { code:'FFA-401', name:'Operational Edge Computing for UAS', reason:'No ML background needed. Deploy real-time AI target recognition on Jetson hardware and configure autonomous decision pipelines for disconnected operations. Built for operators, not data scientists.', link:'/courses/ffa-401/' },
     dod_ai_some:          { code:'FFA-401', name:'Operational Edge Computing for UAS', reason:'FFA-401 is the right entry point regardless of prior exposure — it bridges the gap between theoretical AI knowledge and operational edge deployment on real hardware.', link:'/courses/ffa-401/' },
-    dod_ai_advanced:      { code:'FFA-501', name:'Advanced Autonomy Employment &amp; Mission Planning', reason:'Complex autonomous missions, swarm coordination, and BVLOS configuration. For operators with FFA-401-level edge computing skills who need the advanced mission planning layer.', link:'/courses/ffa-501/' },
+    dod_ai_advanced:      { code:'Contact Us', name:'Advanced Autonomy Programs', reason:'For operators with FFA-401-level edge computing skills seeking advanced autonomy and mission planning capability — contact us to discuss curriculum options tailored to your operational requirements.', link:'/contact/' },
     dod_commander_none:   { code:'FFR-101', name:'RF Awareness for Non-Technical Personnel', reason:'2-day executive overview for O-4 and above. Spectrum basics, EW threats, and coordination requirements. No technical background needed. Make informed decisions about spectrum-contested operations.', link:'/courses/ffr-101/' },
     dod_commander_some:   { code:'FFA-201', name:'AI Fundamentals for Non-Technical Personnel', reason:'2-day executive overview covering AI/ML capabilities and limitations for commanders and program managers. Evaluate AI-enabled UAS claims critically and make informed acquisition decisions.', link:'/courses/ffa-201/' },
     dod_commander_advanced: { code:'FFR-101', name:'RF Awareness for Non-Technical Personnel', reason:'Even with operational experience, the spectrum-specific commander overview course provides structured framework for EW decision-making and S-6 coordination that transfers directly to contested UAS employment.', link:'/courses/ffr-101/' },
     university_research_none:     { code:'FFA-401', name:'Operational Edge Computing for UAS', reason:'Gives research operators the platform and AI payload competency to run experiments independently. Jetson Orin Nano included. No ML background needed — designed for operators, not computer scientists.', link:'/courses/ffa-401/' },
     university_research_some:     { code:'FFA-401', name:'Operational Edge Computing for UAS', reason:'FFA-401 closes the gap between research theory and operational platform competency. Students leave able to execute flight test protocols and run AI payloads without manufacturer hand-holding.', link:'/courses/ffa-401/' },
-    university_research_advanced: { code:'FFA-501', name:'Advanced Autonomy Employment &amp; Mission Planning', reason:'For labs with operational platform proficiency that need multi-vehicle coordination, BVLOS capability, and complex autonomous mission execution for research programs.', link:'/courses/ffa-501/' },
+    university_research_advanced: { code:'Contact Us', name:'Advanced Autonomy Programs', reason:'For labs with operational platform proficiency seeking multi-vehicle coordination, BVLOS capability, and complex autonomous mission execution — contact us to discuss curriculum options for your research program.', link:'/contact/' },
     university_ai_none:           { code:'FFA-401', name:'Operational Edge Computing for UAS', reason:'The right starting point for AI research programs — builds hardware proficiency alongside edge AI deployment on Jetson. Students can run experiments without waiting on technical staff for every flight.', link:'/courses/ffa-401/' },
     university_ai_some:           { code:'FFA-401', name:'Operational Edge Computing for UAS', reason:'FFA-401 bridges theory and hardware. Even with AI background, the operational deployment layer on Jetson hardware in a flight context is a distinct competency.', link:'/courses/ffa-401/' },
-    university_ai_advanced:       { code:'FFA-501', name:'Advanced Autonomy Employment &amp; Mission Planning', reason:'Advanced autonomous mission planning and multi-vehicle coordination. For researchers with solid edge AI foundations who need the complex mission execution capability.', link:'/courses/ffa-501/' },
+    university_ai_advanced:       { code:'Contact Us', name:'Advanced Autonomy Programs', reason:'For researchers with solid edge AI foundations seeking advanced autonomous mission planning and multi-vehicle coordination — contact us to discuss curriculum options for your research program.', link:'/contact/' },
     university_sustainment_none:  { code:'FFF-201', name:'Electronics Repair for Deployed Operators', reason:'Labs running high-cycle research operations can\'t afford manufacturer RMA wait times. FFF-201 builds in-house repair capability — reducing downtime from weeks to hours.', link:'/courses/fff-201/' },
     university_sustainment_some:  { code:'FFF-201', name:'Electronics Repair for Deployed Operators', reason:'FFF-201 builds practical repair proficiency regardless of prior electronics exposure. Course is structured around what actually fails in high-cycle operations.', link:'/courses/fff-201/' },
     university_sustainment_advanced: { code:'FFF-301', name:'Additive Manufacturing for UAS Sustainment', reason:'If repair fundamentals are covered, additive manufacturing adds the capability to fabricate structural replacement parts in-lab — eliminating dependency on parts availability timelines.', link:'/courses/fff-301/' },
@@ -341,13 +341,13 @@ Autonomous systems at the tactical edge — for operators, not data scientists.
 <a href="/courses/ffa-401/" class="btn btn-primary">Program Details →</a>
 </div>
 
-<div class="card">
-<span class="course-code">FFA-501</span>
-<h3>Advanced Autonomy Employment & Mission Planning</h3>
-<p><strong>Duration:</strong> 5 days &nbsp;|&nbsp; FFA-401 recommended</p>
-<p><strong>After this course, operators can:</strong> Plan and execute complex autonomous missions, coordinate multi-aircraft operations, and configure BVLOS flight profiles using ArduPilot/PX4 advanced parameters.</p>
-<p style="font-size:0.85rem; color:#6b7280;">Academy platforms used. Swarm coordination and autonomous mission execution focus.</p>
-<a href="/courses/ffa-501/" class="btn btn-primary">Program Details →</a>
+<div class="card" style="border-top: 3px solid #64748b;">
+<span class="course-code">Advanced Programs</span>
+<h3>Advanced Autonomy & Mission Planning</h3>
+<p><strong>Contact us for availability &nbsp;|&nbsp; FFA-401 required</strong></p>
+<p><strong>For organizations ready for the next level:</strong> Complex autonomous missions, multi-aircraft coordination, and BVLOS configuration. Available to qualifying organizations. Contact us to discuss requirements and curriculum options.</p>
+<p style="font-size:0.85rem; color:#6b7280;">Prerequisite: FFA-401 completion. DoD and qualifying academic organizations.</p>
+<a href="/contact/" class="btn btn-primary">Contact for Availability →</a>
 </div>
 
 <div class="card">

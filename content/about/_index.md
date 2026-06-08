@@ -1,6 +1,6 @@
 ---
 title: "About Forge and Flight Academy"
-description: "Professional UAS training for Department of War units, government agencies, and research institutions."
+description: "Professional UAS training for Department of Defense units, government agencies, and research institutions."
 ---
 
 ## About Forge and Flight Academy
@@ -43,7 +43,7 @@ All training platforms use American-made avionics from our our avionics manufact
 
 ## Who We Serve
 
-**Department of War Units**  
+**Department of Defense Units**  
 Custom tactical courses, instructor development, SOCOM-aligned curriculum tailored to operational requirements.
 
 **Universities & Research Institutions**  

@@ -50,12 +50,12 @@ We close that gap — giving researchers the platform competency they need to fo
 </div>
 
 <div class="card">
-<span class="course-code">FFA-501</span>
-<h3>Advanced Autonomy Employment & Mission Planning</h3>
-<p><strong>5 days | FFA-401 recommended</strong></p>
-<p>Plan and execute complex autonomous missions, coordinate multi-aircraft operations, and configure BVLOS profiles using ArduPilot/PX4 advanced parameters. For research programs operating beyond visual line of sight or running multi-vehicle swarm studies.</p>
-<p style="font-size:0.85rem; color:#6b7280;">Academy platforms used. Swarm coordination focus.</p>
-<a href="/courses/ffa-501/" class="btn btn-primary">Program Details →</a>
+<span class="course-code">FFA-401</span>
+<h3>Operational Edge Computing for UAS</h3>
+<p><strong>5 days | No ML background required</strong></p>
+<p>Deploy real-time AI target recognition, configure autonomous decision pipelines on Jetson Orin Nano hardware, and run edge computing payloads on disconnected networks. Built for operators and researchers — not data scientists.</p>
+<p style="font-size:0.85rem; color:#6b7280;">Jetson Orin Nano 8GB per student. ArduPilot/PX4 integration.</p>
+<a href="/courses/ffa-401/" class="btn btn-primary">Program Details →</a>
 </div>
 
 <div class="card">
