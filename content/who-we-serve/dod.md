@@ -33,10 +33,10 @@ That's the gap we close. Every course in our DoD catalog is built around one out
 
 <div class="card" style="border-top: 3px solid #f59e0b;">
 <span class="course-code">FFF-401 — START HERE</span>
-<h3>Advanced FPV Systems Integration & Field Sustainment</h3>
+<h3>Advanced Fixed-Wing UAS Integration & Field Sustainment</h3>
 <p><strong>10 days | Zero experience required</strong></p>
-<p>Build a complete FPV aircraft from components, configure Betaflight for tactical employment, fly precision maneuvers, and perform field repairs without contractor support. SOCOM-aligned curriculum built on Army UALC standards and Ukrainian operational lessons.</p>
-<p style="font-size:0.85rem; color:#6b7280;">Equipment included. Students keep all hardware.</p>
+<p>Build a complete Falcon Group 2 fixed-wing airframe from components, configure ArduPilot for autonomous and manual operations, fly tactical fixed-wing missions, and perform field repairs without contractor support. SOCOM-aligned curriculum built on Army UALC standards and Ukrainian operational lessons.</p>
+<p style="font-size:0.85rem; color:#6b7280;">Falcon airframe retained by student. FAA Part 107 administered during the course.</p>
 <a href="/courses/fff-401/" class="btn btn-primary">Program Details →</a>
 </div>
 
@@ -52,7 +52,7 @@ That's the gap we close. Every course in our DoD catalog is built around one out
 <div class="card">
 <span class="course-code">FFF-402</span>
 <h3>FPV Master Trainer Certification</h3>
-<p><strong>15 days | FFF-401 recommended</strong></p>
+<p><strong>5 days | FFF-401 + Part 107 + 75 flight hours required</strong></p>
 <p>Build a certified internal instructor who can deliver FFF-401-equivalent training organically. Eliminate recurring contractor training costs. Build a sustainable unit training pipeline that scales without outside support.</p>
 <p style="font-size:0.85rem; color:#6b7280;">Full equipment package + FAA Part 107 included. Curriculum licensing included.</p>
 <a href="/courses/fff-402/" class="btn btn-primary">Program Details →</a>
@@ -95,7 +95,7 @@ For units standing up organic capability from scratch — one integrated program
 <div class="card" style="margin-top:1.5rem; background:#f0fdf4; border-left: 4px solid #16a34a;">
 <h3>Complete Unit Standup</h3>
 <p><strong>FFF-401 + FFR-201 + FFF-402 + Unit Readiness Assessment</strong></p>
-<p>Operators graduate proficient in FPV employment and EW resistance. A certified internal instructor can replicate training organically. A readiness assessment documents baseline capability and identifies gaps. This is the full self-sufficient unit package.</p>
+<p>Operators graduate proficient in fixed-wing employment and EW resistance. A certified internal instructor can replicate training organically. A readiness assessment documents baseline capability and identifies gaps. This is the full self-sufficient unit package.</p>
 <a href="/contact/" class="btn btn-primary">Request Unit Package Proposal →</a>
 </div>
 
