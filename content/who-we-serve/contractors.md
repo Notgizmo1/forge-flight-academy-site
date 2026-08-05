@@ -36,7 +36,7 @@ We solve both problems.
 <div class="card" style="border-top: 3px solid #16a34a;">
 <span class="course-code">FFF-402 — START HERE</span>
 <h3>FPV Master Trainer Certification</h3>
-<p><strong>15 days | Train-the-trainer program</strong></p>
+<p><strong>5 days | Train-the-trainer program</strong></p>
 <p>Certify an internal instructor within your customer's organization — or within your own company — who can deliver ongoing operator training without recurring contractor fees. Includes complete curriculum licensing, full equipment package, and FAA Part 107 exam.</p>
 <p style="font-size:0.85rem; color:#6b7280;">Full equipment package. Curriculum licensing included. FAA Part 107 covered.</p>
 <a href="/courses/fff-402/" class="btn btn-primary">Program Details →</a>
@@ -52,10 +52,10 @@ We solve both problems.
 
 <div class="card">
 <span class="course-code">FFF-401</span>
-<h3>Advanced FPV Systems Integration & Field Sustainment</h3>
+<h3>Advanced Fixed-Wing UAS Integration & Field Sustainment</h3>
 <p><strong>10 days | End-user operator training</strong></p>
-<p>Deliver initial operator qualification to your government customer's end-users. Complete FPV integration, field sustainment, and tactical employment. Use this as your platform IOQ course or bundle it with FFF-402 to deliver operators and an internal trainer simultaneously.</p>
-<p style="font-size:0.85rem; color:#6b7280;">SOCOM-aligned curriculum. Full equipment package included.</p>
+<p>Deliver initial operator qualification to your government customer's end-users. Complete fixed-wing integration, field sustainment, and tactical employment. Use this as your platform IOQ course or bundle it with FFF-402 to deliver operators and an internal trainer simultaneously.</p>
+<p style="font-size:0.85rem; color:#6b7280;">SOCOM-aligned curriculum. Falcon airframe retained by student.</p>
 <a href="/courses/fff-401/" class="btn btn-primary">Program Details →</a>
 </div>
 

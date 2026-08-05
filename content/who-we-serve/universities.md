@@ -50,12 +50,12 @@ We close that gap — giving researchers the platform competency they need to fo
 </div>
 
 <div class="card">
-<span class="course-code">FFA-401</span>
-<h3>Operational Edge Computing for UAS</h3>
-<p><strong>5 days | No ML background required</strong></p>
-<p>Deploy real-time AI target recognition, configure autonomous decision pipelines on Jetson Orin Nano hardware, and run edge computing payloads on disconnected networks. Built for operators and researchers — not data scientists.</p>
-<p style="font-size:0.85rem; color:#6b7280;">Jetson Orin Nano 8GB per student. ArduPilot/PX4 integration.</p>
-<a href="/courses/ffa-401/" class="btn btn-primary">Program Details →</a>
+<span class="course-code">FFF-401</span>
+<h3>Advanced Fixed-Wing UAS Integration & Field Sustainment</h3>
+<p><strong>10 days | Zero experience required</strong></p>
+<p>Build and fly a complete Group 2 fixed-wing airframe — ideal for aerospace engineering programs, flight test curricula, and research labs requiring real platform operations. Covers ArduPilot configuration, autonomous mission execution, and field repair. FAA Part 107 administered during the course.</p>
+<p style="font-size:0.85rem; color:#6b7280;">Falcon airframe retained by student. Academic pricing available. NDAA-compliant training platform.</p>
+<a href="/courses/fff-401/" class="btn btn-primary">Program Details →</a>
 </div>
 
 <div class="card">
