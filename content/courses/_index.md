@@ -1,12 +1,12 @@
 ---
 title: "UAS Training Courses | FPV, Electronic Warfare, AI & Autonomy | Forge and Flight Academy"
-description: "Nine professional UAS courses across FPV tactical drone employment, electronic warfare, AI autonomy, field fabrication, and sustainment. DoD units, government agencies, and universities. Fort Bragg adjacent."
+description: "14 professional UAS courses across fixed-wing integration, FPV tactical drone employment, electronic warfare, AI autonomy, field fabrication, and sustainment. DoD units, government agencies, and universities. Fort Bragg adjacent."
 layout: "list"
 ---
 
 ## Professional UAS Training Programs
 
-Eleven courses across four capability domains. All programs emphasize hands-on proficiency development — operators leave able to perform, not just recite.
+14 courses across five capability domains. All programs emphasize hands-on proficiency development — operators leave able to perform, not just recite.
 
 ---
 
@@ -509,7 +509,7 @@ All programs are priced on a **per-student, cohort-based model.** Pricing is tai
 
 <div class="card" style="margin-top: 1.5rem; background: #f0f9ff; border-left: 4px solid #2563eb;">
 <h3>Government Contracting</h3>
-<p>Forge and Flight Academy LLC holds an active SAM.gov registration (UEI: YV8UNYJWZHV1 | CAGE: 1A6J3 | CAGE: 1A6J3). Training services are available through standard DoD contracting vehicles including simplified acquisition, GPC, and MIPR. We respond to RFQs within 48 hours.</p>
+<p>Forge and Flight Academy LLC holds an active SAM.gov registration (UEI: YV8UNYJWZHV1 | CAGE: 1A6J3). Training services are available through standard DoD contracting vehicles including simplified acquisition, GPC, and MIPR. We respond to RFQs within 48 hours.</p>
 </div>
 
 <div style="margin-top: 2rem; text-align: center;">
