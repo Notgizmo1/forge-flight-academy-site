@@ -287,10 +287,10 @@ Build it. Configure it. Fly it. Fix it. The complete FPV operator and trainer pi
 
 <div class="card">
 <span class="course-code">FFF-402 — DoD Only</span>
-<h3>FPV Master Trainer Certification</h3>
-<p><strong>Duration:</strong> 5 days &nbsp;|&nbsp; FFF-401 + Part 107 + 75 flight hours</p>
-<p><strong>After this course, organizations have:</strong> A certified internal instructor capable of delivering FFF-401-equivalent training organically — eliminating recurring contractor dependency and building a sustainable unit training pipeline.</p>
-<p style="font-size:0.85rem; color:#6b7280;">Full equipment package included. FAA Part 107 exam covered. Curriculum licensing included. DoD only.</p>
+<h3>UAS Master Trainer Certification</h3>
+<p><strong>Duration:</strong> 5 days &nbsp;|&nbsp; FFF-401 or FFF-411 + Part 107 + 75 flight hours</p>
+<p><strong>After this course, organizations have:</strong> A certified internal instructor capable of delivering FFF-401 or FFF-411-equivalent training organically — tailored to the unit's primary platform. Eliminates recurring contractor dependency and builds a sustainable unit training pipeline.</p>
+<p style="font-size:0.85rem; color:#6b7280;">Full equipment package included. FAA Part 107 exam covered. Curriculum licensing included. DoD only. Tailored to FFF-401 (fixed-wing) or FFF-411 (FPV) based on unit requirements.</p>
 <a href="/courses/fff-402/" class="btn btn-primary">Program Details →</a>
 </div>
 
