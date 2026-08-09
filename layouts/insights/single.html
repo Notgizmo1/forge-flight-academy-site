@@ -90,4 +90,38 @@
   </div>
 </div>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ .Title }}",
+  "description": "{{ .Description }}",
+  "datePublished": "{{ .Date.Format "2006-01-02" }}",
+  "dateModified": "{{ .Date.Format "2006-01-02" }}",
+  "author": {
+    "@type": "Organization",
+    "@id": "https://forgeandflightacademy.com/#organization",
+    "name": "Forge and Flight Academy, LLC",
+    "url": "https://forgeandflightacademy.com"
+  },
+  "publisher": {
+    "@type": "EducationalOrganization",
+    "@id": "https://forgeandflightacademy.com/#organization",
+    "name": "Forge and Flight Academy, LLC",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://forgeandflightacademy.com/images/favicon.jpg"
+    }
+  },
+  "url": "{{ .Permalink }}",
+  "mainEntityOfPage": "{{ .Permalink }}",
+  "image": "{{ .Site.BaseURL }}images/og-image.jpg",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Forge and Flight Academy",
+    "url": "https://forgeandflightacademy.com"
+  }
+}
+</script>
+
 {{ end }}

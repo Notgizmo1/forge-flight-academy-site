@@ -8,7 +8,8 @@
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   
   <link rel="canonical" href="{{ .Permalink }}">
-  <meta name="robots" content="index, follow">
+  {{ $robots := .Params.robots | default "index, follow, max-image-preview:large" }}
+  <meta name="robots" content="{{ $robots }}">
   <meta name="author" content="Forge and Flight Academy">
   <meta name="msvalidate.01" content="CBB3DDC3738AE030F4107D4B0869525F">
 
@@ -47,20 +48,24 @@
     gtag('config', 'G-35K06LBZWT');
   </script>
 
-  <!-- JSON-LD Organization Schema -->
-  {{ if .IsHome }}
-    <script type="application/ld+json">
+  <!-- JSON-LD Organization Schema — appears on every page -->
+  <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": ["LocalBusiness", "EducationalOrganization"],
+    "@type": ["EducationalOrganization", "LocalBusiness"],
+    "@id": "https://forgeandflightacademy.com/#organization",
     "name": "Forge and Flight Academy, LLC",
+    "alternateName": ["Forge & Flight Academy", "FF Academy"],
     "url": "https://forgeandflightacademy.com",
-    "logo": "https://forgeandflightacademy.com/images/favicon.jpg",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://forgeandflightacademy.com/images/favicon.jpg"
+    },
     "image": "https://forgeandflightacademy.com/images/og-image.jpg",
-    "description": "Professional UAS training for Department of Defense units, government agencies, universities, and commercial operators. Fort Bragg adjacent, Fayetteville, NC.",
+    "description": "Professional UAS operator training for Department of Defense units, government agencies, universities, and commercial operators. NDAA-compliant curriculum. Fort Bragg adjacent, Fayetteville NC. SAM registered. CAGE 1A6J3.",
+    "foundingDate": "2026",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "5040 Shimmer Dr",
       "addressLocality": "Fayetteville",
       "addressRegion": "NC",
       "postalCode": "28304",
@@ -72,22 +77,10 @@
       "longitude": "-78.8784"
     },
     "areaServed": [
-      {
-        "@type": "Place",
-        "name": "Fort Bragg, NC"
-      },
-      {
-        "@type": "Place",
-        "name": "Fayetteville, NC"
-      },
-      {
-        "@type": "AdministrativeArea",
-        "name": "North Carolina"
-      },
-      {
-        "@type": "Country",
-        "name": "United States"
-      }
+      {"@type": "Country", "name": "United States"},
+      {"@type": "AdministrativeArea", "name": "North Carolina"},
+      {"@type": "Place", "name": "Fort Bragg, NC"},
+      {"@type": "Place", "name": "Fayetteville, NC"}
     ],
     "contactPoint": {
       "@type": "ContactPoint",
@@ -97,58 +90,163 @@
     },
     "parentOrganization": {
       "@type": "Organization",
+      "@id": "https://forgeandflight.com/#organization",
       "name": "Forge & Flight Holdings, Inc.",
       "url": "https://forgeandflight.com"
     },
-    "hasCredential": {
-      "@type": "EducationalOccupationalCredential",
-      "name": "SAM.gov Active Registration",
-      "credentialCategory": "Government Contractor"
-    },
-    "identifier": [
+    "sameAs": [
+      "https://forgeandflight.com",
+      "https://forgeandflightlabs.com"
+    ],
+    "hasCredential": [
       {
-        "@type": "PropertyValue",
-        "name": "UEI",
-        "value": "YV8UNYJWZHV1"
+        "@type": "EducationalOccupationalCredential",
+        "name": "SAM.gov Active Registration",
+        "description": "Active registration, expires March 2027. CAGE 1A6J3 | UEI YV8UNYJWZHV1"
       },
       {
-        "@type": "PropertyValue",
-        "name": "CAGE Code",
-        "value": "1A6J3"
+        "@type": "EducationalOccupationalCredential",
+        "name": "NDAA Compliant Training Curriculum",
+        "description": "All training platforms and curriculum materials are NDAA Section 848 compliant"
       }
+    ],
+    "identifier": [
+      {"@type": "PropertyValue", "name": "CAGE Code", "value": "1A6J3"},
+      {"@type": "PropertyValue", "name": "SAM.gov UEI", "value": "YV8UNYJWZHV1"}
+    ],
+    "naics": ["611512", "611699"],
+    "knowsAbout": [
+      "UAS Operator Training", "Fixed-Wing UAS Training", "FPV Tactical Drone Training",
+      "Electronic Warfare Training", "NDAA-Compliant UAS Curriculum",
+      "ArduPilot Training", "FAA Part 107 Certification",
+      "Counter-UAS Training", "AI Edge Computing for UAS",
+      "Field Sustainment Training", "Train-the-Trainer Certification"
     ],
     "slogan": "Build It. Program It. Fly It."
   }
   </script>
-  {{ end }}
 
-  {{ if eq .Section "courses" }}
-  {{ if not .IsSection }}
+  {{/* Course schema — individual course detail pages */}}
+  {{ if and (eq .Section "courses") (not .IsSection) }}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Course",
+    "@id": "{{ .Permalink }}#course",
     "name": "{{ .Title }}",
     "description": "{{ .Description | default .Site.Params.description }}",
     "url": "{{ .Permalink }}",
+    "identifier": "{{ .Params.course_code }}",
     "provider": {
       "@type": "EducationalOrganization",
+      "@id": "https://forgeandflightacademy.com/#organization",
       "name": "Forge and Flight Academy, LLC",
-      "url": "https://forgeandflightacademy.com",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Fayetteville",
-        "addressRegion": "NC",
-        "addressCountry": "US"
-      }
+      "url": "https://forgeandflightacademy.com"
     },
     "educationalLevel": "Professional",
     "inLanguage": "en-US",
-    "availableLanguage": "English",
-    "courseMode": ["onsite", "blended"]
+    "availableLanguage": ["English"],
+    "hasCourseInstance": {
+      "@type": "CourseInstance",
+      "courseMode": "onsite",
+      "location": {
+        "@type": "Place",
+        "name": "Forge and Flight Academy",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Fayetteville",
+          "addressRegion": "NC",
+          "addressCountry": "US"
+        }
+      },
+      "duration": "{{ .Params.duration_iso }}",
+      "startDate": "Contact for scheduling",
+      "instructor": {
+        "@type": "EducationalOrganization",
+        "@id": "https://forgeandflightacademy.com/#organization",
+        "name": "Forge and Flight Academy, LLC"
+      }
+    }{{ if .Params.prereqs }},
+    "coursePrerequisites": "{{ .Params.prereqs }}"{{ end }}{{ if .Params.award }},
+    "educationalCredentialAwarded": "{{ .Params.award }}"{{ end }}
   }
   </script>
   {{ end }}
+
+  {{/* ItemList schema — courses catalog page only */}}
+  {{ if and (eq .Section "courses") .IsSection }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Forge and Flight Academy UAS Training Courses",
+    "description": "Professional UAS operator training courses for DoD units, government agencies, and universities. Fixed-wing integration, FPV tactical drone employment, electronic warfare, AI autonomy, field sustainment.",
+    "url": "https://forgeandflightacademy.com/courses/",
+    "numberOfItems": {{ len (where .Site.Pages "Section" "courses") | int }},
+    "itemListElement": [
+      {{ $courses := where .Site.Pages "Section" "courses" }}
+      {{ $courses = where $courses ".IsSection" false }}
+      {{ $courses = where $courses "Params.robots" "ne" "noindex, nofollow" }}
+      {{ range $i, $c := $courses }}
+      {{ if $i }},{{ end }}
+      {
+        "@type": "ListItem",
+        "position": {{ add $i 1 }},
+        "item": {
+          "@type": "Course",
+          "@id": "{{ $c.Permalink }}#course",
+          "name": "{{ $c.Title }}",
+          "description": "{{ $c.Description }}",
+          "url": "{{ $c.Permalink }}",
+          "identifier": "{{ $c.Params.course_code }}",
+          "provider": {
+            "@type": "EducationalOrganization",
+            "@id": "https://forgeandflightacademy.com/#organization",
+            "name": "Forge and Flight Academy, LLC"
+          }
+        }
+      }
+      {{ end }}
+    ]
+  }
+  </script>
+  {{ end }}
+
+
+  {{/* BreadcrumbList schema for non-home pages */}}
+  {{ if not .IsHome }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://forgeandflightacademy.com/"
+      }{{ if .Parent }},
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "{{ .Parent.Title }}",
+        "item": "{{ .Parent.Permalink }}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "{{ .Title }}",
+        "item": "{{ .Permalink }}"
+      }{{ else }},
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "{{ .Title }}",
+        "item": "{{ .Permalink }}"
+      }{{ end }}
+    ]
+  }
+  </script>
   {{ end }}
 
   {{ block "head" . }}{{ end }}

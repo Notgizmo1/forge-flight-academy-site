@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Block build artifacts and private paths
+Disallow: /admin/
+Disallow: /.git/
+
+# Sitemap
+Sitemap: https://forgeandflightacademy.com/sitemap.xml
