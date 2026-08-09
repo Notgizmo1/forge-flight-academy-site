@@ -48,3 +48,10 @@ googleAnalytics = "G-35K06LBZWT"
     weight = 6
 
 # SEO rebuild March 2026
+
+[minify]
+  [minify.tdewolff]
+    [minify.tdewolff.html]
+      keepQuotes = true
+      keepWhitespace = false
+      keepConditionalComments = false
