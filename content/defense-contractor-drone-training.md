@@ -73,7 +73,7 @@ description: "Operator training for defense primes, system integrators, and gove
       </div>
       <p style="font-size: 0.95rem; color: #374151; line-height: 1.75; margin-bottom: 1.5rem;">Defense contractors working with DoD customers must navigate Section 848 compliance on both the hardware and training sides. Forge and Flight Academy trains exclusively on NDAA-compliant platforms. Our parent company, Forge & Flight Labs, is an American manufacturer of DoD-compatible UAS platforms — which means operators are training on systems architecturally aligned with what DoD is moving toward, not legacy consumer hardware.</p>
       <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-left: 4px solid #f59e0b; padding: 1.25rem 1.5rem; border-radius: 4px;">
-        <p style="margin: 0; font-size: 0.9rem; color: #374151; line-height: 1.6;"><strong>Registration:</strong> SAM.gov Active | UEI: YV8UNYJWZHV1 | CAGE: 1A6J3 | Veteran-Owned | Fayetteville, NC 28304 | Proposals within 48 hours</p>
+        <p style="margin: 0; font-size: 0.9rem; color: #374151; line-height: 1.6;"><strong>Registration:</strong> SAM.gov Active | UEI: YV8UNYJWZHV1 | CAGE: 1A6J3 | Veteran-Owned | Carthage, NC 28327 | Proposals within 48 hours</p>
       </div>
     </div>
   </div>

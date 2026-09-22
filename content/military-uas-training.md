@@ -1,6 +1,6 @@
 ---
 title: "Military UAS Training | Tactical Drone Operator Programs"
-description: "Unit-level FPV training for DoD, SOCOM, and Army/Marine formations. Build organic drone capability — zero contractor dependency after graduation. Fort Bragg adjacent, Fayetteville NC. SAM registered."
+description: "Unit-level FPV training for DoD, SOCOM, and Army/Marine formations. Build organic drone capability — zero contractor dependency after graduation. Sandhills, NC Region — 35 miles from Fort Bragg. SAM registered."
 ---
 
 <section class="hero">
@@ -123,7 +123,7 @@ description: "Unit-level FPV training for DoD, SOCOM, and Army/Marine formations
         </div>
       </div>
       <div style="background: white; border: 1px solid #e2e8f0; border-left: 4px solid #1a2332; padding: 1.25rem 1.5rem; border-radius: 4px; font-size: 0.9rem; color: #374151; line-height: 1.6;">
-        <strong>Registration:</strong> SAM.gov Active | UEI: YV8UNYJWZHV1 | CAGE: 1A6J3 | Veteran-Owned Small Business | Fayetteville, NC 28304
+        <strong>Registration:</strong> SAM.gov Active | UEI: YV8UNYJWZHV1 | CAGE: 1A6J3 | Veteran-Owned Small Business | Carthage, NC 28327
       </div>
     </div>
   </div>

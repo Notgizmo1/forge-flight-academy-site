@@ -28,7 +28,7 @@ To provide an accurate training proposal, please include:
 2. **Number of Students:** Estimated class size
 3. **Course Interest:** Specific course codes or capability requirements
 4. **Timeline:** Desired training dates or deployment timeline
-5. **Location Preference:** Facility-based (Fayetteville, NC) or on-site training
+5. **Location Preference:** Facility-based (Carthage, NC) or on-site training
 6. **Contact Information:** Point of contact, phone, email
 
 ---
@@ -50,7 +50,7 @@ Schedule a free consultation to discuss:
 ### Location
 
 **Forge and Flight Academy, LLC**  
-Fayetteville, North Carolina  
+Carthage, North Carolina  
 Fort Bragg Adjacent
 
 **Facility-Based Training:**  

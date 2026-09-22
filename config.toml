@@ -5,7 +5,7 @@ disableKinds = ["RSS", "taxonomy", "term"]
 googleAnalytics = "G-35K06LBZWT"
 
 [params]
-  description = "NDAA-compliant UAS training for DoD, defense contractors, and universities. Veteran-led. Fort Bragg adjacent, Fayetteville NC. SAM registered. 48-hour proposal turnaround."
+  description = "NDAA-compliant UAS training for DoD, defense contractors, and universities. Veteran-led. Fort Bragg adjacent, Carthage NC. SAM registered. 48-hour proposal turnaround."
   company = "Forge and Flight Academy, LLC"
   email = "info@forgeandflightacademy.com"
   parentCompanyURL = "https://forgeandflight.com"

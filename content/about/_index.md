@@ -72,7 +72,7 @@ Forge and Flight Academy is a wholly-owned subsidiary of **Forge & Flight Holdin
 
 ## Location
 
-**Fayetteville, North Carolina**  
+**Carthage, North Carolina**  
 Fort Bragg Adjacent
 
 Close proximity to Fort Bragg provides access to military customer base while maintaining flexibility for commercial and academic training.

@@ -176,7 +176,7 @@ Students are evaluated using a **1-5 capability rating scale** across four phase
 
 ## Location & Facilities
 
-**Training Location:** Fayetteville, North Carolina  
+**Training Location:** Carthage, North Carolina  
 **Proximity:** 10 minutes from Fort Bragg
 
 **Facilities Include:**
@@ -240,7 +240,7 @@ A: Full attendance is required—all 10 full days with minimum 80 contact hours.
 A: No. All tools, equipment, and materials are provided. Bring a laptop (Windows/Mac/Linux) for CAD and mission planning software.
 
 **Q: Can I fly the aircraft after the course?**  
-A: Yes, you own it! You'll need an FAA Part 107 certificate for commercial use. We provide comprehensive Part 107 prep materials and will fund your exam cost (up to 2 attempts) at a local FAA-authorized test center in Fayetteville. If you don't pass the first time, we provide remedial training before your second attempt. You're responsible for complying with local airspace regulations.
+A: Yes, you own it! You'll need an FAA Part 107 certificate for commercial use. We provide comprehensive Part 107 prep materials and will fund your exam cost (up to 2 attempts) at a local FAA-authorized test center in Carthage. If you don't pass the first time, we provide remedial training before your second attempt. You're responsible for complying with local airspace regulations.
 
 **Q: What's the failure rate?**  
 A: ~10% of students don't achieve "Competent" rating in all phases on first attempt. Common issue: insufficient practice on Day 8-9. Students can return for refresher training at reduced cost.
