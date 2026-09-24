@@ -7,7 +7,7 @@ description: "UAS operator training for academic research programs, aerospace en
   <div class="container">
     <div class="hero-tagline">Academic &amp; Research Programs</div>
     <h1>University &amp; Research Institution Training</h1>
-    <p>Give your researchers and graduate students the platform competency they need to focus on their actual work — not on learning to fly.</p>
+    <p>Give your researchers and graduate students the platform competency they need to focus on their actual work, not on learning to fly.</p>
     <div class="hero-cta">
       <a href="#courses" class="btn btn-primary">See Recommended Courses</a>
       <a href="/contact/" class="btn btn-secondary">Request Academic Pricing</a>
@@ -23,7 +23,7 @@ Hands-on UAS training for academic research programs, aerospace engineering curr
 
 **Your lab has funded research requiring UAS platforms. Your students and faculty can't operate them safely, can't execute flight test protocols independently, and can't troubleshoot hardware failures without waiting on manufacturer support.**
 
-We close that gap — giving researchers the platform competency they need to focus on their actual research, not on learning to fly.
+We close that gap, giving researchers the platform competency they need to focus on their actual research, not on learning to fly.
 
 ---
 
@@ -32,7 +32,7 @@ We close that gap — giving researchers the platform competency they need to fo
 <div class="grid grid-2" style="margin-top:1.5rem;">
 
 <div class="card" style="border-top: 3px solid #2563eb;">
-<span class="course-code">FFA-401 — START HERE</span>
+<span class="course-code">FFA-401: START HERE</span>
 <h3>Operational Edge Computing for UAS</h3>
 <p><strong>5 days | No ML background required</strong></p>
 <p>Deploy real-time AI target recognition, configure autonomous decision pipelines on Jetson hardware, and run edge computing payloads on disconnected networks. Ideal for AI/ML, robotics, and autonomy research programs needing operators who understand the hardware, not just the algorithm.</p>
@@ -53,16 +53,16 @@ We close that gap — giving researchers the platform competency they need to fo
 <span class="course-code">FFF-401</span>
 <h3>Advanced Fixed-Wing UAS Integration & Field Sustainment</h3>
 <p><strong>10 days | Zero experience required</strong></p>
-<p>Build and fly a complete Group 2 fixed-wing airframe — ideal for aerospace engineering programs, flight test curricula, and research labs requiring real platform operations. Covers ArduPilot configuration, autonomous mission execution, and field repair. FAA Part 107 administered during the course.</p>
+<p>Build and fly a complete Group 2 fixed-wing airframe, ideal for aerospace engineering programs, flight test curricula, and research labs requiring real platform operations. Covers ArduPilot configuration, autonomous mission execution, and field repair. FAA Part 107 administered during the course.</p>
 <p style="font-size:0.85rem; color:#6b7280;">Falcon airframe retained by student. Academic pricing available. NDAA-compliant training platform.</p>
 <a href="/courses/fff-401/" class="btn btn-primary">Program Details →</a>
 </div>
 
 <div class="card">
 <span class="course-code">FFR-101 / FFA-201</span>
-<h3>Executive Overviews — Faculty & Program Directors</h3>
+<h3>Executive Overviews. Faculty & Program Directors</h3>
 <p><strong>2 days each | No prerequisites</strong></p>
-<p>RF/EW awareness and AI fundamentals for faculty, principal investigators, and department chairs. Understand what your platforms can and can't do in contested environments — and how to write proposals that reflect realistic capability constraints.</p>
+<p>RF/EW awareness and AI fundamentals for faculty, principal investigators, and department chairs. Understand what your platforms can and can't do in contested environments, and how to write proposals that reflect realistic capability constraints.</p>
 <a href="/courses/" class="btn btn-primary">View Details →</a>
 </div>
 
@@ -72,12 +72,12 @@ We close that gap — giving researchers the platform competency they need to fo
 
 ## Academic Pricing
 
-All courses carry tiered pricing — DoD/Government, Commercial, and Academic. Academic rates are the lowest tier and apply to accredited universities, community colleges, and research institutions.
+All courses carry tiered pricing. DoD/Government, Commercial, and Academic. Academic rates are the lowest tier and apply to accredited universities, community colleges, and research institutions.
 
 <div class="card" style="margin-top:1.5rem; background:#eff6ff; border-left: 4px solid #2563eb;">
-<h3>Academic Pricing — What to Expect</h3>
-<p>Pricing is per-student, cohort-based. Standard cohort: 8 students. Custom sizes from 4–12 available. Academic rate applies to all accredited institutions. Contact us with your program, student count, and timeline — we return a proposal within 48 hours.</p>
-<p style="margin-top:0.75rem;"><strong>Note:</strong> Equipment-heavy courses (FFA-401, FFF-201) include hardware students keep — factor this into grant budget line items as equipment, not just training fees.</p>
+<h3>Academic Pricing. What to Expect</h3>
+<p>Pricing is per-student, cohort-based. Standard cohort: 8 students. Custom sizes from 4-12 available. Academic rate applies to all accredited institutions. Contact us with your program, student count, and timeline, we return a proposal within 48 hours.</p>
+<p style="margin-top:0.75rem;"><strong>Note:</strong> Equipment-heavy courses (FFA-401, FFF-201) include hardware students keep, factor this into grant budget line items as equipment, not just training fees.</p>
 <a href="/contact/" class="btn btn-primary">Request Academic Pricing →</a>
 </div>
 
@@ -85,7 +85,7 @@ All courses carry tiered pricing — DoD/Government, Commercial, and Academic. A
 
 ## Assessment Services for Research Programs
 
-Need to validate operator proficiency before allowing unsupervised platform operations? Our individual operator assessments provide documented, defensible competency ratings across five proficiency domains — useful for lab safety protocols, IRB requirements, and grant reporting.
+Need to validate operator proficiency before allowing unsupervised platform operations? Our individual operator assessments provide documented, defensible competency ratings across five proficiency domains, useful for lab safety protocols, IRB requirements, and grant reporting.
 
 <a href="/assessment/" class="btn btn-secondary">Assessment Services →</a>
 

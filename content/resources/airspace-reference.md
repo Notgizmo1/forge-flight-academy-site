@@ -5,7 +5,7 @@ date: 2025-02-06
 draft: false
 weight: 3
 ---
-This airspace reference guide covers every FAA airspace classification relevant to Part 107 drone operations — from Class A through Class G, special use airspace, temporary flight restrictions, and LAANC authorization. Whether you are preparing for the Part 107 knowledge exam or looking up a specific airspace requirement before a flight, this reference gives you the information in a format optimized for field use.
+This airspace reference guide covers every FAA airspace classification relevant to Part 107 drone operations, from Class A through Class G, special use airspace, temporary flight restrictions, and LAANC authorization. Whether you are preparing for the Part 107 knowledge exam or looking up a specific airspace requirement before a flight, this reference gives you the information in a format optimized for field use.
 
 A comprehensive guide to navigating U.S. airspace for Part 107 remote pilots.
 
@@ -160,7 +160,7 @@ Most common below 1,200 ft AGL in rural areas.
   - Controlling agency contact
   - Altitude limits
 
-Some restricted areas have specific hours—may be accessible when not active.
+Some restricted areas have specific hours, may be accessible when not active.
 
 ---
 

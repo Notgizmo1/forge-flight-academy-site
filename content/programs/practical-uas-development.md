@@ -15,7 +15,7 @@ From zero to autonomous flight in 10 days. Design, 3D print, assemble, program, 
 
 ## Course Overview
 
-This intensive 10-day program takes students through the **complete UAS development lifecycle**—from CAD design and 3D printing through ArduPilot configuration and autonomous mission execution. You'll build a **fully functional Group 2 fixed-wing aircraft** and leave with the knowledge to replicate the process.
+This intensive 10-day program takes students through the **complete UAS development lifecycle**, from CAD design and 3D printing through ArduPilot configuration and autonomous mission execution. You'll build a **fully functional Group 2 fixed-wing aircraft** and leave with the knowledge to replicate the process.
 
 **Platform:** 1600mm twin-motor fixed-wing
 **Duration:** 10 days (80 contact hours)  
@@ -191,10 +191,10 @@ Students are evaluated using a **1-5 capability rating scale** across four phase
 ## What Students Say
 
 *"I went from knowing nothing about 3D printing or ArduPilot to flying my own autonomous aircraft in 10 days. The hands-on approach and capability-based assessment kept me accountable."*  
-— J. Martinez, Department of Defense Contractor
+, J. Martinez, Department of Defense Contractor
 
 *"Best training investment our research lab has made. Our team can now design and build custom platforms for our sensor payloads instead of buying off-the-shelf."*  
-— Dr. Sarah Chen, University Research Scientist
+, Dr. Sarah Chen, University Research Scientist
 
 ---
 
@@ -234,7 +234,7 @@ Ready to build your first autonomous aircraft?
 A: Yes! Day 1 includes modification planning. The platform specifications are 1600mm wingspan and minimum 1000mm length. Common changes include payload bay customization, landing gear selection, and paint schemes. Students build, design payloads, test, and keep their completed aircraft.
 
 **Q: What if I can't attend all 10 days?**  
-A: Full attendance is required—all 10 full days with minimum 80 contact hours. The curriculum builds sequentially—missing days creates knowledge gaps that prevent capability demonstration.
+A: Full attendance is required, all 10 full days with minimum 80 contact hours. The curriculum builds sequentially, missing days creates knowledge gaps that prevent capability demonstration.
 
 **Q: Do I need to bring my own tools?**  
 A: No. All tools, equipment, and materials are provided. Bring a laptop (Windows/Mac/Linux) for CAD and mission planning software.

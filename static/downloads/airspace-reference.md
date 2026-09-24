@@ -161,7 +161,7 @@ Most common below 1,200 ft AGL in rural areas.
   - Controlling agency contact
   - Altitude limits
 
-Some restricted areas have specific hours—may be accessible when not active.
+Some restricted areas have specific hours, may be accessible when not active.
 
 ---
 

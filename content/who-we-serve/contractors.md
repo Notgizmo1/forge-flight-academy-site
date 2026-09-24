@@ -34,10 +34,10 @@ We solve both problems.
 <div class="grid grid-2" style="margin-top:1.5rem;">
 
 <div class="card" style="border-top: 3px solid #16a34a;">
-<span class="course-code">FFF-402 — START HERE</span>
+<span class="course-code">FFF-402: START HERE</span>
 <h3>FPV Master Trainer Certification</h3>
 <p><strong>5 days | Train-the-trainer program</strong></p>
-<p>Certify an internal instructor within your customer's organization — or within your own company — who can deliver ongoing operator training without recurring contractor fees. Includes complete curriculum licensing, full equipment package, and FAA Part 107 exam.</p>
+<p>Certify an internal instructor within your customer's organization, or within your own company, who can deliver ongoing operator training without recurring contractor fees. Includes complete curriculum licensing, full equipment package, and FAA Part 107 exam.</p>
 <p style="font-size:0.85rem; color:#6b7280;">Full equipment package. Curriculum licensing included. FAA Part 107 covered.</p>
 <a href="/courses/fff-402/" class="btn btn-primary">Program Details →</a>
 </div>
@@ -46,7 +46,7 @@ We solve both problems.
 <span class="course-code">Assessment Services</span>
 <h3>Operator Capability Assessment</h3>
 <p><strong>Individual & unit-level evaluation</strong></p>
-<p>Third-party, objective proficiency validation against standardized 1–5 scale rubrics. Useful for program acceptance testing, platform fielding documentation, contract deliverable verification, and customer readiness reporting. Defensible, audit-ready deliverables.</p>
+<p>Third-party, objective proficiency validation against standardized 1-5 scale rubrics. Useful for program acceptance testing, platform fielding documentation, contract deliverable verification, and customer readiness reporting. Defensible, audit-ready deliverables.</p>
 <a href="/assessment/" class="btn btn-primary">Assessment Details →</a>
 </div>
 
@@ -73,7 +73,7 @@ We solve both problems.
 
 ## For Government Agencies
 
-If you're a federal, state, or local agency that has acquired platforms and needs to build an internal training program — we provide the same courses available to DoD, at government pricing, through standard contract vehicles.
+If you're a federal, state, or local agency that has acquired platforms and needs to build an internal training program, we provide the same courses available to DoD, at government pricing, through standard contract vehicles.
 
 <div class="card" style="margin-top:1.5rem; background:#f0fdf4; border-left: 4px solid #16a34a;">
 <h3>Agency Training Package</h3>
@@ -88,7 +88,7 @@ If you're a federal, state, or local agency that has acquired platforms and need
 
 **Reduce your lifecycle support costs.** If your customer has a certified internal trainer after delivery, your on-site support obligation drops significantly.
 
-**Deliver a complete solution.** Bundling platform delivery with a documented training program strengthens your proposal and reduces customer risk — a common evaluation criterion.
+**Deliver a complete solution.** Bundling platform delivery with a documented training program strengthens your proposal and reduces customer risk, a common evaluation criterion.
 
 **Third-party credibility.** Assessment services from an independent training organization carry more weight with government acceptance testers than vendor self-certification.
 

@@ -1,5 +1,5 @@
 ---
-title: "UAS Pre-Flight Checklist for Part 107 Operations — Printable | Forge and Flight Academy"
+title: "UAS Pre-Flight Checklist for Part 107 Operations: Printable | Forge and Flight Academy"
 description: "Professional 8-section UAS pre-flight checklist for FAA Part 107 commercial drone operations. Covers regulatory compliance, equipment inspection, weather, airspace, and emergency procedures."
 date: 2025-02-06
 draft: false

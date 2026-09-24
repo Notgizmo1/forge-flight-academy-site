@@ -1,5 +1,5 @@
 ---
-title: "UAS Flight Log Template for Part 107 Operations — Free | Forge and Flight Academy"
+title: "UAS Flight Log Template for Part 107 Operations: Free | Forge and Flight Academy"
 description: "Free professional UAS flight log template for Part 107 commercial drone operations. Printable individual flight entry, maintenance log, and battery tracking templates with spreadsheet column structure."
 date: 2025-02-06
 draft: false
@@ -371,8 +371,8 @@ Next Maintenance Due: 150 hours (22.6 hours remaining)
 
 ## Download Templates
 
-**Flight Log Spreadsheet (Google Sheets)** — Copy this link to make your own editable version:
-`https://docs.google.com/spreadsheets/` — or build your own using the column structure below.
+**Flight Log Spreadsheet (Google Sheets)**. Copy this link to make your own editable version:
+`https://docs.google.com/spreadsheets/`, or build your own using the column structure below.
 
 **Recommended Spreadsheet Column Order:**
 

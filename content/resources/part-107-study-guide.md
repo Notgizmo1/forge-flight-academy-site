@@ -1,5 +1,5 @@
 ---
-title: "FAA Part 107 Study Guide — Complete Remote Pilot Certificate Exam Prep | Forge and Flight Academy"
+title: "FAA Part 107 Study Guide: Complete Remote Pilot Certificate Exam Prep | Forge and Flight Academy"
 description: "Complete FAA Part 107 Remote Pilot Certificate study guide covering airspace classification, weather interpretation, regulations, and flight operations. Free exam preparation materials."
 date: 2025-02-06
 draft: false
@@ -42,7 +42,7 @@ Surrounds busy airports with IFR operations and passenger service. Inner and out
 **Shape:** Cylinder  
 **Authorization:** ATC authorization required
 
-Surrounds airports with operating control towers. **Important:** Only exists when tower is operational—reverts to Class E or G when tower closes. Always check tower operating hours.
+Surrounds airports with operating control towers. **Important:** Only exists when tower is operational, reverts to Class E or G when tower closes. Always check tower operating hours.
 
 ### Class E Airspace
 **Altitude:** Various (700 ft AGL, 1,200 ft AGL, or surface)  

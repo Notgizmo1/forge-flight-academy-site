@@ -1,6 +1,6 @@
 ---
 title: "Part 107 Is a Legal Minimum, Not an Operational Standard"
-description: "Part 107 certification created a dangerous misconception: that a certified operator is a trained operator. Here's what the certification actually covers — and the gap agencies need to address."
+description: "Part 107 certification created a dangerous misconception: that a certified operator is a trained operator. Here's what the certification actually covers, and the gap agencies need to address."
 date: 2026-04-05
 draft: false
 ---
@@ -10,7 +10,7 @@ draft: false
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Part 107 Is a Legal Minimum, Not an Operational Standard",
-  "description": "Part 107 certification created a dangerous misconception: that a certified operator is a trained operator. Here's what the certification actually covers — and the gap agencies need to address.",
+  "description": "Part 107 certification created a dangerous misconception: that a certified operator is a trained operator. Here's what the certification actually covers, and the gap agencies need to address.",
   "datePublished": "2026-04-05",
   "dateModified": "2026-04-05",
   "author": {"@type": "Organization", "name": "Forge and Flight Academy"},
@@ -27,7 +27,7 @@ But a legal minimum is not an operational standard, and the widespread conflatio
 
 The Part 107 knowledge test assesses airspace classifications and operating requirements, flight restrictions and NOTAMs, weather interpretation and aviation weather services, loading and performance fundamentals, emergency procedures at a conceptual level, crew resource management basics, radio communication procedures, and physiological effects of altitude.
 
-These are foundational. Every UAS operator should understand them. They are the starting point for safe, legal operations — not the endpoint for effective operational employment.
+These are foundational. Every UAS operator should understand them. They are the starting point for safe, legal operations, not the endpoint for effective operational employment.
 
 The test does not assess platform-specific knowledge. It does not assess sensor employment. It does not assess mission planning against realistic operational scenarios. It does not assess maintenance proficiency, emergency procedure execution, or the ability to operate under time pressure with incomplete information.
 
@@ -53,10 +53,10 @@ The exact same gap exists in UAS operations. It is less obvious because the cons
 
 ## Building the Training Program That Fills the Gap
 
-The right training model for operational UAS programs goes beyond initial certification in several ways: mission-profile specific scenarios built around your operational use cases, maintenance integration so operators understand their platform at the component level, a recurring training cadence that maintains proficiency between deployment cycles, and assessment against operational standards — not the Part 107 knowledge test.
+The right training model for operational UAS programs goes beyond initial certification in several ways: mission-profile specific scenarios built around your operational use cases, maintenance integration so operators understand their platform at the component level, a recurring training cadence that maintains proficiency between deployment cycles, and assessment against operational standards, not the Part 107 knowledge test.
 
 Part 107 opens the door. The training program determines what's on the other side of it.
 
 ---
 
-*Forge and Flight Academy offers UAS training programs built for operational employment — from foundational systems knowledge through advanced mission-specific courses for defense, public safety, and enterprise operators. [View our course catalog](/courses/) or [contact us](/contact/) to discuss your training requirements.*
+*Forge and Flight Academy offers UAS training programs built for operational employment, from foundational systems knowledge through advanced mission-specific courses for defense, public safety, and enterprise operators. [View our course catalog](/courses/) or [contact us](/contact/) to discuss your training requirements.*

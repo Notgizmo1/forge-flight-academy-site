@@ -17,32 +17,32 @@
 {{ if eq $segment "dod-military" }}
   {{ $formUID = "cf0b153e6c" }}
   {{ $headline = "Get the Unit Training Planning Guide" }}
-  {{ $subhead = "Framework for building organic FPV capability — timelines, procurement pathways, and course sequencing for commanders and training NCOs." }}
+  {{ $subhead = "Framework for building organic FPV capability, timelines, procurement pathways, and course sequencing for commanders and training NCOs." }}
   {{ $buttonLabel = "Download Free Guide" }}
   {{ $badge = "DoD & Military" }}
 {{ else if eq $segment "defense-contractor" }}
   {{ $formUID = "66251d731e" }}
   {{ $headline = "Get the Contractor Compliance Checklist" }}
-  {{ $subhead = "NDAA Section 848, Blue UAS training requirements, and the fielding-to-operator gap — what primes miss before delivery day." }}
+  {{ $subhead = "NDAA Section 848, Blue UAS training requirements, and the fielding-to-operator gap, what primes miss before delivery day." }}
   {{ $buttonLabel = "Download Free Checklist" }}
   {{ $badge = "Defense Contractors" }}
 {{ else if eq $segment "university" }}
   {{ $formUID = "ca7cc2f01e" }}
   {{ $headline = "Get the University Training Framework" }}
-  {{ $subhead = "Structured training pathway for research operators — from Part 107 to independent flight test execution. Built for faculty and program directors." }}
+  {{ $subhead = "Structured training pathway for research operators, from Part 107 to independent flight test execution. Built for faculty and program directors." }}
   {{ $buttonLabel = "Download Free Framework" }}
   {{ $badge = "Universities & Research" }}
 {{ else if eq $segment "commercial" }}
   {{ $formUID = "33a7b45f8f" }}
   {{ $headline = "Get the Advanced Operations Guide" }}
-  {{ $subhead = "What Part 107 doesn't cover — RF awareness, field repair, autonomy basics, and the skills that open defense contractor work." }}
+  {{ $subhead = "What Part 107 doesn't cover, RF awareness, field repair, autonomy basics, and the skills that open defense contractor work." }}
   {{ $buttonLabel = "Download Free Guide" }}
   {{ $badge = "Commercial Operators" }}
 {{ end }}
 
 <div class="kit-capture-block kit-capture--{{ $context }}" data-segment="{{ $segment }}">
   <div class="kit-capture-inner">
-    <div class="kit-capture-badge">Free Resource — {{ $badge }}</div>
+    <div class="kit-capture-badge">Free Resource, {{ $badge }}</div>
     <h3 class="kit-capture-headline">{{ $headline }}</h3>
     <p class="kit-capture-subhead">{{ $subhead }}</p>
     <script src="https://forge-and-flight-academy.kit.com/{{ $formUID }}/index.js"

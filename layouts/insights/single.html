@@ -31,7 +31,7 @@
   </article>
 </div>
 
-<!-- Kit Form — segment from frontmatter, defaults to dod-military -->
+<!-- Kit Form, segment from frontmatter, defaults to dod-military -->
 {{ $segment := .Params.segment | default "dod-military" }}
 {{ $formUID := "" }}
 {{ $headline := "" }}
@@ -42,26 +42,26 @@
 {{ if eq $segment "dod-military" }}
   {{ $formUID = "cf0b153e6c" }}
   {{ $headline = "Get the Unit Training Planning Guide" }}
-  {{ $subhead = "Framework for commanders and training NCOs building organic FPV capability — timelines, procurement pathways, and course sequencing." }}
-  {{ $badge = "Free Resource — DoD & Military" }}
+  {{ $subhead = "Framework for commanders and training NCOs building organic FPV capability, timelines, procurement pathways, and course sequencing." }}
+  {{ $badge = "Free Resource. DoD & Military" }}
   {{ $resource_url = "/resources/unit-training-guide/" }}
 {{ else if eq $segment "defense-contractor" }}
   {{ $formUID = "66251d731e" }}
   {{ $headline = "Get the Contractor Compliance Checklist" }}
   {{ $subhead = "NDAA Section 848, Blue UAS training requirements, and the fielding-to-operator gap that most primes miss before delivery day." }}
-  {{ $badge = "Free Resource — Defense Contractors" }}
+  {{ $badge = "Free Resource. Defense Contractors" }}
   {{ $resource_url = "/resources/contractor-compliance-checklist/" }}
 {{ else if eq $segment "university" }}
   {{ $formUID = "ca7cc2f01e" }}
   {{ $headline = "Get the University Training Framework" }}
-  {{ $subhead = "Structured operator training pathway for research programs — from Part 107 to independent flight test execution." }}
-  {{ $badge = "Free Resource — Universities & Research" }}
+  {{ $subhead = "Structured operator training pathway for research programs, from Part 107 to independent flight test execution." }}
+  {{ $badge = "Free Resource. Universities & Research" }}
   {{ $resource_url = "/resources/university-training-framework/" }}
 {{ else if eq $segment "commercial" }}
   {{ $formUID = "33a7b45f8f" }}
   {{ $headline = "Get the Advanced Operations Guide" }}
-  {{ $subhead = "What Part 107 doesn't cover — RF awareness, field repair, autonomy basics, and pathways into defense contractor work." }}
-  {{ $badge = "Free Resource — Commercial Operators" }}
+  {{ $subhead = "What Part 107 doesn't cover, RF awareness, field repair, autonomy basics, and pathways into defense contractor work." }}
+  {{ $badge = "Free Resource. Commercial Operators" }}
   {{ $resource_url = "/resources/beyond-part-107/" }}
 {{ end }}
 

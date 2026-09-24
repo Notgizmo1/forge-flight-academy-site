@@ -43,7 +43,7 @@ Surrounds busy airports with IFR operations and passenger service. Inner and out
 **Shape:** Cylinder  
 **Authorization:** ATC authorization required
 
-Surrounds airports with operating control towers. **Important:** Only exists when tower is operational—reverts to Class E or G when tower closes. Always check tower operating hours.
+Surrounds airports with operating control towers. **Important:** Only exists when tower is operational, reverts to Class E or G when tower closes. Always check tower operating hours.
 
 ### Class E Airspace
 **Altitude:** Various (700 ft AGL, 1,200 ft AGL, or surface)  

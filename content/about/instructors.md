@@ -1,11 +1,11 @@
 ---
 title: "Instructor Cadre"
-description: "Forge and Flight Academy instructors are FAA-certified remote pilots with real operational backgrounds in military special operations, defense research, and commercial UAS. Every instructor has field experience — not academic theory."
+description: "Forge and Flight Academy instructors are FAA-certified remote pilots with real operational backgrounds in military special operations, defense research, and commercial UAS. Every instructor has field experience, not academic theory."
 ---
 
 ## Instructor Cadre
 
-Every Forge and Flight Academy instructor is an FAA-certified Remote Pilot with documented operational experience. Our instructors are selected for three qualities: technical depth, real-world background, and the ability to teach under operational conditions — not classroom conditions.
+Every Forge and Flight Academy instructor is an FAA-certified Remote Pilot with documented operational experience. Our instructors are selected for three qualities: technical depth, real-world background, and the ability to teach under operational conditions, not classroom conditions.
 
 **We do not hire instructors who have only academic credentials. Every member of our cadre has deployed, operated in degraded environments, or sustained UAS capability under real constraints.**
 
@@ -67,10 +67,10 @@ The following table describes qualification tiers for Academy instructors across
 
 For specialized course topics, the Academy brings in vetted Subject Matter Experts (SMEs) with domain-specific credentials. SME areas currently include:
 
-- **FAA Regulatory Compliance** — former FAA aviation safety inspectors and designated examiners
-- **Spectrum Management** — FCC-licensed operators with DoD RF coordination experience
-- **NDAA Supply Chain** — procurement and compliance specialists with defense contracting background
-- **Autonomous Systems** — researchers and engineers with ArduPilot, PX4, and NVIDIA Jetson deployment history
+- **FAA Regulatory Compliance**, former FAA aviation safety inspectors and designated examiners
+- **Spectrum Management**, FCC-licensed operators with DoD RF coordination experience
+- **NDAA Supply Chain**, procurement and compliance specialists with defense contracting background
+- **Autonomous Systems**, researchers and engineers with ArduPilot, PX4, and NVIDIA Jetson deployment history
 
 SME instructors are disclosed to students prior to the relevant course sessions. All SMEs are vetted against Academy instructor standards prior to engagement.
 
@@ -88,7 +88,7 @@ For information on the instructor development pathway, contact us at [info@forge
 
 Forge and Flight Academy instruction is built on one principle: **operators need to be able to sustain and employ their systems without external support.**
 
-Every course is designed to create self-sufficient operators — not certificate holders. That means:
+Every course is designed to create self-sufficient operators, not certificate holders. That means:
 
 - Field sustainment and organic repair are taught alongside flight operations
 - Students work on real platforms, not simulators alone

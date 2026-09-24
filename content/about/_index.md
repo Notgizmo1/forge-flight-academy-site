@@ -13,7 +13,7 @@ description: "Professional UAS training for Department of Defense units, governm
 
 ### Integrated Ecosystem
 
-Only training organization that builds platforms (Forge & Flight Labs), operates test ranges (our test range division), and manufactures electronics (our avionics manufacturing division). Train on systems you'll deploy—not generic consumer platforms.
+Only training organization that builds platforms (Forge & Flight Labs), operates test ranges (our test range division), and manufactures electronics (our avionics manufacturing division). Train on systems you'll deploy, not generic consumer platforms.
 
 ### Operator Self-Sufficiency
 
@@ -21,17 +21,17 @@ Training emphasizes field sustainment and organic repair capability. Reduce cont
 
 ### Five-Pillar Framework
 
-Comprehensive training methodology spanning unmanned systems, RF/spectrum, field fabrication, autonomy/AI, and capability assessment. Not single-skill courses—integrated competency development.
+Comprehensive training methodology spanning unmanned systems, RF/spectrum, field fabrication, autonomy/AI, and capability assessment. Not single-skill courses, integrated competency development.
 
 [Learn about our Five-Pillar Framework →](/about/five-pillars/)
 
 ### Future-Ready Curriculum
 
-Training based on Ukrainian operational lessons learned and current SOCOM requirements. AI integration, spectrum warfare, and autonomous systems from day one—not legacy approaches.
+Training based on Ukrainian operational lessons learned and current SOCOM requirements. AI integration, spectrum warfare, and autonomous systems from day one, not legacy approaches.
 
 ### Veteran-Led Instruction
 
-All instructors are FAA-certified remote pilots with real operational experience. Combination of regulatory knowledge and tactical expertise—not academic theory.
+All instructors are FAA-certified remote pilots with real operational experience. Combination of regulatory knowledge and tactical expertise, not academic theory.
 
 [Meet Our Instructor Cadre →](/about/instructors/)
 

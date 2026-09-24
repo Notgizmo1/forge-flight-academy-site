@@ -48,7 +48,7 @@
     gtag('config', 'G-35K06LBZWT');
   </script>
 
-  <!-- JSON-LD Organization Schema — appears on every page -->
+  <!-- JSON-LD Organization Schema, appears on every page -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -126,7 +126,7 @@
   }
   </script>
 
-  {{/* Course schema — individual course detail pages */}}
+  {{/* Course schema, individual course detail pages */}}
   {{ if and (eq .Section "courses") (not .IsSection) }}
   <script type="application/ld+json">
   {
@@ -174,7 +174,7 @@
   </script>
   {{ end }}
 
-  {{/* ItemList schema — courses catalog page only */}}
+  {{/* ItemList schema, courses catalog page only */}}
   {{ if and (eq .Section "courses") .IsSection }}
   <script type="application/ld+json">
   {
@@ -262,7 +262,7 @@
   {{ partial "footer.html" . }}
   
   <script src="/js/main.js"></script>
-  <!-- FFH First-Party Analytics — no cookies, no PII, respects DNT -->
+  <!-- FFH First-Party Analytics, no cookies, no PII, respects DNT -->
   <script>(function(){if(navigator.doNotTrack==='1')return;var h=window.location.hostname;var s=h.indexOf('labs')>-1?'labs':h.indexOf('academy')>-1?'academy':'holdings';var p=JSON.stringify({site:s,url:window.location.href,referrer:document.referrer||'',title:document.title||''});if(navigator.sendBeacon){navigator.sendBeacon('https://analytics.forgeandflight.com/collect',p);}else{fetch('https://analytics.forgeandflight.com/collect',{method:'POST',body:p,headers:{'Content-Type':'application/json'},keepalive:true}).catch(function(){});}})();</script>
 </body>
 </html>

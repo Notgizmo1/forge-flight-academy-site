@@ -5,9 +5,9 @@ layout: "lead-magnet"
 segment: "defense-contractor"
 lead_magnet_title: "Contractor UAS Compliance Checklist"
 lead_magnet_bullets:
-  - "NDAA Section 848 quick reference — what it means for platform procurement and operator training"
+  - "NDAA Section 848 quick reference, what it means for platform procurement and operator training"
   - "Blue UAS / DIU-approved platform training requirements checklist"
   - "The fielding-to-operator gap: what primes miss before delivery day"
   - "Train-the-trainer ROI calculation template"
-  - "Assessment Services overview — how to hire for capability, not certificate"
+  - "Assessment Services overview, how to hire for capability, not certificate"
 ---

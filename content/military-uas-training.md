@@ -1,13 +1,13 @@
 ---
 title: "Military UAS Training | Tactical Drone Operator Programs"
-description: "Unit-level FPV training for DoD, SOCOM, and Army/Marine formations. Build organic drone capability — zero contractor dependency after graduation. Sandhills, NC Region — 35 miles from Fort Bragg. SAM registered."
+description: "Unit-level FPV training for DoD, SOCOM, and Army/Marine formations. Build organic drone capability, zero contractor dependency after graduation. Sandhills, NC Region, 35 miles from Fort Bragg. SAM registered."
 ---
 
 <section class="hero">
   <div class="container">
     <div class="hero-tagline">DoD & Military Training</div>
     <h1>Military UAS Training Built for Unit-Level Capability</h1>
-    <p>The only private UAS training provider designed specifically for how military units actually operate — not consumer certification. Operators leave able to build, fly, sustain, and employ FPV systems without contractor support.</p>
+    <p>The only private UAS training provider designed specifically for how military units actually operate, not consumer certification. Operators leave able to build, fly, sustain, and employ FPV systems without contractor support.</p>
     <div class="hero-cta">
       <a href="/contact/" class="btn btn-primary">Request Unit Proposal</a>
       <a href="/courses/" class="btn btn-secondary">View All Courses</a>
@@ -25,7 +25,7 @@ description: "Unit-level FPV training for DoD, SOCOM, and Army/Marine formations
       </div>
       <div class="grid grid-3" style="margin-top: 2rem;">
         <div class="card" style="text-align: center; border-top: 3px solid #dc2626;">
-          <div style="font-size: 2rem; font-weight: 800; color: #dc2626; margin-bottom: 0.5rem;">60–120</div>
+          <div style="font-size: 2rem; font-weight: 800; color: #dc2626; margin-bottom: 0.5rem;">60-120</div>
           <div style="font-size: 0.875rem; color: #4b5563; line-height: 1.5;">Days most units wait on contractor support after platform attrition</div>
         </div>
         <div class="card" style="text-align: center; border-top: 3px solid #dc2626;">
@@ -37,7 +37,7 @@ description: "Unit-level FPV training for DoD, SOCOM, and Army/Marine formations
           <div style="font-size: 0.875rem; color: #4b5563; line-height: 1.5;">Contractor dependencies after Forge and Flight Academy training</div>
         </div>
       </div>
-      <p style="margin-top: 2rem; font-size: 1rem; color: #374151; line-height: 1.7;">The Pentagon's drone dominance directive is generating unprecedented demand for unit-level UAS capability. The Army launched its Unmanned Advanced Lethality Course. The Marine Corps stood up six new drone training programs. The institutional infrastructure is moving — but unit-level training gaps remain. Forge and Flight Academy exists to close that gap for units that can't wait on the institutional pipeline.</p>
+      <p style="margin-top: 2rem; font-size: 1rem; color: #374151; line-height: 1.7;">The Pentagon's drone dominance directive is generating unprecedented demand for unit-level UAS capability. The Army launched its Unmanned Advanced Lethality Course. The Marine Corps stood up six new drone training programs. The institutional infrastructure is moving, but unit-level training gaps remain. Forge and Flight Academy exists to close that gap for units that can't wait on the institutional pipeline.</p>
     </div>
   </div>
 </section>
@@ -52,19 +52,19 @@ description: "Unit-level FPV training for DoD, SOCOM, and Army/Marine formations
     <div class="grid grid-2">
       <div style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); padding: 1.75rem; border-radius: 4px;">
         <h3 style="color: #f59e0b; margin-bottom: 0.5rem;">Ukrainian Combat Lessons Learned</h3>
-        <p style="color: rgba(255,255,255,0.75); margin: 0; font-size: 0.95rem; line-height: 1.6;">Every course is updated with current operational lessons — EW resistance, FPV employment, and autonomous systems integration based on what's happening now, not legacy range doctrine.</p>
+        <p style="color: rgba(255,255,255,0.75); margin: 0; font-size: 0.95rem; line-height: 1.6;">Every course is updated with current operational lessons, EW resistance, FPV employment, and autonomous systems integration based on what's happening now, not legacy range doctrine.</p>
       </div>
       <div style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); padding: 1.75rem; border-radius: 4px;">
         <h3 style="color: #f59e0b; margin-bottom: 0.5rem;">Build It, Fix It, Sustain It</h3>
-        <p style="color: rgba(255,255,255,0.75); margin: 0; font-size: 0.95rem; line-height: 1.6;">Operators don't just learn to fly. They build a complete aircraft from components, configure flight controllers, and perform field repairs under stress. Sustainment is not an afterthought — it's the core outcome.</p>
+        <p style="color: rgba(255,255,255,0.75); margin: 0; font-size: 0.95rem; line-height: 1.6;">Operators don't just learn to fly. They build a complete aircraft from components, configure flight controllers, and perform field repairs under stress. Sustainment is not an afterthought, it's the core outcome.</p>
       </div>
       <div style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); padding: 1.75rem; border-radius: 4px;">
         <h3 style="color: #f59e0b; margin-bottom: 0.5rem;">EW-Resistant Operator Development</h3>
-        <p style="color: rgba(255,255,255,0.75); margin: 0; font-size: 0.95rem; line-height: 1.6;">RF awareness, spectrum visualization, and link resilience training that no consumer course covers. Operators recognize when the spectrum is working against them — and adapt in real time.</p>
+        <p style="color: rgba(255,255,255,0.75); margin: 0; font-size: 0.95rem; line-height: 1.6;">RF awareness, spectrum visualization, and link resilience training that no consumer course covers. Operators recognize when the spectrum is working against them, and adapt in real time.</p>
       </div>
       <div style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); padding: 1.75rem; border-radius: 4px;">
         <h3 style="color: #f59e0b; margin-bottom: 0.5rem;">Documented Proficiency, Not Certificates</h3>
-        <p style="color: rgba(255,255,255,0.75); margin: 0; font-size: 0.95rem; line-height: 1.6;">Standardized 1–5 capability ratings across five domains. Objective, defensible data commanders can use in readiness reports — not an attendance certificate.</p>
+        <p style="color: rgba(255,255,255,0.75); margin: 0; font-size: 0.95rem; line-height: 1.6;">Standardized 1-5 capability ratings across five domains. Objective, defensible data commanders can use in readiness reports, not an attendance certificate.</p>
       </div>
     </div>
   </div>
@@ -79,9 +79,9 @@ description: "Unit-level FPV training for DoD, SOCOM, and Army/Marine formations
     </div>
     <div class="grid grid-3">
       <div class="card" style="border-top: 4px solid #f59e0b;">
-        <span class="course-code">FFF-401 — START HERE</span>
+        <span class="course-code">FFF-401: START HERE</span>
         <h3>Advanced FPV Systems Integration & Field Sustainment</h3>
-        <p>10 days. Zero experience required. Complete aircraft build, Betaflight configuration, tactical employment, and field repair. Equipment included — students keep all hardware.</p>
+        <p>10 days. Zero experience required. Complete aircraft build, Betaflight configuration, tactical employment, and field repair. Equipment included, students keep all hardware.</p>
         <a href="/courses/fff-401/" class="btn btn-primary" style="margin-top: 1rem; display: inline-block;">Program Details →</a>
       </div>
       <div class="card" style="border-top: 4px solid #dc2626;">
@@ -111,7 +111,7 @@ description: "Unit-level FPV training for DoD, SOCOM, and Army/Marine formations
       <div class="grid grid-3" style="margin-bottom: 2rem;">
         <div class="card" style="text-align: center;">
           <div style="font-weight: 700; font-size: 1rem; color: #1a2332; margin-bottom: 0.4rem;">GPC</div>
-          <div style="font-size: 0.85rem; color: #6b7280;">Government Purchase Card — fast, low-threshold purchases</div>
+          <div style="font-size: 0.85rem; color: #6b7280;">Government Purchase Card, fast, low-threshold purchases</div>
         </div>
         <div class="card" style="text-align: center;">
           <div style="font-weight: 700; font-size: 1rem; color: #1a2332; margin-bottom: 0.4rem;">MIPR</div>

@@ -555,7 +555,7 @@
                           paddingRight: 4,
                         }}
                       >
-                        {row?.moment > 0 ? row.moment.toFixed(1) : "—"}
+                        {row?.moment > 0 ? row.moment.toFixed(1) : ", "}
                       </span>
                       <button
                         onClick={() => removeComponent(c.id)}
@@ -597,7 +597,7 @@
                   <span style={{ textAlign: "right", fontWeight: 700, fontSize: 13, color: "#e2e8f0" }}>
                     {calculations.totalWeight.toFixed(1)}
                   </span>
-                  <span style={{ textAlign: "right", color: "#475569", fontSize: 11 }}>—</span>
+                  <span style={{ textAlign: "right", color: "#475569", fontSize: 11 }}>, </span>
                   <span style={{ textAlign: "right", fontWeight: 700, fontSize: 13, color: "#e2e8f0" }}>
                     {calculations.totalMoment.toFixed(1)}
                   </span>
@@ -681,7 +681,7 @@
                       <div>
                         <span style={{ fontSize: 13, fontWeight: 600, color: "#e2e8f0" }}>{c.name}</span>
                         <span style={{ fontSize: 10, color: "#475569", marginLeft: 10 }}>
-                          {c.components.length} components — saved {c.savedAt}
+                          {c.components.length} components, saved {c.savedAt}
                         </span>
                       </div>
                       <div style={{ display: "flex", gap: 6 }}>
@@ -713,13 +713,13 @@
                 </div>
                 <div>
                   <div style={{ color: "#94a3b8", fontWeight: 600 }}>Part 107 Range</div>
-                  0.55 lbs – 55 lbs (0.25 – 25 kg)
+                  0.55 lbs-55 lbs (0.25-25 kg)
                 </div>
               </div>
             </div>
 
             <div style={{ textAlign: "center", marginTop: 24, fontSize: 10, color: "#2a3040", letterSpacing: 1.5, textTransform: "uppercase" }}>
-              Forge & Flight Academy — First in Flight, Innovation Limitless
+              Forge & Flight Academy. First in Flight, Innovation Limitless
             </div>
           </div>
         </div>

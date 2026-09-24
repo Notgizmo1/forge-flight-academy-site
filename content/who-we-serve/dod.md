@@ -7,7 +7,7 @@ description: "Military UAS training for DoD units, SOCOM elements, and Army/Mari
   <div class="container">
     <div class="hero-tagline">SOCOM-Aligned UAS Training</div>
     <h1>Department of Defense Training</h1>
-    <p>Operators who can build, sustain, and employ unmanned systems in degraded environments without contractor support — from day one.</p>
+    <p>Operators who can build, sustain, and employ unmanned systems in degraded environments without contractor support, from day one.</p>
     <div class="hero-cta">
       <a href="#courses" class="btn btn-primary">See Recommended Courses</a>
       <a href="/contact/" class="btn btn-secondary">Request Unit Proposal</a>
@@ -15,7 +15,7 @@ description: "Military UAS training for DoD units, SOCOM elements, and Army/Mari
   </div>
 </section>
 
-Operator-level training for rapid capability development, organic sustainment, and mission-specific adaptation. We train warfighters and researchers who need to build, modify, and employ unmanned systems in operational environments — not just fly them.
+Operator-level training for rapid capability development, organic sustainment, and mission-specific adaptation. We train warfighters and researchers who need to build, modify, and employ unmanned systems in operational environments, not just fly them.
 
 ---
 
@@ -32,7 +32,7 @@ That's the gap we close. Every course in our DoD catalog is built around one out
 <div class="grid grid-2" style="margin-top:1.5rem;">
 
 <div class="card" style="border-top: 3px solid #f59e0b;">
-<span class="course-code">FFF-401 — START HERE</span>
+<span class="course-code">FFF-401: START HERE</span>
 <h3>Advanced Fixed-Wing UAS Integration & Field Sustainment</h3>
 <p><strong>10 days | Zero experience required</strong></p>
 <p>Build a complete Falcon Group 2 fixed-wing airframe from components, configure ArduPilot for autonomous and manual operations, fly tactical fixed-wing missions, and perform field repairs without contractor support. SOCOM-aligned curriculum built on Army UALC standards and Ukrainian operational lessons.</p>
@@ -44,7 +44,7 @@ That's the gap we close. Every course in our DoD catalog is built around one out
 <span class="course-code">FFR-201</span>
 <h3>Tactical RF Fundamentals for UAS Operators</h3>
 <p><strong>5 days | No technical background required</strong></p>
-<p>Diagnose EW interference in real-time, adapt link configurations under active jamming, and maintain mission continuity in degraded RF environments. The most lethal capability gap in current drone warfare — addressed directly.</p>
+<p>Diagnose EW interference in real-time, adapt link configurations under active jamming, and maintain mission continuity in degraded RF environments. The most lethal capability gap in current drone warfare, addressed directly.</p>
 <p style="font-size:0.85rem; color:#6b7280;">HackRF One + PortaPack per student. Ukrainian combat lessons learned.</p>
 <a href="/courses/ffr-201/" class="btn btn-primary">Program Details →</a>
 </div>
@@ -90,7 +90,7 @@ That's the gap we close. Every course in our DoD catalog is built around one out
 
 ## Unit Training Package
 
-For units standing up organic capability from scratch — one integrated program covering operators, sustainment, and internal instructor development.
+For units standing up organic capability from scratch, one integrated program covering operators, sustainment, and internal instructor development.
 
 <div class="card" style="margin-top:1.5rem; background:#f0fdf4; border-left: 4px solid #16a34a;">
 <h3>Complete Unit Standup</h3>
@@ -110,7 +110,7 @@ FFP-201 is the Force Protection track entry point for DoD and government personn
 **DoD and government personnel only. U.S. citizenship required. No foreign national access.**
 
 <div class="card" style="border-top: 3px solid #b45309;">
-<span class="course-code">FFP-201 — Available Now</span>
+<span class="course-code">FFP-201: Available Now</span>
 <h3>Digital Force Protection Course</h3>
 <p><strong>5 days | No prerequisites | Cohort: 8-20 students</strong></p>
 <p>Personal threat model built on Day 1. Mobile device hardened on a de-Googled OS, credentials migrated to hardware-backed authentication, live encrypted PACE plan running by Day 1 afternoon, and data-broker footprint reduced before graduation. Every piece of hardware is student-retained and fully configured. Instructors hold special operations and Cyber Command backgrounds.</p>
@@ -119,19 +119,19 @@ FFP-201 is the Force Protection track entry point for DoD and government personn
 
 <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:1rem; margin-top:1rem;">
 <div class="card" style="border-top:2px dashed #d97706;">
-<span class="course-code">FFP-101 — Coming Soon</span>
+<span class="course-code">FFP-101: Coming Soon</span>
 <h3>Personal Security Awareness</h3>
 <p>Commander and leadership orientation. Threat landscape, what FFP-201 produces, and how to resource a unit program.</p>
 <a href="/courses/ffp-101/" class="btn btn-secondary">Notify Me</a>
 </div>
 <div class="card" style="border-top:2px dashed #d97706;">
-<span class="course-code">FFP-301 — Coming Soon</span>
+<span class="course-code">FFP-301: Coming Soon</span>
 <h3>Unit Digital Security Planning</h3>
 <p>For S2s and personnel security officers. Organizational exposure assessment, baseline standards, and internal training pipelines.</p>
 <a href="/courses/ffp-301/" class="btn btn-secondary">Notify Me</a>
 </div>
 <div class="card" style="border-top:2px dashed #92400e;">
-<span class="course-code">FFP-401 — Q4 2026</span>
+<span class="course-code">FFP-401: Q4 2026</span>
 <h3>Advanced Personal Security</h3>
 <p>TSCM, direction-finding tradecraft, non-destructive entry, safe-house clearing. Prereq: FFP-201 + Linux/CLI bar.</p>
 <a href="/courses/ffp-401/" class="btn btn-secondary">Notify Me</a>
@@ -143,9 +143,9 @@ FFP-201 is the Force Protection track entry point for DoD and government personn
 ## Contracting Information
 
 <div class="card" style="margin-top:1.5rem; background:#eff6ff; border-left: 4px solid #2563eb;">
-<h3>Government Contracting — Forge and Flight Academy LLC</h3>
+<h3>Government Contracting. Forge and Flight Academy LLC</h3>
 <p><strong>UEI:</strong> YV8UNYJWZHV1 &nbsp;|&nbsp; <strong>CAGE:</strong> 1A6J3 &nbsp;|&nbsp; <strong>SAM.gov:</strong> Active (exp. March 9, 2027)</p>
-<p>Training services available via GPC, MIPR, and simplified acquisition (under $250K). Standard cohort at 8 students. Custom cohort sizes from 4–12 available. Proposals returned within 48 hours of request. RFQs responded to within 48 hours.</p>
+<p>Training services available via GPC, MIPR, and simplified acquisition (under $250K). Standard cohort at 8 students. Custom cohort sizes from 4-12 available. Proposals returned within 48 hours of request. RFQs responded to within 48 hours.</p>
 <a href="/contact/" class="btn btn-primary">Request Training Proposal →</a>
 </div>
 

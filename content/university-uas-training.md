@@ -86,23 +86,23 @@ description: "UAS operator training for university research programs, aerospace 
       <div style="display: flex; flex-direction: column; gap: 1.25rem;">
         <div style="display: flex; gap: 1rem; align-items: flex-start; padding: 1.25rem; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 4px;">
           <span style="color: #f59e0b; font-weight: 700; font-size: 1.1rem; flex-shrink: 0;">✓</span>
-          <div><strong>Academic pricing tier</strong> — separate rate structure for universities and research institutions on all 14 courses</div>
+          <div><strong>Academic pricing tier</strong>, separate rate structure for universities and research institutions on all 14 courses</div>
         </div>
         <div style="display: flex; gap: 1rem; align-items: flex-start; padding: 1.25rem; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 4px;">
           <span style="color: #f59e0b; font-weight: 700; font-size: 1.1rem; flex-shrink: 0;">✓</span>
-          <div><strong>Equipment students retain</strong> — on equipment-included courses, research labs build hardware inventory as students train</div>
+          <div><strong>Equipment students retain</strong>, on equipment-included courses, research labs build hardware inventory as students train</div>
         </div>
         <div style="display: flex; gap: 1rem; align-items: flex-start; padding: 1.25rem; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 4px;">
           <span style="color: #f59e0b; font-weight: 700; font-size: 1.1rem; flex-shrink: 0;">✓</span>
-          <div><strong>IRB-defensible proficiency documentation</strong> — standardized 1–5 ratings across five capability domains, not attendance certificates</div>
+          <div><strong>IRB-defensible proficiency documentation</strong>, standardized 1-5 ratings across five capability domains, not attendance certificates</div>
         </div>
         <div style="display: flex; gap: 1rem; align-items: flex-start; padding: 1.25rem; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 4px;">
           <span style="color: #f59e0b; font-weight: 700; font-size: 1.1rem; flex-shrink: 0;">✓</span>
-          <div><strong>On-site delivery available</strong> — cohort training delivered at your campus or facility, no travel burden on students</div>
+          <div><strong>On-site delivery available</strong>, cohort training delivered at your campus or facility, no travel burden on students</div>
         </div>
         <div style="display: flex; gap: 1rem; align-items: flex-start; padding: 1.25rem; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 4px;">
           <span style="color: #f59e0b; font-weight: 700; font-size: 1.1rem; flex-shrink: 0;">✓</span>
-          <div><strong>Custom cohort design</strong> — courses can be scoped and sequenced around your specific research program requirements</div>
+          <div><strong>Custom cohort design</strong>, courses can be scoped and sequenced around your specific research program requirements</div>
         </div>
       </div>
     </div>

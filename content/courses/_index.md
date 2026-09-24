@@ -1,6 +1,6 @@
 ---
 title: "UAS & Force Protection Training | Forge and Flight Academy | Carthage NC"
-description: "18 professional training programs across UAS integration, electronic warfare, AI autonomy, field fabrication, sustainment, and operator force protection. DoD units, government agencies, law enforcement, and universities. Sandhills, NC Region — 35 miles from Fort Bragg."
+description: "18 professional training programs across UAS integration, electronic warfare, AI autonomy, field fabrication, sustainment, and operator force protection. DoD units, government agencies, law enforcement, and universities. Sandhills, NC Region, 35 miles from Fort Bragg."
 layout: "list"
 ---
 
@@ -134,48 +134,48 @@ layout: "list"
     dod_fpv_none:         { code:'FFF-411', name:'Commercial FPV Drone Integration &amp; Sustainment', reason:'10-day build-to-fly program. Students build a complete FPV system from components, complete FAA Part 107, and leave with full equipment. The entry point for DoD units building organic FPV capability.', link:'/courses/fff-411/' },
     dod_fpv_some:         { code:'FFF-411', name:'Commercial FPV Drone Integration &amp; Sustainment', reason:'Even with flight experience, FFF-411 delivers the build-from-scratch sustainment skills and regulatory credential that separate operators from self-sufficient units.', link:'/courses/fff-411/' },
     dod_fpv_advanced:     { code:'FFF-402', name:'FPV Master Trainer Certification', reason:'Your operators are already proficient. The next step is building internal training capability so you stop depending on contractors to maintain that proficiency. FFF-402 certifies an internal instructor.', link:'/courses/fff-402/' },
-    dod_ew_none:          { code:'FFR-201', name:'Tactical RF Fundamentals for UAS Operators', reason:'The most lethal gap in current drone operations — addressed from the ground up. No technical background needed. HackRF + PortaPack provided. Built on Ukrainian combat lessons learned.', link:'/courses/ffr-201/' },
-    dod_ew_some:          { code:'FFR-201', name:'Tactical RF Fundamentals for UAS Operators', reason:'FFR-201 moves fast and assumes nothing — even with some RF background, the tactical application and real-time EW diagnosis component is distinct from theoretical knowledge.', link:'/courses/ffr-201/' },
+    dod_ew_none:          { code:'FFR-201', name:'Tactical RF Fundamentals for UAS Operators', reason:'The most lethal gap in current drone operations, addressed from the ground up. No technical background needed. HackRF + PortaPack provided. Built on Ukrainian combat lessons learned.', link:'/courses/ffr-201/' },
+    dod_ew_some:          { code:'FFR-201', name:'Tactical RF Fundamentals for UAS Operators', reason:'FFR-201 moves fast and assumes nothing, even with some RF background, the tactical application and real-time EW diagnosis component is distinct from theoretical knowledge.', link:'/courses/ffr-201/' },
     dod_ew_advanced:      { code:'FFR-301', name:'Advanced Electronic Warfare for UAS Operations', reason:'Spectrum operations planning, EW countermeasures execution, and direct S-6/G-6 coordination. For operators who have FFR-201 fundamentals and need the advanced employment layer.', link:'/courses/ffr-301/' },
-    dod_sustainment_none: { code:'FFF-201', name:'Electronics Repair for Deployed Operators', reason:'Field-level electronics repair from scratch — no background needed. Soldering, component replacement, and diagnostic techniques for austere environments. Return platforms to service without evacuation.', link:'/courses/fff-201/' },
+    dod_sustainment_none: { code:'FFF-201', name:'Electronics Repair for Deployed Operators', reason:'Field-level electronics repair from scratch, no background needed. Soldering, component replacement, and diagnostic techniques for austere environments. Return platforms to service without evacuation.', link:'/courses/fff-201/' },
     dod_sustainment_some: { code:'FFF-201', name:'Electronics Repair for Deployed Operators', reason:'FFF-201 builds practical repair proficiency regardless of prior electronics exposure. The course is built around what fails in the field, not lab theory.', link:'/courses/fff-201/' },
-    dod_sustainment_advanced: { code:'FFF-301', name:'Additive Manufacturing for UAS Sustainment', reason:'If repair fundamentals are solid, the next layer is forward-deployed manufacturing capability — printing structural replacement parts on-site and eliminating parts resupply dependency.', link:'/courses/fff-301/' },
+    dod_sustainment_advanced: { code:'FFF-301', name:'Additive Manufacturing for UAS Sustainment', reason:'If repair fundamentals are solid, the next layer is forward-deployed manufacturing capability, printing structural replacement parts on-site and eliminating parts resupply dependency.', link:'/courses/fff-301/' },
     dod_trainer_none:     { code:'FFF-401', name:'Advanced Fixed-Wing UAS Integration &amp; Field Sustainment', reason:'Build fixed-wing operator proficiency first. Once your unit has trained operators, FFF-402 (train-the-trainer) is the natural next step to make that capability self-replicating.', link:'/courses/fff-401/' },
-    dod_trainer_some:     { code:'FFF-402', name:'FPV Master Trainer Certification', reason:'5-day certification program. Graduates can deliver FFF-401-equivalent training internally — eliminating contractor dependency for ongoing operator development.', link:'/courses/fff-402/' },
+    dod_trainer_some:     { code:'FFF-402', name:'FPV Master Trainer Certification', reason:'5-day certification program. Graduates can deliver FFF-401-equivalent training internally, eliminating contractor dependency for ongoing operator development.', link:'/courses/fff-402/' },
     dod_trainer_advanced: { code:'FFF-402', name:'FPV Master Trainer Certification', reason:'With experienced operators in the unit, FFF-402 is the direct path to sustainable internal training capability. Certify one instructor, train indefinitely.', link:'/courses/fff-402/' },
     dod_ai_none:          { code:'FFA-401', name:'Operational Edge Computing for UAS', reason:'No ML background needed. Deploy real-time AI target recognition on Jetson hardware and configure autonomous decision pipelines for disconnected operations. Built for operators, not data scientists.', link:'/courses/ffa-401/' },
-    dod_ai_some:          { code:'FFA-401', name:'Operational Edge Computing for UAS', reason:'FFA-401 is the right entry point regardless of prior exposure — it bridges the gap between theoretical AI knowledge and operational edge deployment on real hardware.', link:'/courses/ffa-401/' },
-    dod_ai_advanced:      { code:'Contact Us', name:'Advanced Autonomy Programs', reason:'For operators with FFA-401-level edge computing skills seeking advanced autonomy and mission planning capability — contact us to discuss curriculum options tailored to your operational requirements.', link:'/contact/' },
+    dod_ai_some:          { code:'FFA-401', name:'Operational Edge Computing for UAS', reason:'FFA-401 is the right entry point regardless of prior exposure, it bridges the gap between theoretical AI knowledge and operational edge deployment on real hardware.', link:'/courses/ffa-401/' },
+    dod_ai_advanced:      { code:'Contact Us', name:'Advanced Autonomy Programs', reason:'For operators with FFA-401-level edge computing skills seeking advanced autonomy and mission planning capability, contact us to discuss curriculum options tailored to your operational requirements.', link:'/contact/' },
     dod_commander_none:   { code:'FFR-101', name:'RF Awareness for Non-Technical Personnel', reason:'2-day executive overview for O-4 and above. Spectrum basics, EW threats, and coordination requirements. No technical background needed. Make informed decisions about spectrum-contested operations.', link:'/courses/ffr-101/' },
     dod_commander_some:   { code:'FFA-201', name:'AI Fundamentals for Non-Technical Personnel', reason:'2-day executive overview covering AI/ML capabilities and limitations for commanders and program managers. Evaluate AI-enabled UAS claims critically and make informed acquisition decisions.', link:'/courses/ffa-201/' },
     dod_commander_advanced: { code:'FFR-101', name:'RF Awareness for Non-Technical Personnel', reason:'Even with operational experience, the spectrum-specific commander overview course provides structured framework for EW decision-making and S-6 coordination that transfers directly to contested UAS employment.', link:'/courses/ffr-101/' },
     dod_security_none:    { code:'FFP-201', name:'Digital Force Protection Course', reason:'5-day hands-on course. Build a personal threat model, harden a mobile device, stand up a live encrypted PACE plan, and reduce your data-broker footprint. Student-retained fully configured kit. Instructors with SOF and Cyber Command backgrounds. DoD and government only.', link:'/courses/ffp-201/' },
     dod_security_some:    { code:'FFP-201', name:'Digital Force Protection Course', reason:'FFP-201 starts from first principles and moves fast. Even with prior security awareness, the threat-model methodology and hands-on configured kit produce a fundamentally different capability than awareness training alone.', link:'/courses/ffp-201/' },
     dod_security_advanced: { code:'FFP-401', name:'Advanced Personal Security (Opening Q4 2026)', reason:'For FFP-201 graduates with a Linux/CLI background. Technical surveillance countermeasures, direction-finding tradecraft, non-destructive entry, and safe-house clearing. Contact us to be notified when scheduling opens.', link:'/courses/ffp-401/' },
-    university_research_none:     { code:'FFA-401', name:'Operational Edge Computing for UAS', reason:'Gives research operators the platform and AI payload competency to run experiments independently. Jetson Orin Nano included. No ML background needed — designed for operators, not computer scientists.', link:'/courses/ffa-401/' },
+    university_research_none:     { code:'FFA-401', name:'Operational Edge Computing for UAS', reason:'Gives research operators the platform and AI payload competency to run experiments independently. Jetson Orin Nano included. No ML background needed, designed for operators, not computer scientists.', link:'/courses/ffa-401/' },
     university_research_some:     { code:'FFA-401', name:'Operational Edge Computing for UAS', reason:'FFA-401 closes the gap between research theory and operational platform competency. Students leave able to execute flight test protocols and run AI payloads without manufacturer hand-holding.', link:'/courses/ffa-401/' },
-    university_research_advanced: { code:'Contact Us', name:'Advanced Autonomy Programs', reason:'For labs with operational platform proficiency seeking multi-vehicle coordination, BVLOS capability, and complex autonomous mission execution — contact us to discuss curriculum options for your research program.', link:'/contact/' },
-    university_ai_none:           { code:'FFA-401', name:'Operational Edge Computing for UAS', reason:'The right starting point for AI research programs — builds hardware proficiency alongside edge AI deployment on Jetson. Students can run experiments without waiting on technical staff for every flight.', link:'/courses/ffa-401/' },
+    university_research_advanced: { code:'Contact Us', name:'Advanced Autonomy Programs', reason:'For labs with operational platform proficiency seeking multi-vehicle coordination, BVLOS capability, and complex autonomous mission execution, contact us to discuss curriculum options for your research program.', link:'/contact/' },
+    university_ai_none:           { code:'FFA-401', name:'Operational Edge Computing for UAS', reason:'The right starting point for AI research programs, builds hardware proficiency alongside edge AI deployment on Jetson. Students can run experiments without waiting on technical staff for every flight.', link:'/courses/ffa-401/' },
     university_ai_some:           { code:'FFA-401', name:'Operational Edge Computing for UAS', reason:'FFA-401 bridges theory and hardware. Even with AI background, the operational deployment layer on Jetson hardware in a flight context is a distinct competency.', link:'/courses/ffa-401/' },
-    university_ai_advanced:       { code:'Contact Us', name:'Advanced Autonomy Programs', reason:'For researchers with solid edge AI foundations seeking advanced autonomous mission planning and multi-vehicle coordination — contact us to discuss curriculum options for your research program.', link:'/contact/' },
-    university_sustainment_none:  { code:'FFF-201', name:'Electronics Repair for Deployed Operators', reason:'Labs running high-cycle research operations can\'t afford manufacturer RMA wait times. FFF-201 builds in-house repair capability — reducing downtime from weeks to hours.', link:'/courses/fff-201/' },
+    university_ai_advanced:       { code:'Contact Us', name:'Advanced Autonomy Programs', reason:'For researchers with solid edge AI foundations seeking advanced autonomous mission planning and multi-vehicle coordination, contact us to discuss curriculum options for your research program.', link:'/contact/' },
+    university_sustainment_none:  { code:'FFF-201', name:'Electronics Repair for Deployed Operators', reason:'Labs running high-cycle research operations can\'t afford manufacturer RMA wait times. FFF-201 builds in-house repair capability, reducing downtime from weeks to hours.', link:'/courses/fff-201/' },
     university_sustainment_some:  { code:'FFF-201', name:'Electronics Repair for Deployed Operators', reason:'FFF-201 builds practical repair proficiency regardless of prior electronics exposure. Course is structured around what actually fails in high-cycle operations.', link:'/courses/fff-201/' },
-    university_sustainment_advanced: { code:'FFF-301', name:'Additive Manufacturing for UAS Sustainment', reason:'If repair fundamentals are covered, additive manufacturing adds the capability to fabricate structural replacement parts in-lab — eliminating dependency on parts availability timelines.', link:'/courses/fff-301/' },
+    university_sustainment_advanced: { code:'FFF-301', name:'Additive Manufacturing for UAS Sustainment', reason:'If repair fundamentals are covered, additive manufacturing adds the capability to fabricate structural replacement parts in-lab, eliminating dependency on parts availability timelines.', link:'/courses/fff-301/' },
     university_assessment_none:   { code:'assessment', name:'Individual Operator Proficiency Assessment', reason:'Third-party proficiency validation across five domains provides documented, defensible ratings useful for lab safety protocols, IRB requirements, and grant reporting. No prior training needed to assess current baseline.', link:'/assessment/' },
-    university_assessment_some:   { code:'assessment', name:'Individual Operator Proficiency Assessment', reason:'Objective third-party assessment documents your operators\' current capability level — useful for safety reviews, grant deliverables, and identifying specific gaps before investing in training.', link:'/assessment/' },
-    university_assessment_advanced: { code:'assessment', name:'Unit Readiness Assessment', reason:'For labs with established operator programs — unit-level assessment validates the program effectiveness, identifies collective gaps, and produces defensible capability documentation for institutional requirements.', link:'/assessment/' },
-    contractor_trainer_none:      { code:'FFF-401', name:'Advanced Fixed-Wing UAS Integration &amp; Field Sustainment', reason:'Build the operator baseline first. Once your customer\'s team has completed FFF-401, FFF-402 (train-the-trainer) converts one of those operators into an internal instructor — eliminating your ongoing support obligation.', link:'/courses/fff-401/' },
+    university_assessment_some:   { code:'assessment', name:'Individual Operator Proficiency Assessment', reason:'Objective third-party assessment documents your operators\' current capability level, useful for safety reviews, grant deliverables, and identifying specific gaps before investing in training.', link:'/assessment/' },
+    university_assessment_advanced: { code:'assessment', name:'Unit Readiness Assessment', reason:'For labs with established operator programs, unit-level assessment validates the program effectiveness, identifies collective gaps, and produces defensible capability documentation for institutional requirements.', link:'/assessment/' },
+    contractor_trainer_none:      { code:'FFF-401', name:'Advanced Fixed-Wing UAS Integration &amp; Field Sustainment', reason:'Build the operator baseline first. Once your customer\'s team has completed FFF-401, FFF-402 (train-the-trainer) converts one of those operators into an internal instructor, eliminating your ongoing support obligation.', link:'/courses/fff-401/' },
     contractor_trainer_some:      { code:'FFF-402', name:'FPV Master Trainer Certification', reason:'Certify an internal instructor within your customer\'s organization. Reduces your lifecycle support costs, strengthens your platform delivery proposal, and gives your customer sustainable training capability.', link:'/courses/fff-402/' },
     contractor_trainer_advanced:  { code:'FFF-402', name:'FPV Master Trainer Certification', reason:'With experienced operators available, FFF-402 is the direct path. Certify one as an internal trainer and your customer\'s training program becomes self-sustaining without contractor dependency.', link:'/courses/fff-402/' },
     contractor_assessment_none:   { code:'assessment', name:'Operator Capability Assessment', reason:'Third-party objective proficiency validation carries more weight with government acceptance testers than vendor self-certification. Our 1-5 scale assessments produce defensible, audit-ready deliverables for contract compliance.', link:'/assessment/' },
-    contractor_assessment_some:   { code:'assessment', name:'Operator Capability Assessment', reason:'Independent assessment services validate your training program effectiveness and provide objective capability documentation — useful for program acceptance testing and government customer deliverable reporting.', link:'/assessment/' },
+    contractor_assessment_some:   { code:'assessment', name:'Operator Capability Assessment', reason:'Independent assessment services validate your training program effectiveness and provide objective capability documentation, useful for program acceptance testing and government customer deliverable reporting.', link:'/assessment/' },
     contractor_assessment_advanced: { code:'assessment', name:'Unit Readiness Assessment', reason:'Unit-level readiness validation for program acceptance, platform fielding documentation, and government customer readiness reporting. Defensible third-party methodology for acquisition file requirements.', link:'/assessment/' },
     contractor_fpv_none:          { code:'FFF-411', name:'Commercial FPV Drone Integration &amp; Sustainment', reason:'10-day build-to-fly program for commercial operator qualification. Students build their aircraft during the course, complete FAA Part 107, and leave with full equipment. The commercial equivalent of our FFF-401 flagship.', link:'/courses/fff-411/' },
     contractor_fpv_some:          { code:'FFF-411', name:'Commercial FPV Drone Integration &amp; Sustainment', reason:'FFF-411 delivers complete build and sustainment capability alongside flight proficiency. Even with prior flight experience, the build-from-components curriculum closes sustainment gaps that hold most commercial operators back.', link:'/courses/fff-411/' },
-    contractor_fpv_advanced:      { code:'FFF-402', name:'FPV Master Trainer Certification', reason:'Experienced operators are ready to build internal training capability. FFF-402 certifies a trainer within your customer organization — reducing your long-term support obligation.', link:'/courses/fff-402/' },
+    contractor_fpv_advanced:      { code:'FFF-402', name:'FPV Master Trainer Certification', reason:'Experienced operators are ready to build internal training capability. FFF-402 certifies a trainer within your customer organization, reducing your long-term support obligation.', link:'/courses/fff-402/' },
     contractor_custom_none:       { code:'contact', name:'Custom Curriculum Development', reason:'If you\'re fielding a non-FPV platform or need training tailored to a specific system, we develop custom curriculum under a separate agreement. Contact us with your platform specs and timeline.', link:'/contact/' },
     contractor_custom_some:       { code:'contact', name:'Custom Curriculum Development', reason:'Custom training development for specialized platforms, sensor payloads, or mission-specific requirements. Contact us with your platform documentation and we\'ll scope the engagement.', link:'/contact/' },
-    contractor_custom_advanced:   { code:'contact', name:'Custom Curriculum Development', reason:'Custom curriculum development and train-the-trainer programs for advanced platforms. Contact us — we\'ve built training for fixed-wing VTOL, Group 2/3 platforms, and specialized sensor payloads.', link:'/contact/' },
+    contractor_custom_advanced:   { code:'contact', name:'Custom Curriculum Development', reason:'Custom curriculum development and train-the-trainer programs for advanced platforms. Contact us, we\'ve built training for fixed-wing VTOL, Group 2/3 platforms, and specialized sensor payloads.', link:'/contact/' },
   };
 
   window.selectAnswer = function(step, val) {
@@ -223,7 +223,7 @@ layout: "list"
     var key = answers.step1 + '_' + answers.step2 + '_' + answers.step3;
     var rec = recommendations[key];
     if(!rec){
-      // Fallback — route to courses page
+      // Fallback, route to courses page
       rec = { code:'Browse All Courses', name:'View All Training Programs', reason:'Based on your selections, we recommend reviewing our full course catalog to find the best match. Contact us and we\'ll point you directly.', link:'/courses/' };
     }
     document.getElementById('result-code').textContent = rec.code;
@@ -256,12 +256,12 @@ layout: "list"
 <a name="fixed-wing-uas"></a>
 ## Fixed-Wing UAS Integration & Field Sustainment
 
-Build it. Fly it. Fix it. The Group 2 fixed-wing operator pipeline — from zero to mission-ready using the Falcon training airframe.
+Build it. Fly it. Fix it. The Group 2 fixed-wing operator pipeline, from zero to mission-ready using the Falcon training airframe.
 
 <div class="grid grid-2" style="margin-top: 1.5rem;">
 
 <div class="card" style="border-top: 3px solid #f59e0b;">
-<span class="course-code">FFF-401 — FLAGSHIP</span>
+<span class="course-code">FFF-401: FLAGSHIP</span>
 <h3>Advanced Fixed-Wing UAS Integration & Field Sustainment</h3>
 <p><strong>Duration:</strong> 10 days &nbsp;|&nbsp; Zero experience required</p>
 <p><strong>After this course, operators can:</strong> Build a complete Falcon Group 2 fixed-wing airframe from components, configure autopilot for autonomous and manual operations, fly tactical fixed-wing missions, and perform field repairs without contractor support. FAA Part 107 administered during the course.</p>
@@ -276,24 +276,24 @@ Build it. Fly it. Fix it. The Group 2 fixed-wing operator pipeline — from zero
 <a name="fpv-tactical"></a>
 ## FPV & Tactical Drone Employment
 
-Build it. Configure it. Fly it. Fix it. The complete FPV operator and trainer pipeline — from zero to operational to instructor-certified.
+Build it. Configure it. Fly it. Fix it. The complete FPV operator and trainer pipeline, from zero to operational to instructor-certified.
 
 <div class="grid grid-2" style="margin-top: 1.5rem;">
 
 <div class="card" style="border-top: 3px solid #16a34a;">
-<span class="course-code">FFF-411 — NEW</span>
+<span class="course-code">FFF-411: NEW</span>
 <h3>Commercial FPV Drone Integration & Sustainment</h3>
 <p><strong>Duration:</strong> 10 days &nbsp;|&nbsp; Zero experience required</p>
 <p><strong>After this course, operators can:</strong> Build and configure a complete digital FPV system from components, fly precision maneuvers for commercial applications, perform field maintenance, and operate legally under FAA Part 107.</p>
-<p style="font-size:0.85rem; color:#6b7280;">Full equipment kit retained by student — aircraft, digital goggles, controller, toolkit. FAA Part 107 included. Commercial and academic pricing available.</p>
+<p style="font-size:0.85rem; color:#6b7280;">Full equipment kit retained by student, aircraft, digital goggles, controller, toolkit. FAA Part 107 included. Commercial and academic pricing available.</p>
 <a href="/courses/fff-411/" class="btn btn-primary">Program Details →</a>
 </div>
 
 <div class="card">
-<span class="course-code">FFF-402 — DoD Only</span>
+<span class="course-code">FFF-402: DoD Only</span>
 <h3>UAS Master Trainer Certification</h3>
 <p><strong>Duration:</strong> 5 days &nbsp;|&nbsp; FFF-401 or FFF-411 + Part 107 + 75 flight hours</p>
-<p><strong>After this course, organizations have:</strong> A certified internal instructor capable of delivering FFF-401 or FFF-411-equivalent training organically — tailored to the unit's primary platform. Eliminates recurring contractor dependency and builds a sustainable unit training pipeline.</p>
+<p><strong>After this course, organizations have:</strong> A certified internal instructor capable of delivering FFF-401 or FFF-411-equivalent training organically, tailored to the unit's primary platform. Eliminates recurring contractor dependency and builds a sustainable unit training pipeline.</p>
 <p style="font-size:0.85rem; color:#6b7280;">Full equipment package included. FAA Part 107 exam covered. Curriculum licensing included. DoD only. Tailored to FFF-401 (fixed-wing) or FFF-411 (FPV) based on unit requirements.</p>
 <a href="/courses/fff-402/" class="btn btn-primary">Program Details →</a>
 </div>
@@ -343,7 +343,7 @@ The most lethal capability gap in current drone warfare. Operators who can't dia
 <a name="ai-autonomy"></a>
 ## AI, Autonomy & Edge Computing
 
-Autonomous systems at the tactical edge — for operators, not data scientists.
+Autonomous systems at the tactical edge, for operators, not data scientists.
 
 <div class="grid grid-2" style="margin-top: 1.5rem;">
 
@@ -369,7 +369,7 @@ Autonomous systems at the tactical edge — for operators, not data scientists.
 <span class="course-code">FFA-201</span>
 <h3>AI Fundamentals for Non-Technical Personnel</h3>
 <p><strong>Duration:</strong> 2 days &nbsp;|&nbsp; No prerequisites</p>
-<p><strong>After this course, commanders and staff can:</strong> Evaluate AI capability claims critically, understand the real constraints of autonomous systems, and make informed decisions about AI-enabled UAS employment — without being misled by vendor marketing.</p>
+<p><strong>After this course, commanders and staff can:</strong> Evaluate AI capability claims critically, understand the real constraints of autonomous systems, and make informed decisions about AI-enabled UAS employment, without being misled by vendor marketing.</p>
 <p style="font-size:0.85rem; color:#6b7280;">Executive overview format. Ideal for O-4 and above, acquisition officers, and program managers.</p>
 <a href="/courses/ffa-201/" class="btn btn-primary">Program Details →</a>
 </div>
@@ -407,13 +407,13 @@ Organic repair. Zero contractor dependency. Keep platforms flying after attritio
 <span class="course-code">FFF-601</span>
 <h3>Applied CFD for UAS Design</h3>
 <p><strong>Duration:</strong> 4 days &nbsp;|&nbsp; Basic design background</p>
-<p><strong>After this course, engineers can:</strong> Set up and run CFD simulations for fixed-wing and VTOL geometries, generate drag polars, identify aerodynamic inefficiencies, and use simulation outputs to drive informed design decisions — before cutting material.</p>
-<p style="font-size:0.85rem; color:#6b7280;">OpenFOAM + XFLR5 (open-source — no licensing cost). DoD, academic, and commercial.</p>
+<p><strong>After this course, engineers can:</strong> Set up and run CFD simulations for fixed-wing and VTOL geometries, generate drag polars, identify aerodynamic inefficiencies, and use simulation outputs to drive informed design decisions, before cutting material.</p>
+<p style="font-size:0.85rem; color:#6b7280;">OpenFOAM + XFLR5 (open-source, no licensing cost). DoD, academic, and commercial.</p>
 <a href="/courses/fff-601/" class="btn btn-primary">Program Details →</a>
 </div>
 
 <div class="card" style="border-top: 3px solid #dc2626;">
-<span class="course-code">FFF-651 — DoD Only</span>
+<span class="course-code">FFF-651: DoD Only</span>
 <h3>UAS Manufacturing Advisory</h3>
 <p><strong>Duration:</strong> 5 days &nbsp;|&nbsp; No prerequisites</p>
 <p><strong>After this course, program offices can:</strong> Define facility and tooling requirements, architect an NDAA-compliant supply chain, establish production quality systems, and build an implementation roadmap for organic UAS manufacturing capability.</p>
@@ -433,7 +433,7 @@ Assessment and advisory programs for DoD acquisition professionals and program o
 <div class="grid grid-2" style="margin-top: 1.5rem;">
 
 <div class="card" style="border-top: 3px solid #dc2626;">
-<span class="course-code">FFI-401 — DoD Only</span>
+<span class="course-code">FFI-401: DoD Only</span>
 <h3>UAS Manufacturing Facility & Adversary Capability Assessment</h3>
 <p><strong>Duration:</strong> 5 days &nbsp;|&nbsp; No prerequisites</p>
 <p><strong>After this course, acquisition professionals can:</strong> Evaluate UAS manufacturer NDAA compliance claims with technical confidence, conduct structured BOM reviews for prohibited components, assess supply chain risk, and document findings for contracting and acquisition files.</p>
@@ -453,7 +453,7 @@ Purpose-built training pathways for complete capability development.
 
 <div class="card">
 <h3>Fixed-Wing Complete Operator Package</h3>
-<p>FFF-401 + FFR-201 + FFF-201. Full fixed-wing operator pipeline — fly it, protect it from EW, fix it in the field. The complete self-sufficient operator.</p>
+<p>FFF-401 + FFR-201 + FFF-201. Full fixed-wing operator pipeline, fly it, protect it from EW, fix it in the field. The complete self-sufficient operator.</p>
 <a href="/contact/" class="btn btn-primary">Request Information</a>
 </div>
 
@@ -465,7 +465,7 @@ Purpose-built training pathways for complete capability development.
 
 <div class="card">
 <h3>Advanced Operator Pathway</h3>
-<p>FFR-201 + FFR-301 + FFA-401. Electronic warfare literacy combined with AI edge computing — for operators expected to operate in the most contested environments.</p>
+<p>FFR-201 + FFR-301 + FFA-401. Electronic warfare literacy combined with AI edge computing, for operators expected to operate in the most contested environments.</p>
 <a href="/contact/" class="btn btn-primary">Request Information</a>
 </div>
 
@@ -490,7 +490,7 @@ The operator is the target as much as the platform. Personal digital security, c
 <div class="grid grid-2" style="margin-top: 1.5rem;">
 
 <div class="card" style="border-top: 3px solid #b45309;">
-<span class="course-code">FFP-201 — AVAILABLE NOW</span>
+<span class="course-code">FFP-201: AVAILABLE NOW</span>
 <h3>Digital Force Protection Course</h3>
 <p><strong>Duration:</strong> 5 days &nbsp;|&nbsp; No prerequisites</p>
 <p><strong>After this course, operators can:</strong> Build a personal threat model, harden a mobile device on a de-Googled OS, stand up a live encrypted PACE plan, reduce their data-broker footprint, and operate a masked communications identity without leaking real information. Every piece of hardware is student-retained and fully configured at graduation.</p>
@@ -499,7 +499,7 @@ The operator is the target as much as the platform. Personal digital security, c
 </div>
 
 <div class="card" style="border-top: 3px solid #92400e; opacity:0.9;">
-<span class="course-code">FFP-401 — OPENING Q4 2026</span>
+<span class="course-code">FFP-401: OPENING Q4 2026</span>
 <h3>Advanced Personal Security</h3>
 <p><strong>Duration:</strong> 5 days &nbsp;|&nbsp; FFP-201 + Linux/CLI bar</p>
 <p><strong>The advanced follow-on to FFP-201.</strong> Technical surveillance countermeasures, direction-finding tradecraft, non-destructive entry, and safe-house/team-clearing procedures. Students build their own direction-finding tools alongside commercial reference hardware.</p>
@@ -512,14 +512,14 @@ The operator is the target as much as the platform. Personal digital security, c
 <div class="grid grid-2" style="margin-top: 1rem;">
 
 <div class="card" style="border-top: 2px dashed #d97706;">
-<span class="course-code">FFP-101 — COMING SOON</span>
+<span class="course-code">FFP-101: COMING SOON</span>
 <h3>Personal Security Awareness</h3>
 <p><strong>Leadership and commander-level orientation.</strong> Covers the threat landscape, what FFP-201 produces in an operator, and how to build an organic unit security program. No prerequisites.</p>
 <a href="/courses/ffp-101/" class="btn btn-secondary">Notify Me</a>
 </div>
 
 <div class="card" style="border-top: 2px dashed #d97706;">
-<span class="course-code">FFP-301 — COMING SOON</span>
+<span class="course-code">FFP-301: COMING SOON</span>
 <h3>Unit Digital Security Planning</h3>
 <p><strong>For S2s, S6s, and personnel security officers.</strong> Organizational digital exposure assessment, baseline standards, and building an internal training pipeline. FFP-201 recommended.</p>
 <a href="/courses/ffp-301/" class="btn btn-secondary">Notify Me</a>
@@ -567,7 +567,7 @@ All programs are priced on a **per-student, cohort-based model.** Pricing is tai
 </div>
 
 <div style="margin-top: 2rem; text-align: center;">
-<p style="font-size: 1.05rem; color: #374151; margin-bottom: 1.25rem;">Contact us with your course of interest, customer type, and desired cohort size — we'll return a proposal within 48 hours.</p>
+<p style="font-size: 1.05rem; color: #374151; margin-bottom: 1.25rem;">Contact us with your course of interest, customer type, and desired cohort size, we'll return a proposal within 48 hours.</p>
 <a href="/contact/" class="btn btn-primary" style="font-size: 1.05rem; padding: 0.85rem 2rem;">Request a Pricing Proposal</a>
 </div>
 
