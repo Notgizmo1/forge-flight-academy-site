@@ -1,6 +1,6 @@
 ---
 title: "The Hardware Question in Personal Security Training: Why a Configured Kit Changes Everything"
-date: 2026-09-24
+date: 2026-09-12
 description: "Most personal security training ends with a supply list, tools to acquire, accounts to create, configurations to set up alone later. The problem is that operators do not complete the supply list. A fully configured, student-retained kit at graduation is the only model that produces a working security posture on Day 1 back at the unit."
 keywords: "hands-on security training DoD, student retained hardware military training, configured kit security training, personal security training hardware DoD, practical security training military, hands-on operator security training, hardware security key training military DoD"
 draft: false

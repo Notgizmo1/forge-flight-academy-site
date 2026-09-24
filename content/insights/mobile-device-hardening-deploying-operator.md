@@ -1,6 +1,6 @@
 ---
 title: "Hardening a Mobile Device for a Deploying Operator: What the Process Actually Involves"
-date: 2026-09-24
+date: 2026-09-08
 description: "De-Googled Android and mobile device hardening are terms that appear in personal security guidance without explanation of what they actually involve, what they protect against, and what they do not protect against. Here is what the process looks like in practice."
 keywords: "mobile device hardening military, de-Googled Android military training, smartphone security DoD operator, mobile hardening DoD training, de-Googled phone military, mobile security training DoD, hardened smartphone military training, operator device security"
 draft: false

@@ -1,6 +1,6 @@
 ---
 title: "Direction Finding and TSCM: What's Coming in FFP-401"
-date: 2026-09-24
+date: 2026-09-22
 description: "FFP-401 takes the Force Protection track from digital signature management into detecting and defeating physical surveillance. Technical surveillance countermeasures, direction-finding tradecraft, non-destructive entry, and safe-house/team-clearing procedures, built on FFP-201 and expected to open for scheduling Q4 2026."
 keywords: "TSCM training DoD military, technical surveillance countermeasures training, direction finding training military DoD, advanced personal security training, counter-surveillance training DoD, TSCM course DoD, direction finding course military, FFP-401"
 draft: false

@@ -1,6 +1,6 @@
 ---
 title: "PACE Plan Execution Under Pressure: Why Communications Security Starts Before Deployment"
-date: 2026-09-24
+date: 2026-09-16
 description: "A PACE plan that has never been run under disruption is a document, not a capability. The fallback procedures that matter most are the ones operators have actually practiced, including the ones that activate when the primary path is compromised, and what a live, graded PACE plan looks like in training."
 keywords: "PACE plan training military, encrypted communications plan DoD, communications security training operator, live PACE plan training, PACE communications military training, comms security training DoD, encrypted PACE military, operator communications training"
 draft: false

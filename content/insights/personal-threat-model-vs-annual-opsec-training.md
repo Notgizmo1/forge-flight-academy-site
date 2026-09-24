@@ -1,6 +1,6 @@
 ---
 title: "What a Personal Threat Model Reveals That Annual OPSEC Training Misses"
-date: 2026-09-24
+date: 2026-09-03
 description: "A personal threat model is not a checklist. It is a structured reasoning process that produces decisions specific to a person's actual risk profile, what they protect, from whom, how likely each threat is, how bad the consequence, and how much security friction they will actually sustain. Annual OPSEC training produces none of this."
 keywords: "personal threat model military training, threat modeling framework DoD, OPSEC training gap military, structured threat modeling course, personal security threat modeling DoD, threat model training operator, digital threat model military"
 draft: false
