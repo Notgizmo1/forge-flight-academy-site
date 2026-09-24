@@ -1,12 +1,12 @@
 ---
-title: "UAS Training Courses | FPV, Electronic Warfare, AI & Autonomy | Forge and Flight Academy"
-description: "14 professional UAS courses across fixed-wing integration, FPV tactical drone employment, electronic warfare, AI autonomy, field fabrication, and sustainment. DoD units, government agencies, and universities. Fort Bragg adjacent."
+title: "UAS & Force Protection Training | Forge and Flight Academy | Carthage NC"
+description: "18 professional training programs across UAS integration, electronic warfare, AI autonomy, field fabrication, sustainment, and operator force protection. DoD units, government agencies, law enforcement, and universities. Sandhills, NC Region — 35 miles from Fort Bragg."
 layout: "list"
 ---
 
 ## Professional UAS Training Programs
 
-14 courses across five capability domains. All programs emphasize hands-on proficiency development — operators leave able to perform, not just recite.
+18 courses across six capability domains. All programs emphasize hands-on proficiency development. Operators leave able to perform, not just recite.
 
 ---
 
@@ -113,7 +113,8 @@ layout: "list"
       { val:'sustainment', label:'Field repair &amp; organic sustainment' },
       { val:'trainer',     label:'Build an internal training pipeline' },
       { val:'ai',          label:'AI, autonomy &amp; edge computing' },
-      { val:'commander',   label:'Executive overview for commanders/staff' }
+      { val:'commander',   label:'Executive overview for commanders/staff' },
+      { val:'security',    label:'Personal security &amp; digital force protection' }
     ],
     university: [
       { val:'research',    label:'Research platform operations &amp; safety' },
@@ -148,6 +149,9 @@ layout: "list"
     dod_commander_none:   { code:'FFR-101', name:'RF Awareness for Non-Technical Personnel', reason:'2-day executive overview for O-4 and above. Spectrum basics, EW threats, and coordination requirements. No technical background needed. Make informed decisions about spectrum-contested operations.', link:'/courses/ffr-101/' },
     dod_commander_some:   { code:'FFA-201', name:'AI Fundamentals for Non-Technical Personnel', reason:'2-day executive overview covering AI/ML capabilities and limitations for commanders and program managers. Evaluate AI-enabled UAS claims critically and make informed acquisition decisions.', link:'/courses/ffa-201/' },
     dod_commander_advanced: { code:'FFR-101', name:'RF Awareness for Non-Technical Personnel', reason:'Even with operational experience, the spectrum-specific commander overview course provides structured framework for EW decision-making and S-6 coordination that transfers directly to contested UAS employment.', link:'/courses/ffr-101/' },
+    dod_security_none:    { code:'FFP-201', name:'Digital Force Protection Course', reason:'5-day hands-on course. Build a personal threat model, harden a mobile device, stand up a live encrypted PACE plan, and reduce your data-broker footprint. Student-retained fully configured kit. Instructors with SOF and Cyber Command backgrounds. DoD and government only.', link:'/courses/ffp-201/' },
+    dod_security_some:    { code:'FFP-201', name:'Digital Force Protection Course', reason:'FFP-201 starts from first principles and moves fast. Even with prior security awareness, the threat-model methodology and hands-on configured kit produce a fundamentally different capability than awareness training alone.', link:'/courses/ffp-201/' },
+    dod_security_advanced: { code:'FFP-401', name:'Advanced Personal Security (Opening Q4 2026)', reason:'For FFP-201 graduates with a Linux/CLI background. Technical surveillance countermeasures, direction-finding tradecraft, non-destructive entry, and safe-house clearing. Contact us to be notified when scheduling opens.', link:'/courses/ffp-401/' },
     university_research_none:     { code:'FFA-401', name:'Operational Edge Computing for UAS', reason:'Gives research operators the platform and AI payload competency to run experiments independently. Jetson Orin Nano included. No ML background needed — designed for operators, not computer scientists.', link:'/courses/ffa-401/' },
     university_research_some:     { code:'FFA-401', name:'Operational Edge Computing for UAS', reason:'FFA-401 closes the gap between research theory and operational platform competency. Students leave able to execute flight test protocols and run AI payloads without manufacturer hand-holding.', link:'/courses/ffa-401/' },
     university_research_advanced: { code:'Contact Us', name:'Advanced Autonomy Programs', reason:'For labs with operational platform proficiency seeking multi-vehicle coordination, BVLOS capability, and complex autonomous mission execution — contact us to discuss curriculum options for your research program.', link:'/contact/' },
@@ -469,6 +473,56 @@ Purpose-built training pathways for complete capability development.
 <h3>Sustainment & Assessment Package</h3>
 <p>FFF-201 + FFF-301 + Unit Readiness Assessment. Build organic repair capability and validate it against objective proficiency standards.</p>
 <a href="/contact/" class="btn btn-primary">Request Information</a>
+</div>
+
+</div>
+
+
+---
+
+<a name="force-protection"></a>
+## Operator Security & Force Protection
+
+The operator is the target as much as the platform. Personal digital security, communications security, and physical counter-surveillance belong in the same training framework as electronic warfare and field sustainment.
+
+**DoD and government personnel only. No foreign national access.**
+
+<div class="grid grid-2" style="margin-top: 1.5rem;">
+
+<div class="card" style="border-top: 3px solid #b45309;">
+<span class="course-code">FFP-201 — AVAILABLE NOW</span>
+<h3>Digital Force Protection Course</h3>
+<p><strong>Duration:</strong> 5 days &nbsp;|&nbsp; No prerequisites</p>
+<p><strong>After this course, operators can:</strong> Build a personal threat model, harden a mobile device on a de-Googled OS, stand up a live encrypted PACE plan, reduce their data-broker footprint, and operate a masked communications identity without leaking real information. Every piece of hardware is student-retained and fully configured at graduation.</p>
+<p style="font-size:0.85rem; color:#6b7280;">Instructors with special operations and U.S. Cyber Command backgrounds. Cohort size 8-20. MTT available; preferred at Carthage, NC facility.</p>
+<a href="/courses/ffp-201/" class="btn btn-primary">Program Details</a>
+</div>
+
+<div class="card" style="border-top: 3px solid #92400e; opacity:0.9;">
+<span class="course-code">FFP-401 — OPENING Q4 2026</span>
+<h3>Advanced Personal Security</h3>
+<p><strong>Duration:</strong> 5 days &nbsp;|&nbsp; FFP-201 + Linux/CLI bar</p>
+<p><strong>The advanced follow-on to FFP-201.</strong> Technical surveillance countermeasures, direction-finding tradecraft, non-destructive entry, and safe-house/team-clearing procedures. Students build their own direction-finding tools alongside commercial reference hardware.</p>
+<p style="font-size:0.85rem; color:#6b7280;">Opening Q4 2026. Contact us to be notified at launch.</p>
+<a href="/courses/ffp-401/" class="btn btn-primary">Learn More</a>
+</div>
+
+</div>
+
+<div class="grid grid-2" style="margin-top: 1rem;">
+
+<div class="card" style="border-top: 2px dashed #d97706;">
+<span class="course-code">FFP-101 — COMING SOON</span>
+<h3>Personal Security Awareness</h3>
+<p><strong>Leadership and commander-level orientation.</strong> Covers the threat landscape, what FFP-201 produces in an operator, and how to build an organic unit security program. No prerequisites.</p>
+<a href="/courses/ffp-101/" class="btn btn-secondary">Notify Me</a>
+</div>
+
+<div class="card" style="border-top: 2px dashed #d97706;">
+<span class="course-code">FFP-301 — COMING SOON</span>
+<h3>Unit Digital Security Planning</h3>
+<p><strong>For S2s, S6s, and personnel security officers.</strong> Organizational digital exposure assessment, baseline standards, and building an internal training pipeline. FFP-201 recommended.</p>
+<a href="/courses/ffp-301/" class="btn btn-secondary">Notify Me</a>
 </div>
 
 </div>

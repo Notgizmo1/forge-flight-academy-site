@@ -101,6 +101,45 @@ For units standing up organic capability from scratch — one integrated program
 
 ---
 
+## Force Protection & Operator Security
+
+The same unit that needs organic drone capability needs organic digital security capability. Platforms are hardened against EW. The people operating them need the same discipline applied to their personal digital signature.
+
+FFP-201 is the Force Protection track entry point for DoD and government personnel. Same hands-on model as the rest of the catalog: student-retained fully configured hardware, continuous graded performance, and operators who leave with a working capability rather than a checklist.
+
+**DoD and government personnel only. U.S. citizenship required. No foreign national access.**
+
+<div class="card" style="border-top: 3px solid #b45309;">
+<span class="course-code">FFP-201 — Available Now</span>
+<h3>Digital Force Protection Course</h3>
+<p><strong>5 days | No prerequisites | Cohort: 8-20 students</strong></p>
+<p>Personal threat model built on Day 1. Mobile device hardened on a de-Googled OS, credentials migrated to hardware-backed authentication, live encrypted PACE plan running by Day 1 afternoon, and data-broker footprint reduced before graduation. Every piece of hardware is student-retained and fully configured. Instructors hold special operations and Cyber Command backgrounds.</p>
+<a href="/courses/ffp-201/" class="btn btn-primary">Program Details</a>
+</div>
+
+<div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:1rem; margin-top:1rem;">
+<div class="card" style="border-top:2px dashed #d97706;">
+<span class="course-code">FFP-101 — Coming Soon</span>
+<h3>Personal Security Awareness</h3>
+<p>Commander and leadership orientation. Threat landscape, what FFP-201 produces, and how to resource a unit program.</p>
+<a href="/courses/ffp-101/" class="btn btn-secondary">Notify Me</a>
+</div>
+<div class="card" style="border-top:2px dashed #d97706;">
+<span class="course-code">FFP-301 — Coming Soon</span>
+<h3>Unit Digital Security Planning</h3>
+<p>For S2s and personnel security officers. Organizational exposure assessment, baseline standards, and internal training pipelines.</p>
+<a href="/courses/ffp-301/" class="btn btn-secondary">Notify Me</a>
+</div>
+<div class="card" style="border-top:2px dashed #92400e;">
+<span class="course-code">FFP-401 — Q4 2026</span>
+<h3>Advanced Personal Security</h3>
+<p>TSCM, direction-finding tradecraft, non-destructive entry, safe-house clearing. Prereq: FFP-201 + Linux/CLI bar.</p>
+<a href="/courses/ffp-401/" class="btn btn-secondary">Notify Me</a>
+</div>
+</div>
+
+---
+
 ## Contracting Information
 
 <div class="card" style="margin-top:1.5rem; background:#eff6ff; border-left: 4px solid #2563eb;">
