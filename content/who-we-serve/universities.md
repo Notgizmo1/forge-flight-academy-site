@@ -72,13 +72,12 @@ We close that gap, giving researchers the platform competency they need to focus
 
 ## Academic Pricing
 
-All courses carry tiered pricing. DoD/Government, Commercial, and Academic. Academic rates are the lowest tier and apply to accredited universities, community colleges, and research institutions.
+All programs are contact-for-pricing. Cohort-based, minimum 8 students, maximum 20. We return all proposals within 48 hours.
 
 <div class="card" style="margin-top:1.5rem; background:#eff6ff; border-left: 4px solid #2563eb;">
-<h3>Academic Pricing. What to Expect</h3>
-<p>Pricing is per-student, cohort-based. Standard cohort: 8 students. Custom sizes from 4-12 available. Academic rate applies to all accredited institutions. Contact us with your program, student count, and timeline, we return a proposal within 48 hours.</p>
-<p style="margin-top:0.75rem;"><strong>Note:</strong> Equipment-heavy courses (FFA-401, FFF-201) include hardware students keep, factor this into grant budget line items as equipment, not just training fees.</p>
-<a href="/contact/" class="btn btn-primary">Request Academic Pricing →</a>
+<h3>Budgeting for University Programs</h3>
+<p>Equipment-heavy courses (FFA-401, FFF-201, FFP-201) include hardware that students keep at graduation. When building grant or departmental budget requests, allocate these courses across both training and equipment line items rather than training alone.</p>
+<a href="/contact/" class="btn btn-primary">Request a Proposal →</a>
 </div>
 
 ---

@@ -122,14 +122,9 @@ Students are evaluated using a **1-5 capability rating scale** across four phase
 
 ---
 
-## Pricing & Registration
+## Investment & Registration
 
-| Customer Type | Price per Student | Notes |
-|---------------|-------------------|-------|
-| **Department of Defense / Government** | $18,500 | Active duty, federal agencies |
-| **Commercial** | $16,500 | Private sector, contractors |
-| **Academic** | $14,500 | Universities, research institutions |
-| **Early Adopter** | $12,500 | First 3 cohorts |
+Contact for pricing. Available through standard government contracting vehicles including GPC, MIPR, and simplified acquisition. We return all proposals within 48 hours.
 
 **What's Included:**
 - Complete autonomous recon platform (yours to keep)
@@ -160,8 +155,8 @@ Students are evaluated using a **1-5 capability rating scale** across four phase
 
 ## Class Size & Schedule
 
-**Maximum Students:** 12 per cohort  
-**Minimum Students:** 4 per cohort  
+**Maximum Students:** 20 per cohort  
+**Minimum Students:** 8 per cohort  
 **Instructor Ratio:** 1:6 maximum (2 instructors per full cohort)
 
 **2025-2026 Schedule:**

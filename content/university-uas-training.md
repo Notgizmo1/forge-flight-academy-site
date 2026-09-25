@@ -1,6 +1,6 @@
 ---
 title: "University UAS Training | Drone Operator Programs for Research"
-description: "UAS operator training for university research programs, aerospace labs, and graduate students. Bridges the gap between Part 107 certification and research-capable operation. Academic pricing available."
+description: "UAS operator training for university research programs, aerospace labs, and graduate students. Bridges the gap between Part 107 certification and research-capable operation. Contact for pricing."
 ---
 
 <section class="hero">
@@ -9,7 +9,7 @@ description: "UAS operator training for university research programs, aerospace 
     <h1>UAS Operator Training for University Research Programs</h1>
     <p>Part 107 certification tells you an operator passed a written exam. Forge and Flight Academy training tells you they can execute a research flight independently, repair a platform in the field, and document capability to IRB standards.</p>
     <div class="hero-cta">
-      <a href="/contact/" class="btn btn-primary">Request Academic Proposal</a>
+      <a href="/contact/" class="btn btn-primary">Request a Proposal</a>
       <a href="/who-we-serve/universities/" class="btn btn-secondary">University Programs</a>
     </div>
   </div>
@@ -52,7 +52,7 @@ description: "UAS operator training for university research programs, aerospace 
   <div class="container">
     <div class="section-header">
       <h2 style="color: white;">Recommended Courses for University Research</h2>
-      <p style="color: rgba(255,255,255,0.7);">Academic pricing available on all courses. Equipment-included options mean research labs build inventory as students train.</p>
+      <p style="color: rgba(255,255,255,0.7);">Contact for pricing on all courses. Equipment-included options mean research labs build inventory as students train.</p>
     </div>
     <div class="grid grid-3">
       <div style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); padding: 1.75rem; border-radius: 4px; border-top: 4px solid #f59e0b;">
@@ -86,7 +86,7 @@ description: "UAS operator training for university research programs, aerospace 
       <div style="display: flex; flex-direction: column; gap: 1.25rem;">
         <div style="display: flex; gap: 1rem; align-items: flex-start; padding: 1.25rem; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 4px;">
           <span style="color: #f59e0b; font-weight: 700; font-size: 1.1rem; flex-shrink: 0;">✓</span>
-          <div><strong>Academic pricing tier</strong>, separate rate structure for universities and research institutions on all 14 courses</div>
+          <div><strong>Contact for pricing</strong>. Contact us for a proposal4 courses</div>
         </div>
         <div style="display: flex; gap: 1rem; align-items: flex-start; padding: 1.25rem; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 4px;">
           <span style="color: #f59e0b; font-weight: 700; font-size: 1.1rem; flex-shrink: 0;">✓</span>
@@ -123,6 +123,6 @@ description: "UAS operator training for university research programs, aerospace 
   <div class="container" style="text-align: center;">
     <h2 style="color: white; margin-bottom: 0.75rem;">Ready to Train Your Research Team?</h2>
     <p style="color: rgba(255,255,255,0.75); max-width: 520px; margin: 0 auto 1.75rem;">Tell us about your program, your platforms, and your timeline. We'll build a custom training package and return a proposal within 48 hours.</p>
-    <a href="/contact/" class="btn btn-primary">Request Academic Proposal</a>
+    <a href="/contact/" class="btn btn-primary">Request a Proposal</a>
   </div>
 </section>

@@ -285,7 +285,7 @@ Build it. Configure it. Fly it. Fix it. The complete FPV operator and trainer pi
 <h3>Commercial FPV Drone Integration & Sustainment</h3>
 <p><strong>Duration:</strong> 10 days &nbsp;|&nbsp; Zero experience required</p>
 <p><strong>After this course, operators can:</strong> Build and configure a complete digital FPV system from components, fly precision maneuvers for commercial applications, perform field maintenance, and operate legally under FAA Part 107.</p>
-<p style="font-size:0.85rem; color:#6b7280;">Full equipment kit retained by student, aircraft, digital goggles, controller, toolkit. FAA Part 107 included. Commercial and academic pricing available.</p>
+<p style="font-size:0.85rem; color:#6b7280;">Full equipment kit retained by student, aircraft, digital goggles, controller, toolkit. FAA Part 107 included. Contact for pricing.</p>
 <a href="/courses/fff-411/" class="btn btn-primary">Program Details →</a>
 </div>
 
@@ -531,7 +531,7 @@ The operator is the target as much as the platform. Personal digital security, c
 
 ## Training Investment
 
-All programs are priced on a **per-student, cohort-based model.** Pricing is tailored to customer type (DoD/Government, Commercial, Academic), course duration, and cohort size.
+All programs are priced on a **per-student, cohort-based model.** Pricing is based on course duration, equipment included, and cohort size. Contact for a proposal, returned within 48 hours.
 
 <div class="grid grid-2" style="margin-top: 2rem;">
 
@@ -539,11 +539,10 @@ All programs are priced on a **per-student, cohort-based model.** Pricing is tai
 <h3>How Pricing Is Structured</h3>
 <ul style="margin: 0.75rem 0 0; padding-left: 1.25rem; line-height: 1.8; color: #374151;">
 <li>Per-student pricing based on course duration and equipment</li>
-<li>Optimal cohort size: 8 students</li>
-<li>Custom cohort sizes available (minimum 4, maximum 12)</li>
-<li>Tiered rates for DoD/Government, Commercial, and Academic customers</li>
-<li>Bundle discounts for multi-course packages</li>
-<li>Unit Training Packages available for full organizational standup</li>
+<li>Minimum cohort: 8 students &nbsp;|&nbsp; Maximum cohort: 20 students</li>
+<li>Per-student pricing based on course duration and included equipment</li>
+<li>Unit training packages available for full organizational standup</li>
+<li>Proposals returned within 48 hours</li>
 </ul>
 </div>
 
@@ -567,7 +566,7 @@ All programs are priced on a **per-student, cohort-based model.** Pricing is tai
 </div>
 
 <div style="margin-top: 2rem; text-align: center;">
-<p style="font-size: 1.05rem; color: #374151; margin-bottom: 1.25rem;">Contact us with your course of interest, customer type, and desired cohort size, we'll return a proposal within 48 hours.</p>
+<p style="font-size: 1.05rem; color: #374151; margin-bottom: 1.25rem;">Contact us with your course of interest and desired cohort size. We return all proposals within 48 hours.</p>
 <a href="/contact/" class="btn btn-primary" style="font-size: 1.05rem; padding: 0.85rem 2rem;">Request a Pricing Proposal</a>
 </div>
 
