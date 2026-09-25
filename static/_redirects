@@ -1,3 +1,5 @@
 # Redirect old programs URLs to new courses structure
 /programs/* /courses/ 301
 /programs /courses 301
+# Proper 301 for mislabeled article slug (was FFF-401, is actually FFF-411 content)
+/insights/fff-401-unit-fpv-training-pipeline/ /insights/fff-411-unit-fpv-training-pipeline/ 301
