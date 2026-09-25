@@ -10,4 +10,5 @@ lead_magnet_bullets:
   - "The fielding-to-operator gap: what primes miss before delivery day"
   - "Train-the-trainer ROI calculation template"
   - "Assessment Services overview, how to hire for capability, not certificate"
+robots: "noindex, nofollow"
 ---

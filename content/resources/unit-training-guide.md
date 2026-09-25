@@ -10,4 +10,5 @@ lead_magnet_bullets:
   - "Procurement pathway cheat sheet, GPC, MIPR, and simplified acquisition thresholds"
   - "Course sequencing matrix by unit type and mission set"
   - "Pillar V readiness rubric preview: how to baseline where your unit is today"
+robots: "noindex, nofollow"
 ---

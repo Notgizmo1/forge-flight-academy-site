@@ -85,6 +85,16 @@
   </div>
 </section>
 
+{{ if .Content }}
+<section style="padding:2.5rem 0; background:white; border-top:1px solid #e2e8f0;">
+  <div class="container" style="max-width:800px; margin:0 auto;">
+    <div class="content" style="font-size:1.05rem; line-height:1.8; color:#1e293b;">
+      {{ .Content }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
 <!-- FREE RESOURCES -->
 <section style="background:#f8fafc; padding:3.5rem 0; border-top:1px solid #e2e8f0;">
   <div class="container">

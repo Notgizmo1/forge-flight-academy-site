@@ -10,4 +10,5 @@ lead_magnet_bullets:
   - "RF and spectrum awareness basics, why interference kills missions, not just range"
   - "Career pathways: from commercial operator to defense contractor support"
   - "Course recommendations by specialization (inspection, public safety, advanced operations)"
+robots: "noindex, nofollow"
 ---

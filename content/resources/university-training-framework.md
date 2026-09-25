@@ -10,4 +10,5 @@ lead_magnet_bullets:
   - "Platform selection considerations for research programs (NDAA, payload integration)"
   - "Course integration guide: mapping FFA courses to existing coursework"
   - "Sample flight test protocol checklist for research operations"
+robots: "noindex, nofollow"
 ---
