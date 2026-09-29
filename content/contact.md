@@ -69,6 +69,14 @@ Forge and Flight Academy is a wholly-owned subsidiary of Forge & Flight Holdings
 
 ---
 
+### Join the Team
+
+If you are a current or former SOF operator, EW specialist, Cyber Command professional, or experienced UAS technician interested in an instructor or staff role, we would like to hear from you. Open positions are posted on our Holdings careers page.
+
+[View Careers at Forge & Flight](/careers/)
+
+---
+
 ### Quick Links
 
 <div style="display: flex; gap: 1rem; margin-top: 2rem; flex-wrap: wrap;">

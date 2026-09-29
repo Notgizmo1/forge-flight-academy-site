@@ -1,0 +1,81 @@
+---
+title: "Careers at Forge & Flight Academy | Join the Instructor Team"
+description: "Forge & Flight Academy trains military operators, law enforcement, and government personnel in UAS operations, electronic warfare, AI autonomy, and digital force protection. Instructors hold SOF and Cyber Command backgrounds. Open positions posted at forgeandflight.com/careers."
+keywords: "Forge Flight Academy careers, UAS instructor jobs North Carolina, SOF instructor position, Cyber Command instructor civilian job, drone training instructor careers, EW instructor jobs, military training jobs civilian, UAS training staff positions, force protection instructor job NC"
+robots: "index, follow, max-image-preview:large"
+---
+
+<section style="background:linear-gradient(135deg,#0f172a 0%,#1e3a5f 100%); color:white; padding:5rem 0 3.5rem; text-align:center;">
+  <div style="max-width:800px; margin:0 auto; padding:0 1.5rem;">
+    <div style="font-size:0.8rem; font-weight:700; text-transform:uppercase; letter-spacing:0.1em; color:#f59e0b; margin-bottom:0.75rem;">Forge & Flight Academy</div>
+    <h1 style="font-size:clamp(1.8rem,4vw,2.75rem); line-height:1.2; margin:0 0 1.25rem;">Teach What Others Only Brief</h1>
+    <p style="font-size:1.1rem; color:rgba(255,255,255,0.85); max-width:640px; margin:0 auto 2rem; line-height:1.7;">We train military operators, law enforcement, and government personnel to actually operate and sustain advanced unmanned systems. Our instructors have done the work. They do not just know about it.</p>
+    <a href="https://forgeandflight.com/careers/"
+       style="display:inline-block; background:#f59e0b; color:#0f172a; font-weight:700; padding:0.9rem 2.25rem; border-radius:4px; text-decoration:none; font-size:1rem;"
+       target="_blank" rel="noopener">View Open Positions at Forge & Flight Holdings</a>
+  </div>
+</section>
+
+<section style="padding:3.5rem 0; background:white;">
+  <div style="max-width:860px; margin:0 auto; padding:0 1.5rem;">
+
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:2.5rem; margin-bottom:3rem;">
+      <div>
+        <h2 style="font-size:1.35rem; color:#0f172a; margin-bottom:0.75rem;">What We Teach</h2>
+        <p style="color:#374151; line-height:1.75; margin-bottom:0.75rem;">Eighteen courses across six capability domains: UAS platform integration, electronic warfare and RF literacy, AI and edge autonomy, field fabrication and sustainment, and operator security and force protection.</p>
+        <p style="color:#374151; line-height:1.75;">Every course is built around hands-on proficiency. Students build the hardware they will operate, configure the software they will use, and leave with a working capability. There are no slide decks without a practical component.</p>
+      </div>
+      <div>
+        <h2 style="font-size:1.35rem; color:#0f172a; margin-bottom:0.75rem;">Where We Are</h2>
+        <p style="color:#374151; line-height:1.75; margin-bottom:0.75rem;">Carthage, NC. Sandhills region, 35 miles from Fort Bragg. Facility-based training runs out of our North Carolina location. Instructors also deploy on mobile training team assignments to deliver courses at customer facilities.</p>
+        <p style="color:#374151; line-height:1.75;">The team is small. Every instructor here carries their curriculum, delivers it, and helps improve it. There is no bloated training bureaucracy.</p>
+      </div>
+    </div>
+
+    <h2 style="font-size:1.5rem; color:#0f172a; margin-bottom:1.5rem; padding-bottom:0.75rem; border-bottom:2px solid #e2e8f0;">Instructor Backgrounds We Look For</h2>
+    <p style="color:#374151; line-height:1.75; margin-bottom:1.5rem;">Our instructors bring real operational backgrounds to every course. The domains we recruit from:</p>
+
+    <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:1rem; margin-bottom:2.5rem;">
+      <div style="background:#fefce8; border-left:4px solid #f59e0b; padding:1.25rem; border-radius:0 4px 4px 0;">
+        <div style="font-weight:700; color:#0f172a; margin-bottom:0.4rem; font-size:0.95rem;">Special Operations</div>
+        <div style="font-size:0.875rem; color:#4b5563; line-height:1.6;">SOF operators with UAS employment experience. Tactical integration, PACE planning, field sustainment, and the actual doctrine behind how platforms are used at the pointy end. FFF-401, FFF-411, and FFF-402 instructors.</div>
+      </div>
+      <div style="background:#fefce8; border-left:4px solid #f59e0b; padding:1.25rem; border-radius:0 4px 4px 0;">
+        <div style="font-weight:700; color:#0f172a; margin-bottom:0.4rem; font-size:0.95rem;">Electronic Warfare</div>
+        <div style="font-size:0.875rem; color:#4b5563; line-height:1.6;">EW and signals professionals who understand the RF environment from the adversary side. Spectrum, jamming, direction finding, SIGINT. FFR-201, FFR-301, and FFR-101 instructors.</div>
+      </div>
+      <div style="background:#fefce8; border-left:4px solid #f59e0b; padding:1.25rem; border-radius:0 4px 4px 0;">
+        <div style="font-weight:700; color:#0f172a; margin-bottom:0.4rem; font-size:0.95rem;">Cyber Command & Digital Security</div>
+        <div style="font-size:0.875rem; color:#4b5563; line-height:1.6;">CYBERCOM veterans, cleared security professionals, and digital tradecraft specialists. FFP-201 and the Force Protection track. Specific experience with device hardening, TSCM, and communications security required.</div>
+      </div>
+      <div style="background:#fefce8; border-left:4px solid #f59e0b; padding:1.25rem; border-radius:0 4px 4px 0;">
+        <div style="font-weight:700; color:#0f172a; margin-bottom:0.4rem; font-size:0.95rem;">AI & Autonomy</div>
+        <div style="font-size:0.875rem; color:#4b5563; line-height:1.6;">Engineers and operators who can bridge the gap between ML research and tactical deployment. Edge compute, Jetson hardware, ArduPilot integration, real-time inference pipelines. FFA-401 and FFA-201 instructors.</div>
+      </div>
+      <div style="background:#fefce8; border-left:4px solid #f59e0b; padding:1.25rem; border-radius:0 4px 4px 0;">
+        <div style="font-weight:700; color:#0f172a; margin-bottom:0.4rem; font-size:0.95rem;">Field Fabrication & Sustainment</div>
+        <div style="font-size:0.875rem; color:#4b5563; line-height:1.6;">Technicians with hands-on electronics repair, additive manufacturing, and platform sustainment backgrounds. Can teach diagnosis and repair at the field level without a maintenance facility. FFF-201 and FFF-301 instructors.</div>
+      </div>
+      <div style="background:#fefce8; border-left:4px solid #f59e0b; padding:1.25rem; border-radius:0 4px 4px 0;">
+        <div style="font-weight:700; color:#0f172a; margin-bottom:0.4rem; font-size:0.95rem;">Training Operations & Curriculum</div>
+        <div style="font-size:0.875rem; color:#4b5563; line-height:1.6;">Coordinators, curriculum developers, and training managers who can handle scheduling, proposal development, after-action reporting, and the logistics that make high-tempo instruction sustainable.</div>
+      </div>
+    </div>
+
+    <div style="background:#0f172a; border-radius:6px; padding:2.5rem; text-align:center; margin-bottom:2rem;">
+      <h3 style="color:white; margin-bottom:0.6rem; font-size:1.3rem;">All Open Positions Are on the Holdings Careers Page</h3>
+      <p style="color:rgba(255,255,255,0.8); margin-bottom:1.5rem; max-width:520px; margin-left:auto; margin-right:auto;">Forge & Flight Academy is a wholly-owned subsidiary of Forge & Flight Holdings, Inc. All hiring is coordinated through the Holdings careers page.</p>
+      <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+        <a href="https://forgeandflight.com/careers/"
+           style="background:#f59e0b; color:#0f172a; font-weight:700; padding:0.75rem 1.75rem; border-radius:4px; text-decoration:none; font-size:0.95rem;"
+           target="_blank" rel="noopener">View Open Positions</a>
+        <a href="https://forgeandflight.com/"
+           style="border:1px solid rgba(255,255,255,0.35); color:white; font-weight:600; padding:0.75rem 1.75rem; border-radius:4px; text-decoration:none; font-size:0.95rem;"
+           target="_blank" rel="noopener">About Forge & Flight Holdings</a>
+      </div>
+    </div>
+
+    <p style="text-align:center; font-size:0.9rem; color:#6b7280;">Questions about open instructor positions? Email <a href="mailto:info@forgeandflightacademy.com" style="color:#f59e0b;">info@forgeandflightacademy.com</a> with the subject line "Instructor Inquiry."</p>
+
+  </div>
+</section>
