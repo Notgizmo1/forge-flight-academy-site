@@ -3,6 +3,7 @@ title: "Careers at Forge & Flight Academy | Join the Instructor Team"
 description: "Forge & Flight Academy trains military operators, law enforcement, and government personnel in UAS operations, electronic warfare, AI autonomy, and digital force protection. Instructors hold SOF and Cyber Command backgrounds. Open positions posted at forgeandflight.com/careers."
 keywords: "Forge Flight Academy careers, UAS instructor jobs North Carolina, SOF instructor position, Cyber Command instructor civilian job, drone training instructor careers, EW instructor jobs, military training jobs civilian, UAS training staff positions, force protection instructor job NC"
 robots: "index, follow, max-image-preview:large"
+layout: "fullwidth"
 ---
 
 <section style="background:linear-gradient(135deg,#0f172a 0%,#1e3a5f 100%); color:white; padding:5rem 0 3.5rem; text-align:center;">
