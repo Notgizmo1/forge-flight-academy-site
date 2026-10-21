@@ -29,7 +29,7 @@ The course covers three skills that work together.
 
 **QA/QC.** A printed part is only useful if its maker can show it meets the requirement. Students inspect each part against defined criteria: critical dimensions, functional fit and a classroom proof load. They then accept, rework or reject it.
 
-Students work from fixed-wing and FPV airframes and representative UAS components, not a single platform. Parts made in class are training articles. Installing or flying a printed part on an operational aircraft requires platform-owner approval and approved technical data.
+Students work from fixed-wing and FPV airframes and representative UAS components, not a single platform. Parts made in class are training articles.
 
 <figure style="margin:2rem 0;">
 <img src="/images/insights/fff-301/part-models-display.png"
