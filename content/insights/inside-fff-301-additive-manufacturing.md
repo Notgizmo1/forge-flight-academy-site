@@ -10,7 +10,7 @@ A UAS with a broken part is a grounded UAS. In many programs the fix is a parts 
 
 In September, Soldiers completed FFF-301, a five-day, 40-hour course, at our facility in Carthage, North Carolina. A military public affairs team, working in coordination with our staff, filmed the training and interviewed students in our print lab. The video is published on DVIDS: [Watch the video on DVIDS](https://www.dvidshub.net/video/1026953/4th-psychological-operations-group-airborne-soldiers-get-hands-training-making-drone-components).
 
-*The appearance of U.S. Department of Defense (DoD) visual information does not imply or constitute DoD endorsement.*
+*The appearance of U.S. Department of War (DoW) visual information does not imply or constitute DoW endorsement.*
 
 <figure style="margin:2rem 0;">
 <img src="/images/insights/fff-301/students-at-stations.png"
@@ -55,6 +55,6 @@ Each student drafts a unit-level sustainment plan covering filament stock, print
 
 ## Bringing FFF-301 to Your Unit
 
-FFF-301 runs as a resident course for cohorts of 8 to 20 students. Units that already own a printer can take the instruction alone. If you run a unit lab, innovation cell or training shop, start with a conversation about what your aircraft need.
+FFF-301 runs as a resident course for cohorts of 3 to 20 students. Units that already own a printer can take the instruction alone. If you run a unit lab, innovation cell or training shop, start with a conversation about what your aircraft need.
 
 [View Field Fabrication and Sustainment courses](/courses/#fabrication-sustainment) &nbsp;&nbsp; [Request a training proposal](/contact/)
